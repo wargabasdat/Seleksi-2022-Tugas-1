@@ -44,7 +44,6 @@ Preprocessing contohnya :
 2. Tools yang digunakan __dibebaskan__
 
 3. Calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Folder_ `Data Storing` terdiri dari folder `data`, `screenshots` dan `export`
-    - _Folder_ `data` berisi data hasil dari _scraping_
     - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
     - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
 
