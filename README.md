@@ -39,19 +39,22 @@ Preprocessing contohnya :
 
 ### Data Storing
 
-1. Lakukan _storing_ data yang didapatkan dari hasil _scraping_ ke DBMS 
+1. Buatlah sebuah ER Diagram dari basis data yang akan digunakan untuk menyimpan data hasil _scraping_
+   
+2. Implementasikan ERD tersebut ke DBMS sesuai pilihan kalian
 
-2. Tools yang digunakan __dibebaskan__
+3. Tools yang digunakan __dibebaskan__
 
-3. Calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Folder_ `Data Storing` terdiri dari folder `data`, `screenshots` dan `export`
+4. Calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Folder_ `Data Storing` terdiri dari folder `screenshots`, `export`, dan `design`
     - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
     - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
+    -  _Folder_ `design` berisi ER Diagram yang disimpan dalam format `.png`
 
 
 
-4. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    - Simpan ke database online
-    - Buatlah API sederhana untuk mengakses database online tersebut
+5. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
+    - Simpan ke _cloud database_
+    - Buatlah API sederhana untuk mengakses _database_ tersebut
 
 ### Pengumpulan
 
@@ -68,6 +71,7 @@ Preprocessing contohnya :
 - Specification of the program
 - How to use
 - JSON Structure
+- Database Structure
 - Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
 - Reference (Library used, etc)
 - Author
