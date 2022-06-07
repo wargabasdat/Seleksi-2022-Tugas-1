@@ -1,10 +1,5 @@
-import puppeteer from "puppeteer"
 
-export async function scapeProductList(link) {
-    const browser = await puppeteer.launch({
-        headless: false
-    });
-
+export async function scapeProductList(link, browser) {
     const page = await browser.newPage();
     await page.goto(link, {
         waitUntil: "networkidle0"
@@ -29,6 +24,7 @@ export async function scapeProductList(link) {
     })
 
     const hasil = await Promise.all(result);
-    browser.close();
+    await page.close();
+
     return hasil;
 }
