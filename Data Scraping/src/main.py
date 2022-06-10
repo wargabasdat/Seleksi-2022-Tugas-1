@@ -7,7 +7,7 @@ import json
 def getTeamsLink():
     '''
         Get teams link from https://www.hltv.org/stats/teams
-        Return array of url of teams
+        Return array of urls of team
     '''
     url = "https://www.hltv.org/stats/teams" # teams url
     headers = { # headers
@@ -24,10 +24,10 @@ def getTeamsLink():
         links.append("https://www.hltv.org" + link['href']) # add to url list
     return links
 
-def getTeamData(url):
+def getTeamStats(url):
     '''
-        Get team data from url
-        Return python's dictionary which consists of team's data
+        Get team's statistics from team's stats url
+        Return python's dictionary which consists of team's stats and team profile's url
     '''
     headers = { # headers
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'
@@ -69,6 +69,18 @@ def getTeamData(url):
     anchorTeamProfile = statsSection.find('a', href=True) # find team profile anchor tag
     teamProfileUrl = "https://www.hltv.org" + anchorTeamProfile['href'] # get team profile url
 
+    teamStats = { # create dictionary to store team's stats
+        "mapsPlayed": mapsPlayed,
+        "wins": wins,
+        "draws": draws,
+        "losses": losses,
+        "totalKills": totalKills,
+        "totalDeaths": totalDeaths,
+        "roundsPlayed": roundsPlayed,
+        "kdRatio": kdRatio,
+    }
+
+    return teamStats, teamProfileUrl
     #time.sleep(randint(10,20)) # sleep for random time between 10 and 20
 
 #teamsLink = getTeamsLink()
