@@ -37,36 +37,28 @@ def getTeamStats(url):
     statsSection = soup.find('div', class_='stats-section stats-team stats-team-overview')
     statsCols = statsSection.find_all('div', class_='col standard-box big-padding') # find all statistic columns
 
-    for statIdx in range(6):
-        stat = statsCols[statIdx].find('div', class_='large-strong') # find statistic value
+    for statsIdx in range(6):
+        stat = statsCols[statsIdx].find('div', class_='large-strong') # find statistic value
         stat = stat.text.strip() # get statistic value as text from div element
 
-        if (statIdx == 0): # maps played
+        if (statsIdx == 0): # maps played
             mapsPlayed = int(stat)
-            print("MAPS PLAYED:", mapsPlayed)
-        elif (statIdx == 1): # wins / draws / losses
+        elif (statsIdx == 1): # wins / draws / losses
             matchStats = stat.split('/')
             matchStats = [int(s.strip()) for s in matchStats]
             wins = matchStats[0]
-            print("WINS:", wins)
             draws = matchStats[1]
-            print("DRAWS:", draws)
             losses = matchStats[2]
-            print("LOSSES:", losses)
-        elif (statIdx == 2): # total kills 
+        elif (statsIdx == 2): # total kills 
             totalKills = int(stat)
-            print("TOTAL KILLS:", totalKills)
-        elif (statIdx == 3): # total deaths
+        elif (statsIdx == 3): # total deaths
             totalDeaths = int(stat)
-            print("TOTAL DEATHS:", totalDeaths)
-        elif (statIdx == 4): # rounds played
+        elif (statsIdx == 4): # rounds played
             roundsPlayed = int(stat)
-            print("ROUNDS PLAYED:", roundsPlayed)
-        elif (statIdx == 5): # K/D ratio
+        elif (statsIdx == 5): # K/D ratio
             kdRatio = float(stat)
-            print("ROUNDS PLAYED:", kdRatio)
 
-    anchorTeamProfile = statsSection.find('a', href=True) # find team profile anchor tag
+    anchorTeamProfile = statsSection.findChildren('a', recursive=False, href=True)[0] # find team profile anchor tag
     teamProfileUrl = "https://www.hltv.org" + anchorTeamProfile['href'] # get team profile url
 
     teamStats = { # create dictionary to store team's stats
@@ -80,8 +72,53 @@ def getTeamStats(url):
         "kdRatio": kdRatio,
     }
 
+    print(teamStats)
+    print(teamProfileUrl)
+
     return teamStats, teamProfileUrl
     #time.sleep(randint(10,20)) # sleep for random time between 10 and 20
 
-#teamsLink = getTeamsLink()
-#getTeamData("https://www.hltv.org/stats/teams/4863/tyloo")
+def getTeamProfile(url):
+    '''
+        Get team's profile from team's profile url
+        Return python's dictionary which consists of team's profile
+    '''
+    headers = { # headers
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'
+              }
+    r = requests.get(url, headers=headers) # make GET request from url
+    soup = BeautifulSoup(r.content, 'html.parser') # parse HTML from url
+    country = soup.find('div', class_='team-country text-ellipsis').text.strip() # get team's country
+    name = soup.find('h1', class_='profile-team-name text-ellipsis').text.strip() # get team's name
+    statsContainer = soup.find('div', class_='profile-team-stats-container')
+    stats = statsContainer.find_all('div', class_='profile-team-stat') # get team's profle stats
+
+    coach = ""
+    for statsIdx in range(len(stats)):
+        statsName = stats[statsIdx].find('b').text.strip() # get stats name
+        if (statsName == "World ranking"):
+            if (statsIdx == 0): # world ranking
+                rank = stats[statsIdx].find('a').text.strip()
+                if (rank == "-"): # if the team is not included in world ranking
+                    rank = None
+                else:
+                    rank = int(rank[1:]) # remove '#' char and convert to int
+        elif (statsName == "Coach"):
+            coach = stats[statsIdx].find('span').text.strip() # get coach's nickname
+            coach = coach[1 : len(coach)-1] # remove apostrophe char
+    if (coach == ""): # if the team doesn't have a coach
+        coach = None
+
+    teamProfile = {
+        "name": name,
+        "country": country,
+        "rank": rank,
+        "coach": coach
+    }
+
+    return teamProfile
+
+# teamStats, teamProfileUrl = getTeamStats("https://www.hltv.org/stats/teams/4863/tyloo")
+# teamProfile = getTeamProfile(teamProfileUrl)
+
+# print(teamProfile)
