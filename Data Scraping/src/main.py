@@ -93,16 +93,14 @@ def getTeamProfile(url):
     statsContainer = soup.find('div', class_='profile-team-stats-container')
     stats = statsContainer.find_all('div', class_='profile-team-stat') # get team's profle stats
 
+    # get world ranking and coach
     coach = ""
     for statsIdx in range(len(stats)):
         statsName = stats[statsIdx].find('b').text.strip() # get stats name
         if (statsName == "World ranking"):
-            if (statsIdx == 0): # world ranking
-                rank = stats[statsIdx].find('a').text.strip()
-                if (rank == "-"): # if the team is not included in world ranking
-                    rank = None
-                else:
-                    rank = int(rank[1:]) # remove '#' char and convert to int
+            rank = stats[statsIdx].find('a')
+            if (rank != None): # if the team is included in world ranking
+                rank = int(rank.text.strip()[1:]) # remove '#' char and convert to int
         elif (statsName == "Coach"):
             coach = stats[statsIdx].find('span').text.strip() # get coach's nickname
             coach = coach[1 : len(coach)-1] # remove apostrophe char
@@ -116,9 +114,21 @@ def getTeamProfile(url):
         "coach": coach
     }
 
-    return teamProfile
+    # find team's players url
+
+    playersGrid = soup.find('div', class_='bodyshot-team g-grid')
+    playerAnchors = playersGrid.find_all('a', class_='col-custom', href=True) # find all players anchor tag
+    playerUrls = []
+    for anchor in playerAnchors:
+        playerUrl = "https://www.hltv.org/stats" + anchor['href'] # append with player stats base url
+        playerUrls.append(playerUrl) # insert into player urls list
+
+    return teamProfile, playerUrls
 
 # teamStats, teamProfileUrl = getTeamStats("https://www.hltv.org/stats/teams/4863/tyloo")
-# teamProfile = getTeamProfile(teamProfileUrl)
+# https://www.hltv.org/team/4863/tyloo
+# https://www.hltv.org/team/5395/penta
+teamProfile, playerUrls = getTeamProfile("https://www.hltv.org/team/4863/tyloo")
 
-# print(teamProfile)
+print(teamProfile)
+print(playerUrls)
