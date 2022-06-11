@@ -81,7 +81,7 @@ def getTeamStats(url):
 def getTeamProfile(url):
     '''
         Get team's profile from team's profile url
-        Return python's dictionary which consists of team's profile
+        Return python's dictionary which consists of team's profile and array of team's player
     '''
     headers = { # headers
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'
@@ -125,10 +125,88 @@ def getTeamProfile(url):
 
     return teamProfile, playerUrls
 
+def getPlayerData(url):
+    '''
+        Get player's data from player's stats url
+        Return python's dictionary which consists of player's data
+    '''
+    headers = { # headers
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'
+              }
+    r = requests.get(url, headers=headers) # make GET request from url
+    soup = BeautifulSoup(r.content, 'html.parser') # parse HTML from url
+    breakdownContainer = soup.find('div', class_='summaryBreakdownContainer') # get breakdown container
+
+    nickname = breakdownContainer.find('h1', class_='summaryNickname text-ellipsis').text.strip() # get player's nickname
+    infoContainer = breakdownContainer.find('div', class_='summaryInfoContainer') # find player's summary container
+    realNameDiv = breakdownContainer.find('div', class_='summaryRealname text-ellipsis')
+    country = realNameDiv.find('img', class_='flag').get('alt').strip() # get player's country
+    realname = realNameDiv.find('div', class_='text-ellipsis').text.strip() # get player's real name
+
+    statsBreakdown = breakdownContainer.find_all('div', class_='summaryStatBreakdown') 
+    print(len(statsBreakdown))
+    
+    statsValues = [] # rating, dpr, kast, impact, adr, kpr
+    for stats in statsBreakdown:
+        statsValue = stats.find('div', class_='summaryStatBreakdownDataValue').text.strip() # get stats value
+        statsDetail = stats.find('div', class_='summaryStatTooltip hiddenTooltip')
+        statsName = statsDetail.find('b').text.strip() # get stats name
+        
+        if (statsName == "KAST"):
+            kpr = statsValue[:len(statsValue)-1] # remove '%' char
+            kpr = round(float(kpr)/100, 3) # change percent representation to decimal
+            statsValues.append(kpr)
+        else:
+            statsValues.append(float(statsValue))
+    
+    print(statsValues)
+
+    statsColumns = soup.find('div', class_='columns')
+    statsBoxes = statsColumns.find_all('div', class_='col stats-rows standard-box')
+
+    statsRows = statsBoxes[0].find_all('div', class_='stats-row')
+    for row in statsRows:
+        rowSpans = row.find_all('span')
+        statsName = rowSpans[0].text.strip()
+        statsValue = rowSpans[1].text.strip()
+        if (statsName == "Total kills"):
+            kills = int(statsValue)
+        elif (statsName == "Headshot %"):
+            hsPercentage = statsValue[:len(statsValue)-1]
+            hsPercentage = round(float(hsPercentage)/100, 3)
+        elif (statsName == "Total deaths"):
+            deaths = int(statsValue)
+        elif (statsName == "K/D Ratio"):
+            kdRatio = float(statsValue)
+        elif (statsName == "Maps played"):
+            mapsPlayed = int(statsValue)
+        
+    playerData = {
+        "nickname": nickname,
+        "realname": realname,
+        "country" : country,
+        "rating": statsValues[0],
+        "dpr": statsValues[1],
+        "kast": statsValues[2],
+        "impact": statsValues[3],
+        "adr": statsValues[4],
+        "kpr": statsValues[5],
+        "kills": kills,
+        "hsPercentage": hsPercentage,
+        "deaths": deaths,
+        "kdRatio": kdRatio,
+        "mapsPlayed": mapsPlayed,
+    }
+    
+    return playerData
+            
+        
+
+print(getPlayerData("https://www.hltv.org/stats/players/7028/summer"))
 # teamStats, teamProfileUrl = getTeamStats("https://www.hltv.org/stats/teams/4863/tyloo")
 # https://www.hltv.org/team/4863/tyloo
-# https://www.hltv.org/team/5395/penta
-teamProfile, playerUrls = getTeamProfile("https://www.hltv.org/team/4863/tyloo")
+# # https://www.hltv.org/team/5395/penta
+# teamProfile, playerUrls = getTeamProfile("https://www.hltv.org/team/4863/tyloo")
 
-print(teamProfile)
-print(playerUrls)
+# print(teamProfile)
+# print(playerUrls)
