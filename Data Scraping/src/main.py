@@ -41,9 +41,7 @@ def getTeamStats(url):
         stat = statsCols[statsIdx].find('div', class_='large-strong') # find statistic value
         stat = stat.text.strip() # get statistic value as text from div element
 
-        if (statsIdx == 0): # maps played
-            mapsPlayed = int(stat)
-        elif (statsIdx == 1): # wins / draws / losses
+        if (statsIdx == 1): # wins / draws / losses
             matchStats = stat.split('/')
             matchStats = [int(s.strip()) for s in matchStats]
             wins = matchStats[0]
@@ -53,8 +51,6 @@ def getTeamStats(url):
             totalKills = int(stat)
         elif (statsIdx == 3): # total deaths
             totalDeaths = int(stat)
-        elif (statsIdx == 4): # rounds played
-            roundsPlayed = int(stat)
         elif (statsIdx == 5): # K/D ratio
             kdRatio = float(stat)
 
@@ -62,13 +58,11 @@ def getTeamStats(url):
     teamProfileUrl = "https://www.hltv.org" + anchorTeamProfile['href'] # get team profile url
 
     teamStats = { # create dictionary to store team's stats
-        "mapsPlayed": mapsPlayed,
         "wins": wins,
         "draws": draws,
         "losses": losses,
-        "totalKills": totalKills,
-        "totalDeaths": totalDeaths,
-        "roundsPlayed": roundsPlayed,
+        "kills": totalKills,
+        "deaths": totalDeaths,
         "kdRatio": kdRatio,
     }
 
