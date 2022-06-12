@@ -4,17 +4,25 @@ import time
 import requests
 import json
 
-def getTeamsLink():
+def parseHtml(url):
     '''
-        Get teams link from https://www.hltv.org/stats/teams
-        Return array of urls of team
+        Send GET request to url and parse the HTML with BeutifulSoup 
+        Return BeautifulSoup object
     '''
-    url = "https://www.hltv.org/stats/teams" # teams url
     headers = { # headers
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'
               }
     r = requests.get(url, headers=headers) # make GET request from url
     soup = BeautifulSoup(r.content, 'html.parser') # parse HTML from url
+    return soup
+
+def getTeamsLink():
+    '''
+        Get teams link from https://www.hltv.org/stats/teams
+        Return array of urls of team
+    '''
+    url = "https://www.hltv.org/stats/teams"
+    soup = parseHtml(url) # parse HTML from url
     teamsTable = soup.find('table', class_='stats-table player-ratings-table') # find table that contain all teams
     teams = teamsTable.find_all('td', class_="teamCol-teams-overview") # find each team's detail
 
@@ -29,11 +37,7 @@ def getTeamStats(url):
         Get team's statistics from team's stats url
         Return python's dictionary which consists of team's stats and team profile's url
     '''
-    headers = { # headers
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'
-              }
-    r = requests.get(url, headers=headers) # make GET request from url
-    soup = BeautifulSoup(r.content, 'html.parser') # parse HTML from url
+    soup = parseHtml(url) # parse HTML from url
     statsSection = soup.find('div', class_='stats-section stats-team stats-team-overview')
     statsCols = statsSection.find_all('div', class_='col standard-box big-padding') # find all statistic columns
 
@@ -66,22 +70,14 @@ def getTeamStats(url):
         "kdRatio": kdRatio,
     }
 
-    print(teamStats)
-    print(teamProfileUrl)
-
     return teamStats, teamProfileUrl
-    #time.sleep(randint(10,20)) # sleep for random time between 10 and 20
 
 def getTeamProfile(url):
     '''
         Get team's profile from team's profile url
         Return python's dictionary which consists of team's profile and array of team's player
     '''
-    headers = { # headers
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'
-              }
-    r = requests.get(url, headers=headers) # make GET request from url
-    soup = BeautifulSoup(r.content, 'html.parser') # parse HTML from url
+    soup = parseHtml(url) # parse HTML from url
     country = soup.find('div', class_='team-country text-ellipsis').text.strip() # get team's country
     name = soup.find('h1', class_='profile-team-name text-ellipsis').text.strip() # get team's name
     statsContainer = soup.find('div', class_='profile-team-stats-container')
@@ -124,11 +120,7 @@ def getPlayerData(url):
         Get player's data from player's stats url
         Return python's dictionary which consists of player's data
     '''
-    headers = { # headers
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'
-              }
-    r = requests.get(url, headers=headers) # make GET request from url
-    soup = BeautifulSoup(r.content, 'html.parser') # parse HTML from url
+    soup = parseHtml(url) # parse HTML from url
     breakdownContainer = soup.find('div', class_='summaryBreakdownContainer') # get breakdown container
 
     nickname = breakdownContainer.find('h1', class_='summaryNickname text-ellipsis').text.strip() # get player's nickname
@@ -220,8 +212,6 @@ def writeJson(data, dataname, filename):
             file.seek(0)
             # convert back to json.
             json.dump(file_data, file, indent = 4)
-            
-        
 
 print(getPlayerData("https://www.hltv.org/stats/players/7028/summer"))
 # teamStats, teamProfileUrl = getTeamStats("https://www.hltv.org/stats/teams/4863/tyloo")
