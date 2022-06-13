@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 from random import randint
+import os
 import time
 import requests
 import json
@@ -22,6 +23,7 @@ def getTeamsLink():
         Return array of urls of team
     '''
     url = "https://www.hltv.org/stats/teams"
+    print("Scraping teams link from", url)
     soup = parseHtml(url) # parse HTML from url
     teamsTable = soup.find('table', class_='stats-table player-ratings-table') # find table that contain all teams
     teams = teamsTable.find_all('td', class_="teamCol-teams-overview") # find each team's detail
@@ -37,6 +39,7 @@ def getTeamStats(url):
         Get team's statistics from team's stats url
         Return python's dictionary which consists of team's stats and team profile's url
     '''
+    print("Scraping team's stats from", url)
     soup = parseHtml(url) # parse HTML from url
     statsSection = soup.find('div', class_='stats-section stats-team stats-team-overview')
     statsCols = statsSection.find_all('div', class_='col standard-box big-padding') # find all statistic columns
@@ -77,6 +80,7 @@ def getTeamProfile(url):
         Get team's profile from team's profile url
         Return python's dictionary which consists of team's profile and array of team's player
     '''
+    print("Scraping team's profile from", url)
     soup = parseHtml(url) # parse HTML from url
     country = soup.find('div', class_='team-country text-ellipsis').text.strip() # get team's country
     name = soup.find('h1', class_='profile-team-name text-ellipsis').text.strip() # get team's name
@@ -97,7 +101,7 @@ def getTeamProfile(url):
     if (coach == ""): # if the team doesn't have a coach
         coach = None
 
-    teamProfile = {
+    teamProfile = { # create dictionary to store team's profile
         "name": name,
         "country": country,
         "rank": rank,
@@ -110,7 +114,7 @@ def getTeamProfile(url):
     playerAnchors = playersGrid.find_all('a', class_='col-custom', href=True) # find all players anchor tag
     playerUrls = []
     for anchor in playerAnchors:
-        playerUrl = "https://www.hltv.org/stats" + anchor['href'] # append with player stats base url
+        playerUrl = "https://www.hltv.org/stats/players" + anchor['href'][7:] # append with player stats base url
         playerUrls.append(playerUrl) # insert into player urls list
 
     return teamProfile, playerUrls
@@ -120,6 +124,7 @@ def getPlayerData(url):
         Get player's data from player's stats url
         Return python's dictionary which consists of player's data
     '''
+    print("Scraping player's data from", url)
     soup = parseHtml(url) # parse HTML from url
     breakdownContainer = soup.find('div', class_='summaryBreakdownContainer') # get breakdown container
 
@@ -130,7 +135,6 @@ def getPlayerData(url):
     realname = realNameDiv.find('div', class_='text-ellipsis').text.strip() # get player's real name
 
     statsBreakdown = breakdownContainer.find_all('div', class_='summaryStatBreakdown') 
-    print(len(statsBreakdown))
     
     statsValues = [] # rating, dpr, kast, impact, adr, kpr
     for stats in statsBreakdown:
@@ -144,30 +148,30 @@ def getPlayerData(url):
             statsValues.append(kpr)
         else:
             statsValues.append(float(statsValue))
-    
-    print(statsValues)
 
+    # find stats columns and boxes
     statsColumns = soup.find('div', class_='columns')
     statsBoxes = statsColumns.find_all('div', class_='col stats-rows standard-box')
 
+    # find stats rows
     statsRows = statsBoxes[0].find_all('div', class_='stats-row')
-    for row in statsRows:
+    for row in statsRows: # for each stats in rows
         rowSpans = row.find_all('span')
-        statsName = rowSpans[0].text.strip()
-        statsValue = rowSpans[1].text.strip()
-        if (statsName == "Total kills"):
+        statsName = rowSpans[0].text.strip() # get stats name
+        statsValue = rowSpans[1].text.strip() # get stats value
+        if (statsName == "Total kills"): # Total kills
             kills = int(statsValue)
-        elif (statsName == "Headshot %"):
-            hsPercentage = statsValue[:len(statsValue)-1]
-            hsPercentage = round(float(hsPercentage)/100, 3)
-        elif (statsName == "Total deaths"):
+        elif (statsName == "Headshot %"): # Headshot percentage
+            hsPercentage = statsValue[:len(statsValue)-1] # remove '%' char
+            hsPercentage = round(float(hsPercentage)/100, 3) # change percent representation to decimal
+        elif (statsName == "Total deaths"): # Total deaths
             deaths = int(statsValue)
-        elif (statsName == "K/D Ratio"):
+        elif (statsName == "K/D Ratio"): # K/D Ratio
             kdRatio = float(statsValue)
-        elif (statsName == "Maps played"):
+        elif (statsName == "Maps played"): # Maps played
             mapsPlayed = int(statsValue)
         
-    playerData = {
+    playerData = { # create dictionary to store player's data
         "nickname": nickname,
         "realname": realname,
         "country" : country,
@@ -187,12 +191,16 @@ def getPlayerData(url):
     return playerData
 
 def writeJson(data, dataname, filename): 
-# credit: https://www.geeksforgeeks.org/append-to-json-file-using-python/ with modifications
+    '''
+        Write data to json file with filename as file's name and
+        dataname as json key
+    '''
+    # credit: https://www.geeksforgeeks.org/append-to-json-file-using-python/ with modifications
     try: # try to open the file with r+ mode
         with open(filename, 'r+') as file: 
             try:
                 file_data = json.load(file)
-                # Join data with file_data inside emp_details
+                # Join data with file_data inside dataname
                 file_data[dataname].append(data)
             except:
                 file_data = {
@@ -213,11 +221,41 @@ def writeJson(data, dataname, filename):
             # convert back to json.
             json.dump(file_data, file, indent = 4)
 
-print(getPlayerData("https://www.hltv.org/stats/players/7028/summer"))
-# teamStats, teamProfileUrl = getTeamStats("https://www.hltv.org/stats/teams/4863/tyloo")
-# https://www.hltv.org/team/4863/tyloo
-# # https://www.hltv.org/team/5395/penta
-# teamProfile, playerUrls = getTeamProfile("https://www.hltv.org/team/4863/tyloo")
+def startScrape(start, end):
+    # Scrape teams from start to end
 
-# print(teamProfile)
-# print(playerUrls)
+    # change json file directory to /data
+    if (os.path.basename(os.path.normpath(os.getcwd())) == 'src'):
+        os.chdir("..")
+    currentDir = os.getcwd() # 
+    dir = currentDir + "//data//" 
+   
+    teamsLink = getTeamsLink() # get all teams links
+
+    for i in range(start, end): # scrape teams from start index to end
+        teamStats, teamProfileUrl = getTeamStats(teamsLink[i]) # get current team's stats and profile's url
+        teamProfile, playerUrls = getTeamProfile(teamProfileUrl) # get current team's profile and their player's url
+        teamData = teamProfile
+
+        # append team's profile and team's stats dictionary
+        for key in teamStats:
+            teamData[key] = teamStats[key]
+        writeJson(teamData, "teams", dir + "teams.json") # write team's data into json file
+
+        for url in playerUrls: # for each player in current team
+            playerData = getPlayerData(url) # get player's data
+            # sleep for random time
+            sleepTime = randint(5,10)
+            print(f"Sleep for {sleepTime} seconds...")
+            time.sleep(sleepTime)
+            print("Resuming the scraper....")
+
+            writeJson(playerData, "players", dir + "players.json") # write player's data into json file
+
+        # sleep for random time    
+        sleepTime = randint(10,20)
+        print(f"Sleep for {sleepTime} seconds...")
+        time.sleep(sleepTime)
+        print("Resuming the scraper....")
+
+startScrape(2,4)
