@@ -257,5 +257,3 @@ def startScrape(start, end):
         print(f"Sleep for {sleepTime} seconds...")
         time.sleep(sleepTime)
         print("Resuming the scraper....")
-
-startScrape(2,4)
