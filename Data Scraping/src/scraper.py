@@ -221,8 +221,8 @@ def writeJson(data, dataname, filename):
             # convert back to json.
             json.dump(file_data, file, indent = 4)
 
-def startScrape(start, end):
-    # Scrape teams from start to end
+def startScrape(start, last):
+    # Scrape teams from start to last index
 
     # change json file directory to /data
     if (os.path.basename(os.path.normpath(os.getcwd())) == 'src'):
@@ -232,7 +232,7 @@ def startScrape(start, end):
    
     teamsLink = getTeamsLink() # get all teams links
 
-    for i in range(start, end): # scrape teams from start index to end
+    for i in range(start, last): # scrape teams from start to last index
         teamStats, teamProfileUrl = getTeamStats(teamsLink[i]) # get current team's stats and profile's url
         teamProfile, playerUrls = getTeamProfile(teamProfileUrl) # get current team's profile and their player's url
         teamData = teamProfile
