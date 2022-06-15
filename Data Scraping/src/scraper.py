@@ -11,4 +11,6 @@ def scrape(card):
 	dict['rarity'] = card.get('data-rarity')
 	dict['character'] = card.get('data-character')
 	dict['type'] = card.get('data-attribute')
+	dict['page'] = "https://tot.wiki" + card.find('a').get('href')
+
 	return dict

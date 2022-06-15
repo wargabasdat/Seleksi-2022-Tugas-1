@@ -3,810 +3,945 @@
         "name": "Alluring Gaze",
         "rarity": "SSR",
         "character": "Luke Pearce",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Luke_%22Alluring_Gaze%22"
     },
     {
         "name": "Iridescent Heartbeat",
         "rarity": "SSR",
         "character": "Luke Pearce",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Luke_%22Iridescent_Heartbeat%22"
     },
     {
         "name": "Overflowing Thoughts",
         "rarity": "SSR",
         "character": "Luke Pearce",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Luke_%22Overflowing_Thoughts%22"
     },
     {
         "name": "Peaceful Place",
         "rarity": "SSR",
         "character": "Luke Pearce",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Luke_%22Peaceful_Place%22"
     },
     {
         "name": "Perfect Partner",
         "rarity": "SSR",
         "character": "Luke Pearce",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Luke_%22Perfect_Partner%22"
     },
     {
         "name": "Shape of You",
         "rarity": "SSR",
         "character": "Luke Pearce",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Luke_%22Shape_of_You%22"
     },
     {
         "name": "Through the Heavens",
         "rarity": "SSR",
         "character": "Luke Pearce",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Luke_%22Through_the_Heavens%22"
     },
     {
         "name": "Twinkling Eyes",
         "rarity": "SSR",
         "character": "Luke Pearce",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Luke_%22Twinkling_Eyes%22"
     },
     {
         "name": "Warm Embrace",
         "rarity": "SSR",
         "character": "Luke Pearce",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Luke_%22Warm_Embrace%22"
     },
     {
         "name": "A Star in the Palm",
         "rarity": "SR",
         "character": "Luke Pearce",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Luke_%22A_Star_in_the_Palm%22"
     },
     {
         "name": "Among the Great Blue",
         "rarity": "SR",
         "character": "Luke Pearce",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Luke_%22Among_the_Great_Blue%22"
     },
     {
         "name": "How I Remember You",
         "rarity": "SR",
         "character": "Luke Pearce",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Luke_%22How_I_Remember_You%22"
     },
     {
         "name": "Inner Sanctum",
         "rarity": "SR",
         "character": "Luke Pearce",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Luke_%22Inner_Sanctum%22"
     },
     {
         "name": "Moment of Danger",
         "rarity": "SR",
         "character": "Luke Pearce",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Luke_%22Moment_of_Danger%22"
     },
     {
         "name": "Once Upon a Time",
         "rarity": "SR",
         "character": "Luke Pearce",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Luke_%22Once_Upon_a_Time%22"
     },
     {
         "name": "Radiant Sunlight",
         "rarity": "SR",
         "character": "Luke Pearce",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Luke_%22Radiant_Sunlight%22"
     },
     {
         "name": "Timely Rescue",
         "rarity": "SR",
         "character": "Luke Pearce",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Luke_%22Timely_Rescue%22"
     },
     {
         "name": "Together with You",
         "rarity": "SR",
         "character": "Luke Pearce",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Luke_%22Together_with_You%22"
     },
     {
         "name": "Companionship",
         "rarity": "MR",
         "character": "Luke Pearce",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Luke_%22Companionship%22"
     },
     {
         "name": "Shining Warmth",
         "rarity": "MR",
         "character": "Luke Pearce",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Luke_%22Shining_Warmth%22"
     },
     {
         "name": "All Ready",
         "rarity": "R",
         "character": "Luke Pearce",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Luke_%22All_Ready%22"
     },
     {
         "name": "Gaze",
         "rarity": "R",
         "character": "Luke Pearce",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Luke_%22Gaze%22"
     },
     {
         "name": "Gourmet",
         "rarity": "R",
         "character": "Luke Pearce",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Luke_%22Gourmet%22"
     },
     {
         "name": "Greetings",
         "rarity": "R",
         "character": "Luke Pearce",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Luke_%22Greetings%22"
     },
     {
         "name": "Our Secret",
         "rarity": "R",
         "character": "Luke Pearce",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Luke_%22Our_Secret%22"
     },
     {
         "name": "Partner",
         "rarity": "R",
         "character": "Luke Pearce",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Luke_%22Partner%22"
     },
     {
         "name": "Personal Server",
         "rarity": "R",
         "character": "Luke Pearce",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Luke_%22Personal_Server%22"
     },
     {
         "name": "Quietly Waiting",
         "rarity": "R",
         "character": "Luke Pearce",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Luke_%22Quietly_Waiting%22"
     },
     {
         "name": "Tiredness",
         "rarity": "R",
         "character": "Luke Pearce",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Luke_%22Tiredness%22"
     },
     {
         "name": "Together",
         "rarity": "R",
         "character": "Luke Pearce",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Luke_%22Together%22"
     },
     {
         "name": "Waiting for You",
         "rarity": "R",
         "character": "Luke Pearce",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Luke_%22Waiting_for_You%22"
     },
     {
         "name": "Warm Home",
         "rarity": "R",
         "character": "Luke Pearce",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Luke_%22Warm_Home%22"
     },
     {
         "name": "Warm Up",
         "rarity": "R",
         "character": "Luke Pearce",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Luke_%22Warm_Up%22"
     },
     {
         "name": "Willful Youth",
         "rarity": "R",
         "character": "Luke Pearce",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Luke_%22Willful_Youth%22"
     },
     {
         "name": "Atmospherics",
         "rarity": "SSR",
         "character": "Artem Wing",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Artem_%22Atmospherics%22"
     },
     {
         "name": "Dreamful Melodies",
         "rarity": "SSR",
         "character": "Artem Wing",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Artem_%22Dreamful_Melodies%22"
     },
     {
         "name": "Echoes Ablaze",
         "rarity": "SSR",
         "character": "Artem Wing",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Artem_%22Echoes_Ablaze%22"
     },
     {
         "name": "Entwined Fate",
         "rarity": "SSR",
         "character": "Artem Wing",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Artem_%22Entwined_Fate%22"
     },
     {
         "name": "Loving Memories",
         "rarity": "SSR",
         "character": "Artem Wing",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Artem_%22Loving_Memories%22"
     },
     {
         "name": "Por Una Cabeza",
         "rarity": "SSR",
         "character": "Artem Wing",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Artem_%22Por_Una_Cabeza%22"
     },
     {
         "name": "Sunshine After the Rain",
         "rarity": "SSR",
         "character": "Artem Wing",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Artem_%22Sunshine_After_the_Rain%22"
     },
     {
         "name": "Two Hearts as One",
         "rarity": "SSR",
         "character": "Artem Wing",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Artem_%22Two_Hearts_as_One%22"
     },
     {
         "name": "Unusual Love",
         "rarity": "SSR",
         "character": "Artem Wing",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Artem_%22Unusual_Love%22"
     },
     {
         "name": "Wandering Heart",
         "rarity": "SSR",
         "character": "Artem Wing",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Artem_%22Wandering_Heart%22"
     },
     {
         "name": "Autumn Dreams",
         "rarity": "SR",
         "character": "Artem Wing",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Artem_%22Autumn_Dreams%22"
     },
     {
         "name": "Choice",
         "rarity": "SR",
         "character": "Artem Wing",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Artem_%22Choice%22"
     },
     {
         "name": "Darkest before Dawn",
         "rarity": "SR",
         "character": "Artem Wing",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Artem_%22Darkest_before_Dawn%22"
     },
     {
         "name": "Fixated on You",
         "rarity": "SR",
         "character": "Artem Wing",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Artem_%22Fixated_on_You%22"
     },
     {
         "name": "Focus Fire",
         "rarity": "SR",
         "character": "Artem Wing",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Artem_%22Focus_Fire%22"
     },
     {
         "name": "In Sickness or in Health",
         "rarity": "SR",
         "character": "Artem Wing",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Artem_%22In_Sickness_or_in_Health%22"
     },
     {
         "name": "Sparks",
         "rarity": "SR",
         "character": "Artem Wing",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Artem_%22Sparks%22"
     },
     {
         "name": "Staying Humble",
         "rarity": "SR",
         "character": "Artem Wing",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Artem_%22Staying_Humble%22"
     },
     {
         "name": "Thin Veil",
         "rarity": "SR",
         "character": "Artem Wing",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Artem_%22Thin_Veil%22"
     },
     {
         "name": "Winning Ball",
         "rarity": "SR",
         "character": "Artem Wing",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Artem_%22Winning_Ball%22"
     },
     {
         "name": "Intentions",
         "rarity": "MR",
         "character": "Artem Wing",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Artem_%22Intentions%22"
     },
     {
         "name": "Stretching",
         "rarity": "MR",
         "character": "Artem Wing",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Artem_%22Stretching%22"
     },
     {
         "name": "Back to Business",
         "rarity": "R",
         "character": "Artem Wing",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Artem_%22Back_to_Business%22"
     },
     {
         "name": "Deduction",
         "rarity": "R",
         "character": "Artem Wing",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Artem_%22Deduction%22"
     },
     {
         "name": "Here for You",
         "rarity": "R",
         "character": "Artem Wing",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Artem_%22Here_for_You%22"
     },
     {
         "name": "Lock and Load",
         "rarity": "R",
         "character": "Artem Wing",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Artem_%22Lock_and_Load%22"
     },
     {
         "name": "My Heart is Flying",
         "rarity": "R",
         "character": "Artem Wing",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Artem_%22My_Heart_is_Flying%22"
     },
     {
         "name": "Patience Is a Virtue",
         "rarity": "R",
         "character": "Artem Wing",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Artem_%22Patience_Is_a_Virtue%22"
     },
     {
         "name": "Picking a Gift",
         "rarity": "R",
         "character": "Artem Wing",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Artem_%22Picking_a_Gift%22"
     },
     {
         "name": "Questioning",
         "rarity": "R",
         "character": "Artem Wing",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Artem_%22Questioning%22"
     },
     {
         "name": "Rain Drops",
         "rarity": "R",
         "character": "Artem Wing",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Artem_%22Rain_Drops%22"
     },
     {
         "name": "Sweet Tastes",
         "rarity": "R",
         "character": "Artem Wing",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Artem_%22Sweet_Tastes%22"
     },
     {
         "name": "Systematic",
         "rarity": "R",
         "character": "Artem Wing",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Artem_%22Systematic%22"
     },
     {
         "name": "Tailored Suit",
         "rarity": "R",
         "character": "Artem Wing",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Artem_%22Tailored_Suit%22"
     },
     {
         "name": "Taking a Breather",
         "rarity": "R",
         "character": "Artem Wing",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Artem_%22Taking_a_Breather%22"
     },
     {
         "name": "With You",
         "rarity": "R",
         "character": "Artem Wing",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Artem_%22With_You%22"
     },
     {
         "name": "A Star in the Night",
         "rarity": "SSR",
         "character": "Vyn Richter",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Vyn_%22A_Star_in_the_Night%22"
     },
     {
         "name": "Between Good and Evil",
         "rarity": "SSR",
         "character": "Vyn Richter",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Vyn_%22Between_Good_and_Evil%22"
     },
     {
         "name": "Blazing Colors",
         "rarity": "SSR",
         "character": "Vyn Richter",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Vyn_%22Blazing_Colors%22"
     },
     {
         "name": "Flickering Moonlight",
         "rarity": "SSR",
         "character": "Vyn Richter",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Vyn_%22Flickering_Moonlight%22"
     },
     {
         "name": "Food for Thought",
         "rarity": "SSR",
         "character": "Vyn Richter",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Vyn_%22Food_for_Thought%22"
     },
     {
         "name": "Heartfelt Suspense",
         "rarity": "SSR",
         "character": "Vyn Richter",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Vyn_%22Heartfelt_Suspense%22"
     },
     {
         "name": "Medieval Suspense",
         "rarity": "SSR",
         "character": "Vyn Richter",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Vyn_%22Medieval_Suspense%22"
     },
     {
         "name": "Near and Far",
         "rarity": "SSR",
         "character": "Vyn Richter",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Vyn_%22Near_and_Far%22"
     },
     {
         "name": "Neon Melody",
         "rarity": "SSR",
         "character": "Vyn Richter",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Vyn_%22Neon_Melody%22"
     },
     {
         "name": "Cool Summer",
         "rarity": "SR",
         "character": "Vyn Richter",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Vyn_%22Cool_Summer%22"
     },
     {
         "name": "Entrapped",
         "rarity": "SR",
         "character": "Vyn Richter",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Vyn_%22Entrapped%22"
     },
     {
         "name": "False Tears",
         "rarity": "SR",
         "character": "Vyn Richter",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Vyn_%22False_Tears%22"
     },
     {
         "name": "Gentleman's Game",
         "rarity": "SR",
         "character": "Vyn Richter",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Vyn_%22Gentleman%27s_Game%22"
     },
     {
         "name": "Lingering Warmth",
         "rarity": "SR",
         "character": "Vyn Richter",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Vyn_%22Lingering_Warmth%22"
     },
     {
         "name": "Mended Heart",
         "rarity": "SR",
         "character": "Vyn Richter",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Vyn_%22Mended_Heart%22"
     },
     {
         "name": "Mercury in Retrograde",
         "rarity": "SR",
         "character": "Vyn Richter",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Vyn_%22Mercury_in_Retrograde%22"
     },
     {
         "name": "Snowy Fairy Tale",
         "rarity": "SR",
         "character": "Vyn Richter",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Vyn_%22Snowy_Fairy_Tale%22"
     },
     {
         "name": "Spilling Light",
         "rarity": "SR",
         "character": "Vyn Richter",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Vyn_%22Spilling_Light%22"
     },
     {
         "name": "Morning Glory",
         "rarity": "MR",
         "character": "Vyn Richter",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Vyn_%22Morning_Glory%22"
     },
     {
         "name": "Promise",
         "rarity": "MR",
         "character": "Vyn Richter",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Vyn_%22Promise%22"
     },
     {
         "name": "A Hobby of Mine",
         "rarity": "R",
         "character": "Vyn Richter",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Vyn_%22A_Hobby_of_Mine%22"
     },
     {
         "name": "Another Side of You",
         "rarity": "R",
         "character": "Vyn Richter",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Vyn_%22Another_Side_of_You%22"
     },
     {
         "name": "Dressed Up",
         "rarity": "R",
         "character": "Vyn Richter",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Vyn_%22Dressed_Up%22"
     },
     {
         "name": "Elegance",
         "rarity": "R",
         "character": "Vyn Richter",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Vyn_%22Elegance%22"
     },
     {
         "name": "Fated Invitation",
         "rarity": "R",
         "character": "Vyn Richter",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Vyn_%22Fated_Invitation%22"
     },
     {
         "name": "Gentlemanly Courtesy",
         "rarity": "R",
         "character": "Vyn Richter",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Vyn_%22Gentlemanly_Courtesy%22"
     },
     {
         "name": "Leisure Time",
         "rarity": "R",
         "character": "Vyn Richter",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Vyn_%22Leisure_Time%22"
     },
     {
         "name": "Observations",
         "rarity": "R",
         "character": "Vyn Richter",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Vyn_%22Observations%22"
     },
     {
         "name": "Remaining in Control",
         "rarity": "R",
         "character": "Vyn Richter",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Vyn_%22Remaining_in_Control%22"
     },
     {
         "name": "Secret Gift",
         "rarity": "R",
         "character": "Vyn Richter",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Vyn_%22Secret_Gift%22"
     },
     {
         "name": "Unexpected Letter",
         "rarity": "R",
         "character": "Vyn Richter",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Vyn_%22Unexpected_Letter%22"
     },
     {
         "name": "Unexpected Run-In",
         "rarity": "R",
         "character": "Vyn Richter",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Vyn_%22Unexpected_Run-In%22"
     },
     {
         "name": "Whole New Experience",
         "rarity": "R",
         "character": "Vyn Richter",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Vyn_%22Whole_New_Experience%22"
     },
     {
         "name": "Wish",
         "rarity": "R",
         "character": "Vyn Richter",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Vyn_%22Wish%22"
     },
     {
         "name": "All Through the Night",
         "rarity": "SSR",
         "character": "Marius von Hagen",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Marius_%22All_Through_the_Night%22"
     },
     {
         "name": "Daytime Aurora",
         "rarity": "SSR",
         "character": "Marius von Hagen",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Marius_%22Daytime_Aurora%22"
     },
     {
         "name": "Dimly Lit",
         "rarity": "SSR",
         "character": "Marius von Hagen",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Marius_%22Dimly_Lit%22"
     },
     {
         "name": "Eye of the Beholder",
         "rarity": "SSR",
         "character": "Marius von Hagen",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Marius_%22Eye_of_the_Beholder%22"
     },
     {
         "name": "Fabulous Feast",
         "rarity": "SSR",
         "character": "Marius von Hagen",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Marius_%22Fabulous_Feast%22"
     },
     {
         "name": "In the Darkness",
         "rarity": "SSR",
         "character": "Marius von Hagen",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Marius_%22In_the_Darkness%22"
     },
     {
         "name": "Matching Tattoos",
         "rarity": "SSR",
         "character": "Marius von Hagen",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Marius_%22Matching_Tattoos%22"
     },
     {
         "name": "Narrow Road",
         "rarity": "SSR",
         "character": "Marius von Hagen",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Marius_%22Narrow_Road%22"
     },
     {
         "name": "Will of the Trees",
         "rarity": "SSR",
         "character": "Marius von Hagen",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Marius_%22Will_of_the_Trees%22"
     },
     {
         "name": "A Dance on the Clouds",
         "rarity": "SR",
         "character": "Marius von Hagen",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Marius_%22A_Dance_on_the_Clouds%22"
     },
     {
         "name": "Butterflies",
         "rarity": "SR",
         "character": "Marius von Hagen",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Marius_%22Butterflies%22"
     },
     {
         "name": "Child at Heart",
         "rarity": "SR",
         "character": "Marius von Hagen",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Marius_%22Child_at_Heart%22"
     },
     {
         "name": "Dream of Thebes",
         "rarity": "SR",
         "character": "Marius von Hagen",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Marius_%22Dream_of_Thebes%22"
     },
     {
         "name": "Falling into You",
         "rarity": "SR",
         "character": "Marius von Hagen",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Marius_%22Falling_into_You%22"
     },
     {
         "name": "Overtone",
         "rarity": "SR",
         "character": "Marius von Hagen",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Marius_%22Overtone%22"
     },
     {
         "name": "Twilight Beauty",
         "rarity": "SR",
         "character": "Marius von Hagen",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Marius_%22Twilight_Beauty%22"
     },
     {
         "name": "Vibrant Graffiti",
         "rarity": "SR",
         "character": "Marius von Hagen",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Marius_%22Vibrant_Graffiti%22"
     },
     {
         "name": "Keepsake",
         "rarity": "MR",
         "character": "Marius von Hagen",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Marius_%22Keepsake%22"
     },
     {
         "name": "Discussion",
         "rarity": "R",
         "character": "Marius von Hagen",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Marius_%22Discussion%22"
     },
     {
         "name": "Freeze-Frame",
         "rarity": "R",
         "character": "Marius von Hagen",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Marius_%22Freeze-Frame%22"
     },
     {
         "name": "Fully Prepped",
         "rarity": "R",
         "character": "Marius von Hagen",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Marius_%22Fully_Prepped%22"
     },
     {
         "name": "Half-Time",
         "rarity": "R",
         "character": "Marius von Hagen",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Marius_%22Half-Time%22"
     },
     {
         "name": "Interlude",
         "rarity": "R",
         "character": "Marius von Hagen",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Marius_%22Interlude%22"
     },
     {
         "name": "Invitation",
         "rarity": "R",
         "character": "Marius von Hagen",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Marius_%22Invitation%22"
     },
     {
         "name": "Kingly Praise",
         "rarity": "R",
         "character": "Marius von Hagen",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Marius_%22Kingly_Praise%22"
     },
     {
         "name": "Myth",
         "rarity": "R",
         "character": "Marius von Hagen",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Marius_%22Myth%22"
     },
     {
         "name": "Practice Makes Perfect",
         "rarity": "R",
         "character": "Marius von Hagen",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Marius_%22Practice_Makes_Perfect%22"
     },
     {
         "name": "Presence",
         "rarity": "R",
         "character": "Marius von Hagen",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Marius_%22Presence%22"
     },
     {
         "name": "Rhythm",
         "rarity": "R",
         "character": "Marius von Hagen",
-        "type": "Logic"
+        "type": "Logic",
+        "page": "https://tot.wiki/wiki/Marius_%22Rhythm%22"
     },
     {
         "name": "Sudden Occurrence",
         "rarity": "R",
         "character": "Marius von Hagen",
-        "type": "Intuition"
+        "type": "Intuition",
+        "page": "https://tot.wiki/wiki/Marius_%22Sudden_Occurrence%22"
     },
     {
         "name": "Victory Is at Hand",
         "rarity": "R",
         "character": "Marius von Hagen",
-        "type": "Empathy"
+        "type": "Empathy",
+        "page": "https://tot.wiki/wiki/Marius_%22Victory_Is_at_Hand%22"
     }
 ]
