@@ -30,5 +30,5 @@ for card in soup.find_all("div", class_="filter-element card-preview"):
 
 # convert list to json
 with open('Data Scraping/data/cards.json', 'w') as outfile:
-	json.dump(cards, outfile)
+	json.dump(cards, outfile, indent=4)
 
