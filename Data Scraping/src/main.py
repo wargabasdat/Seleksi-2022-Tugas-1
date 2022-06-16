@@ -2,14 +2,14 @@ import scraper
 
 while True:
     try:
-        start = int(input("Enter the start index (0-59): "))
-        end = int(input("Enter the end index (1-60): "))
+        start = int(input("Enter the start index (0-58): "))
+        end = int(input("Enter the end index (1-59): "))
 
         # input validation
         if (end <= start):
             print("Last index should greater than the start index!")
             continue
-        elif (start < 0 or start > 59 or end < 1 or end > 60):
+        elif (start < 0 or start > 58 or end < 1 or end > 59):
             print("Please enter a valid index!")
             continue
         else:
