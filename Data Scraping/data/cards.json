@@ -4,1369 +4,1861 @@
         "rarity": "SSR",
         "character": "Luke Pearce",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Luke_%22Alluring_Gaze%22",
-        "max_power": "9699",
-        "max_influence": "2879",
-        "max_defense": "1573"
+        "max_power": 9699,
+        "max_influence": 2879,
+        "max_defense": 1573,
+        "skills": {
+            "Layer by Layer": "Layer by Layer \u03b2 III",
+            "Emotional Projection": "Emotional Projection III",
+            "Parallel Growth": "Parallel Growth III"
+        }
     },
     {
         "name": "Iridescent Heartbeat",
         "rarity": "SSR",
         "character": "Luke Pearce",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Luke_%22Iridescent_Heartbeat%22",
-        "max_power": "9699",
-        "max_influence": "2968",
-        "max_defense": "1484"
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": {
+            "Bait & Lure": "Bait & Lure \u03b2 III",
+            "Antique Repairer": "Antique Repairer III",
+            "Strike Weakness": "Strike Weakness III"
+        }
     },
     {
         "name": "Overflowing Thoughts",
         "rarity": "SSR",
         "character": "Luke Pearce",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Luke_%22Overflowing_Thoughts%22",
-        "max_power": "9699",
-        "max_influence": "2968",
-        "max_defense": "1484"
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": {
+            "Logical Conclusion": "Logical Conclusion \u03b3 III",
+            "Truth Restorer": "Truth Restorer III",
+            "Exemplar": "Exemplar III"
+        }
     },
     {
         "name": "Peaceful Place",
         "rarity": "SSR",
         "character": "Luke Pearce",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Luke_%22Peaceful_Place%22",
-        "max_power": "9699",
-        "max_influence": "2820",
-        "max_defense": "1632"
+        "max_power": 9699,
+        "max_influence": 2820,
+        "max_defense": 1632,
+        "skills": {
+            "Preemptive Strike": "Preemptive Strike III",
+            "Truth Restorer": "Truth Restorer III",
+            "Parallel Growth": "Parallel Growth III"
+        }
     },
     {
         "name": "Perfect Partner",
         "rarity": "SSR",
         "character": "Luke Pearce",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Luke_%22Perfect_Partner%22",
-        "max_power": "9699",
-        "max_influence": "2820",
-        "max_defense": "1632"
+        "max_power": 9699,
+        "max_influence": 2820,
+        "max_defense": 1632,
+        "skills": {
+            "Preemptive Strike": "Preemptive Strike III",
+            "Deductive Reasoning": "Deductive Reasoning III",
+            "Emergent Retreat": "Emergent Retreat III"
+        }
     },
     {
         "name": "Shape of You",
         "rarity": "SSR",
         "character": "Luke Pearce",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Luke_%22Shape_of_You%22",
-        "max_power": "9699",
-        "max_influence": "2879",
-        "max_defense": "1573"
+        "max_power": 9699,
+        "max_influence": 2879,
+        "max_defense": 1573,
+        "skills": {
+            "Feigning Defeat": "Feigning Defeat \u03b2 III",
+            "Instantaneous Capture": "Instantaneous Capture III",
+            "Detective's Mind": "Detective's Mind III"
+        }
     },
     {
         "name": "Through the Heavens",
         "rarity": "SSR",
         "character": "Luke Pearce",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Luke_%22Through_the_Heavens%22",
-        "max_power": "9699",
-        "max_influence": "2968",
-        "max_defense": "1484"
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": {
+            "Virtuous Presence": "Virtuous Presence \u03b3 III",
+            "Curiosity": "Curiosity III",
+            "Detective's Mind": "Detective's Mind III"
+        }
     },
     {
         "name": "Twinkling Eyes",
         "rarity": "SSR",
         "character": "Luke Pearce",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Luke_%22Twinkling_Eyes%22",
-        "max_power": "9699",
-        "max_influence": "2820",
-        "max_defense": "1632"
+        "max_power": 9699,
+        "max_influence": 2820,
+        "max_defense": 1632,
+        "skills": {
+            "Attention to Detail": "Attention to Detail \u03b2 III",
+            "Premonition": "Premonition III",
+            "Detective's Mind": "Detective's Mind III"
+        }
     },
     {
         "name": "Warm Embrace",
         "rarity": "SSR",
         "character": "Luke Pearce",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Luke_%22Warm_Embrace%22",
-        "max_power": "9699",
-        "max_influence": "2968",
-        "max_defense": "1484"
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": {
+            "Logical Conclusion": "Logical Conclusion \u03b1 III",
+            "Impeccable": "Impeccable III",
+            "Detective's Mind": "Detective's Mind III"
+        }
     },
     {
         "name": "A Star in the Palm",
         "rarity": "SR",
         "character": "Luke Pearce",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Luke_%22A_Star_in_the_Palm%22",
-        "max_power": "7268",
-        "max_influence": "2327",
-        "max_defense": "997"
+        "max_power": 7268,
+        "max_influence": 2327,
+        "max_defense": 997,
+        "skills": {
+            "Layer by Layer": "Layer by Layer \u03b1 II",
+            "Antique Repairer": "Antique Repairer II",
+            "Drastic Measures": "Drastic Measures II"
+        }
     },
     {
         "name": "Among the Great Blue",
         "rarity": "SR",
         "character": "Luke Pearce",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Luke_%22Among_the_Great_Blue%22",
-        "max_power": "7268",
-        "max_influence": "2105",
-        "max_defense": "1219"
+        "max_power": 7268,
+        "max_influence": 2105,
+        "max_defense": 1219,
+        "skills": {
+            "Feigning Defeat": "Feigning Defeat \u03b3 II",
+            "Strategist": "Strategist II",
+            "Foresight": "Foresight II"
+        }
     },
     {
         "name": "How I Remember You",
         "rarity": "SR",
         "character": "Luke Pearce",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Luke_%22How_I_Remember_You%22",
-        "max_power": "7268",
-        "max_influence": "2282",
-        "max_defense": "1042"
+        "max_power": 7268,
+        "max_influence": 2282,
+        "max_defense": 1042,
+        "skills": {
+            "Layer by Layer": "Layer by Layer \u03b2 II",
+            "Intuitive Thinking": "Intuitive Thinking II",
+            "Superior Stamina": "Superior Stamina II"
+        }
     },
     {
         "name": "Inner Sanctum",
         "rarity": "SR",
         "character": "Luke Pearce",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Luke_%22Inner_Sanctum%22",
-        "max_power": "7268",
-        "max_influence": "2282",
-        "max_defense": "1042"
+        "max_power": 7268,
+        "max_influence": 2282,
+        "max_defense": 1042,
+        "skills": {
+            "Bait & Lure": "Bait & Lure \u03b2 II",
+            "Emotional Appeal": "Emotional Appeal II",
+            "Parallel Growth": "Parallel Growth II"
+        }
     },
     {
         "name": "Moment of Danger",
         "rarity": "SR",
         "character": "Luke Pearce",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Luke_%22Moment_of_Danger%22",
-        "max_power": "7268",
-        "max_influence": "2150",
-        "max_defense": "1174"
+        "max_power": 7268,
+        "max_influence": 2150,
+        "max_defense": 1174,
+        "skills": {
+            "Preemptive Strike": "Preemptive Strike II",
+            "Balanced": "Balanced II",
+            "Drastic Measures": "Drastic Measures II"
+        }
     },
     {
         "name": "Once Upon a Time",
         "rarity": "SR",
         "character": "Luke Pearce",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Luke_%22Once_Upon_a_Time%22",
-        "max_power": "7268",
-        "max_influence": "2216",
-        "max_defense": "1108"
+        "max_power": 7268,
+        "max_influence": 2216,
+        "max_defense": 1108,
+        "skills": {
+            "Layer by Layer": "Layer by Layer \u03b3 II",
+            "Strategist": "Strategist II",
+            "Skilled Diplomat": "Skilled Diplomat II"
+        }
     },
     {
         "name": "Radiant Sunlight",
         "rarity": "SR",
         "character": "Luke Pearce",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Luke_%22Radiant_Sunlight%22",
-        "max_power": "7268",
-        "max_influence": "2216",
-        "max_defense": "1108"
+        "max_power": 7268,
+        "max_influence": 2216,
+        "max_defense": 1108,
+        "skills": {
+            "Attention to Detail": "Attention to Detail \u03b2 II",
+            "Keen Observation": "Keen Observation II",
+            "Prevention": "Prevention II"
+        }
     },
     {
         "name": "Timely Rescue",
         "rarity": "SR",
         "character": "Luke Pearce",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Luke_%22Timely_Rescue%22",
-        "max_power": "7268",
-        "max_influence": "2327",
-        "max_defense": "997"
+        "max_power": 7268,
+        "max_influence": 2327,
+        "max_defense": 997,
+        "skills": {
+            "Logical Conclusion": "Logical Conclusion \u03b3 II",
+            "Painstaking Investigator": "Painstaking Investigator II",
+            "Sharp Strategist": "Sharp Strategist II"
+        }
     },
     {
         "name": "Together with You",
         "rarity": "SR",
         "character": "Luke Pearce",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Luke_%22Together_with_You%22",
-        "max_power": "7268",
-        "max_influence": "?",
-        "max_defense": "?"
+        "max_power": 7268,
+        "max_influence": 0,
+        "max_defense": 0,
+        "skills": {
+            "Cover Tactics": "Cover Tactics \u03b2 II",
+            "Balanced": "Balanced II",
+            "Skilled Diplomat": "Skilled Diplomat II"
+        }
     },
     {
         "name": "Companionship",
         "rarity": "MR",
         "character": "Luke Pearce",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Luke_%22Companionship%22",
-        "max_power": "7425",
-        "max_influence": "2251",
-        "max_defense": "1230"
+        "max_power": 7425,
+        "max_influence": 2251,
+        "max_defense": 1230,
+        "skills": {
+            "Preemptive Strike": "Preemptive Strike II",
+            "Detective's Mind": "Detective's Mind II",
+            "Impeccable": "Impeccable II"
+        }
     },
     {
         "name": "Shining Warmth",
         "rarity": "MR",
         "character": "Luke Pearce",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Luke_%22Shining_Warmth%22",
-        "max_power": "7425",
-        "max_influence": "2321",
-        "max_defense": "1161"
+        "max_power": 7425,
+        "max_influence": 2321,
+        "max_defense": 1161,
+        "skills": {
+            "Preemptive Strike": "Preemptive Strike II",
+            "Truth Restorer": "Truth Restorer II",
+            "Rigor": "Rigor II"
+        }
     },
     {
         "name": "All Ready",
         "rarity": "R",
         "character": "Luke Pearce",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Luke_%22All_Ready%22",
-        "max_power": "3913",
-        "max_influence": "1208",
-        "max_defense": "604"
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": {
+            "Cover Tactics": "Cover Tactics \u03b2 I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "Gaze",
         "rarity": "R",
         "character": "Luke Pearce",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Luke_%22Gaze%22",
-        "max_power": "3913",
-        "max_influence": "1148",
-        "max_defense": "664"
+        "max_power": 3913,
+        "max_influence": 1148,
+        "max_defense": 664,
+        "skills": {
+            "Feigning Defeat": "Feigning Defeat \u03b3 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Gourmet",
         "rarity": "R",
         "character": "Luke Pearce",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Luke_%22Gourmet%22",
-        "max_power": "3913",
-        "max_influence": "1148",
-        "max_defense": "664"
+        "max_power": 3913,
+        "max_influence": 1148,
+        "max_defense": 664,
+        "skills": {
+            "Negation": "Negation \u03b3 I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "Greetings",
         "rarity": "R",
         "character": "Luke Pearce",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Luke_%22Greetings%22",
-        "max_power": "3913",
-        "max_influence": "1172",
-        "max_defense": "640"
+        "max_power": 3913,
+        "max_influence": 1172,
+        "max_defense": 640,
+        "skills": {
+            "Attention to Detail": "Attention to Detail \u03b1 I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "Our Secret",
         "rarity": "R",
         "character": "Luke Pearce",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Luke_%22Our_Secret%22",
-        "max_power": "3913",
-        "max_influence": "1244",
-        "max_defense": "568"
+        "max_power": 3913,
+        "max_influence": 1244,
+        "max_defense": 568,
+        "skills": {
+            "Logical Conclusion": "Logical Conclusion \u03b2 I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "Partner",
         "rarity": "R",
         "character": "Luke Pearce",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Luke_%22Partner%22",
-        "max_power": "3913",
-        "max_influence": "1208",
-        "max_defense": "604"
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": {
+            "Bait & Lure": "Bait & Lure \u03b3 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Personal Server",
         "rarity": "R",
         "character": "Luke Pearce",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Luke_%22Personal_Server%22",
-        "max_power": "3913",
-        "max_influence": "1172",
-        "max_defense": "640"
+        "max_power": 3913,
+        "max_influence": 1172,
+        "max_defense": 640,
+        "skills": {
+            "Layer by Layer": "Layer by Layer \u03b3 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Quietly Waiting",
         "rarity": "R",
         "character": "Luke Pearce",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Luke_%22Quietly_Waiting%22",
-        "max_power": "3913",
-        "max_influence": "1244",
-        "max_defense": "568"
+        "max_power": 3913,
+        "max_influence": 1244,
+        "max_defense": 568,
+        "skills": {
+            "Preemptive Strike": "Preemptive Strike I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Tiredness",
         "rarity": "R",
         "character": "Luke Pearce",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Luke_%22Tiredness%22",
-        "max_power": "3913",
-        "max_influence": "1268",
-        "max_defense": "544"
+        "max_power": 3913,
+        "max_influence": 1268,
+        "max_defense": 544,
+        "skills": {
+            "Attention to Detail": "Attention to Detail \u03b2 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Together",
         "rarity": "R",
         "character": "Luke Pearce",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Luke_%22Together%22",
-        "max_power": "3913",
-        "max_influence": "1268",
-        "max_defense": "544"
+        "max_power": 3913,
+        "max_influence": 1268,
+        "max_defense": 544,
+        "skills": {
+            "Logical Conclusion": "Logical Conclusion \u03b2 I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "Waiting for You",
         "rarity": "R",
         "character": "Luke Pearce",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Luke_%22Waiting_for_You%22",
-        "max_power": "3913",
-        "max_influence": "1244",
-        "max_defense": "568"
+        "max_power": 3913,
+        "max_influence": 1244,
+        "max_defense": 568,
+        "skills": {
+            "Bait & Lure": "Bait & Lure \u03b2 I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "Warm Home",
         "rarity": "R",
         "character": "Luke Pearce",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Luke_%22Warm_Home%22",
-        "max_power": "3913",
-        "max_influence": "1148",
-        "max_defense": "664"
+        "max_power": 3913,
+        "max_influence": 1148,
+        "max_defense": 664,
+        "skills": {
+            "Bait & Lure": "Bait & Lure \u03b2 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Warm Up",
         "rarity": "R",
         "character": "Luke Pearce",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Luke_%22Warm_Up%22",
-        "max_power": "3913",
-        "max_influence": "1208",
-        "max_defense": "604"
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": {
+            "Feigning Defeat": "Feigning Defeat \u03b2 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Willful Youth",
         "rarity": "R",
         "character": "Luke Pearce",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Luke_%22Willful_Youth%22",
-        "max_power": "3913",
-        "max_influence": "1208",
-        "max_defense": "604"
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": {
+            "Evasive Maneuver": "Evasive Maneuver \u03b3 I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "Atmospherics",
         "rarity": "SSR",
         "character": "Artem Wing",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Artem_%22Atmospherics%22",
-        "max_power": "9699",
-        "max_influence": "2879",
-        "max_defense": "1573"
+        "max_power": 9699,
+        "max_influence": 2879,
+        "max_defense": 1573,
+        "skills": {
+            "Layer by Layer": "Layer by Layer \u03b3 III",
+            "Painstaking Investigator": "Painstaking Investigator III",
+            "Rigor": "Rigor III"
+        }
     },
     {
         "name": "Dreamful Melodies",
         "rarity": "SSR",
         "character": "Artem Wing",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Artem_%22Dreamful_Melodies%22",
-        "max_power": "9699",
-        "max_influence": "2968",
-        "max_defense": "1484"
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": {
+            "Bait & Lure": "Bait & Lure \u03b3 III",
+            "Systematic": "Systematic III",
+            "Drastic Measures": "Drastic Measures III"
+        }
     },
     {
         "name": "Echoes Ablaze",
         "rarity": "SSR",
         "character": "Artem Wing",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Artem_%22Echoes_Ablaze%22",
-        "max_power": "9699",
-        "max_influence": "2968",
-        "max_defense": "1484"
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": {
+            "Logical Conclusion": "Logical Conclusion \u03b3 III",
+            "Omnipotent Law": "Omnipotent Law III",
+            "Exemplar": "Exemplar III"
+        }
     },
     {
         "name": "Entwined Fate",
         "rarity": "SSR",
         "character": "Artem Wing",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Artem_%22Entwined_Fate%22",
-        "max_power": "9699",
-        "max_influence": "2820",
-        "max_defense": "1632"
+        "max_power": 9699,
+        "max_influence": 2820,
+        "max_defense": 1632,
+        "skills": {
+            "Feigning Defeat": "Feigning Defeat \u03b2 III",
+            "Omnipotent Law": "Omnipotent Law III",
+            "Legal Expert": "Legal Expert III"
+        }
     },
     {
         "name": "Loving Memories",
         "rarity": "SSR",
         "character": "Artem Wing",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Artem_%22Loving_Memories%22",
-        "max_power": "9699",
-        "max_influence": "2820",
-        "max_defense": "1632"
+        "max_power": 9699,
+        "max_influence": 2820,
+        "max_defense": 1632,
+        "skills": {
+            "Preemptive Strike": "Preemptive Strike III",
+            "Intuitive Thinking": "Intuitive Thinking III",
+            "Absolute Rationality": "Absolute Rationality III"
+        }
     },
     {
         "name": "Por Una Cabeza",
         "rarity": "SSR",
         "character": "Artem Wing",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Artem_%22Por_Una_Cabeza%22",
-        "max_power": "9699",
-        "max_influence": "2968",
-        "max_defense": "1484"
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": {
+            "Attention to Detail": "Attention to Detail \u03b1 III",
+            "Avoidance Instinct": "Avoidance Instinct III",
+            "Sharp Debater": "Sharp Debater III"
+        }
     },
     {
         "name": "Sunshine After the Rain",
         "rarity": "SSR",
         "character": "Artem Wing",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Artem_%22Sunshine_After_the_Rain%22",
-        "max_power": "9699",
-        "max_influence": "2879",
-        "max_defense": "1573"
+        "max_power": 9699,
+        "max_influence": 2879,
+        "max_defense": 1573,
+        "skills": {
+            "Attention to Detail": "Attention to Detail \u03b3 III",
+            "Premonition": "Premonition III",
+            "Sharp Debater": "Sharp Debater III"
+        }
     },
     {
         "name": "Two Hearts as One",
         "rarity": "SSR",
         "character": "Artem Wing",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Artem_%22Two_Hearts_as_One%22",
-        "max_power": "9699",
-        "max_influence": "2820",
-        "max_defense": "1632"
+        "max_power": 9699,
+        "max_influence": 2820,
+        "max_defense": 1632,
+        "skills": {
+            "Preemptive Strike": "Preemptive Strike III",
+            "Omnipotent Law": "Omnipotent Law III",
+            "Rigor": "Rigor III"
+        }
     },
     {
         "name": "Unusual Love",
         "rarity": "SSR",
         "character": "Artem Wing",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Artem_%22Unusual_Love%22",
-        "max_power": "9699",
-        "max_influence": "2878",
-        "max_defense": "1573"
+        "max_power": 9699,
+        "max_influence": 2878,
+        "max_defense": 1573,
+        "skills": {
+            "Virtuous Presence": "Virtuous Presence \u03b3 III",
+            "Omnipotent Law": "Omnipotent Law III",
+            "Absolute Rationality": "Absolute Rationality III"
+        }
     },
     {
         "name": "Wandering Heart",
         "rarity": "SSR",
         "character": "Artem Wing",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Artem_%22Wandering_Heart%22",
-        "max_power": "9699",
-        "max_influence": "2968",
-        "max_defense": "1484"
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": {
+            "Logical Conclusion": "Logical Conclusion \u03b2 III",
+            "Impeccable": "Impeccable III",
+            "Sharp Debater": "Sharp Debater III"
+        }
     },
     {
         "name": "Autumn Dreams",
         "rarity": "SR",
         "character": "Artem Wing",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Artem_%22Autumn_Dreams%22",
-        "max_power": "7268",
-        "max_influence": "2282",
-        "max_defense": "1042"
+        "max_power": 7268,
+        "max_influence": 2282,
+        "max_defense": 1042,
+        "skills": {
+            "Logical Conclusion": "Logical Conclusion \u03b2 II",
+            "Omnipotent Law": "Omnipotent Law II",
+            "Exemplar": "Exemplar II"
+        }
     },
     {
         "name": "Choice",
         "rarity": "SR",
         "character": "Artem Wing",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Artem_%22Choice%22",
-        "max_power": "7268",
-        "max_influence": "2282",
-        "max_defense": "1042"
+        "max_power": 7268,
+        "max_influence": 2282,
+        "max_defense": 1042,
+        "skills": {
+            "Preemptive Strike": "Preemptive Strike II",
+            "Strategist": "Strategist II",
+            "Sharp Debater": "Sharp Debater II"
+        }
     },
     {
         "name": "Darkest before Dawn",
         "rarity": "SR",
         "character": "Artem Wing",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Artem_%22Darkest_before_Dawn%22",
-        "max_power": "7268",
-        "max_influence": "2105",
-        "max_defense": "1219"
+        "max_power": 7268,
+        "max_influence": 2105,
+        "max_defense": 1219,
+        "skills": {
+            "Evasive Maneuver": "Evasive Maneuver \u03b2 II",
+            "Premonition": "Premonition II",
+            "Reformer": "Reformer II"
+        }
     },
     {
         "name": "Fixated on You",
         "rarity": "SR",
         "character": "Artem Wing",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Artem_%22Fixated_on_You%22",
-        "max_power": "7268",
-        "max_influence": "2327",
-        "max_defense": "997"
+        "max_power": 7268,
+        "max_influence": 2327,
+        "max_defense": 997,
+        "skills": {
+            "Negation": "Negation \u03b2 II",
+            "Systematic": "Systematic II",
+            "Sharp Strategist": "Sharp Strategist II"
+        }
     },
     {
         "name": "Focus Fire",
         "rarity": "SR",
         "character": "Artem Wing",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Artem_%22Focus_Fire%22",
-        "max_power": "7268",
-        "max_influence": "2150",
-        "max_defense": "1174"
+        "max_power": 7268,
+        "max_influence": 2150,
+        "max_defense": 1174,
+        "skills": {
+            "Preemptive Strike": "Preemptive Strike II",
+            "Balanced": "Balanced II",
+            "Skilled Diplomat": "Skilled Diplomat II"
+        }
     },
     {
         "name": "In Sickness or in Health",
         "rarity": "SR",
         "character": "Artem Wing",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Artem_%22In_Sickness_or_in_Health%22",
-        "max_power": "7268",
-        "max_influence": "2150",
-        "max_defense": "1174"
+        "max_power": 7268,
+        "max_influence": 2150,
+        "max_defense": 1174,
+        "skills": {
+            "Bait & Lure": "Bait & Lure \u03b2 II",
+            "Emotional Projection": "Emotional Projection II",
+            "Opportunist": "Opportunist II"
+        }
     },
     {
         "name": "Sparks",
         "rarity": "SR",
         "character": "Artem Wing",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Artem_%22Sparks%22",
-        "max_power": "7268",
-        "max_influence": "2327",
-        "max_defense": "997"
+        "max_power": 7268,
+        "max_influence": 2327,
+        "max_defense": 997,
+        "skills": {
+            "Cover Tactics": "Cover Tactics \u03b3 II",
+            "Sound Judgment": "Sound Judgment II",
+            "Reformer": "Reformer II"
+        }
     },
     {
         "name": "Staying Humble",
         "rarity": "SR",
         "character": "Artem Wing",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Artem_%22Staying_Humble%22",
-        "max_power": "7268",
-        "max_influence": "2216",
-        "max_defense": "1108"
+        "max_power": 7268,
+        "max_influence": 2216,
+        "max_defense": 1108,
+        "skills": {
+            "Feigning Defeat": "Feigning Defeat \u03b3 II",
+            "Extrapolation": "Extrapolation II",
+            "Strike Weakness": "Strike Weakness II"
+        }
     },
     {
         "name": "Thin Veil",
         "rarity": "SR",
         "character": "Artem Wing",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Artem_%22Thin_Veil%22",
-        "max_power": "7268",
-        "max_influence": "2216",
-        "max_defense": "1108"
+        "max_power": 7268,
+        "max_influence": 2216,
+        "max_defense": 1108,
+        "skills": {
+            "Attention to Detail": "Attention to Detail \u03b3 II",
+            "Keen Observation": "Keen Observation II",
+            "Sharp Debater": "Sharp Debater II"
+        }
     },
     {
         "name": "Winning Ball",
         "rarity": "SR",
         "character": "Artem Wing",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Artem_%22Winning_Ball%22",
-        "max_power": "7268",
-        "max_influence": "2105",
-        "max_defense": "1219"
+        "max_power": 7268,
+        "max_influence": 2105,
+        "max_defense": 1219,
+        "skills": {
+            "Layer by Layer": "Layer by Layer \u03b2 II",
+            "Constant Improvement": "Constant Improvement II",
+            "Exemplar": "Exemplar II"
+        }
     },
     {
         "name": "Intentions",
         "rarity": "MR",
         "character": "Artem Wing",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Artem_%22Intentions%22",
-        "max_power": "7425",
-        "max_influence": "2251",
-        "max_defense": "1230"
+        "max_power": 7425,
+        "max_influence": 2251,
+        "max_defense": 1230,
+        "skills": {
+            "Preemptive Strike": "Preemptive Strike II",
+            "Sharp Debater": "Sharp Debater II",
+            "Premonition": "Premonition II"
+        }
     },
     {
         "name": "Stretching",
         "rarity": "MR",
         "character": "Artem Wing",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Artem_%22Stretching%22",
-        "max_power": "7425",
-        "max_influence": "2205",
-        "max_defense": "1277"
+        "max_power": 7425,
+        "max_influence": 2205,
+        "max_defense": 1277,
+        "skills": {
+            "Layer by Layer": "Layer by Layer \u03b2 II",
+            "Omnipotent Law": "Omnipotent Law II",
+            "Parallel Growth": "Parallel Growth II"
+        }
     },
     {
         "name": "Back to Business",
         "rarity": "R",
         "character": "Artem Wing",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Artem_%22Back_to_Business%22",
-        "max_power": "3913",
-        "max_influence": "1148",
-        "max_defense": "664"
+        "max_power": 3913,
+        "max_influence": 1148,
+        "max_defense": 664,
+        "skills": {
+            "Indirect Approach": "Indirect Approach \u03b2 I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "Deduction",
         "rarity": "R",
         "character": "Artem Wing",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Artem_%22Deduction%22",
-        "max_power": "3913",
-        "max_influence": "1172",
-        "max_defense": "640"
+        "max_power": 3913,
+        "max_influence": 1172,
+        "max_defense": 640,
+        "skills": {
+            "Layer by Layer": "Layer by Layer \u03b1 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Here for You",
         "rarity": "R",
         "character": "Artem Wing",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Artem_%22Here_for_You%22",
-        "max_power": "3913",
-        "max_influence": "1148",
-        "max_defense": "664"
+        "max_power": 3913,
+        "max_influence": 1148,
+        "max_defense": 664,
+        "skills": {
+            "Virtuous Presence": "Virtuous Presence \u03b1 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Lock and Load",
         "rarity": "R",
         "character": "Artem Wing",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Artem_%22Lock_and_Load%22",
-        "max_power": "3913",
-        "max_influence": "1208",
-        "max_defense": "604"
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": {
+            "Layer by Layer": "Layer by Layer \u03b3 I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "My Heart is Flying",
         "rarity": "R",
         "character": "Artem Wing",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Artem_%22My_Heart_is_Flying%22",
-        "max_power": "3913",
-        "max_influence": "1244",
-        "max_defense": "568"
+        "max_power": 3913,
+        "max_influence": 1244,
+        "max_defense": 568,
+        "skills": {
+            "Attention to Detail": "Attention to Detail \u03b1 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Patience Is a Virtue",
         "rarity": "R",
         "character": "Artem Wing",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Artem_%22Patience_Is_a_Virtue%22",
-        "max_power": "3913",
-        "max_influence": "1172",
-        "max_defense": "640"
+        "max_power": 3913,
+        "max_influence": 1172,
+        "max_defense": 640,
+        "skills": {
+            "Layer by Layer": "Layer by Layer \u03b2 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Picking a Gift",
         "rarity": "R",
         "character": "Artem Wing",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Artem_%22Picking_a_Gift%22",
-        "max_power": "3913",
-        "max_influence": "1244",
-        "max_defense": "568"
+        "max_power": 3913,
+        "max_influence": 1244,
+        "max_defense": 568,
+        "skills": {
+            "Indirect Approach": "Indirect Approach \u03b3 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Questioning",
         "rarity": "R",
         "character": "Artem Wing",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Artem_%22Questioning%22",
-        "max_power": "3913",
-        "max_influence": "1329",
-        "max_defense": "604"
+        "max_power": 3913,
+        "max_influence": 1329,
+        "max_defense": 604,
+        "skills": {
+            "Logical Conclusion": "Logical Conclusion \u03b1 I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "Rain Drops",
         "rarity": "R",
         "character": "Artem Wing",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Artem_%22Rain_Drops%22",
-        "max_power": "3913",
-        "max_influence": "1268",
-        "max_defense": "544"
+        "max_power": 3913,
+        "max_influence": 1268,
+        "max_defense": 544,
+        "skills": {
+            "Negation": "Negation \u03b1 I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "Sweet Tastes",
         "rarity": "R",
         "character": "Artem Wing",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Artem_%22Sweet_Tastes%22",
-        "max_power": "3913",
-        "max_influence": "1208",
-        "max_defense": "604"
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": {
+            "Logical Conclusion": "Logical Conclusion \u03b1 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Systematic",
         "rarity": "R",
         "character": "Artem Wing",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Artem_%22Systematic%22",
-        "max_power": "3913",
-        "max_influence": "1208",
-        "max_defense": "604"
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": {
+            "Evasive Maneuver": "Evasive Maneuver \u03b3 I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "Tailored Suit",
         "rarity": "R",
         "character": "Artem Wing",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Artem_%22Tailored_Suit%22",
-        "max_power": "3913",
-        "max_influence": "1244",
-        "max_defense": "568"
+        "max_power": 3913,
+        "max_influence": 1244,
+        "max_defense": 568,
+        "skills": {
+            "Feigning Defeat": "Feigning Defeat \u03b2 I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "Taking a Breather",
         "rarity": "R",
         "character": "Artem Wing",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Artem_%22Taking_a_Breather%22",
-        "max_power": "3913",
-        "max_influence": "1208",
-        "max_defense": "604"
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": {
+            "Indirect Approach": "Indirect Approach \u03b1 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "With You",
         "rarity": "R",
         "character": "Artem Wing",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Artem_%22With_You%22",
-        "max_power": "3913",
-        "max_influence": "1172",
-        "max_defense": "640"
+        "max_power": 3913,
+        "max_influence": 1172,
+        "max_defense": 640,
+        "skills": {
+            "Logical Conclusion": "Logical Conclusion \u03b1 I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "A Star in the Night",
         "rarity": "SSR",
         "character": "Vyn Richter",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Vyn_%22A_Star_in_the_Night%22",
-        "max_power": "9699",
-        "max_influence": "2820",
-        "max_defense": "1632"
+        "max_power": 9699,
+        "max_influence": 2820,
+        "max_defense": 1632,
+        "skills": {
+            "Virtuous Presence": "Virtuous Presence \u03b1 III",
+            "Self-Evaluation": "Self-Evaluation III",
+            "Conversation Guide": "Conversation Guide III"
+        }
     },
     {
         "name": "Between Good and Evil",
         "rarity": "SSR",
         "character": "Vyn Richter",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Vyn_%22Between_Good_and_Evil%22",
-        "max_power": "9699",
-        "max_influence": "2879",
-        "max_defense": "1573"
+        "max_power": 9699,
+        "max_influence": 2879,
+        "max_defense": 1573,
+        "skills": {
+            "Preemptive Strike": "Preemptive Strike III",
+            "Dressage": "Dressage III",
+            "Mediator": "Mediator III"
+        }
     },
     {
         "name": "Blazing Colors",
         "rarity": "SSR",
         "character": "Vyn Richter",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Vyn_%22Blazing_Colors%22",
-        "max_power": "9699",
-        "max_influence": "2968",
-        "max_defense": "1484"
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": {
+            "Bait & Lure": "Bait & Lure \u03b1 III",
+            "Mutual Effect": "Mutual Effect III",
+            "Personality Profiler": "Personality Profiler III"
+        }
     },
     {
         "name": "Flickering Moonlight",
         "rarity": "SSR",
         "character": "Vyn Richter",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Vyn_%22Flickering_Moonlight%22",
-        "max_power": "9699",
-        "max_influence": "2968",
-        "max_defense": "1484"
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": {
+            "Attention to Detail": "Attention to Detail \u03b3 III",
+            "Dressage": "Dressage III",
+            "Prevention": "Prevention III"
+        }
     },
     {
         "name": "Food for Thought",
         "rarity": "SSR",
         "character": "Vyn Richter",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Vyn_%22Food_for_Thought%22",
-        "max_power": "9699",
-        "max_influence": "2879",
-        "max_defense": "1573"
+        "max_power": 9699,
+        "max_influence": 2879,
+        "max_defense": 1573,
+        "skills": {
+            "Feigning Defeat": "Feigning Defeat \u03b1 III",
+            "Symphony": "Symphony III",
+            "Exemplar": "Exemplar III"
+        }
     },
     {
         "name": "Heartfelt Suspense",
         "rarity": "SSR",
         "character": "Vyn Richter",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Vyn_%22Heartfelt_Suspense%22",
-        "max_power": "9699",
-        "max_influence": "2968",
-        "max_defense": "1484"
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": {
+            "Logical Conclusion": "Logical Conclusion \u03b3 III",
+            "Cultured": "Cultured III",
+            "Skilled Diplomat": "Skilled Diplomat III"
+        }
     },
     {
         "name": "Medieval Suspense",
         "rarity": "SSR",
         "character": "Vyn Richter",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Vyn_%22Medieval_Suspense%22",
-        "max_power": "9699",
-        "max_influence": "2878",
-        "max_defense": "1574"
+        "max_power": 9699,
+        "max_influence": 2878,
+        "max_defense": 1574,
+        "skills": {
+            "Layer by Layer": "Layer by Layer \u03b2 III",
+            "Balanced": "Balanced III",
+            "Opportunist": "Opportunist III"
+        }
     },
     {
         "name": "Near and Far",
         "rarity": "SSR",
         "character": "Vyn Richter",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Vyn_%22Near_and_Far%22",
-        "max_power": "9699",
-        "max_influence": "2820",
-        "max_defense": "1632"
+        "max_power": 9699,
+        "max_influence": 2820,
+        "max_defense": 1632,
+        "skills": {
+            "Preemptive Strike": "Preemptive Strike III",
+            "Keen Observation": "Keen Observation III",
+            "Sandplay Therapy": "Sandplay Therapy III"
+        }
     },
     {
         "name": "Neon Melody",
         "rarity": "SSR",
         "character": "Vyn Richter",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Vyn_%22Neon_Melody%22",
-        "max_power": "9699",
-        "max_influence": "2820",
-        "max_defense": "1632"
+        "max_power": 9699,
+        "max_influence": 2820,
+        "max_defense": 1632,
+        "skills": {
+            "Preemptive Strike": "Preemptive Strike III",
+            "Dressage": "Dressage III",
+            "Parallel Growth": "Parallel Growth III"
+        }
     },
     {
         "name": "Cool Summer",
         "rarity": "SR",
         "character": "Vyn Richter",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Vyn_%22Cool_Summer%22",
-        "max_power": "7268",
-        "max_influence": "2105",
-        "max_defense": "1219"
+        "max_power": 7268,
+        "max_influence": 2105,
+        "max_defense": 1219,
+        "skills": {
+            "Preemptive Strike": "Preemptive Strike II",
+            "Deductive Reasoning": "Deductive Reasoning II",
+            "Exemplar": "Exemplar II"
+        }
     },
     {
         "name": "Entrapped",
         "rarity": "SR",
         "character": "Vyn Richter",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Vyn_%22Entrapped%22",
-        "max_power": "7268",
-        "max_influence": "2282",
-        "max_defense": "1042"
+        "max_power": 7268,
+        "max_influence": 2282,
+        "max_defense": 1042,
+        "skills": {
+            "Bait & Lure": "Bait & Lure \u03b1 II",
+            "Opportunist": "Opportunist II",
+            "Conversation Guide": "Conversation Guide II"
+        }
     },
     {
         "name": "False Tears",
         "rarity": "SR",
         "character": "Vyn Richter",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Vyn_%22False_Tears%22",
-        "max_power": "7268",
-        "max_influence": "2105",
-        "max_defense": "1219"
+        "max_power": 7268,
+        "max_influence": 2105,
+        "max_defense": 1219,
+        "skills": {
+            "Bait & Lure": "Bait & Lure \u03b3 II",
+            "Dressage": "Dressage II",
+            "Drastic Measures": "Drastic Measures II"
+        }
     },
     {
         "name": "Gentleman's Game",
         "rarity": "SR",
         "character": "Vyn Richter",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Vyn_%22Gentleman%27s_Game%22",
-        "max_power": "7268",
-        "max_influence": "2282",
-        "max_defense": "1042"
+        "max_power": 7268,
+        "max_influence": 2282,
+        "max_defense": 1042,
+        "skills": {
+            "Preemptive Strike": "Preemptive Strike II",
+            "Balanced": "Balanced II",
+            "Prevention": "Prevention II"
+        }
     },
     {
         "name": "Lingering Warmth",
         "rarity": "SR",
         "character": "Vyn Richter",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Vyn_%22Lingering_Warmth%22",
-        "max_power": "7268",
-        "max_influence": "2327",
-        "max_defense": "997"
+        "max_power": 7268,
+        "max_influence": 2327,
+        "max_defense": 997,
+        "skills": {
+            "Logical Conclusion": "Logical Conclusion \u03b2 II",
+            "Impeccable": "Impeccable II",
+            "Skilled Diplomat": "Skilled Diplomat II"
+        }
     },
     {
         "name": "Mended Heart",
         "rarity": "SR",
         "character": "Vyn Richter",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Vyn_%22Mended_Heart%22",
-        "max_power": "7268",
-        "max_influence": "2216",
-        "max_defense": "1108"
+        "max_power": 7268,
+        "max_influence": 2216,
+        "max_defense": 1108,
+        "skills": {
+            "Layer by Layer": "Layer by Layer \u03b3 II",
+            "Emotional Appeal": "Emotional Appeal II",
+            "Drastic Measures": "Drastic Measures II"
+        }
     },
     {
         "name": "Mercury in Retrograde",
         "rarity": "SR",
         "character": "Vyn Richter",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Vyn_%22Mercury_in_Retrograde%22",
-        "max_power": "7268",
-        "max_influence": "2150",
-        "max_defense": "1174"
+        "max_power": 7268,
+        "max_influence": 2150,
+        "max_defense": 1174,
+        "skills": {
+            "Attention to Detail": "Attention to Detail \u03b1 II",
+            "Keen Observation": "Keen Observation II",
+            "Mediator": "Mediator II"
+        }
     },
     {
         "name": "Snowy Fairy Tale",
         "rarity": "SR",
         "character": "Vyn Richter",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Vyn_%22Snowy_Fairy_Tale%22",
-        "max_power": "7268",
-        "max_influence": "2327",
-        "max_defense": "997"
+        "max_power": 7268,
+        "max_influence": 2327,
+        "max_defense": 997,
+        "skills": {
+            "Evasive Maneuver": "Evasive Maneuver \u03b2 II",
+            "Keen Observation": "Keen Observation II",
+            "Sandplay Therapy": "Sandplay Therapy II"
+        }
     },
     {
         "name": "Spilling Light",
         "rarity": "SR",
         "character": "Vyn Richter",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Vyn_%22Spilling_Light%22",
-        "max_power": "7268",
-        "max_influence": "2216",
-        "max_defense": "1108"
+        "max_power": 7268,
+        "max_influence": 2216,
+        "max_defense": 1108,
+        "skills": {
+            "Negation": "Negation \u03b3 II",
+            "Deductive Reasoning": "Deductive Reasoning II",
+            "Rigor": "Rigor II"
+        }
     },
     {
         "name": "Morning Glory",
         "rarity": "MR",
         "character": "Vyn Richter",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Vyn_%22Morning_Glory%22",
-        "max_power": "7425",
-        "max_influence": "2205",
-        "max_defense": "1277"
+        "max_power": 7425,
+        "max_influence": 2205,
+        "max_defense": 1277,
+        "skills": {
+            "Layer by Layer": "Layer by Layer \u03b2 II",
+            "Dressage": "Dressage II",
+            "Rigor": "Rigor II"
+        }
     },
     {
         "name": "Promise",
         "rarity": "MR",
         "character": "Vyn Richter",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Vyn_%22Promise%22",
-        "max_power": "7425",
-        "max_influence": "2251",
-        "max_defense": "1230"
+        "max_power": 7425,
+        "max_influence": 2251,
+        "max_defense": 1230,
+        "skills": {
+            "Preemptive Strike": "Preemptive Strike II",
+            "Personality Profiler": "Personality Profiler II",
+            "Mutual Effect": "Mutual Effect II"
+        }
     },
     {
         "name": "A Hobby of Mine",
         "rarity": "R",
         "character": "Vyn Richter",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Vyn_%22A_Hobby_of_Mine%22",
-        "max_power": "3913",
-        "max_influence": "1244",
-        "max_defense": "568"
+        "max_power": 3913,
+        "max_influence": 1244,
+        "max_defense": 568,
+        "skills": {
+            "Logical Conclusion": "Logical Conclusion \u03b3 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Another Side of You",
         "rarity": "R",
         "character": "Vyn Richter",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Vyn_%22Another_Side_of_You%22",
-        "max_power": "3913",
-        "max_influence": "1268",
-        "max_defense": "544"
+        "max_power": 3913,
+        "max_influence": 1268,
+        "max_defense": 544,
+        "skills": {
+            "Preemptive Strike": "Preemptive Strike I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "Dressed Up",
         "rarity": "R",
         "character": "Vyn Richter",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Vyn_%22Dressed_Up%22",
-        "max_power": "3913",
-        "max_influence": "1148",
-        "max_defense": "664"
+        "max_power": 3913,
+        "max_influence": 1148,
+        "max_defense": 664,
+        "skills": {
+            "Cover Tactics": "Cover Tactics \u03b1 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Elegance",
         "rarity": "R",
         "character": "Vyn Richter",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Vyn_%22Elegance%22",
-        "max_power": "3913",
-        "max_influence": "1244",
-        "max_defense": "568"
+        "max_power": 3913,
+        "max_influence": 1244,
+        "max_defense": 568,
+        "skills": {
+            "Feigning Defeat": "Feigning Defeat \u03b2 I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "Fated Invitation",
         "rarity": "R",
         "character": "Vyn Richter",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Vyn_%22Fated_Invitation%22",
-        "max_power": "3913",
-        "max_influence": "1208",
-        "max_defense": "604"
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": {
+            "Indirect Approach": "Indirect Approach \u03b3 I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "Gentlemanly Courtesy",
         "rarity": "R",
         "character": "Vyn Richter",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Vyn_%22Gentlemanly_Courtesy%22",
-        "max_power": "3913",
-        "max_influence": "1172",
-        "max_defense": "640"
+        "max_power": 3913,
+        "max_influence": 1172,
+        "max_defense": 640,
+        "skills": {
+            "Feigning Defeat": "Feigning Defeat \u03b3 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Leisure Time",
         "rarity": "R",
         "character": "Vyn Richter",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Vyn_%22Leisure_Time%22",
-        "max_power": "3913",
-        "max_influence": "1208",
-        "max_defense": "604"
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": {
+            "Preemptive Strike": "Preemptive Strike I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "Observations",
         "rarity": "R",
         "character": "Vyn Richter",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Vyn_%22Observations%22",
-        "max_power": "3913",
-        "max_influence": "1208",
-        "max_defense": "604"
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": {
+            "Preemptive Strike": "Preemptive Strike I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "Remaining in Control",
         "rarity": "R",
         "character": "Vyn Richter",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Vyn_%22Remaining_in_Control%22",
-        "max_power": "3913",
-        "max_influence": "1148",
-        "max_defense": "664"
+        "max_power": 3913,
+        "max_influence": 1148,
+        "max_defense": 664,
+        "skills": {
+            "Preemptive Strike": "Preemptive Strike I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Secret Gift",
         "rarity": "R",
         "character": "Vyn Richter",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Vyn_%22Secret_Gift%22",
-        "max_power": "3913",
-        "max_influence": "1148",
-        "max_defense": "664"
+        "max_power": 3913,
+        "max_influence": 1148,
+        "max_defense": 664,
+        "skills": {
+            "Logical Conclusion": "Logical Conclusion \u03b3 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Unexpected Letter",
         "rarity": "R",
         "character": "Vyn Richter",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Vyn_%22Unexpected_Letter%22",
-        "max_power": "3913",
-        "max_influence": "1268",
-        "max_defense": "544"
+        "max_power": 3913,
+        "max_influence": 1268,
+        "max_defense": 544,
+        "skills": {
+            "Attention to Detail": "Attention to Detail \u03b3 I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "Unexpected Run-In",
         "rarity": "R",
         "character": "Vyn Richter",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Vyn_%22Unexpected_Run-In%22",
-        "max_power": "3913",
-        "max_influence": "1172",
-        "max_defense": "640"
+        "max_power": 3913,
+        "max_influence": 1172,
+        "max_defense": 640,
+        "skills": {
+            "Evasive Maneuver": "Evasive Maneuver \u03b2 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Whole New Experience",
         "rarity": "R",
         "character": "Vyn Richter",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Vyn_%22Whole_New_Experience%22",
-        "max_power": "3913",
-        "max_influence": "1244",
-        "max_defense": "568"
+        "max_power": 3913,
+        "max_influence": 1244,
+        "max_defense": 568,
+        "skills": {
+            "Feigning Defeat": "Feigning Defeat \u03b3 I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "Wish",
         "rarity": "R",
         "character": "Vyn Richter",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Vyn_%22Wish%22",
-        "max_power": "3913",
-        "max_influence": "1172",
-        "max_defense": "640"
+        "max_power": 3913,
+        "max_influence": 1172,
+        "max_defense": 640,
+        "skills": {
+            "Bait & Lure": "Bait & Lure \u03b3 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "All Through the Night",
         "rarity": "SSR",
         "character": "Marius von Hagen",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Marius_%22All_Through_the_Night%22",
-        "max_power": "9699",
-        "max_influence": "2879",
-        "max_defense": "1573"
+        "max_power": 9699,
+        "max_influence": 2879,
+        "max_defense": 1573,
+        "skills": {
+            "Preemptive Strike": "Preemptive Strike III",
+            "Sharp One": "Sharp One III",
+            "Parallel Growth": "Parallel Growth III"
+        }
     },
     {
         "name": "Crown of Glory",
         "rarity": "SSR",
         "character": "Marius von Hagen",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Marius_%22Crown_of_Glory%22",
-        "max_power": "9699",
-        "max_influence": "2968",
-        "max_defense": "1484"
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": {
+            "Bait & Lure": "Bait & Lure \u03b1 III",
+            "Artistic Talent": "Artistic Talent III",
+            "President's Orders": "President's Orders III"
+        }
     },
     {
         "name": "Daytime Aurora",
         "rarity": "SSR",
         "character": "Marius von Hagen",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Marius_%22Daytime_Aurora%22",
-        "max_power": "9699",
-        "max_influence": "2820",
-        "max_defense": "1632"
+        "max_power": 9699,
+        "max_influence": 2820,
+        "max_defense": 1632,
+        "skills": {
+            "Attention to Detail": "Attention to Detail \u03b2 III",
+            "Premonition": "Premonition III",
+            "Business Negotiator": "Business Negotiator III"
+        }
     },
     {
         "name": "Dimly Lit",
         "rarity": "SSR",
         "character": "Marius von Hagen",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Marius_%22Dimly_Lit%22",
-        "max_power": "9699",
-        "max_influence": "2968",
-        "max_defense": "1484"
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": {
+            "Bait & Lure": "Bait & Lure \u03b3 III",
+            "Sharp One": "Sharp One III",
+            "Opportunist": "Opportunist III"
+        }
     },
     {
         "name": "Eye of the Beholder",
         "rarity": "SSR",
         "character": "Marius von Hagen",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Marius_%22Eye_of_the_Beholder%22",
-        "max_power": "9699",
-        "max_influence": "2879",
-        "max_defense": "1573"
+        "max_power": 9699,
+        "max_influence": 2879,
+        "max_defense": 1573,
+        "skills": {
+            "Layer by Layer": "Layer by Layer \u03b3 III",
+            "Extrapolation": "Extrapolation III",
+            "Mediator": "Mediator III"
+        }
     },
     {
         "name": "Fabulous Feast",
         "rarity": "SSR",
         "character": "Marius von Hagen",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Marius_%22Fabulous_Feast%22",
-        "max_power": "9699",
-        "max_influence": "2879",
-        "max_defense": "1573"
+        "max_power": 9699,
+        "max_influence": 2879,
+        "max_defense": 1573,
+        "skills": {
+            "Layer by Layer": "Layer by Layer \u03b1 III",
+            "Advantage Taker": "Advantage Taker III",
+            "Business Negotiator": "Business Negotiator III"
+        }
     },
     {
         "name": "In the Darkness",
         "rarity": "SSR",
         "character": "Marius von Hagen",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Marius_%22In_the_Darkness%22",
-        "max_power": "9699",
-        "max_influence": "2968",
-        "max_defense": "1484"
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": {
+            "Attention to Detail": "Attention to Detail \u03b3 III",
+            "Elite Education": "Elite Education III",
+            "Foresight": "Foresight III"
+        }
     },
     {
         "name": "Matching Tattoos",
         "rarity": "SSR",
         "character": "Marius von Hagen",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Marius_%22Matching_Tattoos%22",
-        "max_power": "9699",
-        "max_influence": "2968",
-        "max_defense": "1484"
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": {
+            "Feigning Defeat": "Feigning Defeat \u03b2 III",
+            "Sharp One": "Sharp One III",
+            "Business Negotiator": "Business Negotiator III"
+        }
     },
     {
         "name": "Narrow Road",
         "rarity": "SSR",
         "character": "Marius von Hagen",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Marius_%22Narrow_Road%22",
-        "max_power": "9699",
-        "max_influence": "2820",
-        "max_defense": "1632"
+        "max_power": 9699,
+        "max_influence": 2820,
+        "max_defense": 1632,
+        "skills": {
+            "Preemptive Strike": "Preemptive Strike III",
+            "Emotional Appeal": "Emotional Appeal III",
+            "President's Orders": "President's Orders III"
+        }
     },
     {
         "name": "Will of the Trees",
         "rarity": "SSR",
         "character": "Marius von Hagen",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Marius_%22Will_of_the_Trees%22",
-        "max_power": "9699",
-        "max_influence": "2820",
-        "max_defense": "1632"
+        "max_power": 9699,
+        "max_influence": 2820,
+        "max_defense": 1632,
+        "skills": {
+            "Logical Conclusion": "Logical Conclusion \u03b3 III",
+            "Advantage Taker": "Advantage Taker III",
+            "Game of Fortune": "Game of Fortune III"
+        }
     },
     {
         "name": "A Dance on the Clouds",
         "rarity": "SR",
         "character": "Marius von Hagen",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Marius_%22A_Dance_on_the_Clouds%22",
-        "max_power": "7268",
-        "max_influence": "2216",
-        "max_defense": "1108"
+        "max_power": 7268,
+        "max_influence": 2216,
+        "max_defense": 1108,
+        "skills": {
+            "Logical Conclusion": "Logical Conclusion \u03b2 II",
+            "Balanced": "Balanced II",
+            "Exemplar": "Exemplar II"
+        }
     },
     {
         "name": "Butterflies",
         "rarity": "SR",
         "character": "Marius von Hagen",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Marius_%22Butterflies%22",
-        "max_power": "7268",
-        "max_influence": "2327",
-        "max_defense": "997"
+        "max_power": 7268,
+        "max_influence": 2327,
+        "max_defense": 997,
+        "skills": {
+            "Preemptive Strike": "Preemptive Strike II",
+            "Extrapolation": "Extrapolation II",
+            "Foresight": "Foresight II"
+        }
     },
     {
         "name": "Child at Heart",
         "rarity": "SR",
         "character": "Marius von Hagen",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Marius_%22Child_at_Heart%22",
-        "max_power": "7268",
-        "max_influence": "2150",
-        "max_defense": "1174"
+        "max_power": 7268,
+        "max_influence": 2150,
+        "max_defense": 1174,
+        "skills": {
+            "Attention to Detail": "Attention to Detail \u03b2 II",
+            "Keen Observation": "Keen Observation II",
+            "Prevention": "Prevention II"
+        }
     },
     {
         "name": "Dream of Thebes",
         "rarity": "SR",
         "character": "Marius von Hagen",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Marius_%22Dream_of_Thebes%22",
-        "max_power": "7268",
-        "max_influence": "2282",
-        "max_defense": "1042"
+        "max_power": 7268,
+        "max_influence": 2282,
+        "max_defense": 1042,
+        "skills": {
+            "Feigning Defeat": "Feigning Defeat \u03b3 II",
+            "Deductive Reasoning": "Deductive Reasoning II",
+            "Rigor": "Rigor II"
+        }
     },
     {
         "name": "Falling into You",
         "rarity": "SR",
         "character": "Marius von Hagen",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Marius_%22Falling_into_You%22",
-        "max_power": "",
-        "max_influence": "2216",
-        "max_defense": "1108"
+        "max_power": 0,
+        "max_influence": 2216,
+        "max_defense": 1108,
+        "skills": {
+            "Indirect Approach": "Indirect Approach \u03b3 II",
+            "Emotional Appeal": "Emotional Appeal II",
+            "Parallel Growth": "Parallel Growth II"
+        }
     },
     {
         "name": "Overtone",
         "rarity": "SR",
         "character": "Marius von Hagen",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Marius_%22Overtone%22",
-        "max_power": "7268",
-        "max_influence": "2105",
-        "max_defense": "1219"
+        "max_power": 7268,
+        "max_influence": 2105,
+        "max_defense": 1219,
+        "skills": {
+            "Bait & Lure": "Bait & Lure \u03b2 II",
+            "Sharp One": "Sharp One II",
+            "Strike Weakness": "Strike Weakness II"
+        }
     },
     {
         "name": "Twilight Beauty",
         "rarity": "SR",
         "character": "Marius von Hagen",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Marius_%22Twilight_Beauty%22",
-        "max_power": "7268",
-        "max_influence": "2327",
-        "max_defense": "997"
+        "max_power": 7268,
+        "max_influence": 2327,
+        "max_defense": 997,
+        "skills": {
+            "Layer by Layer": "Layer by Layer \u03b3 II",
+            "Mutual Effect": "Mutual Effect II",
+            "Drastic Measures": "Drastic Measures II"
+        }
     },
     {
         "name": "Vibrant Graffiti",
         "rarity": "SR",
         "character": "Marius von Hagen",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Marius_%22Vibrant_Graffiti%22",
-        "max_power": "7268",
-        "max_influence": "2150",
-        "max_defense": "1174"
+        "max_power": 7268,
+        "max_influence": 2150,
+        "max_defense": 1174,
+        "skills": {
+            "Logical Conclusion": "Logical Conclusion \u03b1 II",
+            "Sharp One": "Sharp One II",
+            "Sharp Strategist": "Sharp Strategist II"
+        }
     },
     {
         "name": "Keepsake",
         "rarity": "MR",
         "character": "Marius von Hagen",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Marius_%22Keepsake%22",
-        "max_power": "7425",
-        "max_influence": "2251",
-        "max_defense": "1230"
+        "max_power": 7425,
+        "max_influence": 2251,
+        "max_defense": 1230,
+        "skills": {
+            "Preemptive Strike": "Preemptive Strike II",
+            "Business Negotiator": "Business Negotiator II",
+            "Premonition": "Premonition II"
+        }
     },
     {
         "name": "Discussion",
         "rarity": "R",
         "character": "Marius von Hagen",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Marius_%22Discussion%22",
-        "max_power": "3913",
-        "max_influence": "1172",
-        "max_defense": "640"
+        "max_power": 3913,
+        "max_influence": 1172,
+        "max_defense": 640,
+        "skills": {
+            "Negation": "Negation \u03b2 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Freeze-Frame",
         "rarity": "R",
         "character": "Marius von Hagen",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Marius_%22Freeze-Frame%22",
-        "max_power": "3913",
-        "max_influence": "1148",
-        "max_defense": "664"
+        "max_power": 3913,
+        "max_influence": 1148,
+        "max_defense": 664,
+        "skills": {
+            "Layer by Layer": "Layer by Layer \u03b1 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Fully Prepped",
         "rarity": "R",
         "character": "Marius von Hagen",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Marius_%22Fully_Prepped%22",
-        "max_power": "3913",
-        "max_influence": "1244",
-        "max_defense": "568"
+        "max_power": 3913,
+        "max_influence": 1244,
+        "max_defense": 568,
+        "skills": {
+            "Layer by Layer": "Layer by Layer \u03b3 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Half-Time",
         "rarity": "R",
         "character": "Marius von Hagen",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Marius_%22Half-Time%22",
-        "max_power": "3913",
-        "max_influence": "1148",
-        "max_defense": "664"
+        "max_power": 3913,
+        "max_influence": 1148,
+        "max_defense": 664,
+        "skills": {
+            "Feigning Defeat": "Feigning Defeat \u03b3 I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "Interlude",
         "rarity": "R",
         "character": "Marius von Hagen",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Marius_%22Interlude%22",
-        "max_power": "3913",
-        "max_influence": "1268",
-        "max_defense": "544"
+        "max_power": 3913,
+        "max_influence": 1268,
+        "max_defense": 544,
+        "skills": {
+            "Layer by Layer": "Layer by Layer \u03b2 I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "Invitation",
         "rarity": "R",
         "character": "Marius von Hagen",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Marius_%22Invitation%22",
-        "max_power": "3913",
-        "max_influence": "1329",
-        "max_defense": "604"
+        "max_power": 3913,
+        "max_influence": 1329,
+        "max_defense": 604,
+        "skills": {
+            "Bait & Lure": "Bait & Lure \u03b1 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Kingly Praise",
         "rarity": "R",
         "character": "Marius von Hagen",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Marius_%22Kingly_Praise%22",
-        "max_power": "3913",
-        "max_influence": "1208",
-        "max_defense": "604"
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": {
+            "Negation": "Negation \u03b3 I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "Myth",
         "rarity": "R",
         "character": "Marius von Hagen",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Marius_%22Myth%22",
-        "max_power": "3913",
-        "max_influence": "1148",
-        "max_defense": "664"
+        "max_power": 3913,
+        "max_influence": 1148,
+        "max_defense": 664,
+        "skills": {
+            "Logical Conclusion": "Logical Conclusion \u03b2 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Perfectionist",
         "rarity": "R",
         "character": "Marius von Hagen",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Marius_%22Perfectionist%22",
-        "max_power": "3913",
-        "max_influence": "1172",
-        "max_defense": "640"
+        "max_power": 3913,
+        "max_influence": 1172,
+        "max_defense": 640,
+        "skills": {
+            "Bait & Lure": "Bait & Lure \u03b1 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Practice Makes Perfect",
         "rarity": "R",
         "character": "Marius von Hagen",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Marius_%22Practice_Makes_Perfect%22",
-        "max_power": "3913",
-        "max_influence": "1244",
-        "max_defense": "568"
+        "max_power": 3913,
+        "max_influence": 1244,
+        "max_defense": 568,
+        "skills": {
+            "Virtuous Presence": "Virtuous Presence \u03b2 I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "Presence",
         "rarity": "R",
         "character": "Marius von Hagen",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Marius_%22Presence%22",
-        "max_power": "3913",
-        "max_influence": "1208",
-        "max_defense": "604"
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": {
+            "Evasive Maneuver": "Evasive Maneuver \u03b3 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Rhythm",
         "rarity": "R",
         "character": "Marius von Hagen",
         "attribute": "Logic",
-        "page": "https://tot.wiki/wiki/Marius_%22Rhythm%22",
-        "max_power": "3913",
-        "max_influence": "1208",
-        "max_defense": "604"
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": {
+            "Layer by Layer": "Layer by Layer \u03b2 I",
+            "Formidable": "Formidable I"
+        }
     },
     {
         "name": "Sudden Occurrence",
         "rarity": "R",
         "character": "Marius von Hagen",
         "attribute": "Intuition",
-        "page": "https://tot.wiki/wiki/Marius_%22Sudden_Occurrence%22",
-        "max_power": "3913",
-        "max_influence": "1172",
-        "max_defense": "640"
+        "max_power": 3913,
+        "max_influence": 1172,
+        "max_defense": 640,
+        "skills": {
+            "Evasive Maneuver": "Evasive Maneuver \u03b1 I",
+            "Progressive": "Progressive I"
+        }
     },
     {
         "name": "Victory Is at Hand",
         "rarity": "R",
         "character": "Marius von Hagen",
         "attribute": "Empathy",
-        "page": "https://tot.wiki/wiki/Marius_%22Victory_Is_at_Hand%22",
-        "max_power": "3913",
-        "max_influence": "1208",
-        "max_defense": "604"
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": {
+            "Bait & Lure": "Bait & Lure \u03b1 I",
+            "Progressive": "Progressive I"
+        }
     }
 ]
