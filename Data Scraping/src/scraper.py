@@ -197,7 +197,7 @@ def writeJson(data, dataname, filename):
     '''
     # credit: https://www.geeksforgeeks.org/append-to-json-file-using-python/ with modifications
     try: # try to open the file with r+ mode
-        with open(filename, 'r+') as file: 
+        with open(filename, 'r+', encoding='utf8') as file: 
             try:
                 file_data = json.load(file)
                 # Join data with file_data inside dataname
@@ -210,16 +210,16 @@ def writeJson(data, dataname, filename):
                 # Sets file's current position at offset.
                 file.seek(0)
                 # convert back to json.
-                json.dump(file_data, file, indent = 4)
+                json.dump(file_data, file, ensure_ascii=False, indent = 4)
     except: # if file not exists, then open with w+ mode
-        with open(filename, 'w+') as file:
+        with open(filename, 'w+', encoding='utf8') as file:
             file_data = {
                     dataname: [data]
                 }
             # Sets file's current position at offset.
             file.seek(0)
             # convert back to json.
-            json.dump(file_data, file, indent = 4)
+            json.dump(file_data, file, ensure_ascii=False, indent = 4)
 
 def startScrape(start, last):
     # Scrape teams from start to last index
