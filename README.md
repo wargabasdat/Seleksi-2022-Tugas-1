@@ -29,3 +29,22 @@ Dalam tahap pengerjaan, Saya menggunakan beberapa _library_ yang disediakan oleh
 <br>Merupakan _library_ utama yang kita butuhkan dalam melakukan _Web Scraping_. _Library_ ini yang akan membuat kita dapat mengakses satu per satu objek yang terdapat di dalam _Website_ yang ingin kita _scrape_. _Library_ ini bukan merupakan _library_ bawaan yang langsung terinstal ketika kita menggunakan `python`, sehingga kita perlu melakukan instalasi terhadap _library_ ini dengan cara membuat _command_ `pip install BeautifulSoup4` di __Jupyter Lab__.
 - OS
 <br>_Libray_ yang akan digunakan untuk mengatur penamanaan file sesuai dengan masukan dari pengguna dan mengatur peletakan file di dalam suatu folder yang sudah didefinisikan.
+
+## How to Run
+- Buka __Jupyter Lab__ di komputer Anda.
+- Install seluruh _library_ yang dibutuhkan untuk menjalankan program.
+- Jalankan bagian `Import Required Libraries`.
+- Kemudian, jalankan `Fungsi Pendukung` yang terdapat di _line block_ pertama pada file `Dotproperty.ipynb`.
+![](./Data%20Scraping/screenshot/Fungsi%20Pendukung.png)
+- Kemudian, jalankan `Fungsi Utama`.
+![](./Data%20Scraping/screenshot/Fungsi%20Utama%201.png)
+![](./Data%20Scraping/screenshot/Fungsi%20Utama%202.png)
+![](./Data%20Scraping/screenshot/Fungsi%20Utama%203.png)
+- Lalu dua buah list yang akan menampung data `rent` dan `sale`. Dalam _notebook_ tersebut terdapat contoh, seperti:
+```
+rentdata = []
+saledata = []
+```
+- Lalu, jalankan fungsi `scraping pages('[rent or sale]', list, first_page, last_page)`.
+<br> Untuk `first_page` dan `last_page` dari _website_ ini maksimal sampai dengan halaman 50 sebagai halaman terakhir.
+![](./Data%20Scraping/screenshot/Run%20Program.png)
