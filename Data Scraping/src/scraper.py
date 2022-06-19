@@ -137,7 +137,8 @@ def getPlayerData(url):
     teamNameDiv = breakdownContainer.find('div', class_='SummaryTeamname text-ellipsis') 
     team = teamNameDiv.find('a', class_='a-reset text-ellipsis').text.strip() # get player's team name
 
-    age = breakdownContainer.find('div', class_='summaryPlayerAge text-ellipsis').text.strip() # get player's age
+    age = breakdownContainer.find('div', class_='summaryPlayerAge').text.strip() # get player's age
+    age = int(age[:len(age)-6]) # remove " years" text and convert to int
 
     statsBreakdown = breakdownContainer.find_all('div', class_='summaryStatBreakdown') 
     

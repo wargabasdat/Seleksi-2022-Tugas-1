@@ -7,9 +7,9 @@
             "coach": "LETN1",
             "wins": 851,
             "draws": 1,
-            "losses": 419,
-            "kills": 118978,
-            "deaths": 107145,
+            "losses": 423,
+            "kills": 119278,
+            "deaths": 107551,
             "kdRatio": 1.11
         },
         {
@@ -31,9 +31,9 @@
             "coach": "Kingfisher",
             "wins": 587,
             "draws": 0,
-            "losses": 278,
-            "kills": 79508,
-            "deaths": 69744,
+            "losses": 280,
+            "kills": 79645,
+            "deaths": 69927,
             "kdRatio": 1.14
         },
         {
@@ -53,11 +53,11 @@
             "country": "France",
             "rank": 10,
             "coach": "zonic",
-            "wins": 484,
+            "wins": 488,
             "draws": 2,
-            "losses": 293,
-            "kills": 69880,
-            "deaths": 66402,
+            "losses": 294,
+            "kills": 70359,
+            "deaths": 66844,
             "kdRatio": 1.05
         },
         {
@@ -89,11 +89,11 @@
             "country": "Brazil",
             "rank": 23,
             "coach": "BIT",
-            "wins": 406,
+            "wins": 408,
             "draws": 8,
             "losses": 351,
-            "kills": 68324,
-            "deaths": 65301,
+            "kills": 68566,
+            "deaths": 65519,
             "kdRatio": 1.05
         },
         {
@@ -127,10 +127,10 @@
             "coach": "RobbaN",
             "wins": 728,
             "draws": 5,
-            "losses": 556,
-            "kills": 116694,
-            "deaths": 111603,
-            "kdRatio": 1.05
+            "losses": 558,
+            "kills": 116789,
+            "deaths": 111766,
+            "kdRatio": 1.04
         },
         {
             "name": "North",
@@ -175,9 +175,9 @@
             "coach": "gob b",
             "wins": 669,
             "draws": 2,
-            "losses": 536,
-            "kills": 108687,
-            "deaths": 106453,
+            "losses": 538,
+            "kills": 108817,
+            "deaths": 106622,
             "kdRatio": 1.02
         },
         {
@@ -197,11 +197,11 @@
             "country": "Europe",
             "rank": 8,
             "coach": "XTQZZZ",
-            "wins": 860,
+            "wins": 862,
             "draws": 1,
-            "losses": 707,
-            "kills": 142756,
-            "deaths": 138835,
+            "losses": 709,
+            "kills": 143098,
+            "deaths": 139145,
             "kdRatio": 1.03
         },
         {
@@ -232,7 +232,7 @@
             "name": "Dignitas",
             "country": "Sweden",
             "rank": 28,
-            "coach": "pita",
+            "coach": null,
             "wins": 810,
             "draws": 0,
             "losses": 674,
@@ -245,11 +245,11 @@
             "country": "Russia",
             "rank": 20,
             "coach": "Fierce",
-            "wins": 873,
+            "wins": 875,
             "draws": 1,
             "losses": 604,
-            "kills": 137674,
-            "deaths": 128726,
+            "kills": 137868,
+            "deaths": 128889,
             "kdRatio": 1.07
         },
         {
@@ -353,11 +353,11 @@
             "country": "Ukraine",
             "rank": 3,
             "coach": "B1ad3",
-            "wins": 1123,
+            "wins": 1128,
             "draws": 16,
-            "losses": 740,
-            "kills": 173252,
-            "deaths": 161471,
+            "losses": 741,
+            "kills": 173769,
+            "deaths": 161887,
             "kdRatio": 1.07
         },
         {
@@ -365,11 +365,11 @@
             "country": "Europe",
             "rank": 30,
             "coach": "BERRY",
-            "wins": 768,
+            "wins": 769,
             "draws": 0,
-            "losses": 581,
-            "kills": 122881,
-            "deaths": 118163,
+            "losses": 583,
+            "kills": 123166,
+            "deaths": 118421,
             "kdRatio": 1.04
         },
         {
@@ -439,9 +439,9 @@
             "coach": "sAw",
             "wins": 606,
             "draws": 6,
-            "losses": 452,
-            "kills": 95960,
-            "deaths": 93761,
+            "losses": 454,
+            "kills": 96148,
+            "deaths": 93985,
             "kdRatio": 1.02
         },
         {
@@ -472,7 +472,7 @@
             "name": "SKADE",
             "country": "Bulgaria",
             "rank": 32,
-            "coach": "pNshr",
+            "coach": null,
             "wins": 620,
             "draws": 0,
             "losses": 448,
@@ -509,11 +509,11 @@
             "country": "Europe",
             "rank": 39,
             "coach": "Rejin",
-            "wins": 553,
+            "wins": 555,
             "draws": 0,
             "losses": 507,
-            "kills": 94155,
-            "deaths": 93839,
+            "kills": 94335,
+            "deaths": 93977,
             "kdRatio": 1.0
         },
         {
@@ -533,11 +533,11 @@
             "country": "CIS",
             "rank": 91,
             "coach": "malinger",
-            "wins": 487,
+            "wins": 488,
             "draws": 0,
-            "losses": 287,
-            "kills": 70513,
-            "deaths": 64227,
+            "losses": 289,
+            "kills": 70792,
+            "deaths": 64504,
             "kdRatio": 1.1
         },
         {
@@ -595,9 +595,9 @@
             "coach": null,
             "wins": 508,
             "draws": 0,
-            "losses": 465,
-            "kills": 88070,
-            "deaths": 87377,
+            "losses": 467,
+            "kills": 88257,
+            "deaths": 87587,
             "kdRatio": 1.01
         },
         {
