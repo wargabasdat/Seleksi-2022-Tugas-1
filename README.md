@@ -84,8 +84,8 @@ Link {string}                 : Link untuk mengakses properti tersebut.
 - Dokumentasi dari semua _library_ yang digunakan: [PyPi](https://pypi.org/)
 - Belajar Dasar Web Scraping menggunakan YouTube: [Python Tutorial: Web Scraping with BeautifulSoup and Requests](https://www.youtube.com/watch?v=ng2o98k983k)
 - _Website_ untuk bertanya:
-<br>[GeeksforGeeks](https://www.geeksforgeeks.org/)
-<br> [Stack Overflow](https://stackoverflow.com/)
+<br> - [GeeksforGeeks](https://www.geeksforgeeks.org/)
+<br> - [Stack Overflow](https://stackoverflow.com/)
 
 ## Author
 ### Muhammad Zaky
