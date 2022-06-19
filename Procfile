@@ -1,1 +1,1 @@
-web: gunicorn -w 4 -k uvicorn.workers.UvicornWorker Data-Scraping.src.app.server.app:app
+web: uvicorn Data-Scraping.src.app.server.app:app --host=127.0.0.1 --port=$PORT
