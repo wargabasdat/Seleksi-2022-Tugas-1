@@ -129,10 +129,15 @@ def getPlayerData(url):
     breakdownContainer = soup.find('div', class_='summaryBreakdownContainer') # get breakdown container
 
     nickname = breakdownContainer.find('h1', class_='summaryNickname text-ellipsis').text.strip() # get player's nickname
-    infoContainer = breakdownContainer.find('div', class_='summaryInfoContainer') # find player's summary container
+
     realNameDiv = breakdownContainer.find('div', class_='summaryRealname text-ellipsis')
     country = realNameDiv.find('img', class_='flag').get('alt').strip() # get player's country
     realname = realNameDiv.find('div', class_='text-ellipsis').text.strip() # get player's real name
+
+    teamNameDiv = breakdownContainer.find('div', class_='SummaryTeamname text-ellipsis') 
+    team = teamNameDiv.find('a', class_='a-reset text-ellipsis').text.strip() # get player's team name
+
+    age = breakdownContainer.find('div', class_='summaryPlayerAge text-ellipsis').text.strip() # get player's age
 
     statsBreakdown = breakdownContainer.find_all('div', class_='summaryStatBreakdown') 
     
@@ -175,6 +180,8 @@ def getPlayerData(url):
         "nickname": nickname,
         "realname": realname,
         "country" : country,
+        "age": age,
+        "team": team,
         "rating": statsValues[0],
         "dpr": statsValues[1],
         "kast": statsValues[2],
