@@ -1,3 +1,5 @@
+# Berfungsi untuk melakukan scraping terhadap web mydramalist
+
 from bs4 import BeautifulSoup
 import requests
 import json

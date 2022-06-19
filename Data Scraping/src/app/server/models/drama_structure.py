@@ -1,3 +1,5 @@
+# Deskripsi skema dari data drama
+
 from typing import Optional
 from pydantic import BaseModel, Field
 

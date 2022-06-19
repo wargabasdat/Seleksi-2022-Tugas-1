@@ -1,3 +1,5 @@
+# Berfungsi untuk mengambil data dari Mongo Atlas serta berisi fungsi-fungsi yang digunakan untuk mengambil data dari Mongo Atlas
+
 import motor.motor_asyncio
 from bson.objectid import ObjectId
 import certifi
@@ -8,7 +10,6 @@ ca = certifi.where()
 client = motor.motor_asyncio.AsyncIOMotorClient(url, tlsCAFile=ca)
 
 database = client.SeleksiAsLab
-
 drama_collection = database.get_collection("tugas1")
 
 # Parser from Mongo to Python
