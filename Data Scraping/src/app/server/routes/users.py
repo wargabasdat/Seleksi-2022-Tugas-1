@@ -22,12 +22,12 @@ async def add_drama_data(drama: DramaSchema = Body(...)):
     new_drama = await add_drama(drama)
     return ResponseModel(new_drama, "Drama added successfully")
 
-# @router.get('/', response_description = "All dramas retrieved")
-# async def get_all_dramas_data():
-#     dramas = await get_all_dramas()
-#     if dramas :
-#         return ResponseModel(dramas, "All dramas retrieved")
-#     return ResponseModel(dramas, "No dramas found")
+@router.get('/', response_description = "All dramas retrieved")
+async def get_all_dramas_data():
+    dramas = await get_all_dramas()
+    if dramas :
+        return ResponseModel(dramas, "All dramas retrieved")
+    return ResponseModel(dramas, "No dramas found")
 
 @router.get('/{id}', response_description = "Drama retrieved")
 async def get_drama_by_id_data(id):

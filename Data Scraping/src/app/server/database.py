@@ -2,14 +2,14 @@ import motor.motor_asyncio
 from bson.objectid import ObjectId
 import certifi
 
-url = "mongodb+srv://admin:qOlkI6IgxiwE1Zai@clustervincent.d0ptio0.mongodb.net/?retryWrites=true&w=majority"
+url = "mongodb+srv://admin:qOlkI6IgxiwE1Zai@clusterv.upxpd7q.mongodb.net/?retryWrites=true&w=majority"
 
 ca = certifi.where()
 client = motor.motor_asyncio.AsyncIOMotorClient(url, tlsCAFile=ca)
 
-database = client.Tes
+database = client.SeleksiAsLab
 
-drama_collection = database.get_collection("tes1")
+drama_collection = database.get_collection("tugas1")
 
 # Parser from Mongo to Python
 def drama_parser(drama) -> dict:
@@ -26,8 +26,8 @@ def drama_parser(drama) -> dict:
 
 # Retrieve all dramas
 async def get_all_dramas():
-    dramas = {}
-    async for drama in dramas.find():
+    dramas = []
+    async for drama in drama_collection.find():
         dramas.append(drama_parser(drama))
     return dramas
 
