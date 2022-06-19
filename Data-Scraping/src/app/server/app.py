@@ -1,7 +1,7 @@
 # Berfungsi sebagai app utama API
 
 from fastapi import FastAPI
-from routes.users import router as DramaRouter
+from server.routes.users import router as DramaRouter
 
 app = FastAPI()
 
