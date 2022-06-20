@@ -4,7 +4,7 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/google/uuid"
 	"api/database"
-	"api/internal/model"
+	"api/internals/model"
 )	
 
 func GetPlayers(c *fiber.Ctx) error {
