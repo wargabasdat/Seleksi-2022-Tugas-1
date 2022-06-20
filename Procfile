@@ -1,1 +1,1 @@
-web: uvicorn Data-Scraping.src.app.app:app --host=127.0.0.1 --port=$PORT
+web: sh -c 'cd ./Data-Scraping/src/app/app && uvicorn app:app --reload --host=127.0.0.1 --port=$PORT'
