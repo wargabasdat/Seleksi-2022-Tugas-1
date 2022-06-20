@@ -1,12 +1,13 @@
 package router
 
-import "github.com/gofiber/fiber/v2"
+import (
+	"github.com/gofiber/fiber/v2"
+	"github.com/gofiber/fiber/v2/middleware/logger"
+	playerRoutes "api/internals/routes/player"
+)
 
 func SetupRoutes(app *fiber.App) {
-	app := fiber.App()
 	api := app.Group("/api", logger.New())
 
-	user := api.Group("user")
-	user.GET("/", func(c *fiber.Ctx) {
-	})
+	playerRoutes.SetupPlayerRoutes(api)
 }

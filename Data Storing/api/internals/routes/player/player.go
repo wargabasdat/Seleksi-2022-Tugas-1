@@ -2,7 +2,7 @@ package playerRoutes
 
 import (
 	"github.com/gofiber/fiber/v2"
-	playerHandler "api/internal/handlers/player"
+	playerHandler "api/internals/handlers/player"
 
 )	
 
