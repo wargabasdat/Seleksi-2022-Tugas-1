@@ -1,1 +1,1 @@
-web: sh -c 'cd ./Data-Scraping/src/app/app && uvicorn app:app --reload --host=127.0.0.1 --port=$PORT'
+web: env_PORT=$PORT python Data-Scraping/src/app/main.py
