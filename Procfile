@@ -1,1 +1,1 @@
-web: uvicorn Data_Scraping.src.app.app:app --host=127.0.0.1 --port=$PORT
+web: uvicorn Data-Scraping.src.app.main --host=127.0.0.1 --port=$PORT
