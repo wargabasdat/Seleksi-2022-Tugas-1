@@ -25,3 +25,18 @@ type Player struct {
 	KDRatio float64
 	MapsPlayed float64
 }
+
+type Team struct {
+	gorm.Model
+	ID 	  uuid.UUID `gorm:"type:uuid;primary_key"`
+	Name string
+	Country string
+	Rank int
+	Coach string
+	Wins int
+	Draws int
+	Losses int
+	Kills int
+	Deaths int
+	KDRatio float64
+}
