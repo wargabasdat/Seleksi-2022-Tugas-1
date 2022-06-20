@@ -1,1 +1,0 @@
-web: env_PORT=$PORT python Data-Scraping/src/app/main.py
