@@ -1,5 +1,6 @@
 [
     {
+        "id": 0,
         "name": "Alluring Gaze",
         "rarity": "SSR",
         "character": "Luke Pearce",
@@ -14,6 +15,7 @@
         }
     },
     {
+        "id": 1,
         "name": "Iridescent Heartbeat",
         "rarity": "SSR",
         "character": "Luke Pearce",
@@ -28,6 +30,7 @@
         }
     },
     {
+        "id": 2,
         "name": "Overflowing Thoughts",
         "rarity": "SSR",
         "character": "Luke Pearce",
@@ -42,6 +45,7 @@
         }
     },
     {
+        "id": 3,
         "name": "Peaceful Place",
         "rarity": "SSR",
         "character": "Luke Pearce",
@@ -56,6 +60,7 @@
         }
     },
     {
+        "id": 4,
         "name": "Perfect Partner",
         "rarity": "SSR",
         "character": "Luke Pearce",
@@ -70,6 +75,7 @@
         }
     },
     {
+        "id": 5,
         "name": "Shape of You",
         "rarity": "SSR",
         "character": "Luke Pearce",
@@ -84,6 +90,7 @@
         }
     },
     {
+        "id": 6,
         "name": "Through the Heavens",
         "rarity": "SSR",
         "character": "Luke Pearce",
@@ -98,6 +105,7 @@
         }
     },
     {
+        "id": 7,
         "name": "Twinkling Eyes",
         "rarity": "SSR",
         "character": "Luke Pearce",
@@ -112,6 +120,7 @@
         }
     },
     {
+        "id": 8,
         "name": "Warm Embrace",
         "rarity": "SSR",
         "character": "Luke Pearce",
@@ -126,6 +135,7 @@
         }
     },
     {
+        "id": 9,
         "name": "A Star in the Palm",
         "rarity": "SR",
         "character": "Luke Pearce",
@@ -140,6 +150,7 @@
         }
     },
     {
+        "id": 10,
         "name": "Among the Great Blue",
         "rarity": "SR",
         "character": "Luke Pearce",
@@ -154,6 +165,7 @@
         }
     },
     {
+        "id": 11,
         "name": "How I Remember You",
         "rarity": "SR",
         "character": "Luke Pearce",
@@ -168,6 +180,7 @@
         }
     },
     {
+        "id": 12,
         "name": "Inner Sanctum",
         "rarity": "SR",
         "character": "Luke Pearce",
@@ -182,6 +195,7 @@
         }
     },
     {
+        "id": 13,
         "name": "Moment of Danger",
         "rarity": "SR",
         "character": "Luke Pearce",
@@ -196,6 +210,7 @@
         }
     },
     {
+        "id": 14,
         "name": "Once Upon a Time",
         "rarity": "SR",
         "character": "Luke Pearce",
@@ -210,6 +225,7 @@
         }
     },
     {
+        "id": 15,
         "name": "Radiant Sunlight",
         "rarity": "SR",
         "character": "Luke Pearce",
@@ -224,6 +240,7 @@
         }
     },
     {
+        "id": 16,
         "name": "Timely Rescue",
         "rarity": "SR",
         "character": "Luke Pearce",
@@ -238,6 +255,7 @@
         }
     },
     {
+        "id": 17,
         "name": "Together with You",
         "rarity": "SR",
         "character": "Luke Pearce",
@@ -252,6 +270,7 @@
         }
     },
     {
+        "id": 18,
         "name": "Companionship",
         "rarity": "MR",
         "character": "Luke Pearce",
@@ -266,6 +285,22 @@
         }
     },
     {
+        "id": 19,
+        "name": "Entrusted Feelings",
+        "rarity": "MR",
+        "character": "Luke Pearce",
+        "attribute": "Intuition",
+        "max_power": 7425,
+        "max_influence": 2321,
+        "max_defense": 1161,
+        "skills": {
+            "Layer by Layer": "Layer by Layer \u03b3 II",
+            "Intuitive Thinking": "Intuitive Thinking II",
+            "Emergent Retreat": "Emergent Retreat II"
+        }
+    },
+    {
+        "id": 20,
         "name": "Shining Warmth",
         "rarity": "MR",
         "character": "Luke Pearce",
@@ -280,6 +315,7 @@
         }
     },
     {
+        "id": 21,
         "name": "All Ready",
         "rarity": "R",
         "character": "Luke Pearce",
@@ -293,6 +329,7 @@
         }
     },
     {
+        "id": 22,
         "name": "Gaze",
         "rarity": "R",
         "character": "Luke Pearce",
@@ -306,6 +343,7 @@
         }
     },
     {
+        "id": 23,
         "name": "Gourmet",
         "rarity": "R",
         "character": "Luke Pearce",
@@ -319,6 +357,7 @@
         }
     },
     {
+        "id": 24,
         "name": "Greetings",
         "rarity": "R",
         "character": "Luke Pearce",
@@ -332,6 +371,7 @@
         }
     },
     {
+        "id": 25,
         "name": "Our Secret",
         "rarity": "R",
         "character": "Luke Pearce",
@@ -345,6 +385,7 @@
         }
     },
     {
+        "id": 26,
         "name": "Partner",
         "rarity": "R",
         "character": "Luke Pearce",
@@ -358,6 +399,7 @@
         }
     },
     {
+        "id": 27,
         "name": "Personal Server",
         "rarity": "R",
         "character": "Luke Pearce",
@@ -371,6 +413,7 @@
         }
     },
     {
+        "id": 28,
         "name": "Quietly Waiting",
         "rarity": "R",
         "character": "Luke Pearce",
@@ -384,6 +427,7 @@
         }
     },
     {
+        "id": 29,
         "name": "Tiredness",
         "rarity": "R",
         "character": "Luke Pearce",
@@ -397,6 +441,7 @@
         }
     },
     {
+        "id": 30,
         "name": "Together",
         "rarity": "R",
         "character": "Luke Pearce",
@@ -410,6 +455,7 @@
         }
     },
     {
+        "id": 31,
         "name": "Waiting for You",
         "rarity": "R",
         "character": "Luke Pearce",
@@ -423,6 +469,7 @@
         }
     },
     {
+        "id": 32,
         "name": "Warm Home",
         "rarity": "R",
         "character": "Luke Pearce",
@@ -436,6 +483,7 @@
         }
     },
     {
+        "id": 33,
         "name": "Warm Up",
         "rarity": "R",
         "character": "Luke Pearce",
@@ -449,6 +497,7 @@
         }
     },
     {
+        "id": 34,
         "name": "Willful Youth",
         "rarity": "R",
         "character": "Luke Pearce",
@@ -462,6 +511,7 @@
         }
     },
     {
+        "id": 35,
         "name": "Atmospherics",
         "rarity": "SSR",
         "character": "Artem Wing",
@@ -476,6 +526,7 @@
         }
     },
     {
+        "id": 36,
         "name": "Dreamful Melodies",
         "rarity": "SSR",
         "character": "Artem Wing",
@@ -490,6 +541,7 @@
         }
     },
     {
+        "id": 37,
         "name": "Echoes Ablaze",
         "rarity": "SSR",
         "character": "Artem Wing",
@@ -504,6 +556,7 @@
         }
     },
     {
+        "id": 38,
         "name": "Entwined Fate",
         "rarity": "SSR",
         "character": "Artem Wing",
@@ -518,6 +571,7 @@
         }
     },
     {
+        "id": 39,
         "name": "Loving Memories",
         "rarity": "SSR",
         "character": "Artem Wing",
@@ -532,6 +586,7 @@
         }
     },
     {
+        "id": 40,
         "name": "Por Una Cabeza",
         "rarity": "SSR",
         "character": "Artem Wing",
@@ -546,6 +601,7 @@
         }
     },
     {
+        "id": 41,
         "name": "Sunshine After the Rain",
         "rarity": "SSR",
         "character": "Artem Wing",
@@ -560,6 +616,7 @@
         }
     },
     {
+        "id": 42,
         "name": "Two Hearts as One",
         "rarity": "SSR",
         "character": "Artem Wing",
@@ -574,6 +631,7 @@
         }
     },
     {
+        "id": 43,
         "name": "Unusual Love",
         "rarity": "SSR",
         "character": "Artem Wing",
@@ -588,6 +646,7 @@
         }
     },
     {
+        "id": 44,
         "name": "Wandering Heart",
         "rarity": "SSR",
         "character": "Artem Wing",
@@ -602,6 +661,7 @@
         }
     },
     {
+        "id": 45,
         "name": "Autumn Dreams",
         "rarity": "SR",
         "character": "Artem Wing",
@@ -616,6 +676,7 @@
         }
     },
     {
+        "id": 46,
         "name": "Choice",
         "rarity": "SR",
         "character": "Artem Wing",
@@ -630,6 +691,7 @@
         }
     },
     {
+        "id": 47,
         "name": "Darkest before Dawn",
         "rarity": "SR",
         "character": "Artem Wing",
@@ -644,6 +706,7 @@
         }
     },
     {
+        "id": 48,
         "name": "Fixated on You",
         "rarity": "SR",
         "character": "Artem Wing",
@@ -658,6 +721,7 @@
         }
     },
     {
+        "id": 49,
         "name": "Focus Fire",
         "rarity": "SR",
         "character": "Artem Wing",
@@ -672,6 +736,7 @@
         }
     },
     {
+        "id": 50,
         "name": "In Sickness or in Health",
         "rarity": "SR",
         "character": "Artem Wing",
@@ -686,6 +751,7 @@
         }
     },
     {
+        "id": 51,
         "name": "Sparks",
         "rarity": "SR",
         "character": "Artem Wing",
@@ -700,6 +766,7 @@
         }
     },
     {
+        "id": 52,
         "name": "Staying Humble",
         "rarity": "SR",
         "character": "Artem Wing",
@@ -714,6 +781,7 @@
         }
     },
     {
+        "id": 53,
         "name": "Thin Veil",
         "rarity": "SR",
         "character": "Artem Wing",
@@ -728,6 +796,7 @@
         }
     },
     {
+        "id": 54,
         "name": "Winning Ball",
         "rarity": "SR",
         "character": "Artem Wing",
@@ -742,6 +811,7 @@
         }
     },
     {
+        "id": 55,
         "name": "Intentions",
         "rarity": "MR",
         "character": "Artem Wing",
@@ -756,6 +826,7 @@
         }
     },
     {
+        "id": 56,
         "name": "Stretching",
         "rarity": "MR",
         "character": "Artem Wing",
@@ -770,6 +841,22 @@
         }
     },
     {
+        "id": 57,
+        "name": "Unwilling to Part",
+        "rarity": "MR",
+        "character": "Artem Wing",
+        "attribute": "Logic",
+        "max_power": 7425,
+        "max_influence": 2321,
+        "max_defense": 1161,
+        "skills": {
+            "Layer by Layer": "Layer by Layer \u03b3 II",
+            "Painstaking Investigator": "Painstaking Investigator II",
+            "Absolute Rationality": "Absolute Rationality II"
+        }
+    },
+    {
+        "id": 58,
         "name": "Back to Business",
         "rarity": "R",
         "character": "Artem Wing",
@@ -783,6 +870,7 @@
         }
     },
     {
+        "id": 59,
         "name": "Deduction",
         "rarity": "R",
         "character": "Artem Wing",
@@ -796,6 +884,7 @@
         }
     },
     {
+        "id": 60,
         "name": "Here for You",
         "rarity": "R",
         "character": "Artem Wing",
@@ -809,6 +898,7 @@
         }
     },
     {
+        "id": 61,
         "name": "Lock and Load",
         "rarity": "R",
         "character": "Artem Wing",
@@ -822,6 +912,7 @@
         }
     },
     {
+        "id": 62,
         "name": "My Heart is Flying",
         "rarity": "R",
         "character": "Artem Wing",
@@ -835,6 +926,7 @@
         }
     },
     {
+        "id": 63,
         "name": "Patience Is a Virtue",
         "rarity": "R",
         "character": "Artem Wing",
@@ -848,6 +940,7 @@
         }
     },
     {
+        "id": 64,
         "name": "Picking a Gift",
         "rarity": "R",
         "character": "Artem Wing",
@@ -861,6 +954,7 @@
         }
     },
     {
+        "id": 65,
         "name": "Questioning",
         "rarity": "R",
         "character": "Artem Wing",
@@ -874,6 +968,7 @@
         }
     },
     {
+        "id": 66,
         "name": "Rain Drops",
         "rarity": "R",
         "character": "Artem Wing",
@@ -887,6 +982,7 @@
         }
     },
     {
+        "id": 67,
         "name": "Sweet Tastes",
         "rarity": "R",
         "character": "Artem Wing",
@@ -900,6 +996,7 @@
         }
     },
     {
+        "id": 68,
         "name": "Systematic",
         "rarity": "R",
         "character": "Artem Wing",
@@ -913,6 +1010,7 @@
         }
     },
     {
+        "id": 69,
         "name": "Tailored Suit",
         "rarity": "R",
         "character": "Artem Wing",
@@ -926,6 +1024,7 @@
         }
     },
     {
+        "id": 70,
         "name": "Taking a Breather",
         "rarity": "R",
         "character": "Artem Wing",
@@ -939,6 +1038,7 @@
         }
     },
     {
+        "id": 71,
         "name": "With You",
         "rarity": "R",
         "character": "Artem Wing",
@@ -952,6 +1052,7 @@
         }
     },
     {
+        "id": 72,
         "name": "A Star in the Night",
         "rarity": "SSR",
         "character": "Vyn Richter",
@@ -966,6 +1067,7 @@
         }
     },
     {
+        "id": 73,
         "name": "Between Good and Evil",
         "rarity": "SSR",
         "character": "Vyn Richter",
@@ -980,6 +1082,7 @@
         }
     },
     {
+        "id": 74,
         "name": "Blazing Colors",
         "rarity": "SSR",
         "character": "Vyn Richter",
@@ -994,6 +1097,7 @@
         }
     },
     {
+        "id": 75,
         "name": "Flickering Moonlight",
         "rarity": "SSR",
         "character": "Vyn Richter",
@@ -1008,6 +1112,7 @@
         }
     },
     {
+        "id": 76,
         "name": "Food for Thought",
         "rarity": "SSR",
         "character": "Vyn Richter",
@@ -1022,6 +1127,7 @@
         }
     },
     {
+        "id": 77,
         "name": "Heartfelt Suspense",
         "rarity": "SSR",
         "character": "Vyn Richter",
@@ -1036,6 +1142,7 @@
         }
     },
     {
+        "id": 78,
         "name": "Medieval Suspense",
         "rarity": "SSR",
         "character": "Vyn Richter",
@@ -1050,6 +1157,7 @@
         }
     },
     {
+        "id": 79,
         "name": "Near and Far",
         "rarity": "SSR",
         "character": "Vyn Richter",
@@ -1064,6 +1172,7 @@
         }
     },
     {
+        "id": 80,
         "name": "Neon Melody",
         "rarity": "SSR",
         "character": "Vyn Richter",
@@ -1078,6 +1187,7 @@
         }
     },
     {
+        "id": 81,
         "name": "Cool Summer",
         "rarity": "SR",
         "character": "Vyn Richter",
@@ -1092,6 +1202,7 @@
         }
     },
     {
+        "id": 82,
         "name": "Entrapped",
         "rarity": "SR",
         "character": "Vyn Richter",
@@ -1106,6 +1217,7 @@
         }
     },
     {
+        "id": 83,
         "name": "False Tears",
         "rarity": "SR",
         "character": "Vyn Richter",
@@ -1120,6 +1232,7 @@
         }
     },
     {
+        "id": 84,
         "name": "Gentleman's Game",
         "rarity": "SR",
         "character": "Vyn Richter",
@@ -1134,6 +1247,7 @@
         }
     },
     {
+        "id": 85,
         "name": "Lingering Warmth",
         "rarity": "SR",
         "character": "Vyn Richter",
@@ -1148,6 +1262,7 @@
         }
     },
     {
+        "id": 86,
         "name": "Mended Heart",
         "rarity": "SR",
         "character": "Vyn Richter",
@@ -1162,6 +1277,7 @@
         }
     },
     {
+        "id": 87,
         "name": "Mercury in Retrograde",
         "rarity": "SR",
         "character": "Vyn Richter",
@@ -1176,6 +1292,7 @@
         }
     },
     {
+        "id": 88,
         "name": "Snowy Fairy Tale",
         "rarity": "SR",
         "character": "Vyn Richter",
@@ -1190,6 +1307,7 @@
         }
     },
     {
+        "id": 89,
         "name": "Spilling Light",
         "rarity": "SR",
         "character": "Vyn Richter",
@@ -1204,6 +1322,22 @@
         }
     },
     {
+        "id": 90,
+        "name": "Focused Gaze",
+        "rarity": "MR",
+        "character": "Vyn Richter",
+        "attribute": "Intuition",
+        "max_power": 7425,
+        "max_influence": 2321,
+        "max_defense": 1161,
+        "skills": {
+            "Layer by Layer": "Layer by Layer \u03b3 II",
+            "Intuitive Thinking": "Intuitive Thinking II",
+            "Sandplay Therapy": "Sandplay Therapy II"
+        }
+    },
+    {
+        "id": 91,
         "name": "Morning Glory",
         "rarity": "MR",
         "character": "Vyn Richter",
@@ -1218,6 +1352,7 @@
         }
     },
     {
+        "id": 92,
         "name": "Promise",
         "rarity": "MR",
         "character": "Vyn Richter",
@@ -1232,6 +1367,7 @@
         }
     },
     {
+        "id": 93,
         "name": "A Hobby of Mine",
         "rarity": "R",
         "character": "Vyn Richter",
@@ -1245,6 +1381,7 @@
         }
     },
     {
+        "id": 94,
         "name": "Another Side of You",
         "rarity": "R",
         "character": "Vyn Richter",
@@ -1258,6 +1395,7 @@
         }
     },
     {
+        "id": 95,
         "name": "Dressed Up",
         "rarity": "R",
         "character": "Vyn Richter",
@@ -1271,6 +1409,7 @@
         }
     },
     {
+        "id": 96,
         "name": "Elegance",
         "rarity": "R",
         "character": "Vyn Richter",
@@ -1284,6 +1423,7 @@
         }
     },
     {
+        "id": 97,
         "name": "Fated Invitation",
         "rarity": "R",
         "character": "Vyn Richter",
@@ -1297,6 +1437,7 @@
         }
     },
     {
+        "id": 98,
         "name": "Gentlemanly Courtesy",
         "rarity": "R",
         "character": "Vyn Richter",
@@ -1310,6 +1451,7 @@
         }
     },
     {
+        "id": 99,
         "name": "Leisure Time",
         "rarity": "R",
         "character": "Vyn Richter",
@@ -1323,6 +1465,7 @@
         }
     },
     {
+        "id": 100,
         "name": "Observations",
         "rarity": "R",
         "character": "Vyn Richter",
@@ -1336,6 +1479,7 @@
         }
     },
     {
+        "id": 101,
         "name": "Remaining in Control",
         "rarity": "R",
         "character": "Vyn Richter",
@@ -1349,6 +1493,7 @@
         }
     },
     {
+        "id": 102,
         "name": "Secret Gift",
         "rarity": "R",
         "character": "Vyn Richter",
@@ -1362,6 +1507,7 @@
         }
     },
     {
+        "id": 103,
         "name": "Unexpected Letter",
         "rarity": "R",
         "character": "Vyn Richter",
@@ -1375,6 +1521,7 @@
         }
     },
     {
+        "id": 104,
         "name": "Unexpected Run-In",
         "rarity": "R",
         "character": "Vyn Richter",
@@ -1388,6 +1535,7 @@
         }
     },
     {
+        "id": 105,
         "name": "Whole New Experience",
         "rarity": "R",
         "character": "Vyn Richter",
@@ -1401,6 +1549,7 @@
         }
     },
     {
+        "id": 106,
         "name": "Wish",
         "rarity": "R",
         "character": "Vyn Richter",
@@ -1414,6 +1563,7 @@
         }
     },
     {
+        "id": 107,
         "name": "All Through the Night",
         "rarity": "SSR",
         "character": "Marius von Hagen",
@@ -1428,6 +1578,7 @@
         }
     },
     {
+        "id": 108,
         "name": "Crown of Glory",
         "rarity": "SSR",
         "character": "Marius von Hagen",
@@ -1442,6 +1593,7 @@
         }
     },
     {
+        "id": 109,
         "name": "Daytime Aurora",
         "rarity": "SSR",
         "character": "Marius von Hagen",
@@ -1456,6 +1608,7 @@
         }
     },
     {
+        "id": 110,
         "name": "Dimly Lit",
         "rarity": "SSR",
         "character": "Marius von Hagen",
@@ -1470,6 +1623,7 @@
         }
     },
     {
+        "id": 111,
         "name": "Eye of the Beholder",
         "rarity": "SSR",
         "character": "Marius von Hagen",
@@ -1484,6 +1638,7 @@
         }
     },
     {
+        "id": 112,
         "name": "Fabulous Feast",
         "rarity": "SSR",
         "character": "Marius von Hagen",
@@ -1498,6 +1653,7 @@
         }
     },
     {
+        "id": 113,
         "name": "In the Darkness",
         "rarity": "SSR",
         "character": "Marius von Hagen",
@@ -1512,6 +1668,7 @@
         }
     },
     {
+        "id": 114,
         "name": "Matching Tattoos",
         "rarity": "SSR",
         "character": "Marius von Hagen",
@@ -1526,6 +1683,7 @@
         }
     },
     {
+        "id": 115,
         "name": "Narrow Road",
         "rarity": "SSR",
         "character": "Marius von Hagen",
@@ -1540,6 +1698,7 @@
         }
     },
     {
+        "id": 116,
         "name": "Will of the Trees",
         "rarity": "SSR",
         "character": "Marius von Hagen",
@@ -1554,6 +1713,7 @@
         }
     },
     {
+        "id": 117,
         "name": "A Dance on the Clouds",
         "rarity": "SR",
         "character": "Marius von Hagen",
@@ -1568,6 +1728,7 @@
         }
     },
     {
+        "id": 118,
         "name": "Butterflies",
         "rarity": "SR",
         "character": "Marius von Hagen",
@@ -1582,6 +1743,7 @@
         }
     },
     {
+        "id": 119,
         "name": "Child at Heart",
         "rarity": "SR",
         "character": "Marius von Hagen",
@@ -1596,6 +1758,7 @@
         }
     },
     {
+        "id": 120,
         "name": "Dream of Thebes",
         "rarity": "SR",
         "character": "Marius von Hagen",
@@ -1610,6 +1773,7 @@
         }
     },
     {
+        "id": 121,
         "name": "Falling into You",
         "rarity": "SR",
         "character": "Marius von Hagen",
@@ -1624,6 +1788,7 @@
         }
     },
     {
+        "id": 122,
         "name": "Overtone",
         "rarity": "SR",
         "character": "Marius von Hagen",
@@ -1638,6 +1803,7 @@
         }
     },
     {
+        "id": 123,
         "name": "Twilight Beauty",
         "rarity": "SR",
         "character": "Marius von Hagen",
@@ -1652,6 +1818,7 @@
         }
     },
     {
+        "id": 124,
         "name": "Vibrant Graffiti",
         "rarity": "SR",
         "character": "Marius von Hagen",
@@ -1666,6 +1833,7 @@
         }
     },
     {
+        "id": 125,
         "name": "Keepsake",
         "rarity": "MR",
         "character": "Marius von Hagen",
@@ -1680,6 +1848,22 @@
         }
     },
     {
+        "id": 126,
+        "name": "Palpitations",
+        "rarity": "MR",
+        "character": "Marius von Hagen",
+        "attribute": "Empathy",
+        "max_power": 7425,
+        "max_influence": 2321,
+        "max_defense": 1161,
+        "skills": {
+            "Layer by Layer": "Layer by Layer \u03b3 II",
+            "Emotional Projection": "Emotional Projection II",
+            "President's Orders": "President's Orders II"
+        }
+    },
+    {
+        "id": 127,
         "name": "Discussion",
         "rarity": "R",
         "character": "Marius von Hagen",
@@ -1693,6 +1877,7 @@
         }
     },
     {
+        "id": 128,
         "name": "Freeze-Frame",
         "rarity": "R",
         "character": "Marius von Hagen",
@@ -1706,6 +1891,7 @@
         }
     },
     {
+        "id": 129,
         "name": "Fully Prepped",
         "rarity": "R",
         "character": "Marius von Hagen",
@@ -1719,6 +1905,7 @@
         }
     },
     {
+        "id": 130,
         "name": "Half-Time",
         "rarity": "R",
         "character": "Marius von Hagen",
@@ -1732,6 +1919,7 @@
         }
     },
     {
+        "id": 131,
         "name": "Interlude",
         "rarity": "R",
         "character": "Marius von Hagen",
@@ -1745,6 +1933,7 @@
         }
     },
     {
+        "id": 132,
         "name": "Invitation",
         "rarity": "R",
         "character": "Marius von Hagen",
@@ -1758,6 +1947,7 @@
         }
     },
     {
+        "id": 133,
         "name": "Kingly Praise",
         "rarity": "R",
         "character": "Marius von Hagen",
@@ -1771,6 +1961,7 @@
         }
     },
     {
+        "id": 134,
         "name": "Myth",
         "rarity": "R",
         "character": "Marius von Hagen",
@@ -1784,6 +1975,7 @@
         }
     },
     {
+        "id": 135,
         "name": "Perfectionist",
         "rarity": "R",
         "character": "Marius von Hagen",
@@ -1797,6 +1989,7 @@
         }
     },
     {
+        "id": 136,
         "name": "Practice Makes Perfect",
         "rarity": "R",
         "character": "Marius von Hagen",
@@ -1810,6 +2003,7 @@
         }
     },
     {
+        "id": 137,
         "name": "Presence",
         "rarity": "R",
         "character": "Marius von Hagen",
@@ -1823,6 +2017,7 @@
         }
     },
     {
+        "id": 138,
         "name": "Rhythm",
         "rarity": "R",
         "character": "Marius von Hagen",
@@ -1836,6 +2031,7 @@
         }
     },
     {
+        "id": 139,
         "name": "Sudden Occurrence",
         "rarity": "R",
         "character": "Marius von Hagen",
@@ -1849,6 +2045,7 @@
         }
     },
     {
+        "id": 140,
         "name": "Victory Is at Hand",
         "rarity": "R",
         "character": "Marius von Hagen",

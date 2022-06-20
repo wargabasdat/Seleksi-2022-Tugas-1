@@ -1,13 +1,37 @@
 from bs4 import BeautifulSoup
-import urllib.request
 import re
+import json
+import urllib.request
 
-def scrape(card):
+def scrape_card():
+	# get html from tot.wiki
+	req = urllib.request.Request("https://tot.wiki/wiki/Cards")
+	req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64); alifiarahmah/alifiarahmah03@gmail.com')
+	sitestr = urllib.request.urlopen(req).read()
+	
+	# parse html
+	soup = BeautifulSoup(sitestr, "html.parser")
+
+	# append all cards to list
+	cards = []
+	id = 0
+	for card in soup.find_all("div", class_="filter-element card-preview"):
+		cards.append(get_card(card, id))
+		id += 1
+
+	# convert card list to json
+	with open('../data/cards.json', 'w') as outfile:
+		json.dump(cards, outfile, indent=4)
+	print('Done scraping cards.')
+
+
+def get_card(card, id):
 	# scrape card entry to dict
 	print('Scraping card:', card.get('data-name'))
 	dict = {}
 	# extract card name from quotation marks using re 
 	s = re.search('\"(.*?)\"', card.get('data-name')).group(1)
+	dict['id'] = id
 	dict['name'] = s
 	dict['rarity'] = card.get('data-rarity')
 	dict['character'] = card.get('data-character')
