@@ -1,0 +1,938 @@
+[
+    {
+        "type": "Absolute Rationality",
+        "name": "Absolute Rationality III",
+        "level_1_desc": "Boosts the base Defense of all Artem cards in the Primary Deck by 27",
+        "level_10_desc": "Boosts the base Defense of all Artem cards in the Primary Deck by 135"
+    },
+    {
+        "type": "Absolute Rationality",
+        "name": "Absolute Rationality II",
+        "level_1_desc": "Boosts the Defense of all Artem cards in the Primary Deck by 21.5",
+        "level_10_desc": "Boosts the Defense of all Artem cards in the Primary Deck by 108"
+    },
+    {
+        "type": "Advantage Taker",
+        "name": "Advantage Taker III",
+        "level_1_desc": "Boosts this card's base Defense by 2.88% for every Logic card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Defense by 14.4% for every Logic card in the Primary Deck"
+    },
+    {
+        "type": "Antique Repairer",
+        "name": "Antique Repairer III",
+        "level_1_desc": "Boosts this card's base Defense by 27 for every Luke card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Defense by 135 for every Luke card in the Primary Deck"
+    },
+    {
+        "type": "Antique Repairer",
+        "name": "Antique Repairer II",
+        "level_1_desc": "Boosts this card's base Defense by 21.5 for every Luke card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Defense by 108 for every Luke card in the Primary Deck"
+    },
+    {
+        "type": "Artistic Talent",
+        "name": "Artistic Talent III",
+        "level_1_desc": "Boosts this card's base Influence by 1.6% for every Marius card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Influence by 7.99% for every Marius card in the Primary Deck"
+    },
+    {
+        "type": "Attention to Detail",
+        "name": "Attention to Detail \u03b1 III",
+        "level_1_desc": "Boosts the Influence of your Intuition cards by 11% for 1 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Intuition cards by 55.01% for 1 turn(s)"
+    },
+    {
+        "type": "Attention to Detail",
+        "name": "Attention to Detail \u03b1 II",
+        "level_1_desc": "Boosts the Influence of your Intuition cards by 8.2% for 1 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Intuition cards by 40.96% for 1 turn(s)"
+    },
+    {
+        "type": "Attention to Detail",
+        "name": "Attention to Detail \u03b1 I",
+        "level_1_desc": "Boosts the Influence of your Intuition cards by 6.6% for 1 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Intuition cards by 32.97% for 1 turn(s)"
+    },
+    {
+        "type": "Attention to Detail",
+        "name": "Attention to Detail \u03b2 III",
+        "level_1_desc": "Boosts the Influence of your Intuition cards by 7% for 2 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Intuition cards by 34.99% for 2 turn(s)"
+    },
+    {
+        "type": "Attention to Detail",
+        "name": "Attention to Detail \u03b2 II",
+        "level_1_desc": "Boosts the Influence of your Intuition cards by 5.2% for 2 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Intuition cards by 25.99% for 2 turn(s)"
+    },
+    {
+        "type": "Attention to Detail",
+        "name": "Attention to Detail \u03b2 I",
+        "level_1_desc": "Boosts the Influence of your Intuition cards by 4.2% for 2 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Intuition cards by 21.03% for 2 turn(s)"
+    },
+    {
+        "type": "Attention to Detail",
+        "name": "Attention to Detail \u03b3 III",
+        "level_1_desc": "Boosts the Influence of your Intuition cards by 6% for 3 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Intuition cards by 30.03% for 3 turn(s)"
+    },
+    {
+        "type": "Attention to Detail",
+        "name": "Attention to Detail \u03b3 II",
+        "level_1_desc": "Boosts the Influence of your Intuition cards by 4.5% for 3 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Intuition cards by 22.5% for 3 turn(s)."
+    },
+    {
+        "type": "Attention to Detail",
+        "name": "Attention to Detail \u03b3 I",
+        "level_1_desc": "Boosts the Influence of your Intuition cards by 3.6% for 3 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Intuition cards by 18% for 3 turn(s)"
+    },
+    {
+        "type": "Avoidance Instinct",
+        "name": "Avoidance Instinct III",
+        "level_1_desc": "Boosts this card's base Defense by 2.88% for every Intuition card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Defense by 14.4% for every Intuition card in the Primary Deck"
+    },
+    {
+        "type": "Bait & Lure",
+        "name": "Bait & Lure \u03b1 III",
+        "level_1_desc": "Boosts the Influence of your Empathy cards by 11% for 1 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Empathy cards by 55.01% for 1 turn(s)"
+    },
+    {
+        "type": "Bait & Lure",
+        "name": "Bait & Lure \u03b1 II",
+        "level_1_desc": "Boosts the Influence of your Empathy cards by 8.2% for 1 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Empathy cards by 40.96% for 1 turn(s)"
+    },
+    {
+        "type": "Bait & Lure",
+        "name": "Bait & Lure \u03b1 I",
+        "level_1_desc": "Boosts the Influence of your Empathy cards by 6.6% for 1 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Empathy cards by 32.97% for 1 turn(s)"
+    },
+    {
+        "type": "Bait & Lure",
+        "name": "Bait & Lure \u03b2 III",
+        "level_1_desc": "Boosts the Influence of your Empathy cards by 7% for 2 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Empathy cards by 34.99% for 2 turn(s)"
+    },
+    {
+        "type": "Bait & Lure",
+        "name": "Bait & Lure \u03b2 II",
+        "level_1_desc": "Boosts the Influence of your Empathy cards by 5.2% for 2 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Empathy cards by 25.99% for 2 turn(s)"
+    },
+    {
+        "type": "Bait & Lure",
+        "name": "Bait & Lure \u03b2 I",
+        "level_1_desc": "Boosts the Influence of your Empathy cards by 4.2% for 2 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Empathy cards by 21.03% for 2 turns(s)"
+    },
+    {
+        "type": "Bait & Lure",
+        "name": "Bait & Lure \u03b3 III",
+        "level_1_desc": "Boosts the Influence of your Empathy cards by 6% for 3 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Empathy cards by 30.03% for 3 turn(s)"
+    },
+    {
+        "type": "Bait & Lure",
+        "name": "Bait & Lure \u03b3 II",
+        "level_1_desc": "Boosts the Influence of your Empathy cards by 4.5% for 3 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Empathy cards by 22.5% for 3 turn(s)."
+    },
+    {
+        "type": "Bait & Lure",
+        "name": "Bait & Lure \u03b3 I",
+        "level_1_desc": "Boosts the Influence of your Empathy cards by 3.6% for 3 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Empathy cards by 18% for 3 turn(s)"
+    },
+    {
+        "type": "Balanced",
+        "name": "Balanced III",
+        "level_1_desc": "Boosts this card's base Influence by 180 during debates",
+        "level_10_desc": "Boosts this card's base Influence by 963 during debates"
+    },
+    {
+        "type": "Balanced",
+        "name": "Balanced II",
+        "level_1_desc": "Boosts this card's base Influence by 144 during debates",
+        "level_10_desc": "Boosts this card's base Influence by 770 during debates"
+    },
+    {
+        "type": "Business Negotiator",
+        "name": "Business Negotiator III",
+        "level_1_desc": "Boosts the base Influence of all Marius cards in the Primary Deck by 27",
+        "level_10_desc": "Boosts the base Influence of all Marius cards in the Primary Deck by 135"
+    },
+    {
+        "type": "Business Negotiator",
+        "name": "Business Negotiator II",
+        "level_1_desc": "Boosts the base Influence of all Marius cards in the Primary Deck by 21.5",
+        "level_10_desc": "Boosts the base Influence of all Marius cards in the Primary Deck by 108"
+    },
+    {
+        "type": "Constant Improvement",
+        "name": "Constant Improvement II",
+        "level_1_desc": "Boosts this card's base Influence by 1.28% for every Artem card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Influence by 6.5% for every Artem card in the Primary Deck"
+    },
+    {
+        "type": "Conversation Guide",
+        "name": "Conversation Guide III",
+        "level_1_desc": "Boosts the base Influence of all Vyn cards in the Primary Deck by 1.6%",
+        "level_10_desc": "Boosts the base Influence of all Vyn cards in the Primary Deck by 7.99%"
+    },
+    {
+        "type": "Conversation Guide",
+        "name": "Conversation Guide II",
+        "level_1_desc": "Boosts the base Influence of all Vyn cards in the Primary Deck by 1.28%",
+        "level_10_desc": "Boosts the base Influence of all Vyn cards in the Primary Deck by 6.5%"
+    },
+    {
+        "type": "Cover Tactics",
+        "name": "Cover Tactics \u03b1 I",
+        "level_1_desc": "Reduces the opponent's Influence by 5.4% for 1 turn(s)",
+        "level_10_desc": "Reduces the opponent's Influence by 27% for 1 turn(s)"
+    },
+    {
+        "type": "Cover Tactics",
+        "name": "Cover Tactics \u03b2 II",
+        "level_1_desc": "Reduces the opponent's Influence by 3.8% for 2 turn(s)",
+        "level_10_desc": "Reduces the opponent's Influence by 19.01% for 2 turn(s)"
+    },
+    {
+        "type": "Cover Tactics",
+        "name": "Cover Tactics \u03b2 I",
+        "level_1_desc": "Reduces the opponent's Influence by 3% for 2 turn(s)",
+        "level_10_desc": "Reduces the opponent's Influence by 14.97% for 2 turn(s)"
+    },
+    {
+        "type": "Cover Tactics",
+        "name": "Cover Tactics \u03b3 II",
+        "level_1_desc": "Reduces the opponent's Influence by 2.7% for 3 turn(s)",
+        "level_10_desc": "Reduces the opponent's Influence by 13.5% for 3 turn(s)"
+    },
+    {
+        "type": "Cultured",
+        "name": "Cultured III",
+        "level_1_desc": "Boosts this card's base Defense by 27 for every Vyn card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Defense by 135 for every Vyn card in the Primary Deck"
+    },
+    {
+        "type": "Curiosity",
+        "name": "Curiosity III",
+        "level_1_desc": "Boosts this card's base Defense by 3.2% for every Luke card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Defense by 15.98% for every Luke card in the Primary Deck"
+    },
+    {
+        "type": "Deductive Reasoning",
+        "name": "Deductive Reasoning III",
+        "level_1_desc": "Boosts this card's base Influence by 26 for every Logic card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Influence by 125 for every Logic card in the Primary Deck"
+    },
+    {
+        "type": "Deductive Reasoning",
+        "name": "Deductive Reasoning II",
+        "level_1_desc": "Boosts this card's base Influence by 21 for every Logic card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Influence by 100 for every Logic card in the Primary Deck"
+    },
+    {
+        "type": "Detective's Mind",
+        "name": "Detective's Mind III",
+        "level_1_desc": "Boosts the base Influence of all Luke cards in the Primary Deck by 27",
+        "level_10_desc": "Boosts the base Influence of all Luke cards in the Primary Deck by 135"
+    },
+    {
+        "type": "Detective's Mind",
+        "name": "Detective's Mind II",
+        "level_1_desc": "Boosts the base Influence of all Luke cards in the Primary Deck by 21.5",
+        "level_10_desc": "Boosts the base Influence of all Luke cards in the Primary Deck by 108"
+    },
+    {
+        "type": "Drastic Measures",
+        "name": "Drastic Measures III",
+        "level_1_desc": "Boosts the base Influence of all Empathy cards in the Primary Deck by 1.44%",
+        "level_10_desc": "Boosts the base Influence of all Empathy cards in the Primary Deck by 7.2%"
+    },
+    {
+        "type": "Drastic Measures",
+        "name": "Drastic Measures II",
+        "level_1_desc": "Boosts the base Influence of all Empathy cards in the Primary Deck by 1.15%",
+        "level_10_desc": "Boosts the base influence of all Empathy cards in the Primary Deck by 5.83%"
+    },
+    {
+        "type": "Dressage",
+        "name": "Dressage III",
+        "level_1_desc": "Boosts this card's base Influence by 27 for every Vyn card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Influence by 135 for every Vyn card in the Primary Deck"
+    },
+    {
+        "type": "Dressage",
+        "name": "Dressage II",
+        "level_1_desc": "Boosts this card's base Influence by 21.5 for every Vyn card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Influence by 108 for every Vyn card in the Primary Deck"
+    },
+    {
+        "type": "Elite Education",
+        "name": "Elite Education III",
+        "level_1_desc": "Boosts this card's base Defense by 27 for every Marius card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Defense by 135 for every Marius card in the Primary Deck"
+    },
+    {
+        "type": "Emergent Retreat",
+        "name": "Emergent Retreat III",
+        "level_1_desc": "Boosts the base Defense of all Luke cards in the Primary Deck by 27",
+        "level_10_desc": "Boosts the base Defense of all Luke cards in the Primary Deck by 135"
+    },
+    {
+        "type": "Emergent Retreat",
+        "name": "Emergent Retreat II",
+        "level_1_desc": "Boosts the Defense of all Luke cards in the Primary Deck by 21.5",
+        "level_10_desc": "Boosts the Defense of all Luke cards in the Primary Deck by 108"
+    },
+    {
+        "type": "Emotional Appeal",
+        "name": "Emotional Appeal III",
+        "level_1_desc": "Boosts this card's base Influence by 26 for every Empathy card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Influence by 125 for every Empathy card in the Primary Deck"
+    },
+    {
+        "type": "Emotional Appeal",
+        "name": "Emotional Appeal II",
+        "level_1_desc": "Boosts this card's base Influence by 21 for every Empathy card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Influence by 100 for every Empathy card in the Primary Deck"
+    },
+    {
+        "type": "Emotional Projection",
+        "name": "Emotional Projection III",
+        "level_1_desc": "Boosts this card's base Influence by 1.44% for every Empathy card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Influence by 7.2% for every Empathy card in the Primary Deck"
+    },
+    {
+        "type": "Emotional Projection",
+        "name": "Emotional Projection II",
+        "level_1_desc": "Boosts this card's base Influence by 1.15% for every Empathy card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Influence by 5.83% for every Empathy card in the Primary Deck"
+    },
+    {
+        "type": "Evasive Maneuver",
+        "name": "Evasive Maneuver \u03b1 I",
+        "level_1_desc": "Reduces the opponent's Intuition Defense by 11.4% for 1 turn(s)",
+        "level_10_desc": "Reduces the opponent's Intuition Defense by 57.03% for 1 turn(s)."
+    },
+    {
+        "type": "Evasive Maneuver",
+        "name": "Evasive Maneuver \u03b2 II",
+        "level_1_desc": "Reduces the opponent's Intuition Defense by 9.8% for 2 turn(s)",
+        "level_10_desc": "Reduces the opponent's Intuition Defense by 49.04% for 2 turn(s)."
+    },
+    {
+        "type": "Evasive Maneuver",
+        "name": "Evasive Maneuver \u03b2 I",
+        "level_1_desc": "Reduces the opponent's Intuition Defense by 7.8% for 2 turn(s)",
+        "level_10_desc": "Reduces the opponent's Intuition Defense by 39.03% for 2 turn(s)."
+    },
+    {
+        "type": "Evasive Maneuver",
+        "name": "Evasive Maneuver \u03b3 I",
+        "level_1_desc": "Reduces the opponent's Intuition Defense by 7.2% for 3 turn(s)",
+        "level_10_desc": "Reduces the opponent's Intuition Defense by 36% for 3 turn(s)."
+    },
+    {
+        "type": "Exemplar",
+        "name": "Exemplar III",
+        "level_1_desc": "Boosts the base Defense of all Logic cards in the Primary Deck by 26",
+        "level_10_desc": "Boosts the base Defense of all Logic cards in the Primary Deck by 125"
+    },
+    {
+        "type": "Exemplar",
+        "name": "Exemplar II",
+        "level_1_desc": "Boosts the base Defense of all Logic cards in the Primary Deck by 21",
+        "level_10_desc": "Boosts the base Defense of all Logic cards in the Primary Deck by 100"
+    },
+    {
+        "type": "Extrapolation",
+        "name": "Extrapolation III",
+        "level_1_desc": "Boosts this card's base Influence by 9% during debates",
+        "level_10_desc": "Boosts this card's base Influence by 45% during debates"
+    },
+    {
+        "type": "Extrapolation",
+        "name": "Extrapolation II",
+        "level_1_desc": "Boosts this card's base Influence by 7.2% during debates",
+        "level_10_desc": "Boosts this card's base Influence by 36% during debates"
+    },
+    {
+        "type": "Feigning Defeat",
+        "name": "Feigning Defeat \u03b1 III",
+        "level_1_desc": "Boosts your Defense by 24% for 1 turn(s)",
+        "level_10_desc": "Boosts your Defense by 120.03% for 1 turn(s)"
+    },
+    {
+        "type": "Feigning Defeat",
+        "name": "Feigning Defeat \u03b2 III",
+        "level_1_desc": "Boosts your Defense by 12% for 2 turn(s)",
+        "level_10_desc": "Boosts your Defense by 59.97% for 2 turn(s)"
+    },
+    {
+        "type": "Feigning Defeat",
+        "name": "Feigning Defeat \u03b2 I",
+        "level_1_desc": "Boosts your Defense by 7.2% for 2 turn(s)",
+        "level_10_desc": "Boosts your Defense by 36% for 2 turn(s)"
+    },
+    {
+        "type": "Feigning Defeat",
+        "name": "Feigning Defeat \u03b3 II",
+        "level_1_desc": "Boosts your Defense by 6% for 3 turn(s)",
+        "level_10_desc": "Boosts your Defense by 30.03% for 3 turn(s)"
+    },
+    {
+        "type": "Feigning Defeat",
+        "name": "Feigning Defeat \u03b3 I",
+        "level_1_desc": "Boosts your Defense by 4.8% for 3 turn(s)",
+        "level_10_desc": "Boosts your Defense by 23.97% for 3 turn(s)"
+    },
+    {
+        "type": "Foresight",
+        "name": "Foresight III",
+        "level_1_desc": "Boosts the base Influence of all Intuition cards in the Primary Deck by 26",
+        "level_10_desc": "Boosts the base Influence of all Intuition cards in the Primary Deck by 125"
+    },
+    {
+        "type": "Foresight",
+        "name": "Foresight II",
+        "level_1_desc": "Boosts the base Influence of all Intuition cards in the Primary Deck by 21",
+        "level_10_desc": "Boosts the base Influence of all Intuition cards in the Primary Deck by 100"
+    },
+    {
+        "type": "Formidable",
+        "name": "Formidable I",
+        "level_1_desc": "When this card is in the Support Deck, boosts Influence by an additional 0.19%",
+        "level_10_desc": "When this card is in the Support Deck, boosts Influence by an additional 1%"
+    },
+    {
+        "type": "Game of Fortune",
+        "name": "Game of Fortune III",
+        "level_1_desc": "Boosts the base Influence of all Marius cards in the Primary Deck by 1.6%",
+        "level_10_desc": "Boosts the base Influence of all Marius cards in the Primary Deck by 7.99%"
+    },
+    {
+        "type": "Impeccable",
+        "name": "Impeccable III",
+        "level_1_desc": "Boosts this card's base Defense by 26 for every Logic card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Defense by 125 for every Logic card in the Primary Deck"
+    },
+    {
+        "type": "Impeccable",
+        "name": "Impeccable II",
+        "level_1_desc": "Boosts this card's base Defense by 21 for every Logic card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Defense by 100 for every Logic card in the Primary Deck"
+    },
+    {
+        "type": "Indirect Approach",
+        "name": "Indirect Approach \u03b1 I",
+        "level_1_desc": "Reduces the opponent's Empathy Defense by 11.4% for 1 turn(s)",
+        "level_10_desc": "Reduces the opponent's Empathy Defense by 57.03% for 1 turn(s)."
+    },
+    {
+        "type": "Indirect Approach",
+        "name": "Indirect Approach \u03b2 I",
+        "level_1_desc": "Reduces the opponent's Empathy Defense by 7.8% for 2 turn(s)",
+        "level_10_desc": "Reduces the opponent's Empathy Defense by 39.03% for 2 turn(s)."
+    },
+    {
+        "type": "Indirect Approach",
+        "name": "Indirect Approach \u03b3 II",
+        "level_1_desc": "Reduces the opponent's Empathy Defense by 9% for 3 turn(s)",
+        "level_10_desc": "Reduces the opponent's Empathy Defense by 45% for 3 turn(s)."
+    },
+    {
+        "type": "Indirect Approach",
+        "name": "Indirect Approach \u03b3 I",
+        "level_1_desc": "Reduces the opponent's Empathy Defense by 7.2% for 3 turn(s)",
+        "level_10_desc": "Reduces the opponent's Empathy Defense by 36% for 3 turn(s)."
+    },
+    {
+        "type": "Instantaneous Capture",
+        "name": "Instantaneous Capture III",
+        "level_1_desc": "Boosts this card's base Influence by 1.6% for every Luke card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Influence by 7.99% for every Luke card in the Primary Deck"
+    },
+    {
+        "type": "Intuitive Thinking",
+        "name": "Intuitive Thinking III",
+        "level_1_desc": "Boosts this card's base Influence by 1.44% for every Intuition card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Influence by 7.2% for every Intuition card in the Primary Deck"
+    },
+    {
+        "type": "Intuitive Thinking",
+        "name": "Intuitive Thinking II",
+        "level_1_desc": "Boosts this card's base Influence by 1.15% for every Intuition card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Influence by 5.83% for every Intuition card in the Primary Deck"
+    },
+    {
+        "type": "Keen Observation",
+        "name": "Keen Observation III",
+        "level_1_desc": "Boosts this card's base Influence by 26 for every Intuition card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Influence by 125 for every Intuition card in the Primary Deck"
+    },
+    {
+        "type": "Keen Observation",
+        "name": "Keen Observation II",
+        "level_1_desc": "Boosts this card's base Influence by 21 for every Intuition card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Influence by 100 for every Intuition card in the Primary Deck"
+    },
+    {
+        "type": "Layer by Layer",
+        "name": "Layer by Layer \u03b1 III",
+        "level_1_desc": "Boosts your Influence by 9% for 2 turn(s)",
+        "level_10_desc": "Boosts your Influence by 45% for 2 turn(s)"
+    },
+    {
+        "type": "Layer by Layer",
+        "name": "Layer by Layer \u03b1 II",
+        "level_1_desc": "Boosts your Influence by 6.8% for 1 turn(s)",
+        "level_10_desc": "Boosts your Influence by 33.98% for 1 turn(s)"
+    },
+    {
+        "type": "Layer by Layer",
+        "name": "Layer by Layer \u03b1 I",
+        "level_1_desc": "Boosts your Influence by 5.4% for 1 turn(s)",
+        "level_10_desc": "Boosts your Influence by 27% for 1 turn(s)"
+    },
+    {
+        "type": "Layer by Layer",
+        "name": "Layer by Layer \u03b2 III",
+        "level_1_desc": "Boost your Influence by 5% for 2 turn(s)",
+        "level_10_desc": "Boost your Influence by 24.98% for 2 turn(s)"
+    },
+    {
+        "type": "Layer by Layer",
+        "name": "Layer by Layer \u03b2 II",
+        "level_1_desc": "Boosts your Influence by 3.8% for 2 turn(s)",
+        "level_10_desc": "Boosts your Influence by 19.01% for 2 turn(s)"
+    },
+    {
+        "type": "Layer by Layer",
+        "name": "Layer by Layer \u03b2 I",
+        "level_1_desc": "Boosts your Influence by 3% for 2 turn(s)",
+        "level_10_desc": "Boosts your Influence by 14.97% for 2 turn(s)"
+    },
+    {
+        "type": "Layer by Layer",
+        "name": "Layer by Layer \u03b3 III",
+        "level_1_desc": "Boosts your Influence by 3.6% for 3 turn(s)",
+        "level_10_desc": "Boosts your Influence by 18% for 3 turn(s)"
+    },
+    {
+        "type": "Layer by Layer",
+        "name": "Layer by Layer \u03b3 II",
+        "level_1_desc": "Boosts your Influence by 2.7% for 3 turn(s)",
+        "level_10_desc": "Boosts your Influence by 13.5% for 3 turn(s)"
+    },
+    {
+        "type": "Layer by Layer",
+        "name": "Layer by Layer \u03b3 I",
+        "level_1_desc": "Boosts your Influence by 2.2% for 3 turn(s)",
+        "level_10_desc": "Boosts your Influence by 11.02% for 3 turn(s)"
+    },
+    {
+        "type": "Legal Expert",
+        "name": "Legal Expert III",
+        "level_1_desc": "Boosts the base Influence of all Artem cards in the Primary Deck by 1.6%",
+        "level_10_desc": "Boosts the base Influence of all Artem cards in the Primary Deck by 7.99%"
+    },
+    {
+        "type": "Logical Conclusion",
+        "name": "Logical Conclusion \u03b1 III",
+        "level_1_desc": "Boosts the Influence of your Logic cards by 11% for 1 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Logic cards by 55.01% for 1 turn(s)"
+    },
+    {
+        "type": "Logical Conclusion",
+        "name": "Logical Conclusion \u03b1 II",
+        "level_1_desc": "Boosts the Influence of your Logic cards by 8.2% for 3 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Logic cards by 40.96% for 3 turn(s)"
+    },
+    {
+        "type": "Logical Conclusion",
+        "name": "Logical Conclusion \u03b1 I",
+        "level_1_desc": "Boosts the Influence of your Logic cards by 6.6% for 1 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Logic cards by 32.97% for 1 turn(s)."
+    },
+    {
+        "type": "Logical Conclusion",
+        "name": "Logical Conclusion \u03b2 III",
+        "level_1_desc": "Boosts the Influence of your Logic cards by 7% for 2 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Logic cards by 34.99% for 2 turn(s)"
+    },
+    {
+        "type": "Logical Conclusion",
+        "name": "Logical Conclusion \u03b2 II",
+        "level_1_desc": "Boosts the Influence of your Logic cards by 5.2% for 2 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Logic cards by 25.99% for 2 turn(s)"
+    },
+    {
+        "type": "Logical Conclusion",
+        "name": "Logical Conclusion \u03b2 I",
+        "level_1_desc": "Boosts the Influence of your Logic cards by 4.2% for 2 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Logic cards by 21.03% for 2 turn(s)."
+    },
+    {
+        "type": "Logical Conclusion",
+        "name": "Logical Conclusion \u03b3 III",
+        "level_1_desc": "Boosts the Influence of your Logic cards by 6% for 3 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Logic cards by 30.03% for 3 turn(s)"
+    },
+    {
+        "type": "Logical Conclusion",
+        "name": "Logical Conclusion \u03b3 II",
+        "level_1_desc": "Boosts the Influence of your Logic cards by 4.5% for 3 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Logic cards by 22.5% for 3 turn(s)."
+    },
+    {
+        "type": "Logical Conclusion",
+        "name": "Logical Conclusion \u03b3 I",
+        "level_1_desc": "Boosts the Influence of your Logic cards by 3.6% for 3 turn(s)",
+        "level_10_desc": "Boosts the Influence of your Logic cards by 18% for 3 turn(s)."
+    },
+    {
+        "type": "Mediator",
+        "name": "Mediator III",
+        "level_1_desc": "Boosts the base Defense of all Intuition cards in the Primary Deck by 2.88%",
+        "level_10_desc": "Boosts the base Defense of all Intuition cards in the Primary Deck by 14.4%"
+    },
+    {
+        "type": "Mediator",
+        "name": "Mediator II",
+        "level_1_desc": "Boosts the base Defense of all Intuition cards in the Primary Deck by 2.3%",
+        "level_10_desc": "Boosts the base Defense of all Intuition cards in the Primary Deck by 11.48%"
+    },
+    {
+        "type": "Mutual Effect",
+        "name": "Mutual Effect III",
+        "level_1_desc": "Boosts this card's base Defense by 26 for every Empathy card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Defense by 125 for every Empathy card in the Primary Deck"
+    },
+    {
+        "type": "Mutual Effect",
+        "name": "Mutual Effect II",
+        "level_1_desc": "Boosts this card's base Defense by 21 for every Empathy card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Defense by 100 for every Empathy card in the Primary Deck"
+    },
+    {
+        "type": "Negation",
+        "name": "Negation \u03b1 I",
+        "level_1_desc": "Reduces the opponent's Logic Defense by 11.4% for 1 turn(s)",
+        "level_10_desc": "Reduces the opponent's Logic Defense by 57.03% for 1 turn(s)."
+    },
+    {
+        "type": "Negation",
+        "name": "Negation \u03b2 II",
+        "level_1_desc": "Reduces the opponent's Logic Defense by 9.8% for 2 turn(s)",
+        "level_10_desc": "Reduces the opponent's Logic Defense by 49.04% for 2 turn(s)"
+    },
+    {
+        "type": "Negation",
+        "name": "Negation \u03b2 I",
+        "level_1_desc": "Reduces the opponent's Logic Defense by 7.8% for 2 turn(s)",
+        "level_10_desc": "Reduces the opponent's Logic Defense by 39.03% for 2 turn(s)."
+    },
+    {
+        "type": "Negation",
+        "name": "Negation \u03b3 II",
+        "level_1_desc": "Reduces the opponent's Logic Defense by 9% for 3 turn(s)",
+        "level_10_desc": "Reduces the opponent's Logic Defense by 45% for 3 turn(s)."
+    },
+    {
+        "type": "Negation",
+        "name": "Negation \u03b3 I",
+        "level_1_desc": "Reduces the opponent's Logic Defense by 7.2% for 3 turn(s)",
+        "level_10_desc": "Reduces the opponent's Logic Defense by 36% for 3 turn(s)."
+    },
+    {
+        "type": "Omnipotent Law",
+        "name": "Omnipotent Law III",
+        "level_1_desc": "Boosts this card's base Influence by 27 for every Artem card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Influence by 135 for every Artem card in the Primary Deck"
+    },
+    {
+        "type": "Omnipotent Law",
+        "name": "Omnipotent Law II",
+        "level_1_desc": "Boosts this card's base Influence by 21.5 for every Artem card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Influence by 108 for every Artem card in the Primary Deck"
+    },
+    {
+        "type": "Opportunist",
+        "name": "Opportunist III",
+        "level_1_desc": "Boosts the base Defense of all Empathy cards in the Primary Deck by 26",
+        "level_10_desc": "Boosts the base Defense of all Empathy cards in the Primary Deck by 125"
+    },
+    {
+        "type": "Opportunist",
+        "name": "Opportunist II",
+        "level_1_desc": "Boosts the base Defense of all Empathy cards in the Primary Deck by 21",
+        "level_10_desc": "Boosts the base Defense of all Empathy cards in the Primary Deck by 100"
+    },
+    {
+        "type": "Painstaking Investigator",
+        "name": "Painstaking Investigator III",
+        "level_1_desc": "Boosts this card's base Influence by 1.44% for every Logic card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Influence by 7.2% for every Logic card in the Primary Deck"
+    },
+    {
+        "type": "Painstaking Investigator",
+        "name": "Painstaking Investigator II",
+        "level_1_desc": "Boosts this card's base Influence by 1.15% for every Logic card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Influence by 5.83% for every Logic card in the Primary Deck"
+    },
+    {
+        "type": "Parallel Growth",
+        "name": "Parallel Growth III",
+        "level_1_desc": "Boosts the base Defense of all Empathy cards in the Primary Deck by 2.88%",
+        "level_10_desc": "Boosts the base Defense of all Empathy cards in the Primary Deck by 14.4%"
+    },
+    {
+        "type": "Parallel Growth",
+        "name": "Parallel Growth II",
+        "level_1_desc": "Boosts the base Defense of all Empathy cards in the Primary Deck by 2.3%",
+        "level_10_desc": "Boosts the base Defense of all Empathy cards in the Primary Deck by 11.48%"
+    },
+    {
+        "type": "Personality Profiler",
+        "name": "Personality Profiler III",
+        "level_1_desc": "Boosts the base Influence of all Vyn cards in the Primary Deck by 27",
+        "level_10_desc": "Boosts the base Influence of all Vyn cards in the Primary Deck by 135"
+    },
+    {
+        "type": "Personality Profiler",
+        "name": "Personality Profiler II",
+        "level_1_desc": "Boosts the base Influence of all Vyn cards in the Primary Deck by 21.5",
+        "level_10_desc": "Boosts the base Influence of all Vyn cards in the Primary Deck by 108"
+    },
+    {
+        "type": "Preemptive Strike",
+        "name": "Preemptive Strike III",
+        "level_1_desc": "Deals 110% Influence damage to a single argument.",
+        "level_10_desc": "Deals 149.96% Influence damage to a single argument."
+    },
+    {
+        "type": "Preemptive Strike",
+        "name": "Preemptive Strike II",
+        "level_1_desc": "Deals 109% Influence damage to a single argument.",
+        "level_10_desc": "Deals 145% Influence damage to a single argument."
+    },
+    {
+        "type": "Preemptive Strike",
+        "name": "Preemptive Strike I",
+        "level_1_desc": "Deals 108% Influence damage to a single argument.",
+        "level_10_desc": "Deals 140.04% Influence damage to a single argument."
+    },
+    {
+        "type": "Premonition",
+        "name": "Premonition III",
+        "level_1_desc": "Boosts this card's base Defense by 26 for every Intuition card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Defense by 125 for every Intuition card in the Primary Deck"
+    },
+    {
+        "type": "Premonition",
+        "name": "Premonition II",
+        "level_1_desc": "Boosts this card's base Defense by 21 for every Intuition card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Defense by 100 for every Intuition card in the Primary Deck"
+    },
+    {
+        "type": "President's Orders",
+        "name": "President's Orders III",
+        "level_1_desc": "Boosts the base Defense of all Marius cards in the Primary Deck by 27",
+        "level_10_desc": "Boosts the base Defense of all Marius cards in the Primary Deck by 135"
+    },
+    {
+        "type": "President's Orders",
+        "name": "President's Orders II",
+        "level_1_desc": "Boosts the Defense of all Marius cards in the Primary Deck by 21.5",
+        "level_10_desc": "Boosts the Defense of all Marius cards in the Primary Deck by 108"
+    },
+    {
+        "type": "Prevention",
+        "name": "Prevention III",
+        "level_1_desc": "Boosts the base Defense of all Intuition cards in the Primary Deck by 26",
+        "level_10_desc": "Boosts the base Defense of all Intuition cards in the Primary Deck by 125"
+    },
+    {
+        "type": "Prevention",
+        "name": "Prevention II",
+        "level_1_desc": "Boosts the base Defense of all Intuition cards in the Primary Deck by 21",
+        "level_10_desc": "Boosts the base Defense of all Intuition cards in the Primary Deck by 100"
+    },
+    {
+        "type": "Progressive",
+        "name": "Progressive I",
+        "level_1_desc": "When this card is in the Support Deck, boosts Defense by an additional 0.19%",
+        "level_10_desc": "When this card is in the Support Deck, boosts Defense by an additional 1%"
+    },
+    {
+        "type": "Reformer",
+        "name": "Reformer II",
+        "level_1_desc": "Boosts the base Influence of all Intuition cards in the Primary Deck by 1.15%",
+        "level_10_desc": "Boosts the base Influence of all Intuition cards in the Primary Deck by 5.83%"
+    },
+    {
+        "type": "Rigor",
+        "name": "Rigor III",
+        "level_1_desc": "Boost the base Defense of all Logic cards in the Primary Deck by 2.88%",
+        "level_10_desc": "Boost the base Defense of all Logic cards in the Primary Deck by 14.4%"
+    },
+    {
+        "type": "Rigor",
+        "name": "Rigor II",
+        "level_1_desc": "Boosts the base Defense of all Logic cards in the Primary Deck by 2.3%",
+        "level_10_desc": "Boosts the base Defense of all Logic cards in the Primary Deck by 11.48%"
+    },
+    {
+        "type": "Sandplay Therapy",
+        "name": "Sandplay Therapy III",
+        "level_1_desc": "Boosts the base Defense of all Vyn cards in the Primary Deck by 27",
+        "level_10_desc": "Boosts the base Defense of all Vyn cards in the Primary Deck by 135"
+    },
+    {
+        "type": "Sandplay Therapy",
+        "name": "Sandplay Therapy II",
+        "level_1_desc": "Boosts the base Defense of all Vyn cards in the Primary Deck by 21.5",
+        "level_10_desc": "Boosts the base Defense of all Vyn cards in the Primary Deck by 108"
+    },
+    {
+        "type": "Self-Evaluation",
+        "name": "Self-Evaluation III",
+        "level_1_desc": "Boosts this card's base Defense by 3.2% for every Vyn card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Defense by 15.98% for every Vyn card in the Primary Deck"
+    },
+    {
+        "type": "Sharp Debater",
+        "name": "Sharp Debater III",
+        "level_1_desc": "Boosts the base Influence of all Artem cards in the Primary Deck by 27",
+        "level_10_desc": "Boosts the base Influence of all Artem cards in the Primary Deck by 135"
+    },
+    {
+        "type": "Sharp Debater",
+        "name": "Sharp Debater II",
+        "level_1_desc": "Boosts the base Influence of all Artem cards in the Primary Deck by 21.5",
+        "level_10_desc": "Boosts the base Influence of all Artem cards in the Primary Deck by 107.99"
+    },
+    {
+        "type": "Sharp One",
+        "name": "Sharp One III",
+        "level_1_desc": "Boosts this card's base Influence by 27 for every Marius card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Influence by 135 for every Marius card in the Primary Deck"
+    },
+    {
+        "type": "Sharp One",
+        "name": "Sharp One II",
+        "level_1_desc": "Boosts this card's base Influence by 21.5 for every Marius card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Influence by 108 for every Marius card in the Primary Deck"
+    },
+    {
+        "type": "Sharp Strategist",
+        "name": "Sharp Strategist II",
+        "level_1_desc": "Boosts the base Influence of all Logic cards in the Primary Deck by 1.15%",
+        "level_10_desc": "Boosts the base Influence of all Logic cards in the Primary Deck by 5.83%"
+    },
+    {
+        "type": "Skilled Diplomat",
+        "name": "Skilled Diplomat III",
+        "level_1_desc": "Boosts the base Influence of all Logic cards in the Primary Deck by 26",
+        "level_10_desc": "Boosts the base Influence of all Logic cards in the Primary Deck by 125"
+    },
+    {
+        "type": "Skilled Diplomat",
+        "name": "Skilled Diplomat II",
+        "level_1_desc": "Boosts the base Influence of all Logic cards in the Primary Deck by 21",
+        "level_10_desc": "Boosts the base Influence of all Logic cards in the Primary Deck by 100"
+    },
+    {
+        "type": "Sound Judgment",
+        "name": "Sound Judgment II",
+        "level_1_desc": "Boosts this card's base Defense by 14.4% during debates",
+        "level_10_desc": "Boosts this card's base Defense by 72% during debates"
+    },
+    {
+        "type": "Strategist",
+        "name": "Strategist II",
+        "level_1_desc": "Boosts this card's base Defense by 144 during debates",
+        "level_10_desc": "Boosts this card's base Defense by 770 during debates"
+    },
+    {
+        "type": "Strike Weakness",
+        "name": "Strike Weakness III",
+        "level_1_desc": "Boosts the base Influence of all Empathy cards in the Primary Deck by 26",
+        "level_10_desc": "Boosts the base Influence of all Empathy cards in the Primary Deck by 125"
+    },
+    {
+        "type": "Strike Weakness",
+        "name": "Strike Weakness II",
+        "level_1_desc": "Boosts the base Influence of all Empathy cards in the Primary Deck by 21",
+        "level_10_desc": "Boosts the base Influence of all Empathy cards in the Primary Deck by 100"
+    },
+    {
+        "type": "Superior Stamina",
+        "name": "Superior Stamina II",
+        "level_1_desc": "Boosts the base Defense of all Luke cards in the Primary Deck by 2.56%",
+        "level_10_desc": "Boosts the base Defense of all Luke cards in the Primary Deck by 12.82%"
+    },
+    {
+        "type": "Symphony",
+        "name": "Symphony III",
+        "level_1_desc": "Boosts this card's base Influence by 1.6% for every Vyn card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Influence by 7.99% for every Vyn card in the Primary Deck"
+    },
+    {
+        "type": "Systematic",
+        "name": "Systematic III",
+        "level_1_desc": "Boosts this card's base Defense by 27 for every Artem card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Defense by 135 for every Artem card in the Primary Deck"
+    },
+    {
+        "type": "Systematic",
+        "name": "Systematic II",
+        "level_1_desc": "Boosts this card's base Defense by 21.5 for every Artem card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Defense by 108 for every Artem card in the Primary Deck"
+    },
+    {
+        "type": "Truth Restorer",
+        "name": "Truth Restorer III",
+        "level_1_desc": "Boosts this card's base Influence by 27 for every Luke card in the Primary Deck",
+        "level_10_desc": "Boosts this card's base Influence by 135 for every Luke card in the Primary Deck"
+    },
+    {
+        "type": "Truth Restorer",
+        "name": "Truth Restorer II",
+        "level_1_desc": "Boosts this card's Influence by 21.5 for every Luke card in the Primary Deck",
+        "level_10_desc": "Boosts this card's Influence by 108 for every Luke card in the Primary Deck"
+    },
+    {
+        "type": "Virtuous Presence",
+        "name": "Virtuous Presence \u03b1 III",
+        "level_1_desc": "Reduces the opponent's Defense by 15% for 1 turn",
+        "level_10_desc": "Reduces the opponent's Defense by 75.03% for 1 turn"
+    },
+    {
+        "type": "Virtuous Presence",
+        "name": "Virtuous Presence \u03b1 I",
+        "level_1_desc": "Reduces the opponent's Defense by 9% for 1 turn",
+        "level_10_desc": "Reduces the opponent's Defense by 45% for 1 turn"
+    },
+    {
+        "type": "Virtuous Presence",
+        "name": "Virtuous Presence \u03b2 I",
+        "level_1_desc": "Reduces the opponent's Defense by 5.4% for 2 turns",
+        "level_10_desc": "Reduces the opponent's Defense by 27% for 2 turns"
+    },
+    {
+        "type": "Virtuous Presence",
+        "name": "Virtuous Presence \u03b3 III",
+        "level_1_desc": "Reduces the opponent's Defense by 7% for 3 turn(s)",
+        "level_10_desc": "Reduces the opponent's Defense by 34.99% for 3 turn(s)"
+    }
+]
