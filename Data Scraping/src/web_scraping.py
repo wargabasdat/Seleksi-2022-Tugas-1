@@ -43,7 +43,11 @@ def mainpage_scraper(tag, data, team_urls):
     """
     data["clubs"][-1]["club_id"] = len(data["clubs"])                                               # Team ID
     data["clubs"][-1]["club_name"] = tag.find("a", href=re.compile("/team/.*")).div.string.strip()  # Team Name
-    data["clubs"][-1]["league"] = tag.find("a", href=re.compile("/teams\?lg=.*")).div.text.strip()  # League Name
+    league_name = tag.find("a", href=re.compile("/teams\?lg=.*")).div.text.strip()                  # League Name
+    for league in data["leagues"]:
+        if league["league_name"]==league_name:
+            data["clubs"][-1]["league_id"] = league["league_id"]                                    # League ID
+            break                     
     data["clubs"][-1]["overall"] = tag.find("td", class_="col col-oa").span.text.strip()            # Team Overall
     data["clubs"][-1]["attack"] = tag.find("td", class_="col col-at").span.text.strip()             # Team Attack
     data["clubs"][-1]["midfield"] = tag.find("td", class_="col col-md").span.text.strip()           # Team Midfield
@@ -73,12 +77,24 @@ def teamtactic_scraper(tags, data, idx):
     
     """
     # Defense
-    data["clubs"][idx]["defensive_style"] = tags[0].span.span.text.strip()                                          # Defensive Style
+    defensive_style = tags[0].span.span.text.strip()                                                                # Defensive Style
+    for defstyle in data["defensive_style"]:
+        if defstyle["defensive_style_name"]==defensive_style:
+            data["clubs"][idx]["defensive_style_id"] = defstyle["defensive_style_id"]                               # Defensive Style ID
+            break
     data["clubs"][idx]["defense_width"] = tags[1].find("span", class_="float-right").span.text.strip()              # Team Defense Width
     data["clubs"][idx]["defense_depth"] = tags[2].find("span", class_="float-right").span.text.strip()              # Team Defense Depth
     # Offense
-    data["clubs"][idx]["build_up_play"] = tags[3].span.span.text.strip()                                            # Build Up Play
-    data["clubs"][idx]["chance_creation"] = tags[4].span.span.text.strip()                                          # Chance Creation
+    build_up_play = tags[3].span.span.text.strip()                                                                  # Build Up Play
+    chance_creation = tags[4].span.span.text.strip()                                                                # Chance Creation
+    for buplay in data["build_up_play"]:
+        if buplay["build_up_play_name"]==build_up_play:
+            data["clubs"][idx]["build_up_play_id"] = buplay["build_up_play_id"]                                     # Build Up Play ID
+            break
+    for chance in data["chance_creation"]:
+        if chance["chance_creation_name"]==chance_creation:
+            data["clubs"][idx]["chance_creation_id"] = chance["chance_creation_id"]                                 # Chance Creation ID
+            break
     data["clubs"][idx]["offense_width"] = tags[5].find("span", class_="float-right").span.text.strip()              # Team Offense Width
     data["clubs"][idx]["offense_player_in_box"] = tags[6].find("span", class_="float-right").span.text.strip()      # Team Offense Player In Box
     data["clubs"][idx]["corner_player_in_box"] = tags[7].find("span", class_="float-right").span.text.strip()       # Team Corner Player In Box
@@ -107,15 +123,19 @@ def detail_scraper(tags, data, idx):
     stadium = tags[0].text[12:].strip()
     if "(" in stadium:
         stadium = stadium[:(stadium.find("(")-1)]
-    data["clubs"][idx]["home_stadium"] = stadium                      # Home Stadium
-    data["clubs"][idx]["rival_team"] = tags[1].a.text.strip()         # Rival Team
-    data["clubs"][idx]["club_worth"] = tags[5].text[11:].strip()      # Club Worth
-    data["clubs"][idx]["average_age"] = tags[7].text[22:].strip()     # Whole Team Average Age
-    data["clubs"][idx]["captain"] = tags[8].a.text.strip()            # Team Captain
+    data["clubs"][idx]["home_stadium"] = stadium                                # Home Stadium
+    rival_team = tags[1].a.text.strip()                                         # Rival Team
+    for rival in data["clubs"]:
+        if rival["club_name"] == rival_team:
+            data["clubs"][idx]["rival_club_id"] = rival["club_id"]              # Rival Club ID
+            break
+    data["clubs"][idx]["club_worth"] = tags[5].text[11:].strip()                # Club Worth
+    data["clubs"][idx]["average_age"] = tags[7].text[22:].strip()               # Whole Team Average Age
+    data["clubs"][idx]["captain_id"] = len(data["captains"]) + 1                # Team Captain
     data["stadiums"].add(data["clubs"][idx]["home_stadium"])
     captain = dict()
     captain["captain_id"] = len(data["captains"]) + 1
-    captain["captain_name"] = data["clubs"][idx]["captain"]
+    captain["captain_name"] = tags[8].a.text.strip()  
     data["captains"].append(captain)
     return data
 
@@ -140,7 +160,8 @@ def coach_scraper(tags, data, idx, coach_url):
         data with information inside tags added into it
     
     """
-    data["clubs"][idx]["coach"] = tags[0].find("a", href=coach_url[:-1])["title"].strip()   # Coach Name
+    coach_name = tags[0].find("a", href=coach_url[:-1])["title"].strip()                    # Coach Name
+    data["clubs"][idx]["coach_id"] = len(data["coaches"]) + 1                               # Coach ID
     if len(tags[2].text.strip())==0:
         date = None
     else:
@@ -149,7 +170,7 @@ def coach_scraper(tags, data, idx, coach_url):
         date = date.strftime("%Y-%m-%d")                                                    # Coach Birth Date
     coach = dict()
     coach["coach_id"] = len(data["coaches"]) + 1
-    coach["coach_name"] = data["clubs"][idx]["coach"]
+    coach["coach_name"] = coach_name
     coach["birth_date"] = date
     data["coaches"].append(coach)
     return data
@@ -276,8 +297,9 @@ def web_scraper():
             tag_lis = tag_ul.find_all("li")
             data = coach_scraper(tag_lis, data, i, coach_url)
         else:
-            data["clubs"][i]["coach"] = None
+            data["clubs"][i]["coach_id"] = None
 
+    # Stadiums
     data["stadiums"] = sorted(data["stadiums"])
     temp_data_stadiums = []
     for i in range(len(data["stadiums"])):
@@ -285,6 +307,11 @@ def web_scraper():
         temp_data_stadium["stadium_id"] = i + 1
         temp_data_stadium["stadium_name"] = data["stadiums"][i]
         temp_data_stadiums.append(temp_data_stadium)
+        for club in data["clubs"]:
+            if club["home_stadium"]==temp_data_stadium["stadium_name"]:
+                club["home_stadium_id"] = temp_data_stadium["stadium_id"]
+    for club in data["clubs"]:
+        del club["home_stadium"]
     data["stadiums"] = temp_data_stadiums
 
     with open('Data Scraping/data/data.json', 'w', encoding='utf-8') as f:
