@@ -28,6 +28,7 @@ def extract_provinsi(lokasi): #Fungsi untuk mengambil nama provinsi dari 'lokasi
 
 def scraping_pages(data, object, firstPage, lastPage): #Fungsi utama untuk melakukan scraping yang menerima masukan 'data' berupa ['rent', 'sale'] sebagai parameter searching.
     count_pages = 1 #Menghitung jumlah halaman yang sudah di scrape.
+    print("Memulai scraping "+data+" properties.")
     for page in range(firstPage, lastPage+1):
         n = 0 #Untuk menghitung banyak data yang di scrape dari sebuah halaman.
         template = "https://www.dotproperty.id/properties-for-{}?page="
@@ -121,21 +122,21 @@ def scraping_pages(data, object, firstPage, lastPage): #Fungsi utama untuk melak
                 pembayaran = "Per "+tag.small.text.strip()
 
             value = {
-                "Title": title, 
-                "Nama": nama,
-                "Badge": badge,
-                "Tipe": tipe,
-                "Jumlah Kamar Mandi": kamar_mandi,
-                "Jumlah Kamar Tidur": kamar_tidur, 
-                "Luas Tanah(m2)": luas_int,
-                "Harga (IDR)": harga_idr,
-                "Harga (float)": hargaint,
-                "Unit Harga": unit,
-                "Status Pembayaran": pembayaran,
-                "Kota": kota,
-                "Provinsi": provinsi,
-                "Status": status,
-                "Link": link
+                "title": title, 
+                "nama": nama,
+                "badge": badge,
+                "tipe": tipe,
+                "kamar_mandi": kamar_mandi,
+                "kamar_tidur": kamar_tidur, 
+                "luas_tanah": luas_int,
+                "harga_idr": harga_idr,
+                "harga_float": hargaint,
+                "unit_harga": unit,
+                "status_pembayaran": pembayaran,
+                "kota": kota,
+                "provinsi": provinsi,
+                "status": status,
+                "link": link
                     }
             object.append(value)
             n += 1
