@@ -41,14 +41,15 @@ def mainpage_scraper(tag, data, team_urls):
         data and team_urls with information inside tag added into them
 
     """
-    data["clubs"][-1]["name"] = tag.find("a", href=re.compile("/team/.*")).div.string.strip()       # Team Name
+    data["clubs"][-1]["club_id"] = len(data["clubs"])                                               # Team ID
+    data["clubs"][-1]["club_name"] = tag.find("a", href=re.compile("/team/.*")).div.string.strip()  # Team Name
     data["clubs"][-1]["league"] = tag.find("a", href=re.compile("/teams\?lg=.*")).div.text.strip()  # League Name
     data["clubs"][-1]["overall"] = tag.find("td", class_="col col-oa").span.text.strip()            # Team Overall
     data["clubs"][-1]["attack"] = tag.find("td", class_="col col-at").span.text.strip()             # Team Attack
     data["clubs"][-1]["midfield"] = tag.find("td", class_="col col-md").span.text.strip()           # Team Midfield
     data["clubs"][-1]["defense"] = tag.find("td", class_="col col-df").span.text.strip()            # Team Defense
-    data["clubs"][-1]["transfer-budget"] = tag.find("td", class_="col col-tb").text.strip()         # Team Transfer Budget
-    data["clubs"][-1]["number-of-players"] = tag.find("td", class_="col col-ps").text.strip()       # Number of Players
+    data["clubs"][-1]["transfer_budget"] = tag.find("td", class_="col col-tb").text.strip()         # Team Transfer Budget
+    data["clubs"][-1]["number_of_players"] = tag.find("td", class_="col col-ps").text.strip()       # Number of Players
     team_urls.append(tag.find("a", href=re.compile("/team/.*"))["href"])                            # Team URL
     return (data, team_urls)
 
@@ -72,16 +73,16 @@ def teamtactic_scraper(tags, data, idx):
     
     """
     # Defense
-    data["clubs"][idx]["defensive-style"] = tags[0].span.span.text.strip()                                          # Defensive Style
-    data["clubs"][idx]["defense-width"] = tags[1].find("span", class_="float-right").span.text.strip()              # Team Defense Width
-    data["clubs"][idx]["defense-depth"] = tags[2].find("span", class_="float-right").span.text.strip()              # Team Defense Depth
+    data["clubs"][idx]["defensive_style"] = tags[0].span.span.text.strip()                                          # Defensive Style
+    data["clubs"][idx]["defense_width"] = tags[1].find("span", class_="float-right").span.text.strip()              # Team Defense Width
+    data["clubs"][idx]["defense_depth"] = tags[2].find("span", class_="float-right").span.text.strip()              # Team Defense Depth
     # Offense
-    data["clubs"][idx]["build-up-play"] = tags[3].span.span.text.strip()                                            # Build Up Play
-    data["clubs"][idx]["chance-creation"] = tags[4].span.span.text.strip()                                          # Chance Creation
-    data["clubs"][idx]["offense-width"] = tags[5].find("span", class_="float-right").span.text.strip()              # Team Offense Width
-    data["clubs"][idx]["offense-player-in-box"] = tags[6].find("span", class_="float-right").span.text.strip()      # Team Offense Player In Box
-    data["clubs"][idx]["corner-player-in-box"] = tags[7].find("span", class_="float-right").span.text.strip()       # Team Corner Player In Box
-    data["clubs"][idx]["free-kick-player-in-box"] = tags[8].find("span", class_="float-right").span.text.strip()    # Team Free Kick Player In Box
+    data["clubs"][idx]["build_up_play"] = tags[3].span.span.text.strip()                                            # Build Up Play
+    data["clubs"][idx]["chance_creation"] = tags[4].span.span.text.strip()                                          # Chance Creation
+    data["clubs"][idx]["offense_width"] = tags[5].find("span", class_="float-right").span.text.strip()              # Team Offense Width
+    data["clubs"][idx]["offense_player_in_box"] = tags[6].find("span", class_="float-right").span.text.strip()      # Team Offense Player In Box
+    data["clubs"][idx]["corner_player_in_box"] = tags[7].find("span", class_="float-right").span.text.strip()       # Team Corner Player In Box
+    data["clubs"][idx]["free_kick_player_in_box"] = tags[8].find("span", class_="float-right").span.text.strip()    # Team Free Kick Player In Box
     return data
 
 def detail_scraper(tags, data, idx):
@@ -106,13 +107,16 @@ def detail_scraper(tags, data, idx):
     stadium = tags[0].text[12:].strip()
     if "(" in stadium:
         stadium = stadium[:(stadium.find("(")-1)]
-    data["clubs"][idx]["home-stadium"] = stadium                      # Home Stadium
-    data["clubs"][idx]["rival-team"] = tags[1].a.text.strip()         # Rival Team
-    data["clubs"][idx]["club-worth"] = tags[5].text[11:].strip()      # Club Worth
-    data["clubs"][idx]["average-age"] = tags[7].text[22:].strip()     # Whole Team Average Age
+    data["clubs"][idx]["home_stadium"] = stadium                      # Home Stadium
+    data["clubs"][idx]["rival_team"] = tags[1].a.text.strip()         # Rival Team
+    data["clubs"][idx]["club_worth"] = tags[5].text[11:].strip()      # Club Worth
+    data["clubs"][idx]["average_age"] = tags[7].text[22:].strip()     # Whole Team Average Age
     data["clubs"][idx]["captain"] = tags[8].a.text.strip()            # Team Captain
-    data["stadiums"].add(data["clubs"][idx]["home-stadium"])
-    data["captains"].append(data["clubs"][idx]["captain"])
+    data["stadiums"].add(data["clubs"][idx]["home_stadium"])
+    captain = dict()
+    captain["captain_id"] = len(data["captains"]) + 1
+    captain["captain_name"] = data["clubs"][idx]["captain"]
+    data["captains"].append(captain)
     return data
 
 def coach_scraper(tags, data, idx, coach_url):
@@ -144,8 +148,9 @@ def coach_scraper(tags, data, idx, coach_url):
         date = datetime.strptime(str_date, "%b %d, %Y")
         date = date.strftime("%Y-%m-%d")                                                    # Coach Birth Date
     coach = dict()
-    coach["name"] = data["clubs"][idx]["coach"]
-    coach["birth-date"] = date
+    coach["coach_id"] = len(data["coaches"]) + 1
+    coach["coach_name"] = data["clubs"][idx]["coach"]
+    coach["birth_date"] = date
     data["coaches"].append(coach)
     return data
 
@@ -167,15 +172,18 @@ def league_scraper(tags, data):
     
     """
     for option in tags:
-        league = option.text.strip()
-        if "\u00a0" in league:
-            league = league.replace("\u00a0", "")
+        league_name = option.text.strip()
+        if "\u00a0" in league_name:
+            league_name = league_name.replace("\u00a0", "")
+        league = dict()
+        league["league_id"] = len(data["leagues"]) + 1
+        league["league_name"] = league_name
         data["leagues"].append(league)
     return data
 
 def tactic_scraper(tags, data):
     """Receives a list of html elements, and data, then adds the information inside the tags into data. 
-    Information will be added to the value inside data with "defensive-style", "build-up-play", and "chance-creation"
+    Information will be added to the value inside data with "defensive_style", "build_up_play", and "chance_creation"
     as the key.
 
     Parameters
@@ -192,11 +200,20 @@ def tactic_scraper(tags, data):
     
     """
     for option in tags[0:5]:
-        data["defensive-style"].append(option.text.strip())
+        defensive_style = dict()
+        defensive_style["defensive_style_id"] = len(data["defensive_style"]) + 1
+        defensive_style["defensive_style_name"] = option.text.strip()
+        data["defensive_style"].append(defensive_style)
     for option in tags[5:10]:
-        data["build-up-play"].append(option.text.strip())
+        build_up_play = dict()
+        build_up_play["build_up_play_id"] = len(data["build_up_play"]) + 1
+        build_up_play["build_up_play_name"] = option.text.strip()
+        data["build_up_play"].append(build_up_play)
     for option in tags[10:14]:
-        data["chance-creation"].append(option.text.strip())
+        chance_creation = dict()
+        chance_creation["chance_creation_id"] = len(data["chance_creation"]) + 1
+        chance_creation["chance_creation_name"] = option.text.strip()
+        data["chance_creation"].append(chance_creation)
     return data
 
 def web_scraper():
@@ -210,9 +227,9 @@ def web_scraper():
             "stadiums":set(), 
             "captains":[], 
             "coaches":[], 
-            "defensive-style":[],
-            "build-up-play":[],
-            "chance-creation":[]
+            "defensive_style":[],
+            "build_up_play":[],
+            "chance_creation":[]
     })
     base_url = "https://sofifa.com"
 
@@ -260,9 +277,15 @@ def web_scraper():
             data = coach_scraper(tag_lis, data, i, coach_url)
         else:
             data["clubs"][i]["coach"] = None
-            data["clubs"][i]["coach-birth-date"] = None
 
     data["stadiums"] = sorted(data["stadiums"])
+    temp_data_stadiums = []
+    for i in range(len(data["stadiums"])):
+        temp_data_stadium = dict()
+        temp_data_stadium["stadium_id"] = i + 1
+        temp_data_stadium["stadium_name"] = data["stadiums"][i]
+        temp_data_stadiums.append(temp_data_stadium)
+    data["stadiums"] = temp_data_stadiums
 
     with open('Data Scraping/data/data.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
