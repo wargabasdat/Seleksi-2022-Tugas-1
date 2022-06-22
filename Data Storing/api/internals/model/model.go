@@ -2,17 +2,40 @@ package model
 
 import (
 	"github.com/google/uuid"
-	"gorm.io/gorm"
 )
 
-type Player struct {
-	gorm.Model
-	ID        uuid.UUID `gorm:"type:uuid;primary_key"`
+type Result struct {
+	PlayerID  uint `gorm:"primary_key"`
 	Nickname string
 	Realname string
 	Country string
 	Age int
-	Team string
+	Team string `gorm:"column:name"`
+	Rating float64
+	DPR float64
+	KAST float64
+	IMPACT float64
+	ADR float64
+	KPR float64
+	KillCount int
+	HSPercentage float64
+	DeathCount int
+	KDRatio float64
+	MapCount int
+}
+
+type Player struct {
+	PlayerID  uint `gorm:"primary_key"`
+	Nickname string
+	Realname string
+	Country string
+	Age int
+	TeamID uint 
+	Team Team `gorm:"foreignKey: TeamID"`
+}
+
+type PlayerStats struct {
+	PlayerStatsID  uint `gorm:"primary_key"`
 	Rating float64
 	DPR float64
 	KAST float64
@@ -21,14 +44,15 @@ type Player struct {
 	KPR float64
 	Kills int
 	HSPercentage float64
-	Deaths float64
+	Deaths int
 	KDRatio float64
-	MapsPlayed float64
+	MapsPlayed int
+	PlayerID uint 
+	Player Player `gorm:"foreignKey: PlayerID"`
 }
 
 type Team struct {
-	gorm.Model
-	ID 	  uuid.UUID `gorm:"type:uuid;primary_key"`
+	ID 	  uuid.UUID `gorm:"primary_key"`
 	Name string
 	Country string
 	Rank int

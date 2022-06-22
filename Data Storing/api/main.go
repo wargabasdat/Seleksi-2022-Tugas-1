@@ -7,11 +7,9 @@ import (
 )
 
 func main() {
-	app := fiber.New() // new fiber app
-
+	app := fiber.New() // instantiate a new fiber app
 	database.ConnectDB() // connect to the database
 
 	router.SetupRoutes(app) // setup the router
-
 	app.Listen(":8000") // listen on port 8000
 }

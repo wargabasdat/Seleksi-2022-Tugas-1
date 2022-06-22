@@ -7,6 +7,7 @@ import (
 	"api/config"
     "gorm.io/driver/postgres"
     "gorm.io/gorm"
+	"gorm.io/gorm/schema"
 )
 
 
@@ -22,10 +23,14 @@ func ConnectDB() {
         log.Println("Error parsing DB_PORT:", err)
     }
 
-	// Connection URL to connect to Postgres Database
+	// connection URL to connect to Postgres Database
 	dsn := fmt.Sprintf("host=%s port=%d user=%s password=%s dbname=%s sslmode=require", config.Config("DB_HOST"), port, config.Config("DB_USER"), config.Config("DB_PASSWORD"), config.Config("DB_NAME"))
-	// Connect to the DB and initialize the DB variable
-    DB, err = gorm.Open(postgres.Open(dsn))
+	// connect to the DB and initialize the DB variable
+    DB, err = gorm.Open(postgres.Open(dsn), &gorm.Config{
+		NamingStrategy: schema.NamingStrategy{
+			SingularTable: true, // set table naming to singular
+		},
+	})
 
 	if err != nil { // failed to connect db
 		panic("failed to connect database") // print stack trace error and terminate the program
