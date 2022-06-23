@@ -1,5 +1,8 @@
 tes.py
 
+# Database configuration
+*.ini
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
