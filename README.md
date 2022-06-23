@@ -90,6 +90,9 @@ status {string}               : Berupa "disewakan" atau "dijual".
 link {string}                 : Link untuk mengakses properti tersebut.
 }
 ```
+## Database Structure
+Dari proses _scraping_ ini dihasilkan sebuah relasi yang memiliki _primary key_ berupa `_id` dan memiliki 15 atribut.
+![](./DataStoring/design/property_database_er_diagram.png)
 ## API
 ### Deskripsi API
 API yang Saya gunakan menggunakan `FastAPI` yang disediakan oleh `Python`. Penggunaan _library_ ini dikarenakan mudah di dalam penggunaannya dan sudah _support_ `Swagger UI` tanpa perlu melakukan proses yang panjang. API ini pada dasarnya berfungsi untuk berinteraksi dengan _cloud database_ yang sudah didefinisikan sebelumnya. Sehingga, ada beberapa hal yang bisa dilakukan dengan menggunakan API ini, yaitu:
