@@ -2,7 +2,7 @@
 
 from fastapi import APIRouter, Body
 from fastapi.encoders import jsonable_encoder
-from server.database import(
+from database import(
     get_all_dramas,
     get_drama_by_id,
     add_drama,
