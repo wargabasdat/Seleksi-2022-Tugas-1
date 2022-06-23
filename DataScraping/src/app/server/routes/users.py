@@ -2,7 +2,7 @@
 
 from fastapi import APIRouter, Body
 from fastapi.encoders import jsonable_encoder
-from database import(
+from DataScraping.src.app.server.database import(
     get_all_dramas,
     get_drama_by_id,
     add_drama,
