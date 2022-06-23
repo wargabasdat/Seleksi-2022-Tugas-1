@@ -33,14 +33,17 @@ Saya membuat API untuk mengakses data Top Drama yang sudah terlebih dahhulu disi
 1. Clone <em> repository </em> ini ke PC anda.
 2. Install seluruh library yang dibutuhkan dengan <em>command</em> berikut `pip install -r requirements.txt`
 3. <em> Run </em> program `drama.py`. Anda dapat mengubah nama <em> file </em> hasil <em> export </em> pada bagian bawah file `drama.py`.
-4. File hasil <em> scraping </em> akan tersedia pada folder yang sama. Hasil scraping juga tersedia pada folder `Data Scraping/data/dramalist.json`
+4. File hasil <em> scraping </em> akan tersedia pada folder yang sama. Hasil scraping juga tersedia pada folder `DataScraping/data/dramalist.json`
 
 ### Cara Menggunakan API
 1. Clone <em> repository </em> ini ke PC anda.
 2. Install seluruh library yang dibutuhkan dengan <em>command</em> berikut `pip install -r requirements.txt`
-3. <em> Run </em> program `main.py` yang terdapat pada folder `Data Scraping/src/app/main.py`. Program ini akan otomatis menyalakan server lokal.
+3. <em> Run </em> program `main.py` yang terdapat pada folder `DataScraping/src/app/main.py`. Program ini akan otomatis menyalakan server lokal.
 4. Pada <em> browser </em>, buka `127.0.0.1` atau `localhost:8000`. Bila muncul tulisan "Welcome to Top Drama Scraper", maka server sudah berhasil berjalan secara lokal.
 5. Pada <em> browser </em>, buka `127.0.0.1/docs` atau `localhost:8000/docs` untuk mengakses Swagger UI. Anda bisa mengakses database Top Drama yang berada pada MongoAtlas melalui Swagger UI tersebut.
+
+## Deployment
+Saya menggunakan Heroku untuk mendeploy API yang sudah dibuat. API tersebut dapat diakses melalui <a href='https://topdramadatabase.herokuapp.com/'> link </a> ini. Untuk mengakses langsung Swagger UI, dapat melalui <a href='https://topdramadatabase.herokuapp.com/docs'> link </a> ini.
 
 ## JSON Structure
 Berikut ini format JSON hasil export dari DBMS MongoDB:
@@ -57,6 +60,11 @@ Berikut ini format JSON hasil export dari DBMS MongoDB:
   "rating_drama"    : float
 }
 ```
+
+## Database Structure
+Berikut ini merupakan struktur database yang tercipta. Primary key dari struktur ini merupakan id dari setiap drama.
+![ERD non transparan](https://user-images.githubusercontent.com/79572039/175315450-9fae865d-8a73-4ef0-a597-32b4f85ba309.png)
+
 ## Screenshots
 * Preprocessing <br>
 ![preprocessing](https://user-images.githubusercontent.com/79572039/175234931-ac32dcd6-6e6c-491e-9434-c3f599fa695e.png)
