@@ -79,7 +79,7 @@ Libraries :
 * Uvicorn
 * PyMongo
 * Motor
-* etc (bisa dilihat di `requirements.tx`
+* etc (bisa dilihat di `requirements.txt`
 
 Sumber belajar :
 * Web Scraping :
