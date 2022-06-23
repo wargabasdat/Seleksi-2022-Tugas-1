@@ -91,16 +91,16 @@ Libraries :
 
 Sumber belajar :
 * Web Scraping :
-- <a href='https://www.youtube.com/watch?v=YIiYeyfo7MM&ab_channel=RifaiSlamet'> Belajar Web Scraping dengan Python BeautifulSoup </a>
+<a href='https://www.youtube.com/watch?v=YIiYeyfo7MM&ab_channel=RifaiSlamet'> Belajar Web Scraping dengan Python BeautifulSoup </a>
 
 * Setup Atlas :
-- <a href='https://www.youtube.com/watch?v=4-fRVd1yzr0&ab_channel=prawitohudoro'> Setup MongoDB Atlas Project </a>
+<a href='https://www.youtube.com/watch?v=4-fRVd1yzr0&ab_channel=prawitohudoro'> Setup MongoDB Atlas Project </a>
 
-* API :
-- <a href='https://www.youtube.com/watch?v=cJWk27W9uoY&ab_channel=MoonKidz'> Python FastAPI MongoDB </a>
-- <a href='https://www.youtube.com/watch?v=SJR_60BqU08&ab_channel=MoonKidz'> Python FastAPI </a>
-- <a href='https://www.youtube.com/watch?v=G7hZlOLhhMY&t=1815s&ab_channel=MaheshKariya'> FastAPI MongoDB REST API in Python </a>
-- <a href='https://testdriven.io/blog/fastapi-mongo/#mongodb'> Building a CRUD App with FastAPI and MongoDB </a>
+* API : <br>
+<a href='https://www.youtube.com/watch?v=cJWk27W9uoY&ab_channel=MoonKidz'> Python FastAPI MongoDB </a> <br>
+<a href='https://www.youtube.com/watch?v=SJR_60BqU08&ab_channel=MoonKidz'> Python FastAPI </a> <br>
+<a href='https://www.youtube.com/watch?v=G7hZlOLhhMY&t=1815s&ab_channel=MaheshKariya'> FastAPI MongoDB REST API in Python </a><br>
+<a href='https://testdriven.io/blog/fastapi-mongo/#mongodb'> Building a CRUD App with FastAPI and MongoDB </a><br>
 
 ## Author
 Vincentius Verel Siedharta <br>
