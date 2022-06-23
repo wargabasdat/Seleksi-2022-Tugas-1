@@ -9,7 +9,7 @@ from DataScraping.src.app.server.database import(
     update_drama,
     delete_drama,
     )
-from server.models.drama_structure import(
+from DataScraping.src.app.server.models.drama_structure import(
     DramaSchema,
     UpdateDramaModel,
     ResponseModel,
