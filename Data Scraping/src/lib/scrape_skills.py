@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import re
 import json
 import urllib.request
+from .store_data import store_data
 
 def scrape_skills():
 	# get html from tot.wiki
@@ -16,8 +17,18 @@ def scrape_skills():
 		skill_list.append(get_skill(skill))
 
 	# convert card list to json
-	with open('../data/skills.json', 'w') as outfile:
-		json.dump(skill_list, outfile, indent=4)
+	print("Do you want to save the skills to a file? (y/n)")
+	choice = input("Enter your choice: ")
+	if choice == "y":
+		with open('../../data/skills.json', 'w') as outfile:
+			json.dump(skill_list, outfile, indent=4)
+	
+	# store data to database
+	print("Do you want to store the skills to a database? (y/n)")
+	choice = input("Enter your choice: ")
+	if choice == "y":
+		store_data(skill_list)
+
 	print('Done scraping skills.')
 	
 def get_skill(skill):
