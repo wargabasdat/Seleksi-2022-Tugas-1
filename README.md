@@ -34,38 +34,38 @@ Dalam tahap pengerjaan, Saya menggunakan beberapa _library_ yang disediakan oleh
 - Edit bagian `file_path` yang ada pada `webScraper.py` untuk mengatur dimana file hasil _scrape_ ingin Anda simpan.
 - Jalankan `webScraper.py`.
 - Tepat setelah menjalankan program tersebut, maka akan muncul permintaan _input_ berupa nama file yang ingin Anda simpan.
-![](./Data%20Scraping/screenshot/input_nama_file.png)
+![](./DataScraping/screenshot/input_nama_file.png)
 
 ## Screenshot
 - Import Required Libraries
-![](./Data%20Scraping/screenshot/required_libraries.png)
+![](./DataScraping/screenshot/required_libraries.png)
 - Fungsi Utama Program
-![](./Data%20Scraping/screenshot/fungsi_utama_1.png)
-![](./Data%20Scraping/screenshot/fungsi_utama_2.png)
-![](./Data%20Scraping/screenshot/fungsi_utama_3.png)
-![](./Data%20Scraping/screenshot/fungsi_utama_4.png)
-![](./Data%20Scraping/screenshot/to_JSON.png)
+![](./DataScraping/screenshot/fungsi_utama_1.png)
+![](./DataScraping/screenshot/fungsi_utama_2.png)
+![](./DataScraping/screenshot/fungsi_utama_3.png)
+![](./DataScraping/screenshot/fungsi_utama_4.png)
+![](./DataScraping/screenshot/to_JSON.png)
 - Fungsi Pendukung
-![](./Data%20Scraping/screenshot/fungsi_pendukung.png)
+![](./DataScraping/screenshot/fungsi_pendukung.png)
 - Run Program
-![](./Data%20Scraping/screenshot/run_program.png)
+![](./DataScraping/screenshot/run_program.png)
 ## Data Storing with MongoDB Atlas
 - Buat akun di [MongoDB Atlas](https://cloud.mongodb.com/) dan buat sebuah _cluster_ yang diberikan gratis oleh MongoDB.
-<br>![](./Data%20Storing/screenshot/create_cluster_atlas.png/)
+<br>![](./DataStoring/screenshot/create_cluster_atlas.png/)
 - Atur `Network Access` sedemikian rupa agar _database_ dapat diakses oleh seluruh orang.
-<br>![](./Data%20Storing/screenshot/network_access.png/)
+<br>![](./DataStoring/screenshot/network_access.png/)
 - Pastikan sudah melakukan instalasi MongoDB sekaligus dengan MongoDBCompass.
 - Kemudian, `connect` _cloud database_ dengan menggunakan MongoDBCompass dan _copy_ `connection string`.
-<br>![](./Data%20Storing/screenshot/connect_with_mongodbcompass.png/)
+<br>![](./DataStoring/screenshot/connect_with_mongodbcompass.png/)
 - Lalu, masuk ke MongoDBCompass dan `connect` dengan `connection string` yang sudah di-_copy_ tadi.
 - Kemudian, buat database serta collection.
-<br>![](./Data%20Storing/screenshot/create_database_and_collection.png/)
+<br>![](./DataStoring/screenshot/create_database_and_collection.png/)
 - Kemudian, ambil pilihan `ADD DATA` dan pilih `Import File` dan kemudian pilih file `.json` yang dihasilkan dari _web scraping_ tadi.
-<br>![](./Data%20Storing/screenshot/data_storing_to_mongodb.png)
+<br>![](./DataStoring/screenshot/data_storing_to_mongodb.png)
 - Kemudian, lakukan _export database_ tersebut menjadi file `.json`.
-<br>![](./Data%20Storing/screenshot/export_to_json.png)
+<br>![](./DataStoring/screenshot/export_to_json.png)
 - Terakhir, cek MongoDB Atlas apakah _database_ yang dibuat tadi sudah masuk ke dalam _cloud database_.
-<br>![](./Data%20Storing/screenshot/check_on_atlas.png)
+<br>![](./DataStoring/screenshot/check_on_atlas.png)
 
 ## JSON Structure
 ```
@@ -90,9 +90,22 @@ status {string}               : Berupa "disewakan" atau "dijual".
 link {string}                 : Link untuk mengakses properti tersebut.
 }
 ```
+## API
+### Deskripsi API
+API yang Saya gunakan menggunakan `FastAPI` yang disediakan oleh `Python`. Penggunaan _library_ ini dikarenakan mudah di dalam penggunaannya dan sudah _support_ `Swagger UI` tanpa perlu melakukan proses yang panjang. API ini pada dasarnya berfungsi untuk berinteraksi dengan _cloud database_ yang sudah didefinisikan sebelumnya. Sehingga, ada beberapa hal yang bisa dilakukan dengan menggunakan API ini, yaitu:
+1. READ: API ini bisa melakukan _read_ terhadap data, seperti membaca semua data, membaca data di kota tertentu, dan membaca data di provinsi tertentu.
+2. CREATE: API ini juga mendukung untuk pengguna bisa memasukkan data baru ke dalam _database_ property.
+3. UPDATE: API ini juga mendukung untuk melakukan modifikasi terhadap data yang sudah ada.
+4. DELETE: API ini mendukung untuk melakukan penghapusan data sesuai dengan ID tertentu.
+<br>![](./DataStoring/screenshot/interface_api.png)
+<br>![](./DataStoring/screenshot/contoh_run_by_kota.png)
+### Cara Menggunakan API
+1. Buka terminal, kemudian arahkan ke path dari _clone repository_ tadi dan jalankan `uvicorn main:app`.
+2. Kemudian, ikuti `https://127.0.0.1:8000` dan pada url tambahkan `/docs` untuk mengaktifkan `Swagger UI`.
 ## References
 - Dokumentasi dari semua _library_ yang digunakan: [PyPi](https://pypi.org/)
 - Belajar Dasar Web Scraping menggunakan YouTube: [Python Tutorial: Web Scraping with BeautifulSoup and Requests](https://www.youtube.com/watch?v=ng2o98k983k)
+- Belajar Dasar Fast API menggunakan YouTube: [FastAPI MongoDB REST API w/ Python and PyMongo | CRUD Operations mongodb | Swagger UI |](https://www.youtube.com/watch?v=MXwcUrI-iss)
 - Dokumentasi dari MongoDB: [MongoDB](https://mongodb.com)
 - _Website_ untuk bertanya:
 <br> - [GeeksforGeeks](https://www.geeksforgeeks.org/)
