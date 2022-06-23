@@ -23,7 +23,6 @@
       "club_worth": "€3.5B",
       "average_age": "24.82",
       "captain_id": 1,
-      "coach_id": 1,
       "home_stadium_id": 2
     },
     {
@@ -49,7 +48,6 @@
       "club_worth": "€3.4B",
       "average_age": "23.81",
       "captain_id": 2,
-      "coach_id": 2,
       "home_stadium_id": 42
     },
     {
@@ -75,7 +73,6 @@
       "club_worth": "€2.2B",
       "average_age": "25.47",
       "captain_id": 3,
-      "coach_id": 3,
       "home_stadium_id": 69
     },
     {
@@ -101,7 +98,6 @@
       "club_worth": "€2.7B",
       "average_age": "24.39",
       "captain_id": 4,
-      "coach_id": 4,
       "home_stadium_id": 93
     },
     {
@@ -127,7 +123,6 @@
       "club_worth": "€2.6B",
       "average_age": "24.84",
       "captain_id": 5,
-      "coach_id": 5,
       "home_stadium_id": 78
     },
     {
@@ -153,7 +148,6 @@
       "club_worth": "€3.1B",
       "average_age": "24.97",
       "captain_id": 6,
-      "coach_id": 6,
       "home_stadium_id": 33
     },
     {
@@ -179,7 +173,6 @@
       "club_worth": "€3.5B",
       "average_age": "24.82",
       "captain_id": 7,
-      "coach_id": 7,
       "home_stadium_id": 65
     },
     {
@@ -205,7 +198,6 @@
       "club_worth": "€1.2B",
       "average_age": "25.06",
       "captain_id": 8,
-      "coach_id": 8,
       "home_stadium_id": 110
     },
     {
@@ -231,7 +223,6 @@
       "club_worth": "€3.2B",
       "average_age": "24.33",
       "captain_id": 9,
-      "coach_id": 9,
       "home_stadium_id": 21
     },
     {
@@ -257,7 +248,6 @@
       "club_worth": "€983M",
       "average_age": "29.16",
       "captain_id": 10,
-      "coach_id": 10,
       "home_stadium_id": 77
     },
     {
@@ -283,7 +273,6 @@
       "club_worth": "€1.7B",
       "average_age": "25.48",
       "captain_id": 11,
-      "coach_id": 11,
       "home_stadium_id": 109
     },
     {
@@ -309,7 +298,6 @@
       "club_worth": "€2.3B",
       "average_age": "22.88",
       "captain_id": 12,
-      "coach_id": 12,
       "home_stadium_id": 98
     },
     {
@@ -335,7 +323,6 @@
       "club_worth": "€1.2B",
       "average_age": "23.58",
       "captain_id": 13,
-      "coach_id": 13,
       "home_stadium_id": 81
     },
     {
@@ -361,7 +348,6 @@
       "club_worth": "€526M",
       "average_age": "25.64",
       "captain_id": 14,
-      "coach_id": 14,
       "home_stadium_id": 77
     },
     {
@@ -387,7 +373,6 @@
       "club_worth": "€540M",
       "average_age": "25.61",
       "captain_id": 15,
-      "coach_id": 15,
       "home_stadium_id": 72
     },
     {
@@ -413,7 +398,6 @@
       "club_worth": "€2.4B",
       "average_age": "21.76",
       "captain_id": 16,
-      "coach_id": 16,
       "home_stadium_id": 23
     },
     {
@@ -439,7 +423,6 @@
       "club_worth": "€200M",
       "average_age": "25.46",
       "captain_id": 17,
-      "coach_id": 17,
       "home_stadium_id": 85
     },
     {
@@ -465,7 +448,6 @@
       "club_worth": "€481.2M",
       "average_age": "22.39",
       "captain_id": 18,
-      "coach_id": 18,
       "home_stadium_id": 74
     },
     {
@@ -491,7 +473,6 @@
       "club_worth": "€590M",
       "average_age": "26.79",
       "captain_id": 19,
-      "coach_id": 19,
       "home_stadium_id": 91
     },
     {
@@ -517,7 +498,6 @@
       "club_worth": "€562.5M",
       "average_age": "25.39",
       "captain_id": 20,
-      "coach_id": 20,
       "home_stadium_id": 52
     },
     {
@@ -543,7 +523,6 @@
       "club_worth": "€150M",
       "average_age": "25.92",
       "captain_id": 21,
-      "coach_id": 21,
       "home_stadium_id": 73
     },
     {
@@ -569,7 +548,6 @@
       "club_worth": "€370M",
       "average_age": "26.06",
       "captain_id": 22,
-      "coach_id": 22,
       "home_stadium_id": 38
     },
     {
@@ -595,7 +573,6 @@
       "club_worth": "€565M",
       "average_age": "25.48",
       "captain_id": 23,
-      "coach_id": 23,
       "home_stadium_id": 55
     },
     {
@@ -621,7 +598,6 @@
       "club_worth": "€425.8M",
       "average_age": "23.48",
       "captain_id": 24,
-      "coach_id": 24,
       "home_stadium_id": 7
     },
     {
@@ -647,7 +623,6 @@
       "club_worth": "€328M",
       "average_age": "27.00",
       "captain_id": 25,
-      "coach_id": 25,
       "home_stadium_id": 91
     },
     {
@@ -673,7 +648,6 @@
       "club_worth": "€602M",
       "average_age": "23.56",
       "captain_id": 26,
-      "coach_id": 26,
       "home_stadium_id": 91
     },
     {
@@ -699,7 +673,6 @@
       "club_worth": "€250M",
       "average_age": "24.81",
       "captain_id": 27,
-      "coach_id": 27,
       "home_stadium_id": 32
     },
     {
@@ -725,7 +698,6 @@
       "club_worth": "€175M",
       "average_age": "26.91",
       "captain_id": 28,
-      "coach_id": 28,
       "home_stadium_id": 25
     },
     {
@@ -751,7 +723,6 @@
       "club_worth": "€220M",
       "average_age": "24.44",
       "captain_id": 29,
-      "coach_id": 29,
       "home_stadium_id": 109
     },
     {
@@ -777,7 +748,6 @@
       "club_worth": "€532M",
       "average_age": "24.00",
       "captain_id": 30,
-      "coach_id": 30,
       "home_stadium_id": 51
     },
     {
@@ -803,7 +773,6 @@
       "club_worth": "€420.5M",
       "average_age": "22.82",
       "captain_id": 31,
-      "coach_id": 31,
       "home_stadium_id": 103
     },
     {
@@ -829,7 +798,6 @@
       "club_worth": "€572.5M",
       "average_age": "25.55",
       "captain_id": 32,
-      "coach_id": 32,
       "home_stadium_id": 47
     },
     {
@@ -855,7 +823,6 @@
       "club_worth": "€357.9M",
       "average_age": "23.88",
       "captain_id": 33,
-      "coach_id": 33,
       "home_stadium_id": 6
     },
     {
@@ -881,7 +848,6 @@
       "club_worth": "€500M",
       "average_age": "23.19",
       "captain_id": 34,
-      "coach_id": 34,
       "home_stadium_id": 48
     },
     {
@@ -907,7 +873,6 @@
       "club_worth": "€416.5M",
       "average_age": "23.58",
       "captain_id": 35,
-      "coach_id": 35,
       "home_stadium_id": 59
     },
     {
@@ -933,7 +898,6 @@
       "club_worth": "€250M",
       "average_age": "22.76",
       "captain_id": 36,
-      "coach_id": 36,
       "home_stadium_id": 68
     },
     {
@@ -959,7 +923,6 @@
       "club_worth": "€320M",
       "average_age": "25.30",
       "captain_id": 37,
-      "coach_id": 37,
       "home_stadium_id": 40
     },
     {
@@ -985,7 +948,6 @@
       "club_worth": "€240M",
       "average_age": "24.80",
       "captain_id": 38,
-      "coach_id": 38,
       "home_stadium_id": 41
     },
     {
@@ -1011,7 +973,6 @@
       "club_worth": "€505M",
       "average_age": "26.30",
       "captain_id": 39,
-      "coach_id": 39,
       "home_stadium_id": 82
     },
     {
@@ -1037,7 +998,6 @@
       "club_worth": "€256.8M",
       "average_age": "24.16",
       "captain_id": 40,
-      "coach_id": 40,
       "home_stadium_id": 16
     },
     {
@@ -1063,7 +1023,6 @@
       "club_worth": "€331.1M",
       "average_age": "24.15",
       "captain_id": 41,
-      "coach_id": 41,
       "home_stadium_id": 70
     },
     {
@@ -1089,7 +1048,6 @@
       "club_worth": "€230M",
       "average_age": "23.55",
       "captain_id": 42,
-      "coach_id": 42,
       "home_stadium_id": 43
     },
     {
@@ -1115,7 +1073,6 @@
       "club_worth": "€100M",
       "average_age": "22.89",
       "captain_id": 43,
-      "coach_id": 43,
       "home_stadium_id": 84
     },
     {
@@ -1141,7 +1098,6 @@
       "club_worth": "€349.1M",
       "average_age": "23.93",
       "captain_id": 44,
-      "coach_id": 44,
       "home_stadium_id": 107
     },
     {
@@ -1167,7 +1123,6 @@
       "club_worth": "€60M",
       "average_age": "25.12",
       "captain_id": 45,
-      "coach_id": 45,
       "home_stadium_id": 71
     },
     {
@@ -1193,7 +1148,6 @@
       "club_worth": "€530M",
       "average_age": "22.45",
       "captain_id": 46,
-      "coach_id": 46,
       "home_stadium_id": 29
     },
     {
@@ -1219,7 +1173,6 @@
       "club_worth": "€55M",
       "average_age": "26.09",
       "captain_id": 47,
-      "coach_id": 47,
       "home_stadium_id": 30
     },
     {
@@ -1245,7 +1198,6 @@
       "club_worth": "€252M",
       "average_age": "23.30",
       "captain_id": 48,
-      "coach_id": 48,
       "home_stadium_id": 109
     },
     {
@@ -1271,7 +1223,6 @@
       "club_worth": "€378.5M",
       "average_age": "26.33",
       "captain_id": 49,
-      "coach_id": 49,
       "home_stadium_id": 100
     },
     {
@@ -1297,7 +1248,6 @@
       "club_worth": "€410.5M",
       "average_age": "25.09",
       "captain_id": 50,
-      "coach_id": 50,
       "home_stadium_id": 80
     },
     {
@@ -1323,7 +1273,6 @@
       "club_worth": "€411.5M",
       "average_age": "22.47",
       "captain_id": 51,
-      "coach_id": 51,
       "home_stadium_id": 22
     },
     {
@@ -1349,7 +1298,6 @@
       "club_worth": "€383.3M",
       "average_age": "22.76",
       "captain_id": 52,
-      "coach_id": 52,
       "home_stadium_id": 96
     },
     {
@@ -1375,7 +1323,6 @@
       "club_worth": "€455.5M",
       "average_age": "24.16",
       "captain_id": 53,
-      "coach_id": 53,
       "home_stadium_id": 83
     },
     {
@@ -1401,7 +1348,6 @@
       "club_worth": "€100M",
       "average_age": "27.11",
       "captain_id": 54,
-      "coach_id": 54,
       "home_stadium_id": 109
     },
     {
@@ -1427,7 +1373,6 @@
       "club_worth": "€222M",
       "average_age": "25.92",
       "captain_id": 55,
-      "coach_id": 55,
       "home_stadium_id": 85
     },
     {
@@ -1453,7 +1398,6 @@
       "club_worth": "€49M",
       "average_age": "26.45",
       "captain_id": 56,
-      "coach_id": 56,
       "home_stadium_id": 26
     },
     {
@@ -1479,7 +1423,6 @@
       "club_worth": "€150M",
       "average_age": "25.25",
       "captain_id": 57,
-      "coach_id": 57,
       "home_stadium_id": 78
     },
     {
@@ -1505,7 +1448,6 @@
       "club_worth": "€45M",
       "average_age": "24.32",
       "captain_id": 58,
-      "coach_id": 58,
       "home_stadium_id": 12
     },
     {
@@ -1531,7 +1473,6 @@
       "club_worth": "€130M",
       "average_age": "23.26",
       "captain_id": 59,
-      "coach_id": 59,
       "home_stadium_id": 109
     },
     {
@@ -1557,7 +1498,6 @@
       "club_worth": "€110M",
       "average_age": "24.33",
       "captain_id": 60,
-      "coach_id": 60,
       "home_stadium_id": 24
     },
     {
@@ -1583,7 +1523,6 @@
       "club_worth": "€15M",
       "average_age": "25.41",
       "captain_id": 61,
-      "coach_id": 61,
       "home_stadium_id": 50
     },
     {
@@ -1609,7 +1548,6 @@
       "club_worth": "€90M",
       "average_age": "25.46",
       "captain_id": 62,
-      "coach_id": 62,
       "home_stadium_id": 84
     },
     {
@@ -1635,7 +1573,6 @@
       "club_worth": "€195.7M",
       "average_age": "24.35",
       "captain_id": 63,
-      "coach_id": 63,
       "home_stadium_id": 84
     },
     {
@@ -1661,7 +1598,6 @@
       "club_worth": "€168.5M",
       "average_age": "24.14",
       "captain_id": 64,
-      "coach_id": 64,
       "home_stadium_id": 75
     },
     {
@@ -1687,7 +1623,6 @@
       "club_worth": "€127M",
       "average_age": "26.93",
       "captain_id": 65,
-      "coach_id": 65,
       "home_stadium_id": 88
     },
     {
@@ -1713,7 +1648,6 @@
       "club_worth": "€147M",
       "average_age": "24.23",
       "captain_id": 66,
-      "coach_id": 66,
       "home_stadium_id": 64
     },
     {
@@ -1739,7 +1673,6 @@
       "club_worth": "€50M",
       "average_age": "24.36",
       "captain_id": 67,
-      "coach_id": 67,
       "home_stadium_id": 50
     },
     {
@@ -1765,7 +1698,6 @@
       "club_worth": "€55M",
       "average_age": "23.89",
       "captain_id": 68,
-      "coach_id": 68,
       "home_stadium_id": 45
     },
     {
@@ -1791,7 +1723,6 @@
       "club_worth": "€100M",
       "average_age": "25.44",
       "captain_id": 69,
-      "coach_id": 69,
       "home_stadium_id": 109
     },
     {
@@ -1817,7 +1748,6 @@
       "club_worth": "€50M",
       "average_age": "25.65",
       "captain_id": 70,
-      "coach_id": 70,
       "home_stadium_id": 84
     },
     {
@@ -1843,7 +1773,6 @@
       "club_worth": "€94M",
       "average_age": "25.79",
       "captain_id": 71,
-      "coach_id": 71,
       "home_stadium_id": 45
     },
     {
@@ -1869,7 +1798,6 @@
       "club_worth": "€3.5M",
       "average_age": "26.72",
       "captain_id": 72,
-      "coach_id": 72,
       "home_stadium_id": 63
     },
     {
@@ -1895,7 +1823,6 @@
       "club_worth": "€85M",
       "average_age": "25.70",
       "captain_id": 73,
-      "coach_id": 73,
       "home_stadium_id": 78
     },
     {
@@ -1921,7 +1848,6 @@
       "club_worth": "€85M",
       "average_age": "24.83",
       "captain_id": 74,
-      "coach_id": 74,
       "home_stadium_id": 43
     },
     {
@@ -1947,7 +1873,6 @@
       "club_worth": "€75M",
       "average_age": "25.21",
       "captain_id": 75,
-      "coach_id": 75,
       "home_stadium_id": 64
     },
     {
@@ -1973,7 +1898,6 @@
       "club_worth": "€13M",
       "average_age": "24.81",
       "captain_id": 76,
-      "coach_id": 76,
       "home_stadium_id": 35
     },
     {
@@ -1999,7 +1923,6 @@
       "club_worth": "€180M",
       "average_age": "24.50",
       "captain_id": 77,
-      "coach_id": 77,
       "home_stadium_id": 109
     },
     {
@@ -2025,7 +1948,6 @@
       "club_worth": "€180M",
       "average_age": "22.43",
       "captain_id": 78,
-      "coach_id": 78,
       "home_stadium_id": 19
     },
     {
@@ -2051,7 +1973,6 @@
       "club_worth": "€380.5M",
       "average_age": "26.12",
       "captain_id": 79,
-      "coach_id": 79,
       "home_stadium_id": 102
     },
     {
@@ -2077,7 +1998,6 @@
       "club_worth": "€60M",
       "average_age": "23.73",
       "captain_id": 80,
-      "coach_id": 80,
       "home_stadium_id": 109
     },
     {
@@ -2103,7 +2023,6 @@
       "club_worth": "€275.1M",
       "average_age": "21.70",
       "captain_id": 81,
-      "coach_id": 81,
       "home_stadium_id": 58
     },
     {
@@ -2129,7 +2048,6 @@
       "club_worth": "€102M",
       "average_age": "26.26",
       "captain_id": 82,
-      "coach_id": 82,
       "home_stadium_id": 90
     },
     {
@@ -2155,7 +2073,6 @@
       "club_worth": "€129.3M",
       "average_age": "24.34",
       "captain_id": 83,
-      "coach_id": 83,
       "home_stadium_id": 108
     },
     {
@@ -2181,7 +2098,6 @@
       "club_worth": "€97M",
       "average_age": "26.25",
       "captain_id": 84,
-      "coach_id": 84,
       "home_stadium_id": 78
     },
     {
@@ -2207,7 +2123,6 @@
       "club_worth": "€75M",
       "average_age": "24.45",
       "captain_id": 85,
-      "coach_id": 85,
       "home_stadium_id": 39
     },
     {
@@ -2233,7 +2148,6 @@
       "club_worth": "€90M",
       "average_age": "26.11",
       "captain_id": 86,
-      "coach_id": 86,
       "home_stadium_id": 109
     },
     {
@@ -2259,7 +2173,6 @@
       "club_worth": "€55M",
       "average_age": "26.11",
       "captain_id": 87,
-      "coach_id": 87,
       "home_stadium_id": 19
     },
     {
@@ -2285,7 +2198,6 @@
       "club_worth": "€100M",
       "average_age": "23.03",
       "captain_id": 88,
-      "coach_id": 88,
       "home_stadium_id": 85
     },
     {
@@ -2311,7 +2223,6 @@
       "club_worth": "€185.5M",
       "average_age": "23.45",
       "captain_id": 89,
-      "coach_id": 89,
       "home_stadium_id": 60
     },
     {
@@ -2337,7 +2248,6 @@
       "club_worth": "€120M",
       "average_age": "25.03",
       "captain_id": 90,
-      "coach_id": 90,
       "home_stadium_id": 14
     },
     {
@@ -2363,7 +2273,6 @@
       "club_worth": "€520M",
       "average_age": "24.79",
       "captain_id": 91,
-      "coach_id": 91,
       "home_stadium_id": 66
     },
     {
@@ -2389,7 +2298,6 @@
       "club_worth": "€135M",
       "average_age": "23.48",
       "captain_id": 92,
-      "coach_id": 92,
       "home_stadium_id": 67
     },
     {
@@ -2415,7 +2323,6 @@
       "club_worth": "€250M",
       "average_age": "23.76",
       "captain_id": 93,
-      "coach_id": 93,
       "home_stadium_id": 17
     },
     {
@@ -2441,7 +2348,6 @@
       "club_worth": "€6.8M",
       "average_age": "25.61",
       "captain_id": 94,
-      "coach_id": 94,
       "home_stadium_id": 104
     },
     {
@@ -2467,7 +2373,6 @@
       "club_worth": "€4.8M",
       "average_age": "26.97",
       "captain_id": 95,
-      "coach_id": 95,
       "home_stadium_id": 21
     },
     {
@@ -2493,7 +2398,6 @@
       "club_worth": "€10M",
       "average_age": "25.35",
       "captain_id": 96,
-      "coach_id": 96,
       "home_stadium_id": 37
     },
     {
@@ -2519,7 +2423,6 @@
       "club_worth": "€326M",
       "average_age": "23.58",
       "captain_id": 97,
-      "coach_id": 97,
       "home_stadium_id": 11
     },
     {
@@ -2545,7 +2448,6 @@
       "club_worth": "€160M",
       "average_age": "25.23",
       "captain_id": 98,
-      "coach_id": 98,
       "home_stadium_id": 9
     },
     {
@@ -2571,7 +2473,6 @@
       "club_worth": "€65M",
       "average_age": "26.93",
       "captain_id": 99,
-      "coach_id": 99,
       "home_stadium_id": 91
     },
     {
@@ -2597,7 +2498,6 @@
       "club_worth": "€95M",
       "average_age": "23.79",
       "captain_id": 100,
-      "coach_id": 100,
       "home_stadium_id": 50
     },
     {
@@ -2623,7 +2523,6 @@
       "club_worth": "€85.5M",
       "average_age": "26.29",
       "captain_id": 101,
-      "coach_id": 101,
       "home_stadium_id": 87
     },
     {
@@ -2649,7 +2548,6 @@
       "club_worth": "€62M",
       "average_age": "24.67",
       "captain_id": 102,
-      "coach_id": 102,
       "home_stadium_id": 31
     },
     {
@@ -2675,7 +2573,6 @@
       "club_worth": "€75M",
       "average_age": "23.90",
       "captain_id": 103,
-      "coach_id": 103,
       "home_stadium_id": 109
     },
     {
@@ -2701,7 +2598,6 @@
       "club_worth": "€47M",
       "average_age": "24.93",
       "captain_id": 104,
-      "coach_id": 104,
       "home_stadium_id": 3
     },
     {
@@ -2727,7 +2623,6 @@
       "club_worth": "€65M",
       "average_age": "24.68",
       "captain_id": 105,
-      "coach_id": 105,
       "home_stadium_id": 19
     },
     {
@@ -2753,7 +2648,6 @@
       "club_worth": "€105M",
       "average_age": "21.80",
       "captain_id": 106,
-      "coach_id": 106,
       "home_stadium_id": 90
     },
     {
@@ -2779,7 +2673,6 @@
       "club_worth": "€45M",
       "average_age": "24.44",
       "captain_id": 107,
-      "coach_id": 107,
       "home_stadium_id": 15
     },
     {
@@ -2805,7 +2698,6 @@
       "club_worth": "€70M",
       "average_age": "23.10",
       "captain_id": 108,
-      "coach_id": 108,
       "home_stadium_id": 84
     },
     {
@@ -2831,7 +2723,6 @@
       "club_worth": "€40M",
       "average_age": "26.74",
       "captain_id": 109,
-      "coach_id": 109,
       "home_stadium_id": 13
     },
     {
@@ -2857,7 +2748,6 @@
       "club_worth": "€80M",
       "average_age": "26.46",
       "captain_id": 110,
-      "coach_id": 110,
       "home_stadium_id": 85
     },
     {
@@ -2883,7 +2773,6 @@
       "club_worth": "€60M",
       "average_age": "28.08",
       "captain_id": 111,
-      "coach_id": 111,
       "home_stadium_id": 90
     },
     {
@@ -2909,7 +2798,6 @@
       "club_worth": "€110M",
       "average_age": "24.17",
       "captain_id": 112,
-      "coach_id": 112,
       "home_stadium_id": 105
     },
     {
@@ -2935,7 +2823,6 @@
       "club_worth": "€150M",
       "average_age": "25.17",
       "captain_id": 113,
-      "coach_id": 113,
       "home_stadium_id": 91
     },
     {
@@ -2961,7 +2848,6 @@
       "club_worth": "€175M",
       "average_age": "22.32",
       "captain_id": 114,
-      "coach_id": 114,
       "home_stadium_id": 109
     },
     {
@@ -2987,7 +2873,6 @@
       "club_worth": "€8.9M",
       "average_age": "26.07",
       "captain_id": 115,
-      "coach_id": 115,
       "home_stadium_id": 27
     },
     {
@@ -3013,7 +2898,6 @@
       "club_worth": "€150M",
       "average_age": "24.74",
       "captain_id": 116,
-      "coach_id": 116,
       "home_stadium_id": 43
     },
     {
@@ -3039,7 +2923,6 @@
       "club_worth": "€29M",
       "average_age": "27.03",
       "captain_id": 117,
-      "coach_id": 117,
       "home_stadium_id": 62
     },
     {
@@ -3065,7 +2948,6 @@
       "club_worth": "€101M",
       "average_age": "24.75",
       "captain_id": 118,
-      "coach_id": 118,
       "home_stadium_id": 88
     },
     {
@@ -3091,7 +2973,6 @@
       "club_worth": "€45M",
       "average_age": "25.00",
       "captain_id": 119,
-      "coach_id": 119,
       "home_stadium_id": 45
     },
     {
@@ -3117,7 +2998,6 @@
       "club_worth": "€25.4M",
       "average_age": "26.46",
       "captain_id": 120,
-      "coach_id": 120,
       "home_stadium_id": 5
     },
     {
@@ -3143,7 +3023,6 @@
       "club_worth": "€121.7M",
       "average_age": "23.48",
       "captain_id": 121,
-      "coach_id": 121,
       "home_stadium_id": 111
     },
     {
@@ -3169,7 +3048,6 @@
       "club_worth": "€40M",
       "average_age": "25.06",
       "captain_id": 122,
-      "coach_id": 122,
       "home_stadium_id": 45
     },
     {
@@ -3195,7 +3073,6 @@
       "club_worth": "€62.3M",
       "average_age": "23.89",
       "captain_id": 123,
-      "coach_id": 123,
       "home_stadium_id": 109
     },
     {
@@ -3221,7 +3098,6 @@
       "club_worth": "€60M",
       "average_age": "24.42",
       "captain_id": 124,
-      "coach_id": 124,
       "home_stadium_id": 45
     },
     {
@@ -3247,7 +3123,6 @@
       "club_worth": "€45M",
       "average_age": "26.32",
       "captain_id": 125,
-      "coach_id": 125,
       "home_stadium_id": 91
     },
     {
@@ -3273,7 +3148,6 @@
       "club_worth": "€49M",
       "average_age": "23.29",
       "captain_id": 126,
-      "coach_id": 126,
       "home_stadium_id": 79
     },
     {
@@ -3299,7 +3173,6 @@
       "club_worth": "€32.3M",
       "average_age": "26.48",
       "captain_id": 127,
-      "coach_id": 127,
       "home_stadium_id": 90
     },
     {
@@ -3325,7 +3198,6 @@
       "club_worth": "€140M",
       "average_age": "22.04",
       "captain_id": 128,
-      "coach_id": 128,
       "home_stadium_id": 109
     },
     {
@@ -3351,7 +3223,6 @@
       "club_worth": "€150M",
       "average_age": "25.36",
       "captain_id": 129,
-      "coach_id": 129,
       "home_stadium_id": 90
     },
     {
@@ -3377,7 +3248,6 @@
       "club_worth": "€14M",
       "average_age": "25.58",
       "captain_id": 130,
-      "coach_id": 130,
       "home_stadium_id": 99
     },
     {
@@ -3403,7 +3273,6 @@
       "club_worth": "€20M",
       "average_age": "24.46",
       "captain_id": 131,
-      "coach_id": 131,
       "home_stadium_id": 43
     },
     {
@@ -3429,7 +3298,6 @@
       "club_worth": "€130M",
       "average_age": "22.30",
       "captain_id": 132,
-      "coach_id": 132,
       "home_stadium_id": 84
     },
     {
@@ -3455,7 +3323,6 @@
       "club_worth": "€80M",
       "average_age": "25.07",
       "captain_id": 133,
-      "coach_id": 133,
       "home_stadium_id": 45
     },
     {
@@ -3481,7 +3348,6 @@
       "club_worth": "€9.8M",
       "average_age": "23.30",
       "captain_id": 134,
-      "coach_id": 134,
       "home_stadium_id": 36
     },
     {
@@ -3507,7 +3373,6 @@
       "club_worth": "€35M",
       "average_age": "23.00",
       "captain_id": 135,
-      "coach_id": 135,
       "home_stadium_id": 50
     },
     {
@@ -3533,7 +3398,6 @@
       "club_worth": "€65M",
       "average_age": "24.13",
       "captain_id": 136,
-      "coach_id": 136,
       "home_stadium_id": 50
     },
     {
@@ -3559,7 +3423,6 @@
       "club_worth": "€24M",
       "average_age": "26.10",
       "captain_id": 137,
-      "coach_id": 137,
       "home_stadium_id": 54
     },
     {
@@ -3585,7 +3448,6 @@
       "club_worth": "€35M",
       "average_age": "25.48",
       "captain_id": 138,
-      "coach_id": 138,
       "home_stadium_id": 44
     },
     {
@@ -3611,7 +3473,6 @@
       "club_worth": "€126.4M",
       "average_age": "22.72",
       "captain_id": 139,
-      "coach_id": 139,
       "home_stadium_id": 106
     },
     {
@@ -3637,7 +3498,6 @@
       "club_worth": "€502.1M",
       "average_age": "25.37",
       "captain_id": 140,
-      "coach_id": 140,
       "home_stadium_id": 101
     },
     {
@@ -3663,7 +3523,6 @@
       "club_worth": "€13M",
       "average_age": "26.39",
       "captain_id": 141,
-      "coach_id": 141,
       "home_stadium_id": 4
     },
     {
@@ -3689,7 +3548,6 @@
       "club_worth": "€43M",
       "average_age": "26.61",
       "captain_id": 142,
-      "coach_id": 142,
       "home_stadium_id": 90
     },
     {
@@ -3715,7 +3573,6 @@
       "club_worth": "€40.5M",
       "average_age": "23.17",
       "captain_id": 143,
-      "coach_id": 143,
       "home_stadium_id": 84
     },
     {
@@ -3741,7 +3598,6 @@
       "club_worth": "€140M",
       "average_age": "24.10",
       "captain_id": 144,
-      "coach_id": 144,
       "home_stadium_id": 97
     },
     {
@@ -3767,7 +3623,6 @@
       "club_worth": "€73.3M",
       "average_age": "22.61",
       "captain_id": 145,
-      "coach_id": 145,
       "home_stadium_id": 109
     },
     {
@@ -3793,7 +3648,6 @@
       "club_worth": "€75.8M",
       "average_age": "23.93",
       "captain_id": 146,
-      "coach_id": 146,
       "home_stadium_id": 109
     },
     {
@@ -3819,7 +3673,6 @@
       "club_worth": "€21M",
       "average_age": "23.21",
       "captain_id": 147,
-      "coach_id": 147,
       "home_stadium_id": 99
     },
     {
@@ -3845,7 +3698,6 @@
       "club_worth": "€15.6M",
       "average_age": "26.89",
       "captain_id": 148,
-      "coach_id": 148,
       "home_stadium_id": 88
     },
     {
@@ -3871,7 +3723,6 @@
       "club_worth": "€25.6M",
       "average_age": "23.57",
       "captain_id": 149,
-      "coach_id": 149,
       "home_stadium_id": 13
     },
     {
@@ -3897,7 +3748,6 @@
       "club_worth": "€45M",
       "average_age": "24.33",
       "captain_id": 150,
-      "coach_id": 150,
       "home_stadium_id": 60
     },
     {
@@ -3923,7 +3773,6 @@
       "club_worth": "€3M",
       "average_age": "23.92",
       "captain_id": 151,
-      "coach_id": 151,
       "home_stadium_id": 99
     },
     {
@@ -3949,7 +3798,6 @@
       "club_worth": "€34M",
       "average_age": "26.46",
       "captain_id": 152,
-      "coach_id": 152,
       "home_stadium_id": 91
     },
     {
@@ -3975,7 +3823,6 @@
       "club_worth": "€31.5M",
       "average_age": "23.96",
       "captain_id": 153,
-      "coach_id": 153,
       "home_stadium_id": 90
     },
     {
@@ -4001,7 +3848,6 @@
       "club_worth": "€38M",
       "average_age": "26.52",
       "captain_id": 154,
-      "coach_id": 154,
       "home_stadium_id": 90
     },
     {
@@ -4027,7 +3873,6 @@
       "club_worth": "€40M",
       "average_age": "24.10",
       "captain_id": 155,
-      "coach_id": 155,
       "home_stadium_id": 60
     },
     {
@@ -4053,7 +3898,6 @@
       "club_worth": "€5M",
       "average_age": "25.53",
       "captain_id": 156,
-      "coach_id": 156,
       "home_stadium_id": 31
     },
     {
@@ -4079,7 +3923,6 @@
       "club_worth": "€45M",
       "average_age": "25.68",
       "captain_id": 157,
-      "coach_id": 157,
       "home_stadium_id": 89
     },
     {
@@ -4105,7 +3948,6 @@
       "club_worth": "€14M",
       "average_age": "23.67",
       "captain_id": 158,
-      "coach_id": 158,
       "home_stadium_id": 60
     },
     {
@@ -4131,7 +3973,6 @@
       "club_worth": "€20M",
       "average_age": "24.80",
       "captain_id": 159,
-      "coach_id": 159,
       "home_stadium_id": 60
     },
     {
@@ -4157,7 +3998,6 @@
       "club_worth": "€65M",
       "average_age": "25.07",
       "captain_id": 160,
-      "coach_id": 160,
       "home_stadium_id": 76
     },
     {
@@ -4183,7 +4023,6 @@
       "club_worth": "€55M",
       "average_age": "25.27",
       "captain_id": 161,
-      "coach_id": 161,
       "home_stadium_id": 94
     },
     {
@@ -4209,7 +4048,6 @@
       "club_worth": "€10.8M",
       "average_age": "26.53",
       "captain_id": 162,
-      "coach_id": 162,
       "home_stadium_id": 61
     },
     {
@@ -4235,7 +4073,6 @@
       "club_worth": "€5.8M",
       "average_age": "23.48",
       "captain_id": 163,
-      "coach_id": 163,
       "home_stadium_id": 4
     },
     {
@@ -4261,7 +4098,6 @@
       "club_worth": "€54.3M",
       "average_age": "25.37",
       "captain_id": 164,
-      "coach_id": 164,
       "home_stadium_id": 18
     },
     {
@@ -4287,7 +4123,6 @@
       "club_worth": "€17.6M",
       "average_age": "23.90",
       "captain_id": 165,
-      "coach_id": 165,
       "home_stadium_id": 4
     },
     {
@@ -4313,7 +4148,6 @@
       "club_worth": "€56M",
       "average_age": "25.50",
       "captain_id": 166,
-      "coach_id": 166,
       "home_stadium_id": 3
     },
     {
@@ -4339,7 +4173,6 @@
       "club_worth": "€59.5M",
       "average_age": "26.21",
       "captain_id": 167,
-      "coach_id": 167,
       "home_stadium_id": 84
     },
     {
@@ -4365,7 +4198,6 @@
       "club_worth": "€7M",
       "average_age": "24.50",
       "captain_id": 168,
-      "coach_id": 168,
       "home_stadium_id": 13
     },
     {
@@ -4391,7 +4223,6 @@
       "club_worth": "€22M",
       "average_age": "25.36",
       "captain_id": 169,
-      "coach_id": 169,
       "home_stadium_id": 50
     },
     {
@@ -4417,7 +4248,6 @@
       "club_worth": "€9M",
       "average_age": "24.37",
       "captain_id": 170,
-      "coach_id": 170,
       "home_stadium_id": 15
     },
     {
@@ -4443,7 +4273,6 @@
       "club_worth": "€14.5M",
       "average_age": "25.11",
       "captain_id": 171,
-      "coach_id": 171,
       "home_stadium_id": 90
     },
     {
@@ -4469,7 +4298,6 @@
       "club_worth": "€12M",
       "average_age": "25.29",
       "captain_id": 172,
-      "coach_id": 172,
       "home_stadium_id": 78
     },
     {
@@ -4495,7 +4323,6 @@
       "club_worth": "€9.5M",
       "average_age": "24.44",
       "captain_id": 173,
-      "coach_id": 173,
       "home_stadium_id": 84
     },
     {
@@ -4521,7 +4348,6 @@
       "club_worth": "€75M",
       "average_age": "24.10",
       "captain_id": 174,
-      "coach_id": 174,
       "home_stadium_id": 50
     },
     {
@@ -4547,7 +4373,6 @@
       "club_worth": "€77M",
       "average_age": "21.77",
       "captain_id": 175,
-      "coach_id": 175,
       "home_stadium_id": 84
     },
     {
@@ -4573,7 +4398,6 @@
       "club_worth": "€45M",
       "average_age": "24.60",
       "captain_id": 176,
-      "coach_id": 176,
       "home_stadium_id": 53
     },
     {
@@ -4599,7 +4423,6 @@
       "club_worth": "€22M",
       "average_age": "26.16",
       "captain_id": 177,
-      "coach_id": 177,
       "home_stadium_id": 31
     },
     {
@@ -4625,7 +4448,6 @@
       "club_worth": "€6.1M",
       "average_age": "27.22",
       "captain_id": 178,
-      "coach_id": 178,
       "home_stadium_id": 78
     },
     {
@@ -4651,7 +4473,6 @@
       "club_worth": "€35M",
       "average_age": "25.83",
       "captain_id": 179,
-      "coach_id": 179,
       "home_stadium_id": 45
     },
     {
@@ -4677,7 +4498,6 @@
       "club_worth": "€14M",
       "average_age": "25.84",
       "captain_id": 180,
-      "coach_id": 180,
       "home_stadium_id": 60
     },
     {
@@ -4703,7 +4523,6 @@
       "club_worth": "€100M",
       "average_age": "22.67",
       "captain_id": 181,
-      "coach_id": 181,
       "home_stadium_id": 95
     },
     {
@@ -4729,7 +4548,6 @@
       "club_worth": "€15M",
       "average_age": "22.87",
       "captain_id": 182,
-      "coach_id": 182,
       "home_stadium_id": 1
     },
     {
@@ -4755,7 +4573,6 @@
       "club_worth": "€58.4M",
       "average_age": "24.59",
       "captain_id": 183,
-      "coach_id": 183,
       "home_stadium_id": 57
     },
     {
@@ -4781,7 +4598,6 @@
       "club_worth": "€26.2M",
       "average_age": "26.61",
       "captain_id": 184,
-      "coach_id": 184,
       "home_stadium_id": 90
     },
     {
@@ -4807,7 +4623,6 @@
       "club_worth": "€33M",
       "average_age": "29.08",
       "captain_id": 185,
-      "coach_id": 185,
       "home_stadium_id": 86
     },
     {
@@ -4833,7 +4648,6 @@
       "club_worth": "€18.9M",
       "average_age": "26.52",
       "captain_id": 186,
-      "coach_id": 186,
       "home_stadium_id": 84
     },
     {
@@ -4859,7 +4673,6 @@
       "club_worth": "€20M",
       "average_age": "25.86",
       "captain_id": 187,
-      "coach_id": 187,
       "home_stadium_id": 15
     },
     {
@@ -4885,7 +4698,6 @@
       "club_worth": "€17M",
       "average_age": "24.50",
       "captain_id": 188,
-      "coach_id": 188,
       "home_stadium_id": 84
     },
     {
@@ -4911,7 +4723,6 @@
       "club_worth": "€50M",
       "average_age": "24.93",
       "captain_id": 189,
-      "coach_id": 189,
       "home_stadium_id": 34
     },
     {
@@ -4937,7 +4748,6 @@
       "club_worth": "€28M",
       "average_age": "26.40",
       "captain_id": 190,
-      "coach_id": 190,
       "home_stadium_id": 85
     },
     {
@@ -4963,7 +4773,6 @@
       "club_worth": "€2.5M",
       "average_age": "26.90",
       "captain_id": 191,
-      "coach_id": 191,
       "home_stadium_id": 85
     },
     {
@@ -4989,7 +4798,6 @@
       "club_worth": "€7M",
       "average_age": "24.37",
       "captain_id": 192,
-      "coach_id": 192,
       "home_stadium_id": 21
     },
     {
@@ -5015,7 +4823,6 @@
       "club_worth": "€4.5M",
       "average_age": "25.77",
       "captain_id": 193,
-      "coach_id": 193,
       "home_stadium_id": 20
     },
     {
@@ -5041,7 +4848,6 @@
       "club_worth": "€9.4M",
       "average_age": "25.13",
       "captain_id": 194,
-      "coach_id": 194,
       "home_stadium_id": 43
     },
     {
@@ -5067,7 +4873,6 @@
       "club_worth": "€29.3M",
       "average_age": "24.23",
       "captain_id": 195,
-      "coach_id": 195,
       "home_stadium_id": 8
     },
     {
@@ -5093,7 +4898,6 @@
       "club_worth": "€21M",
       "average_age": "24.46",
       "captain_id": 196,
-      "coach_id": 196,
       "home_stadium_id": 45
     },
     {
@@ -5119,7 +4923,6 @@
       "club_worth": "€105M",
       "average_age": "24.63",
       "captain_id": 197,
-      "coach_id": 197,
       "home_stadium_id": 28
     },
     {
@@ -5145,7 +4948,6 @@
       "club_worth": "€2.6M",
       "average_age": "26.50",
       "captain_id": 198,
-      "coach_id": 198,
       "home_stadium_id": 99
     },
     {
@@ -5171,7 +4973,6 @@
       "club_worth": "€22M",
       "average_age": "24.30",
       "captain_id": 199,
-      "coach_id": 199,
       "home_stadium_id": 50
     },
     {
@@ -5197,7 +4998,6 @@
       "club_worth": "€23M",
       "average_age": "25.35",
       "captain_id": 200,
-      "coach_id": 200,
       "home_stadium_id": 31
     },
     {
@@ -5223,7 +5023,6 @@
       "club_worth": "€7.3M",
       "average_age": "25.96",
       "captain_id": 201,
-      "coach_id": 201,
       "home_stadium_id": 13
     },
     {
@@ -5249,7 +5048,6 @@
       "club_worth": "€70M",
       "average_age": "23.04",
       "captain_id": 202,
-      "coach_id": 202,
       "home_stadium_id": 109
     },
     {
@@ -5275,7 +5073,6 @@
       "club_worth": "€18M",
       "average_age": "24.69",
       "captain_id": 203,
-      "coach_id": 203,
       "home_stadium_id": 60
     },
     {
@@ -5301,7 +5098,6 @@
       "club_worth": "€60M",
       "average_age": "23.97",
       "captain_id": 204,
-      "coach_id": 204,
       "home_stadium_id": 84
     },
     {
@@ -5327,7 +5123,6 @@
       "club_worth": "€8M",
       "average_age": "25.50",
       "captain_id": 205,
-      "coach_id": 205,
       "home_stadium_id": 13
     },
     {
@@ -5353,7 +5148,6 @@
       "club_worth": "€14.4M",
       "average_age": "24.11",
       "captain_id": 206,
-      "coach_id": 206,
       "home_stadium_id": 60
     },
     {
@@ -5379,7 +5173,6 @@
       "club_worth": "€30M",
       "average_age": "23.75",
       "captain_id": 207,
-      "coach_id": 207,
       "home_stadium_id": 88
     },
     {
@@ -5405,7 +5198,6 @@
       "club_worth": "€6.4M",
       "average_age": "23.78",
       "captain_id": 208,
-      "coach_id": 208,
       "home_stadium_id": 13
     },
     {
@@ -5431,7 +5223,6 @@
       "club_worth": "€13M",
       "average_age": "24.57",
       "captain_id": 209,
-      "coach_id": 209,
       "home_stadium_id": 109
     },
     {
@@ -5457,7 +5248,6 @@
       "club_worth": "€35M",
       "average_age": "24.61",
       "captain_id": 210,
-      "coach_id": 210,
       "home_stadium_id": 50
     },
     {
@@ -5483,7 +5273,6 @@
       "club_worth": "€40M",
       "average_age": "21.86",
       "captain_id": 211,
-      "coach_id": 211,
       "home_stadium_id": 50
     },
     {
@@ -5509,7 +5298,6 @@
       "club_worth": "€8.5M",
       "average_age": "25.36",
       "captain_id": 212,
-      "coach_id": 212,
       "home_stadium_id": 44
     },
     {
@@ -5535,7 +5323,6 @@
       "club_worth": "€20M",
       "average_age": "23.43",
       "captain_id": 213,
-      "coach_id": 213,
       "home_stadium_id": 45
     },
     {
@@ -5561,7 +5348,6 @@
       "club_worth": "€70M",
       "average_age": "23.87",
       "captain_id": 214,
-      "coach_id": 214,
       "home_stadium_id": 10
     },
     {
@@ -5587,7 +5373,6 @@
       "club_worth": "€30M",
       "average_age": "26.57",
       "captain_id": 215,
-      "coach_id": 215,
       "home_stadium_id": 43
     },
     {
@@ -5613,7 +5398,6 @@
       "club_worth": "€25M",
       "average_age": "22.56",
       "captain_id": 216,
-      "coach_id": 216,
       "home_stadium_id": 13
     },
     {
@@ -5639,7 +5423,6 @@
       "club_worth": "€5.4M",
       "average_age": "25.18",
       "captain_id": 217,
-      "coach_id": 217,
       "home_stadium_id": 1
     },
     {
@@ -5665,7 +5448,6 @@
       "club_worth": "€19M",
       "average_age": "22.57",
       "captain_id": 218,
-      "coach_id": 218,
       "home_stadium_id": 90
     },
     {
@@ -5691,7 +5473,6 @@
       "club_worth": "€26M",
       "average_age": "23.28",
       "captain_id": 219,
-      "coach_id": 219,
       "home_stadium_id": 15
     },
     {
@@ -5717,7 +5498,6 @@
       "club_worth": "€7.2M",
       "average_age": "26.39",
       "captain_id": 220,
-      "coach_id": 220,
       "home_stadium_id": 45
     },
     {
@@ -5743,7 +5523,6 @@
       "club_worth": "€96.3M",
       "average_age": "24.93",
       "captain_id": 221,
-      "coach_id": 221,
       "home_stadium_id": 49
     },
     {
@@ -5769,7 +5548,6 @@
       "club_worth": "€4.4M",
       "average_age": "25.65",
       "captain_id": 222,
-      "coach_id": 222,
       "home_stadium_id": 13
     },
     {
@@ -5795,7 +5573,6 @@
       "club_worth": "€85M",
       "average_age": "22.68",
       "captain_id": 223,
-      "coach_id": 223,
       "home_stadium_id": 109
     },
     {
@@ -5821,7 +5598,6 @@
       "club_worth": "€3.9M",
       "average_age": "24.70",
       "captain_id": 224,
-      "coach_id": 224,
       "home_stadium_id": 88
     },
     {
@@ -5847,7 +5623,6 @@
       "club_worth": "€25M",
       "average_age": "23.70",
       "captain_id": 225,
-      "coach_id": 225,
       "home_stadium_id": 13
     },
     {
@@ -5873,7 +5648,6 @@
       "club_worth": "€32.2M",
       "average_age": "24.43",
       "captain_id": 226,
-      "coach_id": 226,
       "home_stadium_id": 50
     },
     {
@@ -5899,7 +5673,6 @@
       "club_worth": "€30M",
       "average_age": "24.96",
       "captain_id": 227,
-      "coach_id": 227,
       "home_stadium_id": 13
     },
     {
@@ -5925,7 +5698,6 @@
       "club_worth": "€27M",
       "average_age": "22.69",
       "captain_id": 228,
-      "coach_id": 228,
       "home_stadium_id": 88
     },
     {
@@ -5951,7 +5723,6 @@
       "club_worth": "€15M",
       "average_age": "23.63",
       "captain_id": 229,
-      "coach_id": 229,
       "home_stadium_id": 90
     },
     {
@@ -5977,7 +5748,6 @@
       "club_worth": "€11.9M",
       "average_age": "25.97",
       "captain_id": 230,
-      "coach_id": 230,
       "home_stadium_id": 84
     },
     {
@@ -6003,7 +5773,6 @@
       "club_worth": "€8.4M",
       "average_age": "25.15",
       "captain_id": 231,
-      "coach_id": 231,
       "home_stadium_id": 60
     },
     {
@@ -6029,7 +5798,6 @@
       "club_worth": "€35M",
       "average_age": "26.21",
       "captain_id": 232,
-      "coach_id": 232,
       "home_stadium_id": 15
     },
     {
@@ -6055,7 +5823,6 @@
       "club_worth": "€7M",
       "average_age": "26.07",
       "captain_id": 233,
-      "coach_id": 233,
       "home_stadium_id": 78
     },
     {
@@ -6081,7 +5848,6 @@
       "club_worth": "€7.4M",
       "average_age": "24.46",
       "captain_id": 234,
-      "coach_id": 234,
       "home_stadium_id": 13
     },
     {
@@ -6107,7 +5873,6 @@
       "club_worth": "€16.9M",
       "average_age": "25.60",
       "captain_id": 235,
-      "coach_id": 235,
       "home_stadium_id": 15
     },
     {
@@ -6133,7 +5898,6 @@
       "club_worth": "€10.3M",
       "average_age": "24.15",
       "captain_id": 236,
-      "coach_id": 236,
       "home_stadium_id": 90
     },
     {
@@ -6159,7 +5923,6 @@
       "club_worth": "€19M",
       "average_age": "24.46",
       "captain_id": 237,
-      "coach_id": 237,
       "home_stadium_id": 109
     },
     {
@@ -6185,7 +5948,6 @@
       "club_worth": "€7.7M",
       "average_age": "25.67",
       "captain_id": 238,
-      "coach_id": 238,
       "home_stadium_id": 50
     },
     {
@@ -6211,7 +5973,6 @@
       "club_worth": "€50M",
       "average_age": "22.60",
       "captain_id": 239,
-      "coach_id": 239,
       "home_stadium_id": 84
     },
     {
@@ -6237,7 +5998,6 @@
       "club_worth": "€8M",
       "average_age": "24.17",
       "captain_id": 240,
-      "coach_id": 240,
       "home_stadium_id": 43
     },
     {
@@ -6263,7 +6023,6 @@
       "club_worth": "€12.2M",
       "average_age": "26.23",
       "captain_id": 241,
-      "coach_id": 241,
       "home_stadium_id": 13
     },
     {
@@ -6289,7 +6048,6 @@
       "club_worth": "€15M",
       "average_age": "23.64",
       "captain_id": 242,
-      "coach_id": 242,
       "home_stadium_id": 60
     },
     {
@@ -6315,7 +6073,6 @@
       "club_worth": "€11M",
       "average_age": "24.78",
       "captain_id": 243,
-      "coach_id": 243,
       "home_stadium_id": 43
     },
     {
@@ -6341,7 +6098,6 @@
       "club_worth": "€12M",
       "average_age": "24.25",
       "captain_id": 244,
-      "coach_id": 244,
       "home_stadium_id": 60
     },
     {
@@ -6367,7 +6123,6 @@
       "club_worth": "€5.6M",
       "average_age": "26.25",
       "captain_id": 245,
-      "coach_id": 245,
       "home_stadium_id": 1
     },
     {
@@ -6393,7 +6148,6 @@
       "club_worth": "€20M",
       "average_age": "21.90",
       "captain_id": 246,
-      "coach_id": 246,
       "home_stadium_id": 45
     },
     {
@@ -6419,7 +6173,6 @@
       "club_worth": "€10.6M",
       "average_age": "28.29",
       "captain_id": 247,
-      "coach_id": 247,
       "home_stadium_id": 45
     },
     {
@@ -6445,7 +6198,6 @@
       "club_worth": "€8.8M",
       "average_age": "23.18",
       "captain_id": 248,
-      "coach_id": 248,
       "home_stadium_id": 99
     },
     {
@@ -6471,7 +6223,6 @@
       "club_worth": "€12M",
       "average_age": "23.27",
       "captain_id": 249,
-      "coach_id": 249,
       "home_stadium_id": 56
     },
     {
@@ -6497,7 +6248,6 @@
       "club_worth": "€30M",
       "average_age": "24.33",
       "captain_id": 250,
-      "coach_id": 250,
       "home_stadium_id": 45
     },
     {
@@ -6523,7 +6273,6 @@
       "club_worth": "€16.3M",
       "average_age": "24.61",
       "captain_id": 251,
-      "coach_id": 251,
       "home_stadium_id": 109
     },
     {
@@ -6549,7 +6298,6 @@
       "club_worth": "€19M",
       "average_age": "23.90",
       "captain_id": 252,
-      "coach_id": 252,
       "home_stadium_id": 43
     },
     {
@@ -6575,7 +6323,6 @@
       "club_worth": "€17M",
       "average_age": "24.57",
       "captain_id": 253,
-      "coach_id": 253,
       "home_stadium_id": 84
     },
     {
@@ -6601,7 +6348,6 @@
       "club_worth": "€30M",
       "average_age": "22.25",
       "captain_id": 254,
-      "coach_id": 254,
       "home_stadium_id": 109
     },
     {
@@ -6627,7 +6373,6 @@
       "club_worth": "€20M",
       "average_age": "24.50",
       "captain_id": 255,
-      "coach_id": 255,
       "home_stadium_id": 13
     },
     {
@@ -6653,7 +6398,6 @@
       "club_worth": "€28M",
       "average_age": "24.57",
       "captain_id": 256,
-      "coach_id": 256,
       "home_stadium_id": 13
     },
     {
@@ -6679,7 +6423,6 @@
       "club_worth": "€2.6M",
       "average_age": "26.03",
       "captain_id": 257,
-      "coach_id": 257,
       "home_stadium_id": 13
     },
     {
@@ -6705,7 +6448,6 @@
       "club_worth": "€25M",
       "average_age": "24.11",
       "captain_id": 258,
-      "coach_id": 258,
       "home_stadium_id": 13
     },
     {
@@ -6731,7 +6473,6 @@
       "club_worth": "€9.6M",
       "average_age": "24.43",
       "captain_id": 259,
-      "coach_id": 259,
       "home_stadium_id": 90
     },
     {
@@ -6757,7 +6498,6 @@
       "club_worth": "€50M",
       "average_age": "22.71",
       "captain_id": 260,
-      "coach_id": 260,
       "home_stadium_id": 88
     },
     {
@@ -6783,7 +6523,6 @@
       "club_worth": "€39M",
       "average_age": "22.54",
       "captain_id": 261,
-      "coach_id": 261,
       "home_stadium_id": 84
     },
     {
@@ -6809,7 +6548,6 @@
       "club_worth": "€4M",
       "average_age": "25.17",
       "captain_id": 262,
-      "coach_id": 262,
       "home_stadium_id": 60
     },
     {
@@ -6835,7 +6573,6 @@
       "club_worth": "€20.5M",
       "average_age": "23.08",
       "captain_id": 263,
-      "coach_id": 263,
       "home_stadium_id": 109
     },
     {
@@ -6861,7 +6598,6 @@
       "club_worth": "€9.5M",
       "average_age": "23.26",
       "captain_id": 264,
-      "coach_id": 264,
       "home_stadium_id": 43
     },
     {
@@ -6887,7 +6623,6 @@
       "club_worth": "€43.6M",
       "average_age": "25.68",
       "captain_id": 265,
-      "coach_id": 265,
       "home_stadium_id": 50
     },
     {
@@ -6913,7 +6648,6 @@
       "club_worth": "€14M",
       "average_age": "23.37",
       "captain_id": 266,
-      "coach_id": 266,
       "home_stadium_id": 60
     },
     {
@@ -6939,7 +6673,6 @@
       "club_worth": "€36M",
       "average_age": "22.87",
       "captain_id": 267,
-      "coach_id": 267,
       "home_stadium_id": 90
     },
     {
@@ -6965,7 +6698,6 @@
       "club_worth": "€24M",
       "average_age": "25.03",
       "captain_id": 268,
-      "coach_id": 268,
       "home_stadium_id": 90
     },
     {
@@ -6991,7 +6723,6 @@
       "club_worth": "€27.5M",
       "average_age": "22.63",
       "captain_id": 269,
-      "coach_id": 269,
       "home_stadium_id": 45
     },
     {
@@ -7017,7 +6748,6 @@
       "club_worth": "€6.6M",
       "average_age": "24.00",
       "captain_id": 270,
-      "coach_id": 270,
       "home_stadium_id": 44
     },
     {
@@ -7043,7 +6773,6 @@
       "club_worth": "€14.2M",
       "average_age": "24.50",
       "captain_id": 271,
-      "coach_id": 271,
       "home_stadium_id": 43
     },
     {
@@ -7069,7 +6798,6 @@
       "club_worth": "€2.5M",
       "average_age": "27.12",
       "captain_id": 272,
-      "coach_id": 272,
       "home_stadium_id": 13
     },
     {
@@ -7095,7 +6823,6 @@
       "club_worth": "€10M",
       "average_age": "25.92",
       "captain_id": 273,
-      "coach_id": 273,
       "home_stadium_id": 15
     },
     {
@@ -7121,7 +6848,6 @@
       "club_worth": "€32M",
       "average_age": "23.43",
       "captain_id": 274,
-      "coach_id": 274,
       "home_stadium_id": 90
     },
     {
@@ -7147,7 +6873,6 @@
       "club_worth": "€10.5M",
       "average_age": "24.53",
       "captain_id": 275,
-      "coach_id": 275,
       "home_stadium_id": 109
     },
     {
@@ -7173,7 +6898,6 @@
       "club_worth": "€64M",
       "average_age": "22.77",
       "captain_id": 276,
-      "coach_id": 276,
       "home_stadium_id": 109
     },
     {
@@ -7199,7 +6923,6 @@
       "club_worth": "€68M",
       "average_age": "21.62",
       "captain_id": 277,
-      "coach_id": 277,
       "home_stadium_id": 109
     },
     {
@@ -7225,7 +6948,6 @@
       "club_worth": "€9M",
       "average_age": "25.64",
       "captain_id": 278,
-      "coach_id": 278,
       "home_stadium_id": 50
     },
     {
@@ -7251,7 +6973,6 @@
       "club_worth": "€5M",
       "average_age": "24.47",
       "captain_id": 279,
-      "coach_id": 279,
       "home_stadium_id": 60
     },
     {
@@ -7277,7 +6998,6 @@
       "club_worth": "€17.6M",
       "average_age": "25.47",
       "captain_id": 280,
-      "coach_id": 280,
       "home_stadium_id": 90
     },
     {
@@ -7303,7 +7023,6 @@
       "club_worth": "€7M",
       "average_age": "22.80",
       "captain_id": 281,
-      "coach_id": 281,
       "home_stadium_id": 13
     },
     {
@@ -7329,7 +7048,6 @@
       "club_worth": "€5.4M",
       "average_age": "24.18",
       "captain_id": 282,
-      "coach_id": 282,
       "home_stadium_id": 99
     },
     {
@@ -7355,7 +7073,6 @@
       "club_worth": "€7.9M",
       "average_age": "25.00",
       "captain_id": 283,
-      "coach_id": 283,
       "home_stadium_id": 90
     },
     {
@@ -7381,7 +7098,6 @@
       "club_worth": "€16M",
       "average_age": "23.96",
       "captain_id": 284,
-      "coach_id": 284,
       "home_stadium_id": 90
     },
     {
@@ -7407,7 +7123,6 @@
       "club_worth": "€20M",
       "average_age": "24.92",
       "captain_id": 285,
-      "coach_id": null,
       "home_stadium_id": 13
     },
     {
@@ -7433,7 +7148,6 @@
       "club_worth": "€14.5M",
       "average_age": "25.93",
       "captain_id": 286,
-      "coach_id": 285,
       "home_stadium_id": 13
     },
     {
@@ -7459,7 +7173,6 @@
       "club_worth": "€14.9M",
       "average_age": "25.04",
       "captain_id": 287,
-      "coach_id": 286,
       "home_stadium_id": 78
     },
     {
@@ -7485,7 +7198,6 @@
       "club_worth": "€16.3M",
       "average_age": "24.08",
       "captain_id": 288,
-      "coach_id": 287,
       "home_stadium_id": 78
     },
     {
@@ -7511,7 +7223,6 @@
       "club_worth": "€17M",
       "average_age": "22.76",
       "captain_id": 289,
-      "coach_id": 288,
       "home_stadium_id": 109
     },
     {
@@ -7537,7 +7248,6 @@
       "club_worth": "€15M",
       "average_age": "23.56",
       "captain_id": 290,
-      "coach_id": 289,
       "home_stadium_id": 44
     },
     {
@@ -7563,7 +7273,6 @@
       "club_worth": "€2.5M",
       "average_age": "25.60",
       "captain_id": 291,
-      "coach_id": 290,
       "home_stadium_id": 99
     },
     {
@@ -7589,7 +7298,6 @@
       "club_worth": "€2.5M",
       "average_age": "22.57",
       "captain_id": 292,
-      "coach_id": 291,
       "home_stadium_id": 99
     },
     {
@@ -7615,7 +7323,6 @@
       "club_worth": "€14.3M",
       "average_age": "24.17",
       "captain_id": 293,
-      "coach_id": 292,
       "home_stadium_id": 90
     },
     {
@@ -7641,7 +7348,6 @@
       "club_worth": "€12.3M",
       "average_age": "25.30",
       "captain_id": 294,
-      "coach_id": 293,
       "home_stadium_id": 90
     },
     {
@@ -7667,7 +7373,6 @@
       "club_worth": "€10M",
       "average_age": "25.48",
       "captain_id": 295,
-      "coach_id": 294,
       "home_stadium_id": 90
     },
     {
@@ -7693,7 +7398,6 @@
       "club_worth": "€11.2M",
       "average_age": "24.32",
       "captain_id": 296,
-      "coach_id": 295,
       "home_stadium_id": 88
     },
     {
@@ -7719,7 +7423,6 @@
       "club_worth": "€6.2M",
       "average_age": "23.37",
       "captain_id": 297,
-      "coach_id": 296,
       "home_stadium_id": 60
     },
     {
@@ -7745,7 +7448,6 @@
       "club_worth": "€2.5M",
       "average_age": "23.54",
       "captain_id": 298,
-      "coach_id": 297,
       "home_stadium_id": 99
     },
     {
@@ -7771,7 +7473,6 @@
       "club_worth": "€20M",
       "average_age": "23.41",
       "captain_id": 299,
-      "coach_id": 298,
       "home_stadium_id": 13
     },
     {
@@ -7797,7 +7498,6 @@
       "club_worth": "€14.5M",
       "average_age": "24.21",
       "captain_id": 300,
-      "coach_id": 299,
       "home_stadium_id": 90
     },
     {
@@ -7823,7 +7523,6 @@
       "club_worth": "€7.5M",
       "average_age": "24.54",
       "captain_id": 301,
-      "coach_id": 300,
       "home_stadium_id": 50
     },
     {
@@ -7849,7 +7548,6 @@
       "club_worth": "€8M",
       "average_age": "24.50",
       "captain_id": 302,
-      "coach_id": 301,
       "home_stadium_id": 50
     },
     {
@@ -7875,7 +7573,6 @@
       "club_worth": "€6.5M",
       "average_age": "24.32",
       "captain_id": 303,
-      "coach_id": 302,
       "home_stadium_id": 50
     },
     {
@@ -7901,7 +7598,6 @@
       "club_worth": "€13M",
       "average_age": "23.36",
       "captain_id": 304,
-      "coach_id": 303,
       "home_stadium_id": 92
     },
     {
@@ -7927,7 +7623,6 @@
       "club_worth": "€27M",
       "average_age": "23.74",
       "captain_id": 305,
-      "coach_id": 304,
       "home_stadium_id": 60
     },
     {
@@ -7953,7 +7648,6 @@
       "club_worth": "€12M",
       "average_age": "24.57",
       "captain_id": 306,
-      "coach_id": 305,
       "home_stadium_id": 60
     },
     {
@@ -7979,7 +7673,6 @@
       "club_worth": "€3.8M",
       "average_age": "20.73",
       "captain_id": 307,
-      "coach_id": 306,
       "home_stadium_id": 99
     },
     {
@@ -8005,7 +7698,6 @@
       "club_worth": "€27M",
       "average_age": "23.67",
       "captain_id": 308,
-      "coach_id": 307,
       "home_stadium_id": 60
     },
     {
@@ -8031,7 +7723,6 @@
       "club_worth": "€18M",
       "average_age": "22.64",
       "captain_id": 309,
-      "coach_id": 308,
       "home_stadium_id": 90
     },
     {
@@ -8057,7 +7748,6 @@
       "club_worth": "€17M",
       "average_age": "23.29",
       "captain_id": 310,
-      "coach_id": 309,
       "home_stadium_id": 15
     },
     {
@@ -8083,7 +7773,6 @@
       "club_worth": "€3.1M",
       "average_age": "23.57",
       "captain_id": 311,
-      "coach_id": 310,
       "home_stadium_id": 60
     },
     {
@@ -8109,7 +7798,6 @@
       "club_worth": "€3.5M",
       "average_age": "26.54",
       "captain_id": 312,
-      "coach_id": 311,
       "home_stadium_id": 13
     },
     {
@@ -8135,7 +7823,6 @@
       "club_worth": "€27M",
       "average_age": "24.00",
       "captain_id": 313,
-      "coach_id": 312,
       "home_stadium_id": 13
     },
     {
@@ -8161,7 +7848,6 @@
       "club_worth": "€9.1M",
       "average_age": "22.88",
       "captain_id": 314,
-      "coach_id": 313,
       "home_stadium_id": 50
     },
     {
@@ -8187,7 +7873,6 @@
       "club_worth": "€6.6M",
       "average_age": "25.71",
       "captain_id": 315,
-      "coach_id": 314,
       "home_stadium_id": 109
     },
     {
@@ -8213,7 +7898,6 @@
       "club_worth": "€8.3M",
       "average_age": "24.04",
       "captain_id": 316,
-      "coach_id": 315,
       "home_stadium_id": 43
     },
     {
@@ -8239,7 +7923,6 @@
       "club_worth": "€8.6M",
       "average_age": "22.42",
       "captain_id": 317,
-      "coach_id": 316,
       "home_stadium_id": 84
     },
     {
@@ -8265,7 +7948,6 @@
       "club_worth": "€14.7M",
       "average_age": "24.83",
       "captain_id": 318,
-      "coach_id": 317,
       "home_stadium_id": 84
     },
     {
@@ -8291,7 +7973,6 @@
       "club_worth": "€2.5M",
       "average_age": "27.81",
       "captain_id": 319,
-      "coach_id": 318,
       "home_stadium_id": 99
     },
     {
@@ -8317,7 +7998,6 @@
       "club_worth": "€17M",
       "average_age": "23.64",
       "captain_id": 320,
-      "coach_id": 319,
       "home_stadium_id": 90
     },
     {
@@ -8343,7 +8023,6 @@
       "club_worth": "€6M",
       "average_age": "25.84",
       "captain_id": 321,
-      "coach_id": 320,
       "home_stadium_id": 60
     },
     {
@@ -8369,7 +8048,6 @@
       "club_worth": "€8M",
       "average_age": "24.89",
       "captain_id": 322,
-      "coach_id": 321,
       "home_stadium_id": 78
     },
     {
@@ -8395,7 +8073,6 @@
       "club_worth": "€4.5M",
       "average_age": "24.31",
       "captain_id": 323,
-      "coach_id": 322,
       "home_stadium_id": 86
     },
     {
@@ -8421,7 +8098,6 @@
       "club_worth": "€7.2M",
       "average_age": "22.81",
       "captain_id": 324,
-      "coach_id": 323,
       "home_stadium_id": 99
     },
     {
@@ -8447,7 +8123,6 @@
       "club_worth": "€4.5M",
       "average_age": "23.76",
       "captain_id": 325,
-      "coach_id": 324,
       "home_stadium_id": 46
     },
     {
@@ -8473,7 +8148,6 @@
       "club_worth": "€5M",
       "average_age": "25.29",
       "captain_id": 326,
-      "coach_id": 325,
       "home_stadium_id": 78
     },
     {
@@ -8499,7 +8173,6 @@
       "club_worth": "€3.8M",
       "average_age": "22.36",
       "captain_id": 327,
-      "coach_id": 326,
       "home_stadium_id": 60
     },
     {
@@ -8525,7 +8198,6 @@
       "club_worth": "€3M",
       "average_age": "22.86",
       "captain_id": 328,
-      "coach_id": 327,
       "home_stadium_id": 13
     },
     {
@@ -8551,7 +8223,6 @@
       "club_worth": "€6.9M",
       "average_age": "23.00",
       "captain_id": 329,
-      "coach_id": 328,
       "home_stadium_id": 13
     },
     {
@@ -8577,7 +8248,6 @@
       "club_worth": "€9M",
       "average_age": "22.14",
       "captain_id": 330,
-      "coach_id": 329,
       "home_stadium_id": 44
     },
     {
@@ -8603,7 +8273,6 @@
       "club_worth": "€2.9M",
       "average_age": "25.81",
       "captain_id": 331,
-      "coach_id": 330,
       "home_stadium_id": 99
     },
     {
@@ -8629,7 +8298,6 @@
       "club_worth": "€14M",
       "average_age": "23.70",
       "captain_id": 332,
-      "coach_id": 331,
       "home_stadium_id": 84
     },
     {
@@ -8655,7 +8323,6 @@
       "club_worth": "€5.3M",
       "average_age": "23.21",
       "captain_id": 333,
-      "coach_id": 332,
       "home_stadium_id": 99
     },
     {
@@ -8681,7 +8348,6 @@
       "club_worth": "€5.5M",
       "average_age": "22.52",
       "captain_id": 334,
-      "coach_id": 333,
       "home_stadium_id": 15
     },
     {
@@ -8707,7 +8373,6 @@
       "club_worth": "€7.2M",
       "average_age": "24.25",
       "captain_id": 335,
-      "coach_id": 334,
       "home_stadium_id": 44
     },
     {
@@ -8733,7 +8398,6 @@
       "club_worth": "€3.5M",
       "average_age": "26.11",
       "captain_id": 336,
-      "coach_id": 335,
       "home_stadium_id": 60
     },
     {
@@ -8759,7 +8423,6 @@
       "club_worth": "€3.3M",
       "average_age": "22.81",
       "captain_id": 337,
-      "coach_id": 336,
       "home_stadium_id": 60
     },
     {
@@ -8785,7 +8448,6 @@
       "club_worth": "€7.5M",
       "average_age": "26.96",
       "captain_id": 338,
-      "coach_id": 337,
       "home_stadium_id": 99
     },
     {
@@ -8811,7 +8473,6 @@
       "club_worth": "€12.1M",
       "average_age": "24.28",
       "captain_id": 339,
-      "coach_id": 338,
       "home_stadium_id": 90
     },
     {
@@ -8837,7 +8498,6 @@
       "club_worth": "€6M",
       "average_age": "25.21",
       "captain_id": 340,
-      "coach_id": 339,
       "home_stadium_id": 88
     },
     {
@@ -8863,7 +8523,6 @@
       "club_worth": "€3.8M",
       "average_age": "25.38",
       "captain_id": 341,
-      "coach_id": 340,
       "home_stadium_id": 50
     },
     {
@@ -8889,7 +8548,6 @@
       "club_worth": "€8M",
       "average_age": "25.54",
       "captain_id": 342,
-      "coach_id": 341,
       "home_stadium_id": 45
     },
     {
@@ -8915,7 +8573,6 @@
       "club_worth": "€6.4M",
       "average_age": "24.74",
       "captain_id": 343,
-      "coach_id": 342,
       "home_stadium_id": 60
     },
     {
@@ -8941,7 +8598,6 @@
       "club_worth": "€6.9M",
       "average_age": "24.79",
       "captain_id": 344,
-      "coach_id": 343,
       "home_stadium_id": 90
     },
     {
@@ -8967,7 +8623,6 @@
       "club_worth": "€3.8M",
       "average_age": "24.96",
       "captain_id": 345,
-      "coach_id": 344,
       "home_stadium_id": 90
     },
     {
@@ -8993,7 +8648,6 @@
       "club_worth": "€3.6M",
       "average_age": "25.29",
       "captain_id": 346,
-      "coach_id": 345,
       "home_stadium_id": 13
     },
     {
@@ -9019,7 +8673,6 @@
       "club_worth": "€6.4M",
       "average_age": "24.17",
       "captain_id": 347,
-      "coach_id": 346,
       "home_stadium_id": 109
     },
     {
@@ -9045,7 +8698,6 @@
       "club_worth": "€7M",
       "average_age": "25.50",
       "captain_id": 348,
-      "coach_id": 347,
       "home_stadium_id": 86
     },
     {
@@ -9071,7 +8723,6 @@
       "club_worth": "€4M",
       "average_age": "24.46",
       "captain_id": 349,
-      "coach_id": 348,
       "home_stadium_id": 13
     },
     {
@@ -9097,7 +8748,6 @@
       "club_worth": "€10M",
       "average_age": "22.75",
       "captain_id": 350,
-      "coach_id": 349,
       "home_stadium_id": 90
     },
     {
@@ -9123,7 +8773,6 @@
       "club_worth": "€3.8M",
       "average_age": "24.25",
       "captain_id": 351,
-      "coach_id": 350,
       "home_stadium_id": 90
     },
     {
@@ -9149,7 +8798,6 @@
       "club_worth": "€11.6M",
       "average_age": "24.04",
       "captain_id": 352,
-      "coach_id": 351,
       "home_stadium_id": 90
     },
     {
@@ -9175,7 +8823,6 @@
       "club_worth": "€2.5M",
       "average_age": "26.53",
       "captain_id": 353,
-      "coach_id": 352,
       "home_stadium_id": 99
     },
     {
@@ -9201,7 +8848,6 @@
       "club_worth": "€10M",
       "average_age": "25.59",
       "captain_id": 354,
-      "coach_id": 353,
       "home_stadium_id": 44
     },
     {
@@ -9227,7 +8873,6 @@
       "club_worth": "€5.6M",
       "average_age": "26.42",
       "captain_id": 355,
-      "coach_id": 354,
       "home_stadium_id": 90
     },
     {
@@ -9253,7 +8898,6 @@
       "club_worth": "€6.4M",
       "average_age": "23.75",
       "captain_id": 356,
-      "coach_id": 355,
       "home_stadium_id": 13
     },
     {
@@ -9279,7 +8923,6 @@
       "club_worth": "€7M",
       "average_age": "24.93",
       "captain_id": 357,
-      "coach_id": 356,
       "home_stadium_id": 90
     },
     {
@@ -9305,7 +8948,6 @@
       "club_worth": "€3.8M",
       "average_age": "26.04",
       "captain_id": 358,
-      "coach_id": 357,
       "home_stadium_id": 44
     },
     {
@@ -9331,7 +8973,6 @@
       "club_worth": "€6.5M",
       "average_age": "24.61",
       "captain_id": 359,
-      "coach_id": 358,
       "home_stadium_id": 44
     },
     {
@@ -9357,7 +8998,6 @@
       "club_worth": "€6.2M",
       "average_age": "25.11",
       "captain_id": 360,
-      "coach_id": 359,
       "home_stadium_id": 109
     },
     {
@@ -9383,7 +9023,6 @@
       "club_worth": "€8.5M",
       "average_age": "24.71",
       "captain_id": 361,
-      "coach_id": 360,
       "home_stadium_id": 109
     },
     {
@@ -9409,7 +9048,6 @@
       "club_worth": "€12.6M",
       "average_age": "20.11",
       "captain_id": 362,
-      "coach_id": 361,
       "home_stadium_id": 90
     },
     {
@@ -9435,7 +9073,6 @@
       "club_worth": "€8.5M",
       "average_age": "23.61",
       "captain_id": 363,
-      "coach_id": 362,
       "home_stadium_id": 90
     },
     {
@@ -9461,7 +9098,6 @@
       "club_worth": "€3.5M",
       "average_age": "25.46",
       "captain_id": 364,
-      "coach_id": 363,
       "home_stadium_id": 13
     },
     {
@@ -9487,7 +9123,6 @@
       "club_worth": "€3.5M",
       "average_age": "25.79",
       "captain_id": 365,
-      "coach_id": 364,
       "home_stadium_id": 78
     },
     {
@@ -9513,7 +9148,6 @@
       "club_worth": "€3M",
       "average_age": "26.11",
       "captain_id": 366,
-      "coach_id": 365,
       "home_stadium_id": 99
     },
     {
@@ -9539,7 +9173,6 @@
       "club_worth": "€4.5M",
       "average_age": "24.69",
       "captain_id": 367,
-      "coach_id": 366,
       "home_stadium_id": 90
     },
     {
@@ -9565,7 +9198,6 @@
       "club_worth": "€10M",
       "average_age": "24.20",
       "captain_id": 368,
-      "coach_id": 367,
       "home_stadium_id": 90
     },
     {
@@ -9591,7 +9223,6 @@
       "club_worth": "€4.3M",
       "average_age": "24.71",
       "captain_id": 369,
-      "coach_id": 368,
       "home_stadium_id": 86
     },
     {
@@ -9617,7 +9248,6 @@
       "club_worth": "€2.9M",
       "average_age": "23.50",
       "captain_id": 370,
-      "coach_id": 369,
       "home_stadium_id": 99
     },
     {
@@ -9643,7 +9273,6 @@
       "club_worth": "€4.8M",
       "average_age": "24.60",
       "captain_id": 371,
-      "coach_id": 370,
       "home_stadium_id": 99
     },
     {
@@ -9669,7 +9298,6 @@
       "club_worth": "€4.4M",
       "average_age": "23.18",
       "captain_id": 372,
-      "coach_id": 371,
       "home_stadium_id": 99
     },
     {
@@ -9695,7 +9323,6 @@
       "club_worth": "€5.3M",
       "average_age": "26.25",
       "captain_id": 373,
-      "coach_id": 372,
       "home_stadium_id": 13
     },
     {
@@ -9721,7 +9348,6 @@
       "club_worth": "€4.2M",
       "average_age": "24.92",
       "captain_id": 374,
-      "coach_id": 373,
       "home_stadium_id": 44
     },
     {
@@ -9747,7 +9373,6 @@
       "club_worth": "€3.4M",
       "average_age": "24.85",
       "captain_id": 375,
-      "coach_id": 374,
       "home_stadium_id": 60
     },
     {
@@ -9773,7 +9398,6 @@
       "club_worth": "€5.8M",
       "average_age": "23.96",
       "captain_id": 376,
-      "coach_id": 375,
       "home_stadium_id": 86
     },
     {
@@ -9799,7 +9423,6 @@
       "club_worth": "€3.9M",
       "average_age": "23.76",
       "captain_id": 377,
-      "coach_id": 376,
       "home_stadium_id": 99
     },
     {
@@ -9825,7 +9448,6 @@
       "club_worth": "€3.1M",
       "average_age": "25.93",
       "captain_id": 378,
-      "coach_id": 377,
       "home_stadium_id": 99
     },
     {
@@ -9851,7 +9473,6 @@
       "club_worth": "€3.7M",
       "average_age": "24.17",
       "captain_id": 379,
-      "coach_id": 378,
       "home_stadium_id": 13
     },
     {
@@ -9877,7 +9498,6 @@
       "club_worth": "€5M",
       "average_age": "24.15",
       "captain_id": 380,
-      "coach_id": 379,
       "home_stadium_id": 99
     },
     {
@@ -9903,7 +9523,6 @@
       "club_worth": "€3.4M",
       "average_age": "24.00",
       "captain_id": 381,
-      "coach_id": 380,
       "home_stadium_id": 15
     },
     {
@@ -9929,7 +9548,6 @@
       "club_worth": "€4.9M",
       "average_age": "24.86",
       "captain_id": 382,
-      "coach_id": 381,
       "home_stadium_id": 90
     },
     {
@@ -9955,7 +9573,6 @@
       "club_worth": "€3.4M",
       "average_age": "22.89",
       "captain_id": 383,
-      "coach_id": 382,
       "home_stadium_id": 15
     },
     {
@@ -9981,7 +9598,6 @@
       "club_worth": "€4M",
       "average_age": "27.15",
       "captain_id": 384,
-      "coach_id": 383,
       "home_stadium_id": 44
     },
     {
@@ -10007,7 +9623,6 @@
       "club_worth": "€1.7M",
       "average_age": "23.36",
       "captain_id": 385,
-      "coach_id": 384,
       "home_stadium_id": 99
     },
     {
@@ -10033,7 +9648,6 @@
       "club_worth": "€6.4M",
       "average_age": "22.74",
       "captain_id": 386,
-      "coach_id": 385,
       "home_stadium_id": 15
     },
     {
@@ -10059,7 +9673,6 @@
       "club_worth": "€5M",
       "average_age": "24.76",
       "captain_id": 387,
-      "coach_id": 386,
       "home_stadium_id": 60
     },
     {
@@ -10085,7 +9698,6 @@
       "club_worth": "€4.6M",
       "average_age": "24.89",
       "captain_id": 388,
-      "coach_id": 387,
       "home_stadium_id": 86
     },
     {
@@ -10111,7 +9723,6 @@
       "club_worth": "€10M",
       "average_age": "24.11",
       "captain_id": 389,
-      "coach_id": 388,
       "home_stadium_id": 60
     },
     {
@@ -10137,7 +9748,6 @@
       "club_worth": "€3.1M",
       "average_age": "22.56",
       "captain_id": 390,
-      "coach_id": 389,
       "home_stadium_id": 15
     },
     {
@@ -10163,7 +9773,6 @@
       "club_worth": "€4.4M",
       "average_age": "23.61",
       "captain_id": 391,
-      "coach_id": 390,
       "home_stadium_id": 99
     },
     {
@@ -10189,7 +9798,6 @@
       "club_worth": "€5M",
       "average_age": "24.08",
       "captain_id": 392,
-      "coach_id": 391,
       "home_stadium_id": 99
     },
     {
@@ -10215,7 +9823,6 @@
       "club_worth": "€6M",
       "average_age": "24.55",
       "captain_id": 393,
-      "coach_id": 392,
       "home_stadium_id": 44
     },
     {
@@ -10241,7 +9848,6 @@
       "club_worth": "€6.2M",
       "average_age": "23.70",
       "captain_id": 394,
-      "coach_id": 393,
       "home_stadium_id": 50
     },
     {
@@ -10267,7 +9873,6 @@
       "club_worth": "€3.8M",
       "average_age": "25.63",
       "captain_id": 395,
-      "coach_id": 394,
       "home_stadium_id": 13
     },
     {
@@ -10293,7 +9898,6 @@
       "club_worth": "€4.4M",
       "average_age": "25.79",
       "captain_id": 396,
-      "coach_id": 395,
       "home_stadium_id": 13
     },
     {
@@ -10319,7 +9923,6 @@
       "club_worth": "€3.6M",
       "average_age": "26.20",
       "captain_id": 397,
-      "coach_id": 396,
       "home_stadium_id": 99
     },
     {
@@ -10345,7 +9948,6 @@
       "club_worth": "€12.5M",
       "average_age": "23.15",
       "captain_id": 398,
-      "coach_id": 397,
       "home_stadium_id": 86
     },
     {
@@ -10371,7 +9973,6 @@
       "club_worth": "€4.1M",
       "average_age": "24.61",
       "captain_id": 399,
-      "coach_id": 398,
       "home_stadium_id": 13
     },
     {
@@ -10397,7 +9998,6 @@
       "club_worth": "€4.2M",
       "average_age": "22.75",
       "captain_id": 400,
-      "coach_id": 399,
       "home_stadium_id": 99
     },
     {
@@ -10423,7 +10023,6 @@
       "club_worth": "€2.9M",
       "average_age": "25.46",
       "captain_id": 401,
-      "coach_id": 400,
       "home_stadium_id": 86
     },
     {
@@ -10449,7 +10048,6 @@
       "club_worth": "€2.4M",
       "average_age": "24.56",
       "captain_id": 402,
-      "coach_id": 401,
       "home_stadium_id": 99
     },
     {
@@ -10475,7 +10073,6 @@
       "club_worth": "€3.4M",
       "average_age": "24.04",
       "captain_id": 403,
-      "coach_id": 402,
       "home_stadium_id": 13
     },
     {
@@ -10501,7 +10098,6 @@
       "club_worth": "€3.2M",
       "average_age": "25.57",
       "captain_id": 404,
-      "coach_id": 403,
       "home_stadium_id": 50
     },
     {
@@ -10527,7 +10123,6 @@
       "club_worth": "€10.1M",
       "average_age": "24.29",
       "captain_id": 405,
-      "coach_id": 404,
       "home_stadium_id": 109
     },
     {
@@ -10553,7 +10148,6 @@
       "club_worth": "€2.3M",
       "average_age": "23.09",
       "captain_id": 406,
-      "coach_id": 405,
       "home_stadium_id": 99
     },
     {
@@ -10579,7 +10173,6 @@
       "club_worth": "€1.3M",
       "average_age": "26.50",
       "captain_id": 407,
-      "coach_id": 406,
       "home_stadium_id": 99
     },
     {
@@ -10605,7 +10198,6 @@
       "club_worth": "€5.5M",
       "average_age": "21.12",
       "captain_id": 408,
-      "coach_id": 407,
       "home_stadium_id": 86
     },
     {
@@ -10631,7 +10223,6 @@
       "club_worth": "€2.3M",
       "average_age": "25.12",
       "captain_id": 409,
-      "coach_id": 408,
       "home_stadium_id": 99
     },
     {
@@ -10657,7 +10248,6 @@
       "club_worth": "€2.3M",
       "average_age": "23.61",
       "captain_id": 410,
-      "coach_id": 409,
       "home_stadium_id": 43
     },
     {
@@ -10683,7 +10273,6 @@
       "club_worth": "€3.3M",
       "average_age": "24.36",
       "captain_id": 411,
-      "coach_id": 410,
       "home_stadium_id": 99
     },
     {
@@ -10709,7 +10298,6 @@
       "club_worth": "€4M",
       "average_age": "21.82",
       "captain_id": 412,
-      "coach_id": 411,
       "home_stadium_id": 60
     },
     {
@@ -10735,7 +10323,6 @@
       "club_worth": "€3.4M",
       "average_age": "25.27",
       "captain_id": 413,
-      "coach_id": 412,
       "home_stadium_id": 13
     },
     {
@@ -10761,7 +10348,6 @@
       "club_worth": "€3M",
       "average_age": "23.73",
       "captain_id": 414,
-      "coach_id": 413,
       "home_stadium_id": 13
     },
     {
@@ -10787,7 +10373,6 @@
       "club_worth": "€4M",
       "average_age": "23.82",
       "captain_id": 415,
-      "coach_id": 414,
       "home_stadium_id": 60
     },
     {
@@ -10813,7 +10398,6 @@
       "club_worth": "€3.3M",
       "average_age": "22.25",
       "captain_id": 416,
-      "coach_id": 415,
       "home_stadium_id": 13
     },
     {
@@ -10839,7 +10423,6 @@
       "club_worth": "€2.3M",
       "average_age": "24.13",
       "captain_id": 417,
-      "coach_id": 416,
       "home_stadium_id": 13
     },
     {
@@ -10865,7 +10448,6 @@
       "club_worth": "€2.8M",
       "average_age": "25.54",
       "captain_id": 418,
-      "coach_id": 417,
       "home_stadium_id": 13
     },
     {
@@ -10891,7 +10473,6 @@
       "club_worth": "€5M",
       "average_age": "23.90",
       "captain_id": 419,
-      "coach_id": 418,
       "home_stadium_id": 44
     },
     {
@@ -10917,7 +10498,6 @@
       "club_worth": "€2.2M",
       "average_age": "25.89",
       "captain_id": 420,
-      "coach_id": 419,
       "home_stadium_id": 44
     },
     {
@@ -10943,7 +10523,6 @@
       "club_worth": "€10.3M",
       "average_age": "24.29",
       "captain_id": 421,
-      "coach_id": 420,
       "home_stadium_id": 60
     },
     {
@@ -10969,7 +10548,6 @@
       "club_worth": "€2.2M",
       "average_age": "25.71",
       "captain_id": 422,
-      "coach_id": 421,
       "home_stadium_id": 15
     },
     {
@@ -10995,7 +10573,6 @@
       "club_worth": "€3.4M",
       "average_age": "22.80",
       "captain_id": 423,
-      "coach_id": 422,
       "home_stadium_id": 99
     },
     {
@@ -11021,7 +10598,6 @@
       "club_worth": "€2.1M",
       "average_age": "24.86",
       "captain_id": 424,
-      "coach_id": 423,
       "home_stadium_id": 99
     },
     {
@@ -11047,7 +10623,6 @@
       "club_worth": "€3.2M",
       "average_age": "25.29",
       "captain_id": 425,
-      "coach_id": 424,
       "home_stadium_id": 13
     },
     {
@@ -11073,7 +10648,6 @@
       "club_worth": "€3.6M",
       "average_age": "21.92",
       "captain_id": 426,
-      "coach_id": 425,
       "home_stadium_id": 99
     },
     {
@@ -11099,7 +10673,6 @@
       "club_worth": "€3.8M",
       "average_age": "25.81",
       "captain_id": 427,
-      "coach_id": 426,
       "home_stadium_id": 99
     },
     {
@@ -11125,7 +10698,6 @@
       "club_worth": "€2.6M",
       "average_age": "23.69",
       "captain_id": 428,
-      "coach_id": 427,
       "home_stadium_id": 13
     },
     {
@@ -11151,7 +10723,6 @@
       "club_worth": "€1.6M",
       "average_age": "25.18",
       "captain_id": 429,
-      "coach_id": 428,
       "home_stadium_id": 99
     },
     {
@@ -11177,7 +10748,6 @@
       "club_worth": "€2.6M",
       "average_age": "23.11",
       "captain_id": 430,
-      "coach_id": 429,
       "home_stadium_id": 13
     },
     {
@@ -11203,7 +10773,6 @@
       "club_worth": "€1.7M",
       "average_age": "24.85",
       "captain_id": 431,
-      "coach_id": 430,
       "home_stadium_id": 49
     },
     {
@@ -11229,7 +10798,6 @@
       "club_worth": "€1.5M",
       "average_age": "24.38",
       "captain_id": 432,
-      "coach_id": 431,
       "home_stadium_id": 99
     },
     {
@@ -11255,7 +10823,6 @@
       "club_worth": "€4.8M",
       "average_age": "20.79",
       "captain_id": 433,
-      "coach_id": 432,
       "home_stadium_id": 99
     },
     {
@@ -11281,7 +10848,6 @@
       "club_worth": "€2.5M",
       "average_age": "22.11",
       "captain_id": 434,
-      "coach_id": 433,
       "home_stadium_id": 13
     },
     {
@@ -11307,7 +10873,6 @@
       "club_worth": "€2.9M",
       "average_age": "23.46",
       "captain_id": 435,
-      "coach_id": 434,
       "home_stadium_id": 99
     },
     {
@@ -11333,7 +10898,6 @@
       "club_worth": "€2.3M",
       "average_age": "24.68",
       "captain_id": 436,
-      "coach_id": 435,
       "home_stadium_id": 13
     },
     {
@@ -11359,7 +10923,6 @@
       "club_worth": "€5M",
       "average_age": "23.57",
       "captain_id": 437,
-      "coach_id": 436,
       "home_stadium_id": 15
     },
     {
@@ -11385,7 +10948,6 @@
       "club_worth": "€2.3M",
       "average_age": "23.14",
       "captain_id": 438,
-      "coach_id": 437,
       "home_stadium_id": 13
     },
     {
@@ -11411,7 +10973,6 @@
       "club_worth": "€4.3M",
       "average_age": "25.71",
       "captain_id": 439,
-      "coach_id": 438,
       "home_stadium_id": 15
     },
     {
@@ -11437,7 +10998,6 @@
       "club_worth": "€2.8M",
       "average_age": "25.68",
       "captain_id": 440,
-      "coach_id": 439,
       "home_stadium_id": 50
     },
     {
@@ -11463,7 +11023,6 @@
       "club_worth": "€2.6M",
       "average_age": "23.00",
       "captain_id": 441,
-      "coach_id": 440,
       "home_stadium_id": 13
     },
     {
@@ -11489,7 +11048,6 @@
       "club_worth": "€2.6M",
       "average_age": "22.88",
       "captain_id": 442,
-      "coach_id": 441,
       "home_stadium_id": 99
     },
     {
@@ -11515,7 +11073,6 @@
       "club_worth": "€3.9M",
       "average_age": "24.56",
       "captain_id": 443,
-      "coach_id": 442,
       "home_stadium_id": 99
     },
     {
@@ -11541,7 +11098,6 @@
       "club_worth": "€3M",
       "average_age": "26.07",
       "captain_id": 444,
-      "coach_id": 443,
       "home_stadium_id": 86
     },
     {
@@ -11567,7 +11123,6 @@
       "club_worth": "€2.7M",
       "average_age": "25.00",
       "captain_id": 445,
-      "coach_id": 444,
       "home_stadium_id": 99
     },
     {
@@ -11593,7 +11148,6 @@
       "club_worth": "€5.3M",
       "average_age": "24.29",
       "captain_id": 446,
-      "coach_id": 445,
       "home_stadium_id": 99
     },
     {
@@ -11619,7 +11173,6 @@
       "club_worth": "€2.9M",
       "average_age": "27.00",
       "captain_id": 447,
-      "coach_id": 446,
       "home_stadium_id": 99
     },
     {
@@ -11645,7 +11198,6 @@
       "club_worth": "€3M",
       "average_age": "25.71",
       "captain_id": 448,
-      "coach_id": 447,
       "home_stadium_id": 99
     },
     {
@@ -11671,7 +11223,6 @@
       "club_worth": "€1.8M",
       "average_age": "25.63",
       "captain_id": 449,
-      "coach_id": 448,
       "home_stadium_id": 99
     },
     {
@@ -11697,7 +11248,6 @@
       "club_worth": "€4.5M",
       "average_age": "24.25",
       "captain_id": 450,
-      "coach_id": 449,
       "home_stadium_id": 13
     },
     {
@@ -11723,7 +11273,6 @@
       "club_worth": "€2M",
       "average_age": "24.08",
       "captain_id": 451,
-      "coach_id": 450,
       "home_stadium_id": 99
     },
     {
@@ -11749,7 +11298,6 @@
       "club_worth": "€977K",
       "average_age": "22.00",
       "captain_id": 452,
-      "coach_id": 451,
       "home_stadium_id": 13
     },
     {
@@ -11775,7 +11323,6 @@
       "club_worth": "€2.1M",
       "average_age": "24.04",
       "captain_id": 453,
-      "coach_id": 452,
       "home_stadium_id": 15
     },
     {
@@ -11801,7 +11348,6 @@
       "club_worth": "€1.6M",
       "average_age": "26.96",
       "captain_id": 454,
-      "coach_id": 453,
       "home_stadium_id": 99
     },
     {
@@ -11827,7 +11373,6 @@
       "club_worth": "€2.8M",
       "average_age": "24.86",
       "captain_id": 455,
-      "coach_id": 454,
       "home_stadium_id": 99
     },
     {
@@ -11853,7 +11398,6 @@
       "club_worth": "€980K",
       "average_age": "21.71",
       "captain_id": 456,
-      "coach_id": 455,
       "home_stadium_id": 99
     },
     {
@@ -11879,7 +11423,6 @@
       "club_worth": "€952K",
       "average_age": "23.25",
       "captain_id": 457,
-      "coach_id": 456,
       "home_stadium_id": 99
     },
     {
@@ -11905,7 +11448,6 @@
       "club_worth": "€1.2M",
       "average_age": "25.00",
       "captain_id": 458,
-      "coach_id": 457,
       "home_stadium_id": 99
     },
     {
@@ -11931,7 +11473,6 @@
       "club_worth": "€2.8M",
       "average_age": "21.86",
       "captain_id": 459,
-      "coach_id": 458,
       "home_stadium_id": 13
     },
     {
@@ -11957,7 +11498,6 @@
       "club_worth": "€985K",
       "average_age": "23.30",
       "captain_id": 460,
-      "coach_id": 459,
       "home_stadium_id": 99
     },
     {
@@ -11983,7 +11523,6 @@
       "club_worth": "€2.2M",
       "average_age": "22.78",
       "captain_id": 461,
-      "coach_id": 460,
       "home_stadium_id": 99
     },
     {
@@ -12009,7 +11548,6 @@
       "club_worth": "€940K",
       "average_age": "25.50",
       "captain_id": 462,
-      "coach_id": 461,
       "home_stadium_id": 99
     },
     {
@@ -12035,7 +11573,6 @@
       "club_worth": "€945K",
       "average_age": "23.77",
       "captain_id": 463,
-      "coach_id": 462,
       "home_stadium_id": 99
     },
     {
@@ -12061,7 +11598,6 @@
       "club_worth": "€950K",
       "average_age": "22.96",
       "captain_id": 464,
-      "coach_id": 463,
       "home_stadium_id": 43
     },
     {
@@ -12087,7 +11623,6 @@
       "club_worth": "€3.9M",
       "average_age": "19.45",
       "captain_id": 465,
-      "coach_id": 464,
       "home_stadium_id": 44
     },
     {
@@ -12113,7 +11648,6 @@
       "club_worth": "€935K",
       "average_age": "23.37",
       "captain_id": 466,
-      "coach_id": 465,
       "home_stadium_id": 99
     }
   ],
@@ -14651,2327 +14185,2792 @@
     {
       "coach_id": 1,
       "coach_name": "Jürgen Klopp",
-      "birth_date": "1967-06-16"
+      "birth_date": "1967-06-16",
+      "club_id": 1
     },
     {
       "coach_id": 2,
       "coach_name": "Josep Guardiola i Sala",
-      "birth_date": "1971-01-18"
+      "birth_date": "1971-01-18",
+      "club_id": 2
     },
     {
       "coach_id": 3,
       "coach_name": "Mauricio Roberto Pochettino Trossero",
-      "birth_date": "1972-03-02"
+      "birth_date": "1972-03-02",
+      "club_id": 3
     },
     {
       "coach_id": 4,
       "coach_name": "Thomas Tuchel",
-      "birth_date": "1973-08-29"
+      "birth_date": "1973-08-29",
+      "club_id": 4
     },
     {
       "coach_id": 5,
       "coach_name": "Julian Nagelsmann",
-      "birth_date": "1987-07-23"
+      "birth_date": "1987-07-23",
+      "club_id": 5
     },
     {
       "coach_id": 6,
       "coach_name": "Carlo Ancelotti",
-      "birth_date": "1959-06-10"
+      "birth_date": "1959-06-10",
+      "club_id": 6
     },
     {
       "coach_id": 7,
       "coach_name": "Ralf Rangnick",
-      "birth_date": "1958-06-29"
+      "birth_date": "1958-06-29",
+      "club_id": 7
     },
     {
       "coach_id": 8,
       "coach_name": "Diego Pablo Simeone",
-      "birth_date": "1970-04-28"
+      "birth_date": "1970-04-28",
+      "club_id": 8
     },
     {
       "coach_id": 9,
       "coach_name": "Xavier Hernández Creus",
-      "birth_date": "1980-01-25"
+      "birth_date": "1980-01-25",
+      "club_id": 9
     },
     {
       "coach_id": 10,
       "coach_name": "Simone Inzaghi",
-      "birth_date": "1976-04-05"
+      "birth_date": "1976-04-05",
+      "club_id": 10
     },
     {
       "coach_id": 11,
       "coach_name": "Massimiliano Allegri",
-      "birth_date": "1967-08-11"
+      "birth_date": "1967-08-11",
+      "club_id": 11
     },
     {
       "coach_id": 12,
       "coach_name": "Antonio Conte",
-      "birth_date": "1969-07-31"
+      "birth_date": "1969-07-31",
+      "club_id": 12
     },
     {
       "coach_id": 13,
       "coach_name": "Marco Rose",
-      "birth_date": "1976-09-11"
+      "birth_date": "1976-09-11",
+      "club_id": 13
     },
     {
       "coach_id": 14,
       "coach_name": "Stefano Pioli",
-      "birth_date": "1965-10-20"
+      "birth_date": "1965-10-20",
+      "club_id": 14
     },
     {
       "coach_id": 15,
       "coach_name": "Julen Lopetegui Argote",
-      "birth_date": "1966-08-28"
+      "birth_date": "1966-08-28",
+      "club_id": 15
     },
     {
       "coach_id": 16,
       "coach_name": "Mikel Arteta Amatriain",
-      "birth_date": "1982-03-26"
+      "birth_date": "1982-03-26",
+      "club_id": 16
     },
     {
       "coach_id": 17,
       "coach_name": "Gian Piero Gasperini",
-      "birth_date": "1958-01-26"
+      "birth_date": "1958-01-26",
+      "club_id": 17
     },
     {
       "coach_id": 18,
       "coach_name": "Domenico Tedesco",
-      "birth_date": "1985-09-12"
+      "birth_date": "1985-09-12",
+      "club_id": 18
     },
     {
       "coach_id": 19,
       "coach_name": "Luciano Spalletti",
-      "birth_date": "1959-03-07"
+      "birth_date": "1959-03-07",
+      "club_id": 19
     },
     {
       "coach_id": 20,
       "coach_name": "Brendan Rodgers",
-      "birth_date": "1973-01-26"
+      "birth_date": "1973-01-26",
+      "club_id": 20
     },
     {
       "coach_id": 21,
       "coach_name": "Imanol Alguacil Barrenetxea",
-      "birth_date": "1971-07-04"
+      "birth_date": "1971-07-04",
+      "club_id": 21
     },
     {
       "coach_id": 22,
       "coach_name": "Unai Emery Etxegoien",
-      "birth_date": "1971-11-03"
+      "birth_date": "1971-11-03",
+      "club_id": 22
     },
     {
       "coach_id": 23,
       "coach_name": "David Moyes",
-      "birth_date": "1963-04-25"
+      "birth_date": "1963-04-25",
+      "club_id": 23
     },
     {
       "coach_id": 24,
       "coach_name": "Gerardo Seoane",
-      "birth_date": "1978-10-30"
+      "birth_date": "1978-10-30",
+      "club_id": 24
     },
     {
       "coach_id": 25,
       "coach_name": "Maurizio Sarri",
-      "birth_date": "1959-01-10"
+      "birth_date": "1959-01-10",
+      "club_id": 25
     },
     {
       "coach_id": 26,
       "coach_name": "José Mario Felix dos Santos Mourinho",
-      "birth_date": "1963-01-26"
+      "birth_date": "1963-01-26",
+      "club_id": 26
     },
     {
       "coach_id": 27,
       "coach_name": "Marcelino García Toral",
-      "birth_date": "1965-08-14"
+      "birth_date": "1965-08-14",
+      "club_id": 27
     },
     {
       "coach_id": 28,
       "coach_name": "Manuel Luis Pellegrini Ripamonti",
-      "birth_date": "1953-09-16"
+      "birth_date": "1953-09-16",
+      "club_id": 28
     },
     {
       "coach_id": 29,
       "coach_name": "Ruben Filipe Marques Amorim",
-      "birth_date": "1985-01-27"
+      "birth_date": "1985-01-27",
+      "club_id": 29
     },
     {
       "coach_id": 30,
       "coach_name": "Erik ten Hag",
-      "birth_date": "1970-02-02"
+      "birth_date": "1970-02-02",
+      "club_id": 30
     },
     {
       "coach_id": 31,
       "coach_name": "Steven Gerrard",
-      "birth_date": "1980-05-30"
+      "birth_date": "1980-05-30",
+      "club_id": 31
     },
     {
       "coach_id": 32,
       "coach_name": "Frank Lampard",
-      "birth_date": "1978-06-20"
+      "birth_date": "1978-06-20",
+      "club_id": 32
     },
     {
       "coach_id": 33,
       "coach_name": "Adolf Hütter",
-      "birth_date": "1970-02-11"
+      "birth_date": "1970-02-11",
+      "club_id": 33
     },
     {
       "coach_id": 34,
       "coach_name": "Peter Bosz",
-      "birth_date": "1963-11-21"
+      "birth_date": "1963-11-21",
+      "club_id": 34
     },
     {
       "coach_id": 35,
       "coach_name": "Bruno Miguel Silva do Nascimento",
-      "birth_date": "1976-05-12"
+      "birth_date": "1976-05-12",
+      "club_id": 35
     },
     {
       "coach_id": 36,
       "coach_name": "Jorge Luis Sampaoli Moya",
-      "birth_date": "1960-03-13"
+      "birth_date": "1960-03-13",
+      "club_id": 36
     },
     {
       "coach_id": 37,
       "coach_name": "Nelson Alexandre da Silva Veríssimo",
-      "birth_date": "1977-04-17"
+      "birth_date": "1977-04-17",
+      "club_id": 37
     },
     {
       "coach_id": 38,
       "coach_name": "Sérgio Paulo Marceneiro Conceição",
-      "birth_date": "1974-11-15"
+      "birth_date": "1974-11-15",
+      "club_id": 38
     },
     {
       "coach_id": 39,
       "coach_name": "Eddie Howe",
-      "birth_date": "1977-11-29"
+      "birth_date": "1977-11-29",
+      "club_id": 39
     },
     {
       "coach_id": 40,
       "coach_name": "Oliver Glasner",
-      "birth_date": "1974-08-28"
+      "birth_date": "1974-08-28",
+      "club_id": 40
     },
     {
       "coach_id": 41,
       "coach_name": "Sebastian Hoeneß",
-      "birth_date": "1982-05-12"
+      "birth_date": "1982-05-12",
+      "club_id": 41
     },
     {
       "coach_id": 42,
       "coach_name": "Philippe Clement",
-      "birth_date": "1974-03-22"
+      "birth_date": "1974-03-22",
+      "club_id": 42
     },
     {
       "coach_id": 43,
       "coach_name": "Bruno Génésio",
-      "birth_date": "1966-09-01"
+      "birth_date": "1966-09-01",
+      "club_id": 43
     },
     {
       "coach_id": 44,
       "coach_name": "Florian Kohfeldt",
-      "birth_date": "1982-10-05"
+      "birth_date": "1982-10-05",
+      "club_id": 44
     },
     {
       "coach_id": 45,
       "coach_name": "Diego Martínez Penas",
-      "birth_date": "1980-12-16"
+      "birth_date": "1980-12-16",
+      "club_id": 45
     },
     {
       "coach_id": 46,
       "coach_name": "Ivan Gennaro Gattuso",
-      "birth_date": "1978-01-09"
+      "birth_date": "1978-01-09",
+      "club_id": 46
     },
     {
       "coach_id": 47,
       "coach_name": "Ruben Torrecilla Gonzalez",
-      "birth_date": "1979-05-24"
+      "birth_date": "1979-05-24",
+      "club_id": 47
     },
     {
       "coach_id": 48,
       "coach_name": "Roger Schmidt",
-      "birth_date": "1967-03-13"
+      "birth_date": "1967-03-13",
+      "club_id": 48
     },
     {
       "coach_id": 49,
       "coach_name": "Sean Dyche",
-      "birth_date": "1971-06-28"
+      "birth_date": "1971-06-28",
+      "club_id": 49
     },
     {
       "coach_id": 50,
       "coach_name": "Patrick Vieira",
-      "birth_date": "1976-06-23"
+      "birth_date": "1976-06-23",
+      "club_id": 50
     },
     {
       "coach_id": 51,
       "coach_name": "Jesse Marsch",
-      "birth_date": "1973-11-08"
+      "birth_date": "1973-11-08",
+      "club_id": 51
     },
     {
       "coach_id": 52,
       "coach_name": "Graham Potter",
-      "birth_date": "1975-05-20"
+      "birth_date": "1975-05-20",
+      "club_id": 52
     },
     {
       "coach_id": 53,
       "coach_name": "Ralph Hasenhüttl",
-      "birth_date": "1967-08-09"
+      "birth_date": "1967-08-09",
+      "club_id": 53
     },
     {
       "coach_id": 54,
       "coach_name": "Pedro Rui da Mota Vieira Martins",
-      "birth_date": "1970-07-17"
+      "birth_date": "1970-07-17",
+      "club_id": 54
     },
     {
       "coach_id": 55,
       "coach_name": "Vincenzo Italiano",
-      "birth_date": "1977-12-10"
+      "birth_date": "1977-12-10",
+      "club_id": 55
     },
     {
       "coach_id": 56,
       "coach_name": "Mehdi Nafti",
-      "birth_date": "1978-11-28"
+      "birth_date": "1978-11-28",
+      "club_id": 56
     },
     {
       "coach_id": 57,
       "coach_name": "Jocelyn Gourvennec",
-      "birth_date": "1972-03-22"
+      "birth_date": "1972-03-22",
+      "club_id": 57
     },
     {
       "coach_id": 58,
       "coach_name": "Enrique Sánchez Flores",
-      "birth_date": "1965-02-05"
+      "birth_date": "1965-02-05",
+      "club_id": 58
     },
     {
       "coach_id": 59,
       "coach_name": "Christophe Galtier",
-      "birth_date": "1966-08-28"
+      "birth_date": "1966-08-28",
+      "club_id": 59
     },
     {
       "coach_id": 60,
       "coach_name": "Eduardo Germán Coudet",
-      "birth_date": "1974-09-12"
+      "birth_date": "1974-09-12",
+      "club_id": 60
     },
     {
       "coach_id": 61,
       "coach_name": "Jagoba Arrasate Elustondo",
-      "birth_date": "1978-04-22"
+      "birth_date": "1978-04-22",
+      "club_id": 61
     },
     {
       "coach_id": 62,
       "coach_name": "Jindřich Trpišovský",
-      "birth_date": "1976-02-27"
+      "birth_date": "1976-02-27",
+      "club_id": 62
     },
     {
       "coach_id": 63,
       "coach_name": "Christian Streich",
-      "birth_date": "1965-06-11"
+      "birth_date": "1965-06-11",
+      "club_id": 63
     },
     {
       "coach_id": 64,
       "coach_name": "Steffen Baumgart",
-      "birth_date": "1972-01-05"
+      "birth_date": "1972-01-05",
+      "club_id": 64
     },
     {
       "coach_id": 65,
       "coach_name": "Marco Giampaolo",
-      "birth_date": "1967-08-02"
+      "birth_date": "1967-08-02",
+      "club_id": 65
     },
     {
       "coach_id": 66,
       "coach_name": "Ivan Juric",
-      "birth_date": "1975-08-25"
+      "birth_date": "1975-08-25",
+      "club_id": 66
     },
     {
       "coach_id": 67,
       "coach_name": "Franck Haise",
-      "birth_date": "1971-04-15"
+      "birth_date": "1971-04-15",
+      "club_id": 67
     },
     {
       "coach_id": 68,
       "coach_name": "Olivier Dall’Oglio",
-      "birth_date": "1964-05-16"
+      "birth_date": "1964-05-16",
+      "club_id": 68
     },
     {
       "coach_id": 69,
       "coach_name": "Jorge Fernando Pinheiro de Jesus",
-      "birth_date": "1954-07-24"
+      "birth_date": "1954-07-24",
+      "club_id": 69
     },
     {
       "coach_id": 70,
       "coach_name": "Julien Stéphan",
-      "birth_date": "1980-09-18"
+      "birth_date": "1980-09-18",
+      "club_id": 70
     },
     {
       "coach_id": 71,
       "coach_name": "Alessio Dionisi",
-      "birth_date": "1980-04-01"
+      "birth_date": "1980-04-01",
+      "club_id": 71
     },
     {
       "coach_id": 72,
       "coach_name": "Sergio González Soriano",
-      "birth_date": "1976-11-10"
+      "birth_date": "1976-11-10",
+      "club_id": 72
     },
     {
       "coach_id": 73,
       "coach_name": "Abdullah Mucip Avcı",
-      "birth_date": "1963-07-31"
+      "birth_date": "1963-07-31",
+      "club_id": 73
     },
     {
       "coach_id": 74,
       "coach_name": "Siniša Mihajlović",
-      "birth_date": "1969-02-20"
+      "birth_date": "1969-02-20",
+      "club_id": 74
     },
     {
       "coach_id": 75,
       "coach_name": "Gabriele Cioffi",
-      "birth_date": "1975-09-30"
+      "birth_date": "1975-09-30",
+      "club_id": 75
     },
     {
       "coach_id": 76,
       "coach_name": "Luis García Plaza",
-      "birth_date": "1972-12-01"
+      "birth_date": "1972-12-01",
+      "club_id": 76
     },
     {
       "coach_id": 77,
       "coach_name": "Alfred Schreuder",
-      "birth_date": "1972-02-11"
+      "birth_date": "1972-02-11",
+      "club_id": 77
     },
     {
       "coach_id": 78,
       "coach_name": "Arne Slot",
-      "birth_date": "1978-09-17"
+      "birth_date": "1978-09-17",
+      "club_id": 78
     },
     {
       "coach_id": 79,
       "coach_name": "Roy Hodgson",
-      "birth_date": "1947-08-09"
+      "birth_date": "1947-08-09",
+      "club_id": 79
     },
     {
       "coach_id": 80,
       "coach_name": "Michal Horňák",
-      "birth_date": "1970-04-28"
+      "birth_date": "1970-04-28",
+      "club_id": 80
     },
     {
       "coach_id": 81,
       "coach_name": "Pellegrino Matarazzo",
-      "birth_date": "1977-11-28"
+      "birth_date": "1977-11-28",
+      "club_id": 81
     },
     {
       "coach_id": 82,
       "coach_name": "Andrea Sottil",
-      "birth_date": "1974-01-04"
+      "birth_date": "1974-01-04",
+      "club_id": 82
     },
     {
       "coach_id": 83,
       "coach_name": "Markus Weinzierl",
-      "birth_date": "1974-12-28"
+      "birth_date": "1974-12-28",
+      "club_id": 83
     },
     {
       "coach_id": 84,
       "coach_name": "Domènec Torrent Font",
-      "birth_date": "1962-07-14"
+      "birth_date": "1962-07-14",
+      "club_id": 84
     },
     {
       "coach_id": 85,
       "coach_name": "Antoine Kombouare",
-      "birth_date": "1963-11-16"
+      "birth_date": "1963-11-16",
+      "club_id": 85
     },
     {
       "coach_id": 86,
       "coach_name": "Valérien Ismaël",
-      "birth_date": "1975-09-28"
+      "birth_date": "1975-09-28",
+      "club_id": 86
     },
     {
       "coach_id": 87,
       "coach_name": "Giovanni van Bronckhorst",
-      "birth_date": "1975-02-05"
+      "birth_date": "1975-02-05",
+      "club_id": 87
     },
     {
       "coach_id": 88,
       "coach_name": "Jefferson Carlos Carvalhal da Silva",
-      "birth_date": "1975-06-04"
+      "birth_date": "1975-06-04",
+      "club_id": 88
     },
     {
       "coach_id": 89,
       "coach_name": "Thomas Frank",
-      "birth_date": "1973-10-09"
+      "birth_date": "1973-10-09",
+      "club_id": 89
     },
     {
       "coach_id": 90,
       "coach_name": "Marco Alexandre Saraiva da Silva",
-      "birth_date": "1977-07-12"
+      "birth_date": "1977-07-12",
+      "club_id": 90
     },
     {
       "coach_id": 91,
       "coach_name": "Felix Magath",
-      "birth_date": "1953-07-26"
+      "birth_date": "1953-07-26",
+      "club_id": 91
     },
     {
       "coach_id": 92,
       "coach_name": "Bo Svensson",
-      "birth_date": "1979-08-04"
+      "birth_date": "1979-08-04",
+      "club_id": 92
     },
     {
       "coach_id": 93,
       "coach_name": "Roberto De Zerbi",
-      "birth_date": "1979-06-06"
+      "birth_date": "1979-06-06",
+      "club_id": 93
     },
     {
       "coach_id": 94,
       "coach_name": "Javier Aguirre Onaindía",
-      "birth_date": "1958-12-01"
+      "birth_date": "1958-12-01",
+      "club_id": 94
     },
     {
       "coach_id": 95,
       "coach_name": "Francisco Javier Rodríguez Vílchez",
-      "birth_date": "1978-06-17"
+      "birth_date": "1978-06-17",
+      "club_id": 95
     },
     {
       "coach_id": 96,
       "coach_name": "Andoni Iraola Sagarna",
-      "birth_date": "1982-06-22"
+      "birth_date": "1982-06-22",
+      "club_id": 96
     },
     {
       "coach_id": 97,
       "coach_name": "Dean Smith",
-      "birth_date": "1971-03-19"
+      "birth_date": "1971-03-19",
+      "club_id": 97
     },
     {
       "coach_id": 98,
       "coach_name": "Paul Heckingbottom",
-      "birth_date": "1977-07-17"
+      "birth_date": "1977-07-17",
+      "club_id": 98
     },
     {
       "coach_id": 99,
       "coach_name": "Sokratis Ofridopoulos",
-      "birth_date": "1973-10-26"
+      "birth_date": "1973-10-26",
+      "club_id": 99
     },
     {
       "coach_id": 100,
       "coach_name": "Laurent Batlles",
-      "birth_date": "1975-09-23"
+      "birth_date": "1975-09-23",
+      "club_id": 100
     },
     {
       "coach_id": 101,
       "coach_name": "Urs Fischer",
-      "birth_date": "1966-02-20"
+      "birth_date": "1966-02-20",
+      "club_id": 101
     },
     {
       "coach_id": 102,
       "coach_name": "Alessandro Agostini",
-      "birth_date": "1979-07-23"
+      "birth_date": "1979-07-23",
+      "club_id": 102
     },
     {
       "coach_id": 103,
       "coach_name": "David Guion",
-      "birth_date": "1967-09-30"
+      "birth_date": "1967-09-30",
+      "club_id": 103
     },
     {
       "coach_id": 104,
       "coach_name": "Joan Francesc Ferrer Sicilia",
-      "birth_date": "1970-02-05"
+      "birth_date": "1970-02-05",
+      "club_id": 104
     },
     {
       "coach_id": 105,
       "coach_name": "Angelos Postecoglou",
-      "birth_date": "1965-07-27"
+      "birth_date": "1965-07-27",
+      "club_id": 105
     },
     {
       "coach_id": 106,
       "coach_name": "Pascal Jansen",
-      "birth_date": "1973-01-27"
+      "birth_date": "1973-01-27",
+      "club_id": 106
     },
     {
       "coach_id": 107,
       "coach_name": "Michel Der Zakarian",
-      "birth_date": "1963-02-18"
+      "birth_date": "1963-02-18",
+      "club_id": 107
     },
     {
       "coach_id": 108,
       "coach_name": "Óscar García Junyent",
-      "birth_date": "1973-04-26"
+      "birth_date": "1973-04-26",
+      "club_id": 108
     },
     {
       "coach_id": 109,
       "coach_name": "Michal Bílek",
-      "birth_date": "1965-04-13"
+      "birth_date": "1965-04-13",
+      "club_id": 109
     },
     {
       "coach_id": 110,
       "coach_name": "Răzvan Lucescu",
-      "birth_date": "1969-02-17"
+      "birth_date": "1969-02-17",
+      "club_id": 110
     },
     {
       "coach_id": 111,
       "coach_name": "Emre Belözoğlu",
-      "birth_date": "1980-09-07"
+      "birth_date": "1980-09-07",
+      "club_id": 111
     },
     {
       "coach_id": 112,
       "coach_name": "Scott Parker",
-      "birth_date": "1980-10-13"
+      "birth_date": "1980-10-13",
+      "club_id": 112
     },
     {
       "coach_id": 113,
       "coach_name": "Mircea Lucescu",
-      "birth_date": "1945-07-29"
+      "birth_date": "1945-07-29",
+      "club_id": 113
     },
     {
       "coach_id": 114,
       "coach_name": "Matthias Jaissle",
-      "birth_date": "1988-04-05"
+      "birth_date": "1988-04-05",
+      "club_id": 114
     },
     {
       "coach_id": 115,
       "coach_name": "Juan José Rojo Martín",
-      "birth_date": "1968-03-23"
+      "birth_date": "1968-03-23",
+      "club_id": 115
     },
     {
       "coach_id": 116,
       "coach_name": "Ante Čačić",
-      "birth_date": "1953-09-29"
+      "birth_date": "1953-09-29",
+      "club_id": 116
     },
     {
       "coach_id": 117,
       "coach_name": "Gaizka Garitano Aguirre",
-      "birth_date": "1975-07-09"
+      "birth_date": "1975-07-09",
+      "club_id": 117
     },
     {
       "coach_id": 118,
       "coach_name": "Alexander Blessin",
-      "birth_date": "1973-05-28"
+      "birth_date": "1973-05-28",
+      "club_id": 118
     },
     {
       "coach_id": 119,
       "coach_name": "Gérald Baticle",
-      "birth_date": "1969-09-10"
+      "birth_date": "1969-09-10",
+      "club_id": 119
     },
     {
       "coach_id": 120,
       "coach_name": "Volkan Demirel",
-      "birth_date": "1981-10-27"
+      "birth_date": "1981-10-27",
+      "club_id": 120
     },
     {
       "coach_id": 121,
       "coach_name": "Ole Werner",
-      "birth_date": null
+      "birth_date": null,
+      "club_id": 121
     },
     {
       "coach_id": 122,
       "coach_name": "Bruno Irles",
-      "birth_date": "1975-08-16"
+      "birth_date": "1975-08-16",
+      "club_id": 122
     },
     {
       "coach_id": 123,
       "coach_name": "Jess Thorup",
-      "birth_date": "1970-02-21"
+      "birth_date": "1970-02-21",
+      "club_id": 123
     },
     {
       "coach_id": 124,
       "coach_name": "Frédéric Antonetti",
-      "birth_date": "1961-08-19"
+      "birth_date": "1961-08-19",
+      "club_id": 124
     },
     {
       "coach_id": 125,
       "coach_name": "Ivan Jovanović",
-      "birth_date": "1962-07-08"
+      "birth_date": "1962-07-08",
+      "club_id": 125
     },
     {
       "coach_id": 126,
       "coach_name": "Marco Kostmann",
-      "birth_date": "1966-04-12"
+      "birth_date": "1966-04-12",
+      "club_id": 126
     },
     {
       "coach_id": 127,
       "coach_name": "Thomas Reis",
-      "birth_date": "1973-10-04"
+      "birth_date": "1973-10-04",
+      "club_id": 127
     },
     {
       "coach_id": 128,
       "coach_name": "Bernd Storck",
-      "birth_date": "1963-01-25"
+      "birth_date": "1963-01-25",
+      "club_id": 128
     },
     {
       "coach_id": 129,
       "coach_name": "Hein Vanhaezebrouck",
-      "birth_date": "1964-02-16"
+      "birth_date": "1964-02-16",
+      "club_id": 129
     },
     {
       "coach_id": 130,
       "coach_name": "Ivan Javorcic",
-      "birth_date": "1979-01-24"
+      "birth_date": "1979-01-24",
+      "club_id": 130
     },
     {
       "coach_id": 131,
       "coach_name": "Paolo Zanetti",
-      "birth_date": "1982-12-16"
+      "birth_date": "1982-12-16",
+      "club_id": 131
     },
     {
       "coach_id": 132,
       "coach_name": "Vincent Kompany",
-      "birth_date": "1986-04-10"
+      "birth_date": "1986-04-10",
+      "club_id": 132
     },
     {
       "coach_id": 133,
       "coach_name": "Brian Priske Pedersen",
-      "birth_date": "1977-05-14"
+      "birth_date": "1977-05-14",
+      "club_id": 133
     },
     {
       "coach_id": 134,
       "coach_name": "Miguel Ángel Sánchez Muñoz",
-      "birth_date": "1975-10-30"
+      "birth_date": "1975-10-30",
+      "club_id": 134
     },
     {
       "coach_id": 135,
       "coach_name": "Tony Mowbray",
-      "birth_date": "1963-11-22"
+      "birth_date": "1963-11-22",
+      "club_id": 135
     },
     {
       "coach_id": 136,
       "coach_name": "Steve Cooper",
-      "birth_date": "1979-12-10"
+      "birth_date": "1979-12-10",
+      "club_id": 136
     },
     {
       "coach_id": 137,
       "coach_name": "Mark Warburton",
-      "birth_date": "1962-09-06"
+      "birth_date": "1962-09-06",
+      "club_id": 137
     },
     {
       "coach_id": 138,
       "coach_name": "Pascal Gastien",
-      "birth_date": "1963-12-02"
+      "birth_date": "1963-12-02",
+      "club_id": 138
     },
     {
       "coach_id": 139,
       "coach_name": "Tim Walter",
-      "birth_date": "1975-11-08"
+      "birth_date": "1975-11-08",
+      "club_id": 139
     },
     {
       "coach_id": 140,
       "coach_name": "Michael Büskens",
-      "birth_date": "1968-03-19"
+      "birth_date": "1968-03-19",
+      "club_id": 140
     },
     {
       "coach_id": 141,
       "coach_name": "Davide Nicola",
-      "birth_date": "1973-03-05"
+      "birth_date": "1973-03-05",
+      "club_id": 141
     },
     {
       "coach_id": 142,
       "coach_name": "Stanislav Cherchesov",
-      "birth_date": "1963-09-02"
+      "birth_date": "1963-09-02",
+      "club_id": 142
     },
     {
       "coach_id": 143,
       "coach_name": "Pedro Miguel Marques da Costa Filipe",
-      "birth_date": "1980-12-14"
+      "birth_date": "1980-12-14",
+      "club_id": 143
     },
     {
       "coach_id": 144,
       "coach_name": "Steve Bruce",
-      "birth_date": "1960-12-31"
+      "birth_date": "1960-12-31",
+      "club_id": 144
     },
     {
       "coach_id": 145,
       "coach_name": "Guillermo Abascal Perez",
-      "birth_date": "1989-04-13"
+      "birth_date": "1989-04-13",
+      "club_id": 145
     },
     {
       "coach_id": 146,
       "coach_name": "Matteo Vanetta",
-      "birth_date": "1978-08-06"
+      "birth_date": "1978-08-06",
+      "club_id": 146
     },
     {
       "coach_id": 147,
       "coach_name": "Thiago Motta",
-      "birth_date": "1982-08-28"
+      "birth_date": "1982-08-28",
+      "club_id": 147
     },
     {
       "coach_id": 148,
       "coach_name": "Vincenzo Montella",
-      "birth_date": "1974-06-18"
+      "birth_date": "1974-06-18",
+      "club_id": 148
     },
     {
       "coach_id": 149,
       "coach_name": "Stefan Leitl",
-      "birth_date": "1977-08-29"
+      "birth_date": "1977-08-29",
+      "club_id": 149
     },
     {
       "coach_id": 150,
       "coach_name": "Christophe Pélissier",
-      "birth_date": "1965-10-05"
+      "birth_date": "1965-10-05",
+      "club_id": 150
     },
     {
       "coach_id": 151,
       "coach_name": "Felice Mazzù",
-      "birth_date": "1966-03-12"
+      "birth_date": "1966-03-12",
+      "club_id": 151
     },
     {
       "coach_id": 152,
       "coach_name": "Alfons Groenendijk",
-      "birth_date": "1964-05-17"
+      "birth_date": "1964-05-17",
+      "club_id": 152
     },
     {
       "coach_id": 153,
       "coach_name": "Bo Henriksen",
-      "birth_date": "1975-02-07"
+      "birth_date": "1975-02-07",
+      "club_id": 153
     },
     {
       "coach_id": 154,
       "coach_name": "Francesco Farioli",
-      "birth_date": "1989-04-10"
+      "birth_date": "1989-04-10",
+      "club_id": 154
     },
     {
       "coach_id": 155,
       "coach_name": "Paul Ince",
-      "birth_date": "1967-10-21"
+      "birth_date": "1967-10-21",
+      "club_id": 155
     },
     {
       "coach_id": 156,
       "coach_name": "Luis Miguel Ramis Monfort",
-      "birth_date": "1970-07-25"
+      "birth_date": "1970-07-25",
+      "club_id": 156
     },
     {
       "coach_id": 157,
       "coach_name": "Valdas Dambrauskas",
-      "birth_date": "1977-01-07"
+      "birth_date": "1977-01-07",
+      "club_id": 157
     },
     {
       "coach_id": 158,
       "coach_name": "Mark Robins",
-      "birth_date": "1969-12-22"
+      "birth_date": "1969-12-22",
+      "club_id": 158
     },
     {
       "coach_id": 159,
       "coach_name": "Ryan Lowe",
-      "birth_date": "1978-09-18"
+      "birth_date": "1978-09-18",
+      "club_id": 159
     },
     {
       "coach_id": 160,
       "coach_name": "Chris Wilder",
-      "birth_date": "1967-09-23"
+      "birth_date": "1967-09-23",
+      "club_id": 160
     },
     {
       "coach_id": 161,
       "coach_name": "Michael O'Neill",
-      "birth_date": "1969-07-05"
+      "birth_date": "1969-07-05",
+      "club_id": 161
     },
     {
       "coach_id": 162,
       "coach_name": "Mehdi Nafti",
-      "birth_date": "1978-11-28"
+      "birth_date": "1978-11-28",
+      "club_id": 162
     },
     {
       "coach_id": 163,
       "coach_name": "Bruno Miguel Nogueira Pinheiro",
-      "birth_date": "1976-10-30"
+      "birth_date": "1976-10-30",
+      "club_id": 163
     },
     {
       "coach_id": 164,
       "coach_name": "Daniel Thioune",
-      "birth_date": "1974-07-21"
+      "birth_date": "1974-07-21",
+      "club_id": 164
     },
     {
       "coach_id": 165,
       "coach_name": "Paulo Sérgio Bento Brito",
-      "birth_date": "1968-02-19"
+      "birth_date": "1968-02-19",
+      "club_id": 165
     },
     {
       "coach_id": 166,
       "coach_name": "Fabio Pecchia",
-      "birth_date": "1973-08-24"
+      "birth_date": "1973-08-24",
+      "club_id": 166
     },
     {
       "coach_id": 167,
       "coach_name": "Milos Milojevic",
-      "birth_date": "1982-09-29"
+      "birth_date": "1982-09-29",
+      "club_id": 167
     },
     {
       "coach_id": 168,
       "coach_name": "José Ricardo Soares Ribeiro",
-      "birth_date": "1974-11-11"
+      "birth_date": "1974-11-11",
+      "club_id": 168
     },
     {
       "coach_id": 169,
       "coach_name": "Gary Rowett",
-      "birth_date": "1974-03-06"
+      "birth_date": "1974-03-06",
+      "club_id": 169
     },
     {
       "coach_id": 170,
       "coach_name": "Paulo César da Silva Peixoto",
-      "birth_date": "1980-05-12"
+      "birth_date": "1980-05-12",
+      "club_id": 170
     },
     {
       "coach_id": 171,
       "coach_name": "Vasco César Freire De Seabra",
-      "birth_date": "1983-09-15"
+      "birth_date": "1983-09-15",
+      "club_id": 171
     },
     {
       "coach_id": 172,
       "coach_name": "John van den Brom",
-      "birth_date": "1966-10-04"
+      "birth_date": "1966-10-04",
+      "club_id": 172
     },
     {
       "coach_id": 173,
       "coach_name": "Armando Gonçalves Teixeira",
-      "birth_date": "1976-09-25"
+      "birth_date": "1976-09-25",
+      "club_id": 173
     },
     {
       "coach_id": 174,
       "coach_name": "Rick Kruijs",
-      "birth_date": "1985-05-09"
+      "birth_date": "1985-05-09",
+      "club_id": 174
     },
     {
       "coach_id": 175,
       "coach_name": "Thomas Letsch",
-      "birth_date": "1968-08-26"
+      "birth_date": "1968-08-26",
+      "club_id": 175
     },
     {
       "coach_id": 176,
       "coach_name": "Carlos Corberán Vallet",
-      "birth_date": "1983-04-07"
+      "birth_date": "1983-04-07",
+      "club_id": 176
     },
     {
       "coach_id": 177,
       "coach_name": "Fabio Caserta",
-      "birth_date": "1978-09-24"
+      "birth_date": "1978-09-24",
+      "club_id": 177
     },
     {
       "coach_id": 178,
       "coach_name": "Ömer Erdogan",
-      "birth_date": "1977-05-03"
+      "birth_date": "1977-05-03",
+      "club_id": 178
     },
     {
       "coach_id": 179,
       "coach_name": "Stjepan Tomas",
-      "birth_date": "1976-06-03"
+      "birth_date": "1976-06-03",
+      "club_id": 179
     },
     {
       "coach_id": 180,
       "coach_name": "Ömer Erdogan",
-      "birth_date": "1977-05-03"
+      "birth_date": "1977-05-03",
+      "club_id": 180
     },
     {
       "coach_id": 181,
       "coach_name": "Russell Martin",
-      "birth_date": "1986-01-04"
+      "birth_date": "1986-01-04",
+      "club_id": 181
     },
     {
       "coach_id": 182,
       "coach_name": "Rui Pedro Teixeira de Jesus da Silva",
-      "birth_date": "1977-03-14"
+      "birth_date": "1977-03-14",
+      "club_id": 182
     },
     {
       "coach_id": 183,
       "coach_name": "Robert Klauß",
-      "birth_date": "1984-12-01"
+      "birth_date": "1984-12-01",
+      "club_id": 183
     },
     {
       "coach_id": 184,
       "coach_name": "Bülent Korkmaz",
-      "birth_date": "1968-11-24"
+      "birth_date": "1968-11-24",
+      "club_id": 184
     },
     {
       "coach_id": 185,
       "coach_name": "Rıza Çalımbay",
-      "birth_date": "1963-02-02"
+      "birth_date": "1963-02-02",
+      "club_id": 185
     },
     {
       "coach_id": 186,
       "coach_name": "Erol Bulut",
-      "birth_date": "1975-01-30"
+      "birth_date": "1975-01-30",
+      "club_id": 186
     },
     {
       "coach_id": 187,
       "coach_name": "Giovanni Stroppa",
-      "birth_date": "1968-01-24"
+      "birth_date": "1968-01-24",
+      "club_id": 187
     },
     {
       "coach_id": 188,
       "coach_name": "Jose Luis Martí Soler",
-      "birth_date": "1975-04-28"
+      "birth_date": "1975-04-28",
+      "club_id": 188
     },
     {
       "coach_id": 189,
       "coach_name": "Francisco Javier García Pimienta",
-      "birth_date": "1974-08-03"
+      "birth_date": "1974-08-03",
+      "club_id": 189
     },
     {
       "coach_id": 190,
       "coach_name": "Ümit Şengül",
-      "birth_date": "1968-09-06"
+      "birth_date": "1968-09-06",
+      "club_id": 190
     },
     {
       "coach_id": 191,
       "coach_name": "Luis Miguel Carrión Delgado",
-      "birth_date": "1979-02-07"
+      "birth_date": "1979-02-07",
+      "club_id": 191
     },
     {
       "coach_id": 192,
       "coach_name": "Juan Carlos Carcedo Mardones",
-      "birth_date": "1973-08-19"
+      "birth_date": "1973-08-19",
+      "club_id": 192
     },
     {
       "coach_id": 193,
       "coach_name": "José Ángel Ziganda Lacunza",
-      "birth_date": "1966-10-01"
+      "birth_date": "1966-10-01",
+      "club_id": 193
     },
     {
       "coach_id": 194,
       "coach_name": "Christian Eichner",
-      "birth_date": "1982-11-24"
+      "birth_date": "1982-11-24",
+      "club_id": 194
     },
     {
       "coach_id": 195,
       "coach_name": "Lukas Kwasniok",
-      "birth_date": "1981-06-12"
+      "birth_date": "1981-06-12",
+      "club_id": 195
     },
     {
       "coach_id": 196,
       "coach_name": "Jean-Marc Furlan",
-      "birth_date": "1957-11-20"
+      "birth_date": "1957-11-20",
+      "club_id": 196
     },
     {
       "coach_id": 197,
       "coach_name": "José Ignacio González Sáenz",
-      "birth_date": "1966-07-29"
+      "birth_date": "1966-07-29",
+      "club_id": 197
     },
     {
       "coach_id": 198,
       "coach_name": "Francisco Jémez Martín",
-      "birth_date": "1970-04-18"
+      "birth_date": "1970-04-18",
+      "club_id": 198
     },
     {
       "coach_id": 199,
       "coach_name": "Lee Bowyer",
-      "birth_date": "1977-01-03"
+      "birth_date": "1977-01-03",
+      "club_id": 199
     },
     {
       "coach_id": 200,
       "coach_name": "Marco Baroni",
-      "birth_date": "1963-09-11"
+      "birth_date": "1963-09-11",
+      "club_id": 200
     },
     {
       "coach_id": 201,
       "coach_name": "Ricardo Manuel Andrade Silva Sá Pinto",
-      "birth_date": "1972-10-10"
+      "birth_date": "1972-10-10",
+      "club_id": 201
     },
     {
       "coach_id": 202,
       "coach_name": "Ron Jans",
-      "birth_date": "1958-09-29"
+      "birth_date": "1958-09-29",
+      "club_id": 202
     },
     {
       "coach_id": 203,
       "coach_name": "Sjors Ultee",
-      "birth_date": "1987-05-23"
+      "birth_date": "1987-05-23",
+      "club_id": 203
     },
     {
       "coach_id": 204,
       "coach_name": "Nigel Pearson",
-      "birth_date": "1963-08-21"
+      "birth_date": "1963-08-21",
+      "club_id": 204
     },
     {
       "coach_id": 205,
       "coach_name": "Nathan Jones",
-      "birth_date": "1973-05-28"
+      "birth_date": "1973-05-28",
+      "club_id": 205
     },
     {
       "coach_id": 206,
       "coach_name": "Frank Schmidt",
-      "birth_date": "1974-01-03"
+      "birth_date": "1974-01-03",
+      "club_id": 206
     },
     {
       "coach_id": 207,
       "coach_name": "Wouter Vrancken",
-      "birth_date": "1979-02-03"
+      "birth_date": "1979-02-03",
+      "club_id": 207
     },
     {
       "coach_id": 208,
       "coach_name": "Nuno Alexandre Carvalho Campos",
-      "birth_date": "1975-04-20"
+      "birth_date": "1975-04-20",
+      "club_id": 208
     },
     {
       "coach_id": 209,
       "coach_name": "Anton Petrea",
-      "birth_date": "1975-03-09"
+      "birth_date": "1975-03-09",
+      "club_id": 209
     },
     {
       "coach_id": 210,
       "coach_name": "Timmy Simons",
-      "birth_date": "1976-12-11"
+      "birth_date": "1976-12-11",
+      "club_id": 210
     },
     {
       "coach_id": 211,
       "coach_name": "Edward Still",
-      "birth_date": "1990-12-30"
+      "birth_date": "1990-12-30",
+      "club_id": 211
     },
     {
       "coach_id": 212,
       "coach_name": "Mário Fernando Magalhães da Silva",
-      "birth_date": "1977-04-24"
+      "birth_date": "1977-04-24",
+      "club_id": 212
     },
     {
       "coach_id": 213,
       "coach_name": "Torsten Lieberknecht",
-      "birth_date": "1973-08-01"
+      "birth_date": "1973-08-01",
+      "club_id": 213
     },
     {
       "coach_id": 214,
       "coach_name": "Steve Morison",
-      "birth_date": "1983-08-29"
+      "birth_date": "1983-08-29",
+      "club_id": 214
     },
     {
       "coach_id": 215,
       "coach_name": "İlhan Palut",
-      "birth_date": "1976-11-12"
+      "birth_date": "1976-11-12",
+      "club_id": 215
     },
     {
       "coach_id": 216,
       "coach_name": "Yves Vanderhaeghe",
-      "birth_date": "1970-01-30"
+      "birth_date": "1970-01-30",
+      "club_id": 216
     },
     {
       "coach_id": 217,
       "coach_name": "Álvaro Adriano Teixeira Pacheco",
-      "birth_date": "1971-06-25"
+      "birth_date": "1971-06-25",
+      "club_id": 217
     },
     {
       "coach_id": 218,
       "coach_name": "Christian Ilzer",
-      "birth_date": "1977-10-21"
+      "birth_date": "1977-10-21",
+      "club_id": 218
     },
     {
       "coach_id": 219,
       "coach_name": "Nicolas Usaï",
-      "birth_date": "1974-05-01"
+      "birth_date": "1974-05-01",
+      "club_id": 219
     },
     {
       "coach_id": 220,
       "coach_name": "Dan Vasile Petrescu",
-      "birth_date": "1967-12-22"
+      "birth_date": "1967-12-22",
+      "club_id": 220
     },
     {
       "coach_id": 221,
       "coach_name": "Christoph Dabrowski",
-      "birth_date": "1978-07-01"
+      "birth_date": "1978-07-01",
+      "club_id": 221
     },
     {
       "coach_id": 222,
       "coach_name": "Jon Andoni Pérez Alonso",
-      "birth_date": "1974-03-05"
+      "birth_date": "1974-03-05",
+      "club_id": 222
     },
     {
       "coach_id": 223,
       "coach_name": "Luka Elsner",
-      "birth_date": "1982-08-02"
+      "birth_date": "1982-08-02",
+      "club_id": 223
     },
     {
       "coach_id": 224,
       "coach_name": "Jon Andoni Pérez Alonso",
-      "birth_date": "1974-03-05"
+      "birth_date": "1974-03-05",
+      "club_id": 224
     },
     {
       "coach_id": 225,
       "coach_name": "Marc Brys",
-      "birth_date": "1962-05-10"
+      "birth_date": "1962-05-10",
+      "club_id": 225
     },
     {
       "coach_id": 226,
       "coach_name": "Timo Schultz",
-      "birth_date": "1977-08-26"
+      "birth_date": "1977-08-26",
+      "club_id": 226
     },
     {
       "coach_id": 227,
       "coach_name": "Dietmar Didi Kühbauer",
-      "birth_date": "1971-04-04"
+      "birth_date": "1971-04-04",
+      "club_id": 227
     },
     {
       "coach_id": 228,
       "coach_name": "Philippe Montanier",
-      "birth_date": "1964-11-15"
+      "birth_date": "1964-11-15",
+      "club_id": 228
     },
     {
       "coach_id": 229,
       "coach_name": "Philippe Hinschberger",
-      "birth_date": "1959-11-19"
+      "birth_date": "1959-11-19",
+      "club_id": 229
     },
     {
       "coach_id": 230,
       "coach_name": "Jens Härtel",
-      "birth_date": "1969-06-07"
+      "birth_date": "1969-06-07",
+      "club_id": 230
     },
     {
       "coach_id": 231,
       "coach_name": "Mersad Selimbegovic",
-      "birth_date": "1982-04-29"
+      "birth_date": "1982-04-29",
+      "club_id": 231
     },
     {
       "coach_id": 232,
       "coach_name": "Sofronis Avgousti",
-      "birth_date": "1977-03-09"
+      "birth_date": "1977-03-09",
+      "club_id": 232
     },
     {
       "coach_id": 233,
       "coach_name": "Laurențiu Aurelian Reghecampf",
-      "birth_date": "1975-09-19"
+      "birth_date": "1975-09-19",
+      "club_id": 233
     },
     {
       "coach_id": 234,
       "coach_name": "Lars Friis",
-      "birth_date": "1976-05-07"
+      "birth_date": "1976-05-07",
+      "club_id": 234
     },
     {
       "coach_id": 235,
       "coach_name": "Marcel Rapp",
-      "birth_date": "1979-04-16"
+      "birth_date": "1979-04-16",
+      "club_id": 235
     },
     {
       "coach_id": 236,
       "coach_name": "Alain Geiger",
-      "birth_date": "1960-11-05"
+      "birth_date": "1960-11-05",
+      "club_id": 236
     },
     {
       "coach_id": 237,
       "coach_name": "Aleksandar Vukovic",
-      "birth_date": "1979-08-25"
+      "birth_date": "1979-08-25",
+      "club_id": 237
     },
     {
       "coach_id": 238,
       "coach_name": "Robbie Neilson",
-      "birth_date": "1980-06-19"
+      "birth_date": "1980-06-19",
+      "club_id": 238
     },
     {
       "coach_id": 239,
       "coach_name": "Wayne Mark Rooney",
-      "birth_date": "1985-10-24"
+      "birth_date": "1985-10-24",
+      "club_id": 239
     },
     {
       "coach_id": 240,
       "coach_name": "Franclim Pereira da Silva Maia Carvalho",
-      "birth_date": "1987-03-30"
+      "birth_date": "1987-03-30",
+      "club_id": 240
     },
     {
       "coach_id": 241,
       "coach_name": "Alois Schwartz",
-      "birth_date": "1967-03-28"
+      "birth_date": "1967-03-28",
+      "club_id": 241
     },
     {
       "coach_id": 242,
       "coach_name": "Rogier Meijer",
-      "birth_date": "1981-09-05"
+      "birth_date": "1981-09-05",
+      "club_id": 242
     },
     {
       "coach_id": 243,
       "coach_name": "André Breitenreiter",
-      "birth_date": "1973-10-02"
+      "birth_date": "1973-10-02",
+      "club_id": 243
     },
     {
       "coach_id": 244,
       "coach_name": "Mario Frick",
-      "birth_date": "1974-09-07"
+      "birth_date": "1974-09-07",
+      "club_id": 244
     },
     {
       "coach_id": 245,
       "coach_name": "Armando Evangelista Macedo Freitas",
-      "birth_date": "1973-11-03"
+      "birth_date": "1973-11-03",
+      "club_id": 245
     },
     {
       "coach_id": 246,
       "coach_name": "Martin Devaney",
-      "birth_date": "1980-06-01"
+      "birth_date": "1980-06-01",
+      "club_id": 246
     },
     {
       "coach_id": 247,
       "coach_name": "Sinan Kaloglu",
-      "birth_date": "1981-06-10"
+      "birth_date": "1981-06-10",
+      "club_id": 247
     },
     {
       "coach_id": 248,
       "coach_name": "Kjetil Knutsen",
-      "birth_date": "1968-10-02"
+      "birth_date": "1968-10-02",
+      "club_id": 248
     },
     {
       "coach_id": 249,
       "coach_name": "Shota Arveladze",
-      "birth_date": "1973-02-22"
+      "birth_date": "1973-02-22",
+      "club_id": 249
     },
     {
       "coach_id": 250,
       "coach_name": "Bernd Hollerbach",
-      "birth_date": "1969-12-08"
+      "birth_date": "1969-12-08",
+      "club_id": 250
     },
     {
       "coach_id": 251,
       "coach_name": "Bartosz Grzelak",
-      "birth_date": "1978-11-02"
+      "birth_date": "1978-11-02",
+      "club_id": 251
     },
     {
       "coach_id": 252,
       "coach_name": "Thierry Laurey",
-      "birth_date": "1964-02-17"
+      "birth_date": "1964-02-17",
+      "club_id": 252
     },
     {
       "coach_id": 253,
       "coach_name": "Stéphane Moulin",
-      "birth_date": "1967-08-04"
+      "birth_date": "1967-08-04",
+      "club_id": 253
     },
     {
       "coach_id": 254,
       "coach_name": "Dominik Thalhammer",
-      "birth_date": "1970-10-02"
+      "birth_date": "1970-10-02",
+      "club_id": 254
     },
     {
       "coach_id": 255,
       "coach_name": "Michael Valkanis",
-      "birth_date": "1974-08-23"
+      "birth_date": "1974-08-23",
+      "club_id": 255
     },
     {
       "coach_id": 256,
       "coach_name": "Omar Daf",
-      "birth_date": "1977-02-12"
+      "birth_date": "1977-02-12",
+      "club_id": 256
     },
     {
       "coach_id": 257,
       "coach_name": "Rubén Albés Yáñez",
-      "birth_date": "1985-02-24"
+      "birth_date": "1985-02-24",
+      "club_id": 257
     },
     {
       "coach_id": 258,
       "coach_name": "Karim Belhocine",
-      "birth_date": "1978-04-02"
+      "birth_date": "1978-04-02",
+      "club_id": 258
     },
     {
       "coach_id": 259,
       "coach_name": "Hakan Keleş",
-      "birth_date": "1972-01-08"
+      "birth_date": "1972-01-08",
+      "club_id": 259
     },
     {
       "coach_id": 260,
       "coach_name": "Ferdinand Feldhofer",
-      "birth_date": "1979-10-23"
+      "birth_date": "1979-10-23",
+      "club_id": 260
     },
     {
       "coach_id": 261,
       "coach_name": "Manfred Schmid",
-      "birth_date": "1971-02-20"
+      "birth_date": "1971-02-20",
+      "club_id": 261
     },
     {
       "coach_id": 262,
       "coach_name": "Paul Warne",
-      "birth_date": "1973-05-08"
+      "birth_date": "1973-05-08",
+      "club_id": 262
     },
     {
       "coach_id": 263,
       "coach_name": "Niels Frederiksen",
-      "birth_date": "1968-09-11"
+      "birth_date": "1968-09-11",
+      "club_id": 263
     },
     {
       "coach_id": 264,
       "coach_name": "David Jean Nielsen",
-      "birth_date": "1976-12-01"
+      "birth_date": "1976-12-01",
+      "club_id": 264
     },
     {
       "coach_id": 265,
       "coach_name": "Darren Moore",
-      "birth_date": "1974-04-22"
+      "birth_date": "1974-04-22",
+      "club_id": 265
     },
     {
       "coach_id": 266,
       "coach_name": "Kees van Wonderen",
-      "birth_date": "1969-01-04"
+      "birth_date": "1969-01-04",
+      "club_id": 266
     },
     {
       "coach_id": 267,
       "coach_name": "Frank Wormuth",
-      "birth_date": "1960-09-13"
+      "birth_date": "1960-09-13",
+      "club_id": 267
     },
     {
       "coach_id": 268,
       "coach_name": "Maurice Steijn",
-      "birth_date": "1973-11-20"
+      "birth_date": "1973-11-20",
+      "club_id": 268
     },
     {
       "coach_id": 269,
       "coach_name": "Kjetil André Rekdal",
-      "birth_date": "1968-11-06"
+      "birth_date": "1968-11-06",
+      "club_id": 269
     },
     {
       "coach_id": 270,
       "coach_name": "Mattia Croci-Torti",
-      "birth_date": "1982-04-10"
+      "birth_date": "1982-04-10",
+      "club_id": 270
     },
     {
       "coach_id": 271,
       "coach_name": "Giorgio Contini",
-      "birth_date": "1974-01-04"
+      "birth_date": "1974-01-04",
+      "club_id": 271
     },
     {
       "coach_id": 272,
       "coach_name": "Julián Calero Fernández",
-      "birth_date": "1970-10-26"
+      "birth_date": "1970-10-26",
+      "club_id": 272
     },
     {
       "coach_id": 273,
       "coach_name": "Olivier Pantaloni",
-      "birth_date": "1966-12-13"
+      "birth_date": "1966-12-13",
+      "club_id": 273
     },
     {
       "coach_id": 274,
       "coach_name": "Kevin Hofland",
-      "birth_date": "1979-07-06"
+      "birth_date": "1979-07-06",
+      "club_id": 274
     },
     {
       "coach_id": 275,
       "coach_name": "Christophe Delmotte",
-      "birth_date": null
+      "birth_date": null,
+      "club_id": 275
     },
     {
       "coach_id": 276,
       "coach_name": "Ole Tobiasen",
-      "birth_date": "1975-07-08"
+      "birth_date": "1975-07-08",
+      "club_id": 276
     },
     {
       "coach_id": 277,
       "coach_name": "Danny Buijs",
-      "birth_date": "1982-06-21"
+      "birth_date": "1982-06-21",
+      "club_id": 277
     },
     {
       "coach_id": 278,
       "coach_name": "Leam Richardson",
-      "birth_date": "1979-11-19"
+      "birth_date": "1979-11-19",
+      "club_id": 278
     },
     {
       "coach_id": 279,
       "coach_name": "Michael Appleton",
-      "birth_date": "1975-12-04"
+      "birth_date": "1975-12-04",
+      "club_id": 279
     },
     {
       "coach_id": 280,
       "coach_name": "Rüdiger Rehm",
-      "birth_date": "1978-11-22"
+      "birth_date": "1978-11-22",
+      "club_id": 280
     },
     {
       "coach_id": 281,
       "coach_name": "Grant McCann",
-      "birth_date": "1980-04-14"
+      "birth_date": "1980-04-14",
+      "club_id": 281
     },
     {
       "coach_id": 282,
       "coach_name": "Marek Papszun",
-      "birth_date": "1974-08-08"
+      "birth_date": "1974-08-08",
+      "club_id": 282
     },
     {
       "coach_id": 283,
       "coach_name": "Jens Gustafsson",
-      "birth_date": "1978-10-15"
+      "birth_date": "1978-10-15",
+      "club_id": 283
     },
     {
       "coach_id": 284,
       "coach_name": "Erling Moe",
-      "birth_date": null
+      "birth_date": null,
+      "club_id": 284
     },
     {
       "coach_id": 285,
       "coach_name": "Paolo Tramezzani",
-      "birth_date": "1970-07-30"
+      "birth_date": "1970-07-30",
+      "club_id": 286
     },
     {
       "coach_id": 286,
       "coach_name": "Martí Cifuentes Corvillo",
-      "birth_date": null
+      "birth_date": null,
+      "club_id": 287
     },
     {
       "coach_id": 287,
       "coach_name": "Thomas Lagerlöf",
-      "birth_date": "1971-11-15"
+      "birth_date": "1971-11-15",
+      "club_id": 288
     },
     {
       "coach_id": 288,
-      "coach_name": "Paul Le Guen",
-      "birth_date": "1964-03-01"
+      "coach_name": "Luka Elsner",
+      "birth_date": "1982-08-02",
+      "club_id": 289
     },
     {
       "coach_id": 289,
       "coach_name": "Robin Dutt",
-      "birth_date": "1965-01-24"
+      "birth_date": "1965-01-24",
+      "club_id": 290
     },
     {
       "coach_id": 290,
       "coach_name": "José Ramón Sandoval Huertas",
-      "birth_date": "1968-05-02"
+      "birth_date": "1968-05-02",
+      "club_id": 291
     },
     {
       "coach_id": 291,
       "coach_name": "Joseba Andoni Etxeberria Lizardi",
-      "birth_date": "1977-09-05"
+      "birth_date": "1977-09-05",
+      "club_id": 292
     },
     {
       "coach_id": 292,
       "coach_name": "Guerino Capretti",
-      "birth_date": "1982-02-05"
+      "birth_date": "1982-02-05",
+      "club_id": 293
     },
     {
       "coach_id": 293,
       "coach_name": "Pavel Dochev",
-      "birth_date": "1965-09-28"
+      "birth_date": "1965-09-28",
+      "club_id": 294
     },
     {
       "coach_id": 294,
       "coach_name": "Vincent Hognon",
-      "birth_date": "1974-08-16"
+      "birth_date": "1974-08-16",
+      "club_id": 295
     },
     {
       "coach_id": 295,
       "coach_name": "Marco Antwerpen",
-      "birth_date": "1971-10-05"
+      "birth_date": "1971-10-05",
+      "club_id": 296
     },
     {
       "coach_id": 296,
       "coach_name": "Morten Jensen",
-      "birth_date": "1981-03-09"
+      "birth_date": "1981-03-09",
+      "club_id": 297
     },
     {
       "coach_id": 297,
       "coach_name": "Jean Louis Garcia",
-      "birth_date": "1962-09-20"
+      "birth_date": "1962-09-20",
+      "club_id": 298
     },
     {
       "coach_id": 298,
       "coach_name": "Stéphane Dumont",
-      "birth_date": "1982-06-09"
+      "birth_date": "1982-06-09",
+      "club_id": 299
     },
     {
       "coach_id": 299,
       "coach_name": "Ludovic Magnin",
-      "birth_date": "1979-04-20"
+      "birth_date": "1979-04-20",
+      "club_id": 300
     },
     {
       "coach_id": 300,
       "coach_name": "Jim Goodwin",
-      "birth_date": "1981-11-20"
+      "birth_date": "1981-11-20",
+      "club_id": 301
     },
     {
       "coach_id": 301,
       "coach_name": "David Gray",
-      "birth_date": "1988-05-04"
+      "birth_date": "1988-05-04",
+      "club_id": 302
     },
     {
       "coach_id": 302,
       "coach_name": "Kieran McKenna",
-      "birth_date": null
+      "birth_date": null,
+      "club_id": 303
     },
     {
       "coach_id": 303,
       "coach_name": "Alex Neil",
-      "birth_date": "1981-06-09"
+      "birth_date": "1981-06-09",
+      "club_id": 304
     },
     {
       "coach_id": 304,
       "coach_name": "Cihat Arslan",
-      "birth_date": "1970-02-09"
+      "birth_date": "1970-02-09",
+      "club_id": 305
     },
     {
       "coach_id": 305,
       "coach_name": "Joseph Oosting",
-      "birth_date": "1973-01-29"
+      "birth_date": "1973-01-29",
+      "club_id": 306
     },
     {
       "coach_id": 306,
       "coach_name": "Xabier Alonso Olano",
-      "birth_date": "1981-11-25"
+      "birth_date": "1981-11-25",
+      "club_id": 307
     },
     {
       "coach_id": 307,
       "coach_name": "Dick Schreuder",
-      "birth_date": "1971-08-12"
+      "birth_date": "1971-08-12",
+      "club_id": 308
     },
     {
       "coach_id": 308,
       "coach_name": "Peter Zeidler",
-      "birth_date": "1962-08-08"
+      "birth_date": "1962-08-08",
+      "club_id": 309
     },
     {
       "coach_id": 309,
       "coach_name": "Henk de Jong",
-      "birth_date": "1964-08-27"
+      "birth_date": "1964-08-27",
+      "club_id": 310
     },
     {
       "coach_id": 310,
       "coach_name": "Steven Schumacher",
-      "birth_date": "1984-04-30"
+      "birth_date": "1984-04-30",
+      "club_id": 311
     },
     {
       "coach_id": 311,
       "coach_name": "Gareth Ainsworth",
-      "birth_date": "1973-05-10"
+      "birth_date": "1973-05-10",
+      "club_id": 312
     },
     {
       "coach_id": 312,
       "coach_name": "Francesco Modesto",
-      "birth_date": "1982-02-16"
+      "birth_date": "1982-02-16",
+      "club_id": 313
     },
     {
       "coach_id": 313,
       "coach_name": "Dag-Eilev Akkerhaugen Fagermo",
-      "birth_date": "1967-01-18"
+      "birth_date": "1967-01-18",
+      "club_id": 314
     },
     {
       "coach_id": 314,
       "coach_name": "Piotr Nowak",
-      "birth_date": "1964-07-05"
+      "birth_date": "1964-07-05",
+      "club_id": 315
     },
     {
       "coach_id": 315,
       "coach_name": "Michael Schiele",
-      "birth_date": "1978-03-03"
+      "birth_date": "1978-03-03",
+      "club_id": 316
     },
     {
       "coach_id": 316,
       "coach_name": "Jimmy Thelin",
-      "birth_date": "1978-03-14"
+      "birth_date": "1978-03-14",
+      "club_id": 317
     },
     {
       "coach_id": 317,
       "coach_name": "Rikard Norling",
-      "birth_date": "1971-06-04"
+      "birth_date": "1971-06-04",
+      "club_id": 318
     },
     {
       "coach_id": 318,
       "coach_name": "Aritz Mújika López",
-      "birth_date": "1981-11-13"
+      "birth_date": "1981-11-13",
+      "club_id": 319
     },
     {
       "coach_id": 319,
       "coach_name": "Omar Daf",
-      "birth_date": "1977-02-12"
+      "birth_date": "1977-02-12",
+      "club_id": 320
     },
     {
       "coach_id": 320,
       "coach_name": "Waldemar Fornalik",
-      "birth_date": "1963-04-11"
+      "birth_date": "1963-04-11",
+      "club_id": 321
     },
     {
       "coach_id": 321,
       "coach_name": "Tomasz Kaczmarek",
-      "birth_date": "1984-09-20"
+      "birth_date": "1984-09-20",
+      "club_id": 322
     },
     {
       "coach_id": 322,
       "coach_name": "Thomas Thomasberg",
-      "birth_date": "1974-10-15"
+      "birth_date": "1974-10-15",
+      "club_id": 323
     },
     {
       "coach_id": 323,
       "coach_name": "Gheorghe Hagi",
-      "birth_date": "1965-02-05"
+      "birth_date": "1965-02-05",
+      "club_id": 324
     },
     {
       "coach_id": 324,
       "coach_name": "Danny Cowley",
-      "birth_date": null
+      "birth_date": null,
+      "club_id": 325
     },
     {
       "coach_id": 325,
       "coach_name": "Ian Ross Evatt",
-      "birth_date": "1981-11-19"
+      "birth_date": "1981-11-19",
+      "club_id": 326
     },
     {
       "coach_id": 326,
       "coach_name": "Liam Manning",
-      "birth_date": "1985-08-20"
+      "birth_date": "1985-08-20",
+      "club_id": 327
     },
     {
       "coach_id": 327,
       "coach_name": "Kent Nielsen",
-      "birth_date": "1961-12-28"
+      "birth_date": "1961-12-28",
+      "club_id": 328
     },
     {
       "coach_id": 328,
       "coach_name": "Andreas Alm",
-      "birth_date": "1973-06-19"
+      "birth_date": "1973-06-19",
+      "club_id": 329
     },
     {
       "coach_id": 329,
       "coach_name": "Sébastien Desabre",
-      "birth_date": "1976-08-02"
+      "birth_date": "1976-08-02",
+      "club_id": 330
     },
     {
       "coach_id": 330,
       "coach_name": "Liviu Ciobotariu",
-      "birth_date": "1971-03-26"
+      "birth_date": "1971-03-26",
+      "club_id": 331
     },
     {
       "coach_id": 331,
       "coach_name": "Albert Cartier",
-      "birth_date": "1960-11-22"
+      "birth_date": "1960-11-22",
+      "club_id": 332
     },
     {
       "coach_id": 332,
       "coach_name": "Michael Köllner",
-      "birth_date": "1969-12-29"
+      "birth_date": "1969-12-29",
+      "club_id": 333
     },
     {
       "coach_id": 333,
       "coach_name": "Geir Bakke",
-      "birth_date": "1969-10-23"
+      "birth_date": "1969-10-23",
+      "club_id": 334
     },
     {
       "coach_id": 334,
       "coach_name": "Laurent Peyrelade",
-      "birth_date": "1970-07-07"
+      "birth_date": "1970-07-07",
+      "club_id": 335
     },
     {
       "coach_id": 335,
       "coach_name": "Adrian Mutu",
-      "birth_date": "1979-01-08"
+      "birth_date": "1979-01-08",
+      "club_id": 336
     },
     {
       "coach_id": 336,
       "coach_name": "Ivan Prelec",
-      "birth_date": null
+      "birth_date": null,
+      "club_id": 337
     },
     {
       "coach_id": 337,
       "coach_name": "Régis Brouard",
-      "birth_date": "1967-01-17"
+      "birth_date": "1967-01-17",
+      "club_id": 338
     },
     {
       "coach_id": 338,
       "coach_name": "Mikael Stahre",
-      "birth_date": "1975-07-05"
+      "birth_date": "1975-07-05",
+      "club_id": 339
     },
     {
       "coach_id": 339,
       "coach_name": "Jerzy Brzęczek",
-      "birth_date": "1971-03-18"
+      "birth_date": "1971-03-18",
+      "club_id": 340
     },
     {
       "coach_id": 340,
       "coach_name": "Graham Alexander",
-      "birth_date": "1971-10-10"
+      "birth_date": "1971-10-10",
+      "club_id": 341
     },
     {
       "coach_id": 341,
       "coach_name": "Ben Garner",
-      "birth_date": "1980-05-19"
+      "birth_date": "1980-05-19",
+      "club_id": 342
     },
     {
       "coach_id": 342,
       "coach_name": "Jacek Zielinski",
-      "birth_date": "1961-03-22"
+      "birth_date": "1961-03-22",
+      "club_id": 343
     },
     {
       "coach_id": 343,
       "coach_name": "Piotr Stokowiec",
-      "birth_date": "1972-05-25"
+      "birth_date": "1972-05-25",
+      "club_id": 344
     },
     {
       "coach_id": 344,
       "coach_name": "Ionuţ Badea",
-      "birth_date": "1975-10-14"
+      "birth_date": "1975-10-14",
+      "club_id": 345
     },
     {
       "coach_id": 345,
       "coach_name": "Karl Robinson",
-      "birth_date": "1980-09-13"
+      "birth_date": "1980-09-13",
+      "club_id": 346
     },
     {
       "coach_id": 346,
       "coach_name": "Jan Urban",
-      "birth_date": "1962-05-14"
+      "birth_date": "1962-05-14",
+      "club_id": 347
     },
     {
       "coach_id": 347,
       "coach_name": "Romain Revelli",
-      "birth_date": "1977-08-22"
+      "birth_date": "1977-08-22",
+      "club_id": 348
     },
     {
       "coach_id": 348,
-      "coach_name": "Thomas Courts",
-      "birth_date": "1981-08-10"
+      "coach_name": "Jack Ross",
+      "birth_date": "1976-06-05",
+      "club_id": 349
     },
     {
       "coach_id": 349,
       "coach_name": "Thomas Silberberger",
-      "birth_date": "1973-06-03"
+      "birth_date": "1973-06-03",
+      "club_id": 350
     },
     {
       "coach_id": 350,
       "coach_name": "Patrick Glöckner",
-      "birth_date": "1976-11-18"
+      "birth_date": "1976-11-18",
+      "club_id": 351
     },
     {
       "coach_id": 351,
       "coach_name": "Per-Mathias Høgmo",
-      "birth_date": "1959-12-01"
+      "birth_date": "1959-12-01",
+      "club_id": 352
     },
     {
       "coach_id": 352,
       "coach_name": "Francisco Javier Fernández Díaz",
-      "birth_date": "1980-03-20"
+      "birth_date": "1980-03-20",
+      "club_id": 353
     },
     {
       "coach_id": 353,
       "coach_name": "Klaus Schmidt",
-      "birth_date": "1967-10-21"
+      "birth_date": "1967-10-21",
+      "club_id": 354
     },
     {
       "coach_id": 354,
       "coach_name": "Cristiano Bergodi",
-      "birth_date": "1964-10-14"
+      "birth_date": "1964-10-14",
+      "club_id": 355
     },
     {
       "coach_id": 355,
       "coach_name": "Daniel Scherning",
-      "birth_date": "1983-10-29"
+      "birth_date": "1983-10-29",
+      "club_id": 356
     },
     {
       "coach_id": 356,
       "coach_name": "Markus Kauczinski",
-      "birth_date": "1970-02-20"
+      "birth_date": "1970-02-20",
+      "club_id": 357
     },
     {
       "coach_id": 357,
       "coach_name": "Mariusz Lewandowski",
-      "birth_date": "1979-05-18"
+      "birth_date": "1979-05-18",
+      "club_id": 358
     },
     {
       "coach_id": 358,
       "coach_name": "Didier Tholot",
-      "birth_date": "1964-04-02"
+      "birth_date": "1964-04-02",
+      "club_id": 359
     },
     {
       "coach_id": 359,
       "coach_name": "Piotr Tworek",
-      "birth_date": "1975-03-10"
+      "birth_date": "1975-03-10",
+      "club_id": 360
     },
     {
       "coach_id": 360,
       "coach_name": "Peter Pacult",
-      "birth_date": "1959-10-28"
+      "birth_date": "1959-10-28",
+      "club_id": 361
     },
     {
       "coach_id": 361,
       "coach_name": "Flemming Pedersen",
-      "birth_date": "1947-09-02"
+      "birth_date": "1947-09-02",
+      "club_id": 362
     },
     {
       "coach_id": 362,
       "coach_name": "Christian Titz",
-      "birth_date": "1971-04-01"
+      "birth_date": "1971-04-01",
+      "club_id": 363
     },
     {
       "coach_id": 363,
       "coach_name": "Joe Enochs",
-      "birth_date": "1971-09-01"
+      "birth_date": "1971-09-01",
+      "club_id": 364
     },
     {
       "coach_id": 364,
       "coach_name": "Nicolò Napoli",
-      "birth_date": "1962-02-07"
+      "birth_date": "1962-02-07",
+      "club_id": 365
     },
     {
       "coach_id": 365,
       "coach_name": "Rico Schmitt",
-      "birth_date": "1968-09-27"
+      "birth_date": "1968-09-27",
+      "club_id": 366
     },
     {
       "coach_id": 366,
       "coach_name": "Uwe Koschinat",
-      "birth_date": "1971-09-01"
+      "birth_date": "1971-09-01",
+      "club_id": 367
     },
     {
       "coach_id": 367,
       "coach_name": "Christian Heinle",
-      "birth_date": "1985-03-30"
+      "birth_date": "1985-03-30",
+      "club_id": 368
     },
     {
       "coach_id": 368,
       "coach_name": "Pavol Stano",
-      "birth_date": "1977-09-29"
+      "birth_date": "1977-09-29",
+      "club_id": 369
     },
     {
       "coach_id": 369,
       "coach_name": "Daniel Bäckström",
-      "birth_date": null
+      "birth_date": null,
+      "club_id": 370
     },
     {
       "coach_id": 370,
       "coach_name": "Christian Michelsen",
-      "birth_date": "1973-03-14"
+      "birth_date": "1973-03-14",
+      "club_id": 371
     },
     {
       "coach_id": 371,
       "coach_name": "Olaf Janßen",
-      "birth_date": "1966-10-08"
+      "birth_date": "1966-10-08",
+      "club_id": 372
     },
     {
       "coach_id": 372,
       "coach_name": "Stefan Billborn",
-      "birth_date": "1972-11-15"
+      "birth_date": "1972-11-15",
+      "club_id": 373
     },
     {
       "coach_id": 373,
       "coach_name": "Adam Majewski",
-      "birth_date": "1973-12-24"
+      "birth_date": "1973-12-24",
+      "club_id": 374
     },
     {
       "coach_id": 374,
       "coach_name": "David Martindale",
-      "birth_date": "1974-07-13"
+      "birth_date": "1974-07-13",
+      "club_id": 375
     },
     {
       "coach_id": 375,
       "coach_name": "Ralf Santelli",
-      "birth_date": "1968-05-26"
+      "birth_date": "1968-05-26",
+      "club_id": 376
     },
     {
       "coach_id": 376,
       "coach_name": "Malky Mackay",
-      "birth_date": "1972-02-19"
+      "birth_date": "1972-02-19",
+      "club_id": 377
     },
     {
       "coach_id": 377,
       "coach_name": "Radoslav Látal",
-      "birth_date": "1970-01-06"
+      "birth_date": "1970-01-06",
+      "club_id": 378
     },
     {
       "coach_id": 378,
       "coach_name": "Steve Cotterill",
-      "birth_date": "1964-07-20"
+      "birth_date": "1964-07-20",
+      "club_id": 379
     },
     {
       "coach_id": 379,
       "coach_name": "Dawid Szulczek",
-      "birth_date": "1990-01-26"
+      "birth_date": "1990-01-26",
+      "club_id": 380
     },
     {
       "coach_id": 380,
       "coach_name": "Scott Brown",
-      "birth_date": "1985-06-25"
+      "birth_date": "1985-06-25",
+      "club_id": 381
     },
     {
       "coach_id": 381,
       "coach_name": "André Meyer",
-      "birth_date": "1984-06-05"
+      "birth_date": "1984-06-05",
+      "club_id": 382
     },
     {
       "coach_id": 382,
       "coach_name": "Mark Kennedy",
-      "birth_date": "1976-05-15"
+      "birth_date": "1976-05-15",
+      "club_id": 383
     },
     {
       "coach_id": 383,
       "coach_name": "Constantin Schumacher",
-      "birth_date": "1976-05-08"
+      "birth_date": "1976-05-08",
+      "club_id": 384
     },
     {
       "coach_id": 384,
       "coach_name": "Mark Bonner",
-      "birth_date": null
+      "birth_date": null,
+      "club_id": 385
     },
     {
       "coach_id": 385,
       "coach_name": "Bjørn Petter Ingebretsen",
-      "birth_date": "1967-05-26"
+      "birth_date": "1967-05-26",
+      "club_id": 386
     },
     {
       "coach_id": 386,
       "coach_name": "Henrik Rydström",
-      "birth_date": "1976-02-16"
+      "birth_date": "1976-02-16",
+      "club_id": 387
     },
     {
       "coach_id": 387,
       "coach_name": "Marius Marian Croitoru",
-      "birth_date": "1980-10-02"
+      "birth_date": "1980-10-02",
+      "club_id": 388
     },
     {
       "coach_id": 388,
       "coach_name": "Ludovic Magnin",
-      "birth_date": "1979-04-20"
+      "birth_date": "1979-04-20",
+      "club_id": 389
     },
     {
       "coach_id": 389,
       "coach_name": "Jacob Friis",
-      "birth_date": "1976-12-11"
+      "birth_date": "1976-12-11",
+      "club_id": 390
     },
     {
       "coach_id": 390,
       "coach_name": "Henrik Hansen",
-      "birth_date": "1979-07-28"
+      "birth_date": "1979-07-28",
+      "club_id": 391
     },
     {
       "coach_id": 391,
       "coach_name": "Jerrel Hasselbaink",
-      "birth_date": "1972-03-27"
+      "birth_date": "1972-03-27",
+      "club_id": 392
     },
     {
       "coach_id": 392,
       "coach_name": "Fabien Mercadal",
-      "birth_date": "1972-02-29"
+      "birth_date": "1972-02-29",
+      "club_id": 393
     },
     {
       "coach_id": 393,
       "coach_name": "Pal Arne Johansen",
-      "birth_date": "1977-02-16"
+      "birth_date": "1977-02-16",
+      "club_id": 394
     },
     {
       "coach_id": 394,
       "coach_name": "Gary Bowyer",
-      "birth_date": "1971-06-26"
+      "birth_date": "1971-06-26",
+      "club_id": 395
     },
     {
       "coach_id": 395,
       "coach_name": "Callum Davidson",
-      "birth_date": "1976-06-25"
+      "birth_date": "1976-06-25",
+      "club_id": 396
     },
     {
       "coach_id": 396,
       "coach_name": "Stephen Robinson",
-      "birth_date": "1974-12-10"
+      "birth_date": "1974-12-10",
+      "club_id": 397
     },
     {
       "coach_id": 397,
       "coach_name": "Roberto Pätzold",
-      "birth_date": "1980-07-17"
+      "birth_date": "1980-07-17",
+      "club_id": 398
     },
     {
       "coach_id": 398,
       "coach_name": "Toni Koskela",
-      "birth_date": "1983-02-16"
+      "birth_date": "1983-02-16",
+      "club_id": 399
     },
     {
       "coach_id": 399,
       "coach_name": "John Coleman",
-      "birth_date": "1962-10-12"
+      "birth_date": "1962-10-12",
+      "club_id": 400
     },
     {
       "coach_id": 400,
       "coach_name": "Emil Săndoi",
-      "birth_date": "1965-03-01"
+      "birth_date": "1965-03-01",
+      "club_id": 401
     },
     {
       "coach_id": 401,
       "coach_name": "Neil Wood",
-      "birth_date": "1983-01-04"
+      "birth_date": "1983-01-04",
+      "club_id": 402
     },
     {
       "coach_id": 402,
       "coach_name": "Neil Harris",
-      "birth_date": "1977-07-12"
+      "birth_date": "1977-07-12",
+      "club_id": 403
     },
     {
       "coach_id": 403,
       "coach_name": "Mark Hughes",
-      "birth_date": "1963-11-01"
+      "birth_date": "1963-11-01",
+      "club_id": 404
     },
     {
       "coach_id": 404,
       "coach_name": "Hagen Schmidt",
-      "birth_date": "1970-02-11"
+      "birth_date": "1970-02-11",
+      "club_id": 405
     },
     {
       "coach_id": 405,
       "coach_name": "Ian Burchnall",
-      "birth_date": "1983-02-11"
+      "birth_date": "1983-02-11",
+      "club_id": 406
     },
     {
       "coach_id": 406,
       "coach_name": "Stephen Bradley",
-      "birth_date": "1984-11-19"
+      "birth_date": "1984-11-19",
+      "club_id": 407
     },
     {
       "coach_id": 407,
       "coach_name": "Enrico Maaßen",
-      "birth_date": "1984-03-10"
+      "birth_date": "1984-03-10",
+      "club_id": 408
     },
     {
       "coach_id": 408,
       "coach_name": "Derek Adams",
-      "birth_date": "1975-06-25"
+      "birth_date": "1975-06-25",
+      "club_id": 409
     },
     {
       "coach_id": 409,
       "coach_name": "Farat Toku",
-      "birth_date": "1980-04-20"
+      "birth_date": "1980-04-20",
+      "club_id": 410
     },
     {
       "coach_id": 410,
       "coach_name": "James Rowberry",
-      "birth_date": "1985-04-26"
+      "birth_date": "1985-04-26",
+      "club_id": 411
     },
     {
       "coach_id": 411,
       "coach_name": "Johnnie Jackson",
-      "birth_date": "1982-08-15"
+      "birth_date": "1982-08-15",
+      "club_id": 412
     },
     {
       "coach_id": 412,
       "coach_name": "Darrell Clarke",
-      "birth_date": "1977-12-16"
+      "birth_date": "1977-12-16",
+      "club_id": 413
     },
     {
       "coach_id": 413,
       "coach_name": "Jon Brady",
-      "birth_date": "1975-01-14"
+      "birth_date": "1975-01-14",
+      "club_id": 414
     },
     {
       "coach_id": 414,
       "coach_name": "Gary McSheffrey",
-      "birth_date": "1982-08-13"
+      "birth_date": "1982-08-13",
+      "club_id": 415
     },
     {
       "coach_id": 415,
       "coach_name": "Ben Garner",
-      "birth_date": "1980-05-19"
+      "birth_date": "1980-05-19",
+      "club_id": 416
     },
     {
       "coach_id": 416,
       "coach_name": "Michael Duff",
-      "birth_date": "1978-01-11"
+      "birth_date": "1978-01-11",
+      "club_id": 417
     },
     {
       "coach_id": 417,
       "coach_name": "Nigel Clough",
-      "birth_date": "1966-03-19"
+      "birth_date": "1966-03-19",
+      "club_id": 418
     },
     {
       "coach_id": 418,
       "coach_name": "Eirik Kjönö",
-      "birth_date": "1991-02-27"
+      "birth_date": "1991-02-27",
+      "club_id": 419
     },
     {
       "coach_id": 419,
       "coach_name": "Dušan Uhrin Jr.",
-      "birth_date": "1967-10-11"
+      "birth_date": "1967-10-11",
+      "club_id": 420
     },
     {
       "coach_id": 420,
       "coach_name": "Eirik Horneland",
-      "birth_date": "1975-03-14"
+      "birth_date": "1975-03-14",
+      "club_id": 421
     },
     {
       "coach_id": 421,
       "coach_name": "Phil Parkinson",
-      "birth_date": "1967-12-01"
+      "birth_date": "1967-12-01",
+      "club_id": 422
     },
     {
       "coach_id": 422,
       "coach_name": "Gaute Ugelstad Helstrup",
-      "birth_date": "1976-05-15"
+      "birth_date": "1976-05-15",
+      "club_id": 423
     },
     {
       "coach_id": 423,
       "coach_name": "Michél Kniat",
-      "birth_date": "1985-11-18"
+      "birth_date": "1985-11-18",
+      "club_id": 424
     },
     {
       "coach_id": 424,
       "coach_name": "Joey Barton",
-      "birth_date": "1982-09-02"
+      "birth_date": "1982-09-02",
+      "club_id": 425
     },
     {
       "coach_id": 425,
       "coach_name": "Jostein Grindhaug",
-      "birth_date": "1973-02-20"
+      "birth_date": "1973-02-20",
+      "club_id": 426
     },
     {
       "coach_id": 426,
       "coach_name": "Kamil Kieres",
-      "birth_date": "1974-07-16"
+      "birth_date": "1974-07-16",
+      "club_id": 427
     },
     {
       "coach_id": 427,
       "coach_name": "Michael John Flynn",
-      "birth_date": "1980-10-17"
+      "birth_date": "1980-10-17",
+      "club_id": 428
     },
     {
       "coach_id": 428,
       "coach_name": "John Yems",
-      "birth_date": null
+      "birth_date": null,
+      "club_id": 429
     },
     {
       "coach_id": 429,
       "coach_name": "Joakim Persson",
-      "birth_date": "1975-04-03"
+      "birth_date": "1975-04-03",
+      "club_id": 430
     },
     {
       "coach_id": 430,
       "coach_name": "Rüdiger Ziehl",
-      "birth_date": "1977-10-26"
+      "birth_date": "1977-10-26",
+      "club_id": 431
     },
     {
       "coach_id": 431,
       "coach_name": "Simon Weaver",
-      "birth_date": "1977-12-20"
+      "birth_date": "1977-12-20",
+      "club_id": 432
     },
     {
       "coach_id": 432,
       "coach_name": "Thomas Stamm",
-      "birth_date": "1983-02-19"
+      "birth_date": "1983-02-19",
+      "club_id": 433
     },
     {
       "coach_id": 433,
       "coach_name": "Alex Morris",
-      "birth_date": "1983-10-05"
+      "birth_date": "1983-10-05",
+      "club_id": 434
     },
     {
       "coach_id": 434,
       "coach_name": "Matthew Taylor",
-      "birth_date": "1982-01-30"
+      "birth_date": "1982-01-30",
+      "club_id": 435
     },
     {
       "coach_id": 435,
       "coach_name": "Wayne Brown",
-      "birth_date": "1977-08-20"
+      "birth_date": "1977-08-20",
+      "club_id": 436
     },
     {
       "coach_id": 436,
       "coach_name": "Robbie Stockdale",
-      "birth_date": "1979-11-30"
+      "birth_date": "1979-11-30",
+      "club_id": 437
     },
     {
       "coach_id": 437,
       "coach_name": "Richard Wellens",
-      "birth_date": "1980-03-26"
+      "birth_date": "1980-03-26",
+      "club_id": 438
     },
     {
       "coach_id": 438,
       "coach_name": "Axel Kjäll",
-      "birth_date": "1981-06-01"
+      "birth_date": "1981-06-01",
+      "club_id": 439
     },
     {
       "coach_id": 439,
       "coach_name": "Micky Mellon",
-      "birth_date": "1972-03-18"
+      "birth_date": "1972-03-18",
+      "club_id": 440
     },
     {
       "coach_id": 440,
       "coach_name": "Andreas Brännström",
-      "birth_date": null
+      "birth_date": null,
+      "club_id": 441
     },
     {
       "coach_id": 441,
       "coach_name": "Hans Erik Ødegaard",
-      "birth_date": "1974-01-20"
+      "birth_date": "1974-01-20",
+      "club_id": 442
     },
     {
       "coach_id": 442,
       "coach_name": "Andreas Heraf",
-      "birth_date": "1967-09-10"
+      "birth_date": "1967-09-10",
+      "club_id": 443
     },
     {
       "coach_id": 443,
       "coach_name": "Alexandru Pelici-Drăghicescu",
-      "birth_date": "1974-01-10"
+      "birth_date": "1974-01-10",
+      "club_id": 444
     },
     {
       "coach_id": 444,
       "coach_name": "Andreas Holmberg",
-      "birth_date": "1984-08-17"
+      "birth_date": "1984-08-17",
+      "club_id": 445
     },
     {
       "coach_id": 445,
       "coach_name": "Magnus Powell",
-      "birth_date": "1974-10-28"
+      "birth_date": "1974-10-28",
+      "club_id": 446
     },
     {
       "coach_id": 446,
       "coach_name": "Magnus Haglund",
-      "birth_date": "1973-04-15"
+      "birth_date": "1973-04-15",
+      "club_id": 447
     },
     {
       "coach_id": 447,
       "coach_name": "Steve Evans",
-      "birth_date": "1962-10-30"
+      "birth_date": "1962-10-30",
+      "club_id": 448
     },
     {
       "coach_id": 448,
       "coach_name": "Peter Wild",
-      "birth_date": null
+      "birth_date": null,
+      "club_id": 449
     },
     {
       "coach_id": 449,
       "coach_name": "John Sheridan",
-      "birth_date": "1964-10-01"
+      "birth_date": "1964-10-01",
+      "club_id": 450
     },
     {
       "coach_id": 450,
       "coach_name": "Graeme Lee",
-      "birth_date": "1978-05-31"
+      "birth_date": "1978-05-31",
+      "club_id": 451
     },
     {
       "coach_id": 451,
       "coach_name": "Tim Clancy",
-      "birth_date": "1984-06-08"
+      "birth_date": "1984-06-08",
+      "club_id": 452
     },
     {
       "coach_id": 452,
       "coach_name": "Paul Simpson",
-      "birth_date": "1966-07-26"
+      "birth_date": "1966-07-26",
+      "club_id": 453
     },
     {
       "coach_id": 453,
       "coach_name": "Matt Gray",
-      "birth_date": "1981-11-02"
+      "birth_date": "1981-11-02",
+      "club_id": 454
     },
     {
       "coach_id": 454,
       "coach_name": "Vegard Hansen",
-      "birth_date": "1969-08-08"
+      "birth_date": "1969-08-08",
+      "club_id": 455
     },
     {
       "coach_id": 455,
       "coach_name": "Keith Long",
-      "birth_date": "1973-11-14"
+      "birth_date": "1973-11-14",
+      "club_id": 456
     },
     {
       "coach_id": 456,
       "coach_name": "Liam Buckley",
-      "birth_date": "1960-04-14"
+      "birth_date": "1960-04-14",
+      "club_id": 457
     },
     {
       "coach_id": 457,
       "coach_name": "Stephen McDonnell",
-      "birth_date": "1992-03-28"
+      "birth_date": "1992-03-28",
+      "club_id": 458
     },
     {
       "coach_id": 458,
       "coach_name": "Keith Hill",
-      "birth_date": "1969-05-17"
+      "birth_date": "1969-05-17",
+      "club_id": 459
     },
     {
       "coach_id": 459,
       "coach_name": "Ruaidhri Higgins",
-      "birth_date": "1984-10-23"
+      "birth_date": "1984-10-23",
+      "club_id": 460
     },
     {
       "coach_id": 460,
       "coach_name": "Constantin Giurescu",
-      "birth_date": null
+      "birth_date": null,
+      "club_id": 461
     },
     {
       "coach_id": 461,
       "coach_name": "Ollie Horgan",
-      "birth_date": null
+      "birth_date": null,
+      "club_id": 462
     },
     {
       "coach_id": 462,
       "coach_name": "Kevin Doherty",
-      "birth_date": "1980-04-18"
+      "birth_date": "1980-04-18",
+      "club_id": 463
     },
     {
       "coach_id": 463,
       "coach_name": "Ian Morris",
-      "birth_date": "1987-02-27"
+      "birth_date": "1987-02-27",
+      "club_id": 464
     },
     {
       "coach_id": 464,
       "coach_name": "Marin Dună",
-      "birth_date": "1967-08-02"
+      "birth_date": "1967-08-02",
+      "club_id": 465
     },
     {
       "coach_id": 465,
       "coach_name": "Gary Cronin",
-      "birth_date": "1979-03-16"
+      "birth_date": "1979-03-16",
+      "club_id": 466
     }
   ],
   "defensive_style": [

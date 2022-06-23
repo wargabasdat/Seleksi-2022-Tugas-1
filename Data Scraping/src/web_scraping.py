@@ -161,7 +161,6 @@ def coach_scraper(tags, data, idx, coach_url):
     
     """
     coach_name = tags[0].find("a", href=coach_url[:-1])["title"].strip()                    # Coach Name
-    data["clubs"][idx]["coach_id"] = len(data["coaches"]) + 1                               # Coach ID
     if len(tags[2].text.strip())==0:
         date = None
     else:
@@ -172,6 +171,7 @@ def coach_scraper(tags, data, idx, coach_url):
     coach["coach_id"] = len(data["coaches"]) + 1
     coach["coach_name"] = coach_name
     coach["birth_date"] = date
+    coach["club_id"] = idx + 1
     data["coaches"].append(coach)
     return data
 
@@ -296,8 +296,6 @@ def web_scraper():
             tag_ul = doc.find("ul", class_="ellipsis text-right")
             tag_lis = tag_ul.find_all("li")
             data = coach_scraper(tag_lis, data, i, coach_url)
-        else:
-            data["clubs"][i]["coach_id"] = None
 
     # Stadiums
     data["stadiums"] = sorted(data["stadiums"])
