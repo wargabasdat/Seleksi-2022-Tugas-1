@@ -1,7 +1,7 @@
 from fastapi import APIRouter
-from config.database import collection_name
-from models.propmodels import Property
-from schemas.propschemas import properties_serializer, property_serializer
+from DataScraping.src.fastAPI.config.database import collection_name
+from DataScraping.src.fastAPI.models.propmodels import Property
+from DataScraping.src.fastAPI.schemas.propschemas import properties_serializer, property_serializer
 from bson import ObjectId
 router = APIRouter()
 
