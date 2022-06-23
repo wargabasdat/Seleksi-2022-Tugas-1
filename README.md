@@ -1,98 +1,101 @@
 <h1 align="center">
   <br>
-  Seleksi Warga Basdat 2022
+  Scraping Top Drama Show
   <br>
   <br>
 </h1>
 
 <h2 align="center">
   <br>
-  Tugas 1 : Data Scraping & Data Storing
+  Tugas 1 Seleksi Calon Warga Basdat 2022
   <br>
   <br>
 </h2>
 
+## Deskripsi Data & DBMS
+Pada Tugas 1 ini, saya memilih untuk melakukan scraping pada <em> website </em> <a href='https://mydramalist.com/search?adv=titles&ty=68,83&so=top&page=1'>            mydramalist.com </a>. Alasan saya memilih <em> website </em> tersebut adalah tingginya animo masyarakat Indonesia terhadap drama dari luar negeri seperti misalnya      drama Korea maupun drama Taiwan. Data yang saya ambil dari <em> website </em> tersebut adalah judul drama, jenis drama, tahun pembuatan, jumlah episode, serta          rating drama tersebut yang dapat mempermudah orang-orang untuk menentukan drama mana yang ingin ditonton terlebih dahulu.
+ 
+DBMS yang saya gunakan untuk menyimpan hasil <em> scarping </em> tersebut adalah MongoDB. Alasan penggunaan MongoDB karena file hasil <em> export </em> dari <em> web scraping </em> berformat JSON sehingga cocok untuk menggunakan DBMS NoSQL khusunya MongoDB. MongoDB dapat meng-<em>import</em> file JSON dengan cepat dan fleksibel. Untuk penyimpanan cloud, MongoDB juga sudah menyediakan <em> platform </em> MongoDB Atlas sehingga mempermudah kita untuk membuat <em> cluster </em> di cloud.
 
 ## Spesifikasi
+Program <em> web scraping </em> ini menggunakan bahasa pemrograman Python dengan bantuan library BeautifulSoup untuk melakukan <em>scraping</em>-nya. Terdapat beberapa library lain yang digunakan pada program ini yang akan dijelaskan kemudian serta dapat dilihat pada file `requirements.txt`.
 
-### Data Scraping
+## API
+Saya membuat API untuk mengakses data Top Drama yang sudah terlebih dahhulu disimpan pada MongoAtlas dengan bantuan FastAPI dan Swagger UI. Beberapa interaksi yang dapat dilakukan melalui API ini adalah:
 
-1. Lakukan _data scraping_ dari sebuah laman web untuk memperoleh data atau informasi tertentu __TANPA MENGGUNAKAN API__. Hasil _data scraping_ ini nantinya akan disimpan dalam DBMS dan digunakan sebagai bahan tugas analisis dan visualisasi data.
+* Create : Membuat/memasukkan drama baru ke dalam database
+* Read : Melihat seluruh drama yang ada pada database ataupun melihat drama berdasarkan idnya
+* Update : Melakukan update untuk drama tertentu berdasarkan idnya
+* Delete : Menghapus drama tertentu dari database
 
-2. Daftarkan judul topik yang akan dijadikan bahan _data scraping_ dan DBMS yang akan digunakan pada spreadsheet berikut: [Topik Data Scraping](https://docs.google.com/spreadsheets/d/1VjK-ZeJlSy38yqUJvaaCqYtS7yP8Vq609ewyWTA_k2Y/edit?usp=sharing). Usahakan agar tidak ada peserta dengan topik yang sama. Akses edit ke spreadsheet akan ditutup tanggal __10 Juni 2022 pukul 21.40 WIB__
+## How to Use
+### Cara Menggunakan Program Scraping
+1. Clone <em> repository </em> ini ke PC anda.
+2. Install seluruh library yang dibutuhkan dengan <em>command</em> berikut `pip install -r requirements.txt`
+3. <em> Run </em> program `drama.py`. Anda dapat mengubah nama <em> file </em> hasil <em> export </em> pada bagian bawah file `drama.py`.
+4. File hasil <em> scraping </em> akan tersedia pada folder yang sama. Hasil scraping juga tersedia pada folder `Data Scraping/data/dramalist.json`
 
-3. Pada folder `Data Scraping`, calon warga basdat harus mengumpulkan _file script_, json hasil _data scraping_. Folder `Data Scraping` terdiri dari _folder_ `src`, `data` dan `screenshots`. 
-    - _Folder_ `src` berisi _file script_/kode yang __*WELL DOCUMENTED* dan *CLEAN CODE*__ 
-    - _Folder_ `data` berisi _file_ json hasil _scraper_
-    - _Folder_ `screenshot` berisi tangkapan layar program.
+### Cara Menggunakan API
+1. Clone <em> repository </em> ini ke PC anda.
+2. Install seluruh library yang dibutuhkan dengan <em>command</em> berikut `pip install -r requirements.txt`
+3. <em> Run </em> program `main.py` yang terdapat pada folder `Data Scraping/src/app/main.py`. Program ini akan otomatis menyalakan server lokal.
+4. Pada <em> browser </em>, buka `127.0.0.1` atau `localhost:8000`. Bila muncul tulisan "Welcome to Top Drama Scraper", maka server sudah berhasil berjalan secara lokal.
+5. Pada <em> browser </em>, buka `127.0.0.1/docs` atau `localhost:8000/docs` untuk mengakses Swagger UI. Anda bisa mengakses database Top Drama yang berada pada MongoAtlas melalui Swagger UI tersebut.
 
-4. Sebagai referensi untuk mengenal _data scraping_, asisten menyediakan dokumen "_Short Guidance To Data Scraping_" yang dapat diakses pada link berikut: [Data Scraping Guidance](http://bit.ly/DataScrapingGuidance). Mohon memperhatikan etika dalam melakukan _scraping_.
-
-5. Data yang diperolah harus dinormalisasi dan harus di-_preprocessing_
-```
-Preprocessing contohnya :
-- Cleaning
-- Parsing
-- Transformation
-- dan lainnya
-```
-
-### Data Storing
-
-1. Buatlah sebuah ER Diagram dari basis data yang akan digunakan untuk menyimpan data hasil _scraping_
-   
-2. Implementasikan ERD tersebut ke DBMS sesuai pilihan kalian
-
-3. Tools yang digunakan __dibebaskan__
-
-4. Calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Folder_ `Data Storing` terdiri dari folder `screenshots`, `export`, dan `design`
-    - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
-    - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
-    -  _Folder_ `design` berisi ER Diagram yang disimpan dalam format `.png`
-
-
-
-5. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    - Simpan ke _cloud database_
-    - Buatlah API sederhana untuk mengakses _database_ tersebut
-
-### Pengumpulan
-
-
-1. Dalam mengerjakan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: [Seleksi-2022-Tugas-1](https://github.com/wargabasdat/Seleksi-2022-Tugas-1). Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_1_[NIM]```
-
-2. Tambahkan juga `.gitignore` pada _file_ atau _folder_ yang tidak perlu di-_upload_, __NB: BINARY TIDAK DIUPLOAD__
-
-3. Berikan satu buah file `README` yang __WELL DOCUMENTED__ dengan cara __override__ _file_ `README.md` ini. `README` harus memuat minimal konten:
-
+## JSON Structure
+Berikut ini format JSON hasil export dari DBMS MongoDB:
 
 ```
-- Description of the data and DBMS (Why you choose it)
-- Specification of the program
-- How to use
-- JSON Structure
-- Database Structure
-- Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-- Reference (Library used, etc)
-- Author
+{
+  "_id":{
+    $oid            : string
+  },
+  "judul_drama"     : string,
+  "jenis_drama"     : string,
+  "tahun_pembuatan" : string,
+  "jumlah_episode"  : int,
+  "rating_drama"    : float
+}
 ```
+## Screenshots
+* Preprocessing <br>
+![preprocessing](https://user-images.githubusercontent.com/79572039/175234931-ac32dcd6-6e6c-491e-9434-c3f599fa695e.png)
 
+* Saat Program Berjalan
+![program_run](https://user-images.githubusercontent.com/79572039/175234482-a2b3176e-910b-4150-8230-dc86068565dc.png)
 
-4. Deadline pengumpulan tugas 1 adalah <span style="color:red">__1 Juli 2022 Pukul 22.40 WIB__</span>
+* Data Storing di Cloud
+![Storing_Atlas](https://user-images.githubusercontent.com/79572039/175235927-129a184e-4ff8-45d0-bc92-4aaaab57de1a.png)
 
-<h3 align="center">
-  <br>
-  Selamat Mengerjakan!
-  <br>
-</h3>
+* Tampilan API menggunakan Swagger UI
+![API](https://user-images.githubusercontent.com/79572039/175236147-6598c7b8-5f15-47a9-a7e8-1d7a11c3bba3.png)
 
-<p align="center">
-  <i>
-  Happiness does not come from doing easy work
-  but from the afterglow of satisfaction that
-  comes after the achievement of a difficult
-  task that demanded our best.<br><br>
-  - Theodore Isaac Rubin
-  </i>
-</p>
-<br>
+## References
+Libraries :
+* BeautifulSoup
+* Requests
+* FastAPI
+* Certifi
+* Uvicorn
+* PyMongo
+* Motor
+* etc (bisa dilihat di `requirements.tx`
+
+Sumber belajar :
+* Web Scraping :
+- <a href='https://www.youtube.com/watch?v=YIiYeyfo7MM&ab_channel=RifaiSlamet'> Belajar Web Scraping dengan Python BeautifulSoup </a>
+
+* Setup Atlas :
+- <a href='https://www.youtube.com/watch?v=4-fRVd1yzr0&ab_channel=prawitohudoro'> Setup MongoDB Atlas Project </a>
+
+* API :
+- <a href='https://www.youtube.com/watch?v=cJWk27W9uoY&ab_channel=MoonKidz'> Python FastAPI MongoDB </a>
+- <a href='https://www.youtube.com/watch?v=SJR_60BqU08&ab_channel=MoonKidz'> Python FastAPI </a>
+- <a href='https://www.youtube.com/watch?v=G7hZlOLhhMY&t=1815s&ab_channel=MaheshKariya'> FastAPI MongoDB REST API in Python </a>
+- <a href='https://testdriven.io/blog/fastapi-mongo/#mongodb'> Building a CRUD App with FastAPI and MongoDB </a>
+
+## Author
+Vincentius Verel Siedharta <br>
+18220061 <br>
+Sistem dan Teknologi Informasi <br>
+Institut Teknologi Bandung <br>
