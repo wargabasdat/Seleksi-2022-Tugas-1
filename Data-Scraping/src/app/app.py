@@ -2,8 +2,10 @@
 
 from fastapi import FastAPI
 from server.routes.users import router as DramaRouter
+from mangum import Mangum
 
 app = FastAPI()
+handler = Mangum(app)
 
 @app.get("/", tags=["Root"])
 async def read_root():
