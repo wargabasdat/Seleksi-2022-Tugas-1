@@ -1,9 +1,9 @@
 package playerRoutes
 
 import (
-	"github.com/gofiber/fiber/v2"
 	playerHandler "api/internals/handlers/player"
 
+	"github.com/gofiber/fiber/v2"
 )	
 
 func SetupPlayerRoutes(router fiber.Router) {
