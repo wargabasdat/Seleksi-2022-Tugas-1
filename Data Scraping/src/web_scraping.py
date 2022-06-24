@@ -48,12 +48,12 @@ def mainpage_scraper(tag, data, team_urls):
         if league["league_name"]==league_name:
             data["clubs"][-1]["league_id"] = league["league_id"]                                    # League ID
             break                     
-    data["clubs"][-1]["overall"] = tag.find("td", class_="col col-oa").span.text.strip()            # Team Overall
-    data["clubs"][-1]["attack"] = tag.find("td", class_="col col-at").span.text.strip()             # Team Attack
-    data["clubs"][-1]["midfield"] = tag.find("td", class_="col col-md").span.text.strip()           # Team Midfield
-    data["clubs"][-1]["defense"] = tag.find("td", class_="col col-df").span.text.strip()            # Team Defense
+    data["clubs"][-1]["overall"] = int(tag.find("td", class_="col col-oa").span.text.strip())       # Team Overall
+    data["clubs"][-1]["attack"] = int(tag.find("td", class_="col col-at").span.text.strip())        # Team Attack
+    data["clubs"][-1]["midfield"] = int(tag.find("td", class_="col col-md").span.text.strip())      # Team Midfield
+    data["clubs"][-1]["defense"] = int(tag.find("td", class_="col col-df").span.text.strip())       # Team Defense
     data["clubs"][-1]["transfer_budget"] = tag.find("td", class_="col col-tb").text.strip()         # Team Transfer Budget
-    data["clubs"][-1]["number_of_players"] = tag.find("td", class_="col col-ps").text.strip()       # Number of Players
+    data["clubs"][-1]["number_of_players"] = int(tag.find("td", class_="col col-ps").text.strip())  # Number of Players
     team_urls.append(tag.find("a", href=re.compile("/team/.*"))["href"])                            # Team URL
     return (data, team_urls)
 
@@ -77,28 +77,28 @@ def teamtactic_scraper(tags, data, idx):
     
     """
     # Defense
-    defensive_style = tags[0].span.span.text.strip()                                                                # Defensive Style
+    defensive_style = tags[0].span.span.text.strip()                                                                    # Defensive Style
     for defstyle in data["defensive_style"]:
         if defstyle["defensive_style_name"]==defensive_style:
-            data["clubs"][idx]["defensive_style_id"] = defstyle["defensive_style_id"]                               # Defensive Style ID
+            data["clubs"][idx]["defensive_style_id"] = defstyle["defensive_style_id"]                                   # Defensive Style ID
             break
-    data["clubs"][idx]["defense_width"] = tags[1].find("span", class_="float-right").span.text.strip()              # Team Defense Width
-    data["clubs"][idx]["defense_depth"] = tags[2].find("span", class_="float-right").span.text.strip()              # Team Defense Depth
+    data["clubs"][idx]["defense_width"] = int(tags[1].find("span", class_="float-right").span.text.strip())             # Team Defense Width
+    data["clubs"][idx]["defense_depth"] = int(tags[2].find("span", class_="float-right").span.text.strip())             # Team Defense Depth
     # Offense
-    build_up_play = tags[3].span.span.text.strip()                                                                  # Build Up Play
-    chance_creation = tags[4].span.span.text.strip()                                                                # Chance Creation
+    build_up_play = tags[3].span.span.text.strip()                                                                      # Build Up Play
+    chance_creation = tags[4].span.span.text.strip()                                                                    # Chance Creation
     for buplay in data["build_up_play"]:
         if buplay["build_up_play_name"]==build_up_play:
-            data["clubs"][idx]["build_up_play_id"] = buplay["build_up_play_id"]                                     # Build Up Play ID
+            data["clubs"][idx]["build_up_play_id"] = buplay["build_up_play_id"]                                         # Build Up Play ID
             break
     for chance in data["chance_creation"]:
         if chance["chance_creation_name"]==chance_creation:
-            data["clubs"][idx]["chance_creation_id"] = chance["chance_creation_id"]                                 # Chance Creation ID
+            data["clubs"][idx]["chance_creation_id"] = chance["chance_creation_id"]                                     # Chance Creation ID
             break
-    data["clubs"][idx]["offense_width"] = tags[5].find("span", class_="float-right").span.text.strip()              # Team Offense Width
-    data["clubs"][idx]["offense_player_in_box"] = tags[6].find("span", class_="float-right").span.text.strip()      # Team Offense Player In Box
-    data["clubs"][idx]["corner_player_in_box"] = tags[7].find("span", class_="float-right").span.text.strip()       # Team Corner Player In Box
-    data["clubs"][idx]["free_kick_player_in_box"] = tags[8].find("span", class_="float-right").span.text.strip()    # Team Free Kick Player In Box
+    data["clubs"][idx]["offense_width"] = int(tags[5].find("span", class_="float-right").span.text.strip())             # Team Offense Width
+    data["clubs"][idx]["offense_player_in_box"] = int(tags[6].find("span", class_="float-right").span.text.strip())     # Team Offense Player In Box
+    data["clubs"][idx]["corner_player_in_box"] = int(tags[7].find("span", class_="float-right").span.text.strip())      # Team Corner Player In Box
+    data["clubs"][idx]["free_kick_player_in_box"] = int(tags[8].find("span", class_="float-right").span.text.strip())   # Team Free Kick Player In Box
     return data
 
 def detail_scraper(tags, data, idx):
@@ -130,7 +130,7 @@ def detail_scraper(tags, data, idx):
             data["clubs"][idx]["rival_club_id"] = rival["club_id"]              # Rival Club ID
             break
     data["clubs"][idx]["club_worth"] = tags[5].text[11:].strip()                # Club Worth
-    data["clubs"][idx]["average_age"] = tags[7].text[22:].strip()               # Whole Team Average Age
+    data["clubs"][idx]["average_age"] = float(tags[7].text[22:].strip())        # Whole Team Average Age
     data["clubs"][idx]["captain_id"] = len(data["captains"]) + 1                # Team Captain
     data["stadiums"].add(data["clubs"][idx]["home_stadium"])
     captain = dict()
@@ -258,9 +258,11 @@ def web_scraper():
     # Leagues
     tag_option = doc.find_all("div", class_="card")[1].find_all("div")[5].find_all("option")
     data = league_scraper(tag_option, data)
+    print("Progress: League scraper finished")
     # Tactics
     tag_option = doc.find_all("div", class_="card")[2].find_all("option")
     data = tactic_scraper(tag_option, data)
+    print("Progress: Tactic scraper finished")
 
     offset = 0
     while offset<466:
@@ -275,6 +277,16 @@ def web_scraper():
         offset += 60 
 
     for i in range(len(data["clubs"])):
+
+        if i==100:
+            print("Progress: Club scraper finished 100/466")
+        elif i==200:
+            print("Progress: Club scraper finished 200/466")
+        elif i==300:
+            print("Progress: Club scraper finished 300/466")
+        elif i==400:
+            print("Progress: Club scraper finished 400/466")
+
         doc = html_parser(base_url+team_urls[i])
         
         # Tactics
@@ -297,6 +309,9 @@ def web_scraper():
             tag_lis = tag_ul.find_all("li")
             data = coach_scraper(tag_lis, data, i, coach_url)
 
+    print("Progress: Club scraper finished 466/466")
+    print("Progress: Captain and coach scraper finished")
+
     # Stadiums
     data["stadiums"] = sorted(data["stadiums"])
     temp_data_stadiums = []
@@ -312,8 +327,13 @@ def web_scraper():
         del club["home_stadium"]
     data["stadiums"] = temp_data_stadiums
 
+    print("Progress: Stadium scraper finished")
+
     with open('Data Scraping/data/data.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
+
+    print("Progress: Web scraping done")
+    print("Data have been written to Data Scraping/data/data.json")
 
 if __name__ == '__main__':
     web_scraper()
