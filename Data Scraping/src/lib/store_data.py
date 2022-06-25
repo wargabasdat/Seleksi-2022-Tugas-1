@@ -4,24 +4,52 @@ from dotenv import load_dotenv, find_dotenv
 
 def store_cards(cur, data):
     print("Storing cards...")
-
-    # sql = "SELECT skill_id FROM skills WHERE skill_type = %s AND skill_name = %s"
     
-    # for card in data:
-    #     # find skill id of every skills in card
-    #     for skill in card['skills']:
-    #         # cari id skill
-    #         cur.execute(sql, (skill['type'], skill['name']))
-    #         skill_id = cur.fetchone()[0]
+    for card in data:
+        # store card basic data
+        sql = """
+            INSERT INTO cards (
+                card_name,
+                card_rarity,
+                card_character,
+                card_attribute,
+                max_power,
+                max_influence,
+                max_defense
+            ) VALUES (%s, %s, %s, %s, %s, %s, %s)
+        """
+        cur.execute(sql, (
+            card['name'], 
+            card['rarity'], 
+            card['character'], 
+            card['attribute'], 
+            card['max_power'], 
+            card['max_influence'], 
+            card['max_defense'])
+        )
+        # get that card's id
+        cur.execute("SELECT card_id FROM cards WHERE card_name = %s", (card['name']))
+        card_id = cur.fetchone()[0]
+
+        # find skill id of every skills in card
+        # TODO: revamp scrape_card
+        # for skill in card['skills']:
+        #     cur.execute("""
+        #         SELECT skill_id FROM skills WHERE skill_name = %s AND skill_type = %s
+        #     """, (...)) # gatau
+        #     skill_id = cur.fetchone()[0]
+        #     # store card_skill relation
+        #     sql = """
+        #         INSERT INTO card_skills (
+        #             card_id,
+        #             skill_id
+        #         ) VALUES (%s, %s)
+        #     """
+        #     cur.execute(sql, (card_id, skill_id))
+
+
+        # for skill in card['skills']:
             
-    #         # store card
-    #         sql = "INSERT INTO cards (card_name, card_desc) VALUES (%s, %s, %s)"
-    #         cur.execute(sql, (card['name'], card['desc'], skill_id))
-            
-    #         # store card_skill
-    #         sql = "INSERT INTO card_skills (card_id, skill_id) VALUES (%s, %s)"
-    #         for skill in card['skills']:
-    #             cur.execute(sql, (cur.lastrowid, skill_id))
 
     print("Cards stored to database.")
 
