@@ -2,8 +2,11 @@ from bs4 import BeautifulSoup
 import re
 import json
 import urllib.request
+from .store_data import store_data
 
 def scrape_card():
+	print("Scraping cards...")
+
 	# get html from tot.wiki
 	req = urllib.request.Request("https://tot.wiki/wiki/Cards")
 	req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64); alifiarahmah/alifiarahmah03@gmail.com')
@@ -19,10 +22,19 @@ def scrape_card():
 		cards.append(get_card(card, id))
 		id += 1
 
-	# convert card list to json
-	with open('../data/cards.json', 'w') as outfile:
-		json.dump(cards, outfile, indent=4)
-	print('Done scraping cards.')
+	# store card list to json
+	print("Do you want to save the skills to a file? (y/n)")
+	choice = input("Enter your choice: ")
+	if choice == "y":
+		with open('../data/skills.json', 'w') as outfile:
+			json.dump(cards, outfile, indent=4)
+		print("Skills saved to file.")
+	
+	# store data to database
+	print("Do you want to store the skills to a database? (y/n)")
+	choice = input("Enter your choice: ")
+	if choice == "y":
+		store_data(cards, True)
 
 
 def get_card(card, id):

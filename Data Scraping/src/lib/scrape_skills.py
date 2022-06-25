@@ -5,31 +5,34 @@ import urllib.request
 from .store_data import store_data
 
 def scrape_skills():
+	print("Scraping skills...")
+
 	# get html from tot.wiki
 	req = urllib.request.Request("https://tot.wiki/wiki/Skills")
 	req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64); alifiarahmah/alifiarahmah03@gmail.com')
 	sitestr = urllib.request.urlopen(req).read()
 	soup = BeautifulSoup(sitestr, "html.parser")
 
-	# append all cards to list
+	# append all skill to list
 	skill_list = []
 	for skill in soup.find_all("table")[1].find("tbody").findAll("tr"):
 		skill_list.append(get_skill(skill))
+	print('Done scraping skills.')
 
-	# convert card list to json
+	# store skill list to json
 	print("Do you want to save the skills to a file? (y/n)")
 	choice = input("Enter your choice: ")
 	if choice == "y":
-		with open('../../data/skills.json', 'w') as outfile:
+		with open('../data/skills.json', 'w') as outfile:
 			json.dump(skill_list, outfile, indent=4)
+		print("Skills saved to file.")
 	
 	# store data to database
 	print("Do you want to store the skills to a database? (y/n)")
 	choice = input("Enter your choice: ")
 	if choice == "y":
-		store_data(skill_list)
+		store_data(skill_list, False)
 
-	print('Done scraping skills.')
 	
 def get_skill(skill):
 	# get skills
