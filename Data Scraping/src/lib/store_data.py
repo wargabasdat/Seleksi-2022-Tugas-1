@@ -5,10 +5,12 @@ from dotenv import load_dotenv, find_dotenv
 def store_cards(cur, data):
     print("Storing cards...")
     
+    card_id = 1
     for card in data:
         # store card basic data
         sql = """
             INSERT INTO cards (
+                card_id,
                 card_name,
                 card_rarity,
                 card_character,
@@ -16,39 +18,36 @@ def store_cards(cur, data):
                 max_power,
                 max_influence,
                 max_defense
-            ) VALUES (%s, %s, %s, %s, %s, %s, %s)
+            ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
         """
         cur.execute(sql, (
+            card_id,
             card['name'], 
             card['rarity'], 
             card['character'], 
             card['attribute'], 
             card['max_power'], 
             card['max_influence'], 
-            card['max_defense'])
-        )
-        # get that card's id
-        cur.execute("SELECT card_id FROM cards WHERE card_name = %s", (card['name']))
-        card_id = cur.fetchone()[0]
+            card['max_defense']
+        ))
 
         # find skill id of every skills in card
-        # TODO: revamp scrape_card
-        # for skill in card['skills']:
-        #     cur.execute("""
-        #         SELECT skill_id FROM skills WHERE skill_name = %s AND skill_type = %s
-        #     """, (...)) # gatau
-        #     skill_id = cur.fetchone()[0]
-        #     # store card_skill relation
-        #     sql = """
-        #         INSERT INTO card_skills (
-        #             card_id,
-        #             skill_id
-        #         ) VALUES (%s, %s)
-        #     """
-        #     cur.execute(sql, (card_id, skill_id))
+        for skill in card['skills']:
+            cur.execute("""
+                SELECT skill_id FROM skills WHERE skill_name = %s AND skill_type = %s
+            """, (skill['name'], skill['type']))
+            skill_id = cur.fetchone()
+            # store card_skill relation
+            sql = """
+                INSERT INTO card_skills (
+                    card_id,
+                    skill_id
+                ) VALUES (%s, %s)
+            """
+            cur.execute(sql, (card_id, skill_id))
 
-
-        # for skill in card['skills']:
+        # increment card_id
+        card_id += 1
             
 
     print("Cards stored to database.")
@@ -96,8 +95,8 @@ def store_data(data, is_card):
         """)
         cur.execute("""
             CREATE TABLE IF NOT EXISTS card_skills (
-                card_id INT, 
-                skill_id INT
+                card_id INTEGER, 
+                skill_id INTEGER
             )
         """)
         cur.execute("""
@@ -117,8 +116,8 @@ def store_data(data, is_card):
             store_skills(cur, data)
         conn.commit()
 
-    except (Exception, psycopg2.DatabaseError) as e:
-        print(e)
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
 
     finally:
         if conn is not None:
