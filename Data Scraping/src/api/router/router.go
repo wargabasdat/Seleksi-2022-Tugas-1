@@ -9,7 +9,7 @@ import (
 )
 
 func SetupRoutes(app *fiber.App) {
-	api := app.Group("/api", logger.New()) // create a new group for the API
+	api := app.Group("/", logger.New()) // create a new group for the API
 
 	playerRoutes.SetupPlayerRoutes(api)
 	teamRoutes.SetupTeamRoutes(api)
