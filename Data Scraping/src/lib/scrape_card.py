@@ -26,7 +26,7 @@ def scrape_card():
 	print("Do you want to save the skills to a file? (y/n)")
 	choice = input("Enter your choice: ")
 	if choice == "y":
-		with open('../data/skills.json', 'w') as outfile:
+		with open('../data/cards.json', 'w') as outfile:
 			json.dump(cards, outfile, indent=4)
 		print("Skills saved to file.")
 	
@@ -77,11 +77,14 @@ def get_card(card, id):
 	# scrape card skills to dict
 	skillpage = page.find("div", class_="hs-block")
 	skillpage = page.find("div", class_="hs-block")
-	skills = {}
+	skills = []
 	for skill in skillpage.findAll("div", class_="notable"):
-		key = skill.find("div", class_="notable-header").find("a").get("title").strip()
-		value = skill.find("div", class_="notable-header").findAll("a")[1].get_text().strip()
-		skills[key] = value
+		skillentry = {}
+		type = skill.find("div", class_="notable-header").find("a").get("title").strip()
+		name = skill.find("div", class_="notable-header").findAll("a")[1].get_text().strip()
+		skillentry['type'] = type
+		skillentry['name'] = name
+		skills.append(skillentry)
 	dict['skills'] = skills
 
 	return dict

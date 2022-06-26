@@ -8,11 +8,20 @@
         "max_power": 9699,
         "max_influence": 2879,
         "max_defense": 1573,
-        "skills": {
-            "Layer by Layer": "Layer by Layer \u03b2 III",
-            "Emotional Projection": "Emotional Projection III",
-            "Parallel Growth": "Parallel Growth III"
-        }
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b2 III"
+            },
+            {
+                "type": "Emotional Projection",
+                "name": "Emotional Projection III"
+            },
+            {
+                "type": "Parallel Growth",
+                "name": "Parallel Growth III"
+            }
+        ]
     },
     {
         "id": 1,
@@ -23,11 +32,20 @@
         "max_power": 9699,
         "max_influence": 2968,
         "max_defense": 1484,
-        "skills": {
-            "Bait & Lure": "Bait & Lure \u03b2 III",
-            "Antique Repairer": "Antique Repairer III",
-            "Strike Weakness": "Strike Weakness III"
-        }
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b2 III"
+            },
+            {
+                "type": "Antique Repairer",
+                "name": "Antique Repairer III"
+            },
+            {
+                "type": "Strike Weakness",
+                "name": "Strike Weakness III"
+            }
+        ]
     },
     {
         "id": 2,
@@ -38,11 +56,20 @@
         "max_power": 9699,
         "max_influence": 2968,
         "max_defense": 1484,
-        "skills": {
-            "Logical Conclusion": "Logical Conclusion \u03b3 III",
-            "Truth Restorer": "Truth Restorer III",
-            "Exemplar": "Exemplar III"
-        }
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b3 III"
+            },
+            {
+                "type": "Truth Restorer",
+                "name": "Truth Restorer III"
+            },
+            {
+                "type": "Exemplar",
+                "name": "Exemplar III"
+            }
+        ]
     },
     {
         "id": 3,
@@ -53,11 +80,20 @@
         "max_power": 9699,
         "max_influence": 2820,
         "max_defense": 1632,
-        "skills": {
-            "Preemptive Strike": "Preemptive Strike III",
-            "Truth Restorer": "Truth Restorer III",
-            "Parallel Growth": "Parallel Growth III"
-        }
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike III"
+            },
+            {
+                "type": "Truth Restorer",
+                "name": "Truth Restorer III"
+            },
+            {
+                "type": "Parallel Growth",
+                "name": "Parallel Growth III"
+            }
+        ]
     },
     {
         "id": 4,
@@ -68,11 +104,20 @@
         "max_power": 9699,
         "max_influence": 2820,
         "max_defense": 1632,
-        "skills": {
-            "Preemptive Strike": "Preemptive Strike III",
-            "Deductive Reasoning": "Deductive Reasoning III",
-            "Emergent Retreat": "Emergent Retreat III"
-        }
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike III"
+            },
+            {
+                "type": "Deductive Reasoning",
+                "name": "Deductive Reasoning III"
+            },
+            {
+                "type": "Emergent Retreat",
+                "name": "Emergent Retreat III"
+            }
+        ]
     },
     {
         "id": 5,
@@ -83,11 +128,20 @@
         "max_power": 9699,
         "max_influence": 2879,
         "max_defense": 1573,
-        "skills": {
-            "Feigning Defeat": "Feigning Defeat \u03b2 III",
-            "Instantaneous Capture": "Instantaneous Capture III",
-            "Detective's Mind": "Detective's Mind III"
-        }
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b2 III"
+            },
+            {
+                "type": "Instantaneous Capture",
+                "name": "Instantaneous Capture III"
+            },
+            {
+                "type": "Detective's Mind",
+                "name": "Detective's Mind III"
+            }
+        ]
     },
     {
         "id": 6,
@@ -98,11 +152,20 @@
         "max_power": 9699,
         "max_influence": 2968,
         "max_defense": 1484,
-        "skills": {
-            "Virtuous Presence": "Virtuous Presence \u03b3 III",
-            "Curiosity": "Curiosity III",
-            "Detective's Mind": "Detective's Mind III"
-        }
+        "skills": [
+            {
+                "type": "Virtuous Presence",
+                "name": "Virtuous Presence \u03b3 III"
+            },
+            {
+                "type": "Curiosity",
+                "name": "Curiosity III"
+            },
+            {
+                "type": "Detective's Mind",
+                "name": "Detective's Mind III"
+            }
+        ]
     },
     {
         "id": 7,
@@ -113,11 +176,20 @@
         "max_power": 9699,
         "max_influence": 2820,
         "max_defense": 1632,
-        "skills": {
-            "Attention to Detail": "Attention to Detail \u03b2 III",
-            "Premonition": "Premonition III",
-            "Detective's Mind": "Detective's Mind III"
-        }
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b2 III"
+            },
+            {
+                "type": "Premonition",
+                "name": "Premonition III"
+            },
+            {
+                "type": "Detective's Mind",
+                "name": "Detective's Mind III"
+            }
+        ]
     },
     {
         "id": 8,
@@ -128,11 +200,20 @@
         "max_power": 9699,
         "max_influence": 2968,
         "max_defense": 1484,
-        "skills": {
-            "Logical Conclusion": "Logical Conclusion \u03b1 III",
-            "Impeccable": "Impeccable III",
-            "Detective's Mind": "Detective's Mind III"
-        }
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b1 III"
+            },
+            {
+                "type": "Impeccable",
+                "name": "Impeccable III"
+            },
+            {
+                "type": "Detective's Mind",
+                "name": "Detective's Mind III"
+            }
+        ]
     },
     {
         "id": 9,
@@ -143,11 +224,20 @@
         "max_power": 7268,
         "max_influence": 2327,
         "max_defense": 997,
-        "skills": {
-            "Layer by Layer": "Layer by Layer \u03b1 II",
-            "Antique Repairer": "Antique Repairer II",
-            "Drastic Measures": "Drastic Measures II"
-        }
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b1 II"
+            },
+            {
+                "type": "Antique Repairer",
+                "name": "Antique Repairer II"
+            },
+            {
+                "type": "Drastic Measures",
+                "name": "Drastic Measures II"
+            }
+        ]
     },
     {
         "id": 10,
@@ -158,11 +248,20 @@
         "max_power": 7268,
         "max_influence": 2105,
         "max_defense": 1219,
-        "skills": {
-            "Feigning Defeat": "Feigning Defeat \u03b3 II",
-            "Strategist": "Strategist II",
-            "Foresight": "Foresight II"
-        }
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b3 II"
+            },
+            {
+                "type": "Strategist",
+                "name": "Strategist II"
+            },
+            {
+                "type": "Foresight",
+                "name": "Foresight II"
+            }
+        ]
     },
     {
         "id": 11,
@@ -173,11 +272,20 @@
         "max_power": 7268,
         "max_influence": 2282,
         "max_defense": 1042,
-        "skills": {
-            "Layer by Layer": "Layer by Layer \u03b2 II",
-            "Intuitive Thinking": "Intuitive Thinking II",
-            "Superior Stamina": "Superior Stamina II"
-        }
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b2 II"
+            },
+            {
+                "type": "Intuitive Thinking",
+                "name": "Intuitive Thinking II"
+            },
+            {
+                "type": "Superior Stamina",
+                "name": "Superior Stamina II"
+            }
+        ]
     },
     {
         "id": 12,
@@ -188,11 +296,20 @@
         "max_power": 7268,
         "max_influence": 2282,
         "max_defense": 1042,
-        "skills": {
-            "Bait & Lure": "Bait & Lure \u03b2 II",
-            "Emotional Appeal": "Emotional Appeal II",
-            "Parallel Growth": "Parallel Growth II"
-        }
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b2 II"
+            },
+            {
+                "type": "Emotional Appeal",
+                "name": "Emotional Appeal II"
+            },
+            {
+                "type": "Parallel Growth",
+                "name": "Parallel Growth II"
+            }
+        ]
     },
     {
         "id": 13,
@@ -203,11 +320,20 @@
         "max_power": 7268,
         "max_influence": 2150,
         "max_defense": 1174,
-        "skills": {
-            "Preemptive Strike": "Preemptive Strike II",
-            "Balanced": "Balanced II",
-            "Drastic Measures": "Drastic Measures II"
-        }
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike II"
+            },
+            {
+                "type": "Balanced",
+                "name": "Balanced II"
+            },
+            {
+                "type": "Drastic Measures",
+                "name": "Drastic Measures II"
+            }
+        ]
     },
     {
         "id": 14,
@@ -218,11 +344,20 @@
         "max_power": 7268,
         "max_influence": 2216,
         "max_defense": 1108,
-        "skills": {
-            "Layer by Layer": "Layer by Layer \u03b3 II",
-            "Strategist": "Strategist II",
-            "Skilled Diplomat": "Skilled Diplomat II"
-        }
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b3 II"
+            },
+            {
+                "type": "Strategist",
+                "name": "Strategist II"
+            },
+            {
+                "type": "Skilled Diplomat",
+                "name": "Skilled Diplomat II"
+            }
+        ]
     },
     {
         "id": 15,
@@ -233,11 +368,20 @@
         "max_power": 7268,
         "max_influence": 2216,
         "max_defense": 1108,
-        "skills": {
-            "Attention to Detail": "Attention to Detail \u03b2 II",
-            "Keen Observation": "Keen Observation II",
-            "Prevention": "Prevention II"
-        }
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b2 II"
+            },
+            {
+                "type": "Keen Observation",
+                "name": "Keen Observation II"
+            },
+            {
+                "type": "Prevention",
+                "name": "Prevention II"
+            }
+        ]
     },
     {
         "id": 16,
@@ -248,26 +392,44 @@
         "max_power": 7268,
         "max_influence": 2327,
         "max_defense": 997,
-        "skills": {
-            "Logical Conclusion": "Logical Conclusion \u03b3 II",
-            "Painstaking Investigator": "Painstaking Investigator II",
-            "Sharp Strategist": "Sharp Strategist II"
-        }
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b3 II"
+            },
+            {
+                "type": "Painstaking Investigator",
+                "name": "Painstaking Investigator II"
+            },
+            {
+                "type": "Sharp Strategist",
+                "name": "Sharp Strategist II"
+            }
+        ]
     },
     {
         "id": 17,
-        "name": "Together with You",
+        "name": "Together With You",
         "rarity": "SR",
         "character": "Luke Pearce",
         "attribute": "Logic",
         "max_power": 7268,
-        "max_influence": 0,
-        "max_defense": 0,
-        "skills": {
-            "Cover Tactics": "Cover Tactics \u03b2 II",
-            "Balanced": "Balanced II",
-            "Skilled Diplomat": "Skilled Diplomat II"
-        }
+        "max_influence": 2105,
+        "max_defense": 1219,
+        "skills": [
+            {
+                "type": "Cover Tactics",
+                "name": "Cover Tactics \u03b2 II"
+            },
+            {
+                "type": "Balanced",
+                "name": "Balanced II"
+            },
+            {
+                "type": "Skilled Diplomat",
+                "name": "Skilled Diplomat II"
+            }
+        ]
     },
     {
         "id": 18,
@@ -278,11 +440,20 @@
         "max_power": 7425,
         "max_influence": 2251,
         "max_defense": 1230,
-        "skills": {
-            "Preemptive Strike": "Preemptive Strike II",
-            "Detective's Mind": "Detective's Mind II",
-            "Impeccable": "Impeccable II"
-        }
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike II"
+            },
+            {
+                "type": "Detective's Mind",
+                "name": "Detective's Mind II"
+            },
+            {
+                "type": "Impeccable",
+                "name": "Impeccable II"
+            }
+        ]
     },
     {
         "id": 19,
@@ -293,11 +464,20 @@
         "max_power": 7425,
         "max_influence": 2321,
         "max_defense": 1161,
-        "skills": {
-            "Layer by Layer": "Layer by Layer \u03b3 II",
-            "Intuitive Thinking": "Intuitive Thinking II",
-            "Emergent Retreat": "Emergent Retreat II"
-        }
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b3 II"
+            },
+            {
+                "type": "Intuitive Thinking",
+                "name": "Intuitive Thinking II"
+            },
+            {
+                "type": "Emergent Retreat",
+                "name": "Emergent Retreat II"
+            }
+        ]
     },
     {
         "id": 20,
@@ -308,11 +488,20 @@
         "max_power": 7425,
         "max_influence": 2321,
         "max_defense": 1161,
-        "skills": {
-            "Preemptive Strike": "Preemptive Strike II",
-            "Truth Restorer": "Truth Restorer II",
-            "Rigor": "Rigor II"
-        }
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike II"
+            },
+            {
+                "type": "Truth Restorer",
+                "name": "Truth Restorer II"
+            },
+            {
+                "type": "Rigor",
+                "name": "Rigor II"
+            }
+        ]
     },
     {
         "id": 21,
@@ -323,10 +512,16 @@
         "max_power": 3913,
         "max_influence": 1208,
         "max_defense": 604,
-        "skills": {
-            "Cover Tactics": "Cover Tactics \u03b2 I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Cover Tactics",
+                "name": "Cover Tactics \u03b2 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 22,
@@ -337,10 +532,16 @@
         "max_power": 3913,
         "max_influence": 1148,
         "max_defense": 664,
-        "skills": {
-            "Feigning Defeat": "Feigning Defeat \u03b3 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b3 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 23,
@@ -351,10 +552,16 @@
         "max_power": 3913,
         "max_influence": 1148,
         "max_defense": 664,
-        "skills": {
-            "Negation": "Negation \u03b3 I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Negation",
+                "name": "Negation \u03b3 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 24,
@@ -365,10 +572,16 @@
         "max_power": 3913,
         "max_influence": 1172,
         "max_defense": 640,
-        "skills": {
-            "Attention to Detail": "Attention to Detail \u03b1 I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b1 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 25,
@@ -379,10 +592,16 @@
         "max_power": 3913,
         "max_influence": 1244,
         "max_defense": 568,
-        "skills": {
-            "Logical Conclusion": "Logical Conclusion \u03b2 I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b2 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 26,
@@ -393,10 +612,16 @@
         "max_power": 3913,
         "max_influence": 1208,
         "max_defense": 604,
-        "skills": {
-            "Bait & Lure": "Bait & Lure \u03b3 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b3 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 27,
@@ -407,10 +632,16 @@
         "max_power": 3913,
         "max_influence": 1172,
         "max_defense": 640,
-        "skills": {
-            "Layer by Layer": "Layer by Layer \u03b3 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b3 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 28,
@@ -421,10 +652,16 @@
         "max_power": 3913,
         "max_influence": 1244,
         "max_defense": 568,
-        "skills": {
-            "Preemptive Strike": "Preemptive Strike I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 29,
@@ -435,10 +672,16 @@
         "max_power": 3913,
         "max_influence": 1268,
         "max_defense": 544,
-        "skills": {
-            "Attention to Detail": "Attention to Detail \u03b2 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b2 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 30,
@@ -449,10 +692,16 @@
         "max_power": 3913,
         "max_influence": 1268,
         "max_defense": 544,
-        "skills": {
-            "Logical Conclusion": "Logical Conclusion \u03b2 I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b2 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 31,
@@ -463,10 +712,16 @@
         "max_power": 3913,
         "max_influence": 1244,
         "max_defense": 568,
-        "skills": {
-            "Bait & Lure": "Bait & Lure \u03b2 I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b2 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 32,
@@ -477,10 +732,16 @@
         "max_power": 3913,
         "max_influence": 1148,
         "max_defense": 664,
-        "skills": {
-            "Bait & Lure": "Bait & Lure \u03b2 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b2 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 33,
@@ -491,10 +752,16 @@
         "max_power": 3913,
         "max_influence": 1208,
         "max_defense": 604,
-        "skills": {
-            "Feigning Defeat": "Feigning Defeat \u03b2 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b2 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 34,
@@ -505,10 +772,16 @@
         "max_power": 3913,
         "max_influence": 1208,
         "max_defense": 604,
-        "skills": {
-            "Evasive Maneuver": "Evasive Maneuver \u03b3 I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Evasive Maneuver",
+                "name": "Evasive Maneuver \u03b3 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 35,
@@ -519,11 +792,20 @@
         "max_power": 9699,
         "max_influence": 2879,
         "max_defense": 1573,
-        "skills": {
-            "Layer by Layer": "Layer by Layer \u03b3 III",
-            "Painstaking Investigator": "Painstaking Investigator III",
-            "Rigor": "Rigor III"
-        }
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b3 III"
+            },
+            {
+                "type": "Painstaking Investigator",
+                "name": "Painstaking Investigator III"
+            },
+            {
+                "type": "Rigor",
+                "name": "Rigor III"
+            }
+        ]
     },
     {
         "id": 36,
@@ -534,11 +816,20 @@
         "max_power": 9699,
         "max_influence": 2968,
         "max_defense": 1484,
-        "skills": {
-            "Bait & Lure": "Bait & Lure \u03b3 III",
-            "Systematic": "Systematic III",
-            "Drastic Measures": "Drastic Measures III"
-        }
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b3 III"
+            },
+            {
+                "type": "Systematic",
+                "name": "Systematic III"
+            },
+            {
+                "type": "Drastic Measures",
+                "name": "Drastic Measures III"
+            }
+        ]
     },
     {
         "id": 37,
@@ -549,11 +840,20 @@
         "max_power": 9699,
         "max_influence": 2968,
         "max_defense": 1484,
-        "skills": {
-            "Logical Conclusion": "Logical Conclusion \u03b3 III",
-            "Omnipotent Law": "Omnipotent Law III",
-            "Exemplar": "Exemplar III"
-        }
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b3 III"
+            },
+            {
+                "type": "Omnipotent Law",
+                "name": "Omnipotent Law III"
+            },
+            {
+                "type": "Exemplar",
+                "name": "Exemplar III"
+            }
+        ]
     },
     {
         "id": 38,
@@ -564,11 +864,20 @@
         "max_power": 9699,
         "max_influence": 2820,
         "max_defense": 1632,
-        "skills": {
-            "Feigning Defeat": "Feigning Defeat \u03b2 III",
-            "Omnipotent Law": "Omnipotent Law III",
-            "Legal Expert": "Legal Expert III"
-        }
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b2 III"
+            },
+            {
+                "type": "Omnipotent Law",
+                "name": "Omnipotent Law III"
+            },
+            {
+                "type": "Legal Expert",
+                "name": "Legal Expert III"
+            }
+        ]
     },
     {
         "id": 39,
@@ -579,11 +888,20 @@
         "max_power": 9699,
         "max_influence": 2820,
         "max_defense": 1632,
-        "skills": {
-            "Preemptive Strike": "Preemptive Strike III",
-            "Intuitive Thinking": "Intuitive Thinking III",
-            "Absolute Rationality": "Absolute Rationality III"
-        }
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike III"
+            },
+            {
+                "type": "Intuitive Thinking",
+                "name": "Intuitive Thinking III"
+            },
+            {
+                "type": "Absolute Rationality",
+                "name": "Absolute Rationality III"
+            }
+        ]
     },
     {
         "id": 40,
@@ -594,11 +912,20 @@
         "max_power": 9699,
         "max_influence": 2968,
         "max_defense": 1484,
-        "skills": {
-            "Attention to Detail": "Attention to Detail \u03b1 III",
-            "Avoidance Instinct": "Avoidance Instinct III",
-            "Sharp Debater": "Sharp Debater III"
-        }
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b1 III"
+            },
+            {
+                "type": "Avoidance Instinct",
+                "name": "Avoidance Instinct III"
+            },
+            {
+                "type": "Sharp Debater",
+                "name": "Sharp Debater III"
+            }
+        ]
     },
     {
         "id": 41,
@@ -609,11 +936,20 @@
         "max_power": 9699,
         "max_influence": 2879,
         "max_defense": 1573,
-        "skills": {
-            "Attention to Detail": "Attention to Detail \u03b3 III",
-            "Premonition": "Premonition III",
-            "Sharp Debater": "Sharp Debater III"
-        }
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b3 III"
+            },
+            {
+                "type": "Premonition",
+                "name": "Premonition III"
+            },
+            {
+                "type": "Sharp Debater",
+                "name": "Sharp Debater III"
+            }
+        ]
     },
     {
         "id": 42,
@@ -624,11 +960,20 @@
         "max_power": 9699,
         "max_influence": 2820,
         "max_defense": 1632,
-        "skills": {
-            "Preemptive Strike": "Preemptive Strike III",
-            "Omnipotent Law": "Omnipotent Law III",
-            "Rigor": "Rigor III"
-        }
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike III"
+            },
+            {
+                "type": "Omnipotent Law",
+                "name": "Omnipotent Law III"
+            },
+            {
+                "type": "Rigor",
+                "name": "Rigor III"
+            }
+        ]
     },
     {
         "id": 43,
@@ -639,11 +984,20 @@
         "max_power": 9699,
         "max_influence": 2878,
         "max_defense": 1573,
-        "skills": {
-            "Virtuous Presence": "Virtuous Presence \u03b3 III",
-            "Omnipotent Law": "Omnipotent Law III",
-            "Absolute Rationality": "Absolute Rationality III"
-        }
+        "skills": [
+            {
+                "type": "Virtuous Presence",
+                "name": "Virtuous Presence \u03b3 III"
+            },
+            {
+                "type": "Omnipotent Law",
+                "name": "Omnipotent Law III"
+            },
+            {
+                "type": "Absolute Rationality",
+                "name": "Absolute Rationality III"
+            }
+        ]
     },
     {
         "id": 44,
@@ -654,11 +1008,20 @@
         "max_power": 9699,
         "max_influence": 2968,
         "max_defense": 1484,
-        "skills": {
-            "Logical Conclusion": "Logical Conclusion \u03b2 III",
-            "Impeccable": "Impeccable III",
-            "Sharp Debater": "Sharp Debater III"
-        }
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b2 III"
+            },
+            {
+                "type": "Impeccable",
+                "name": "Impeccable III"
+            },
+            {
+                "type": "Sharp Debater",
+                "name": "Sharp Debater III"
+            }
+        ]
     },
     {
         "id": 45,
@@ -669,11 +1032,20 @@
         "max_power": 7268,
         "max_influence": 2282,
         "max_defense": 1042,
-        "skills": {
-            "Logical Conclusion": "Logical Conclusion \u03b2 II",
-            "Omnipotent Law": "Omnipotent Law II",
-            "Exemplar": "Exemplar II"
-        }
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b2 II"
+            },
+            {
+                "type": "Omnipotent Law",
+                "name": "Omnipotent Law II"
+            },
+            {
+                "type": "Exemplar",
+                "name": "Exemplar II"
+            }
+        ]
     },
     {
         "id": 46,
@@ -684,26 +1056,44 @@
         "max_power": 7268,
         "max_influence": 2282,
         "max_defense": 1042,
-        "skills": {
-            "Preemptive Strike": "Preemptive Strike II",
-            "Strategist": "Strategist II",
-            "Sharp Debater": "Sharp Debater II"
-        }
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike II"
+            },
+            {
+                "type": "Strategist",
+                "name": "Strategist II"
+            },
+            {
+                "type": "Sharp Debater",
+                "name": "Sharp Debater II"
+            }
+        ]
     },
     {
         "id": 47,
-        "name": "Darkest before Dawn",
+        "name": "Darkest Before Dawn",
         "rarity": "SR",
         "character": "Artem Wing",
         "attribute": "Intuition",
         "max_power": 7268,
         "max_influence": 2105,
         "max_defense": 1219,
-        "skills": {
-            "Evasive Maneuver": "Evasive Maneuver \u03b2 II",
-            "Premonition": "Premonition II",
-            "Reformer": "Reformer II"
-        }
+        "skills": [
+            {
+                "type": "Evasive Maneuver",
+                "name": "Evasive Maneuver \u03b2 II"
+            },
+            {
+                "type": "Premonition",
+                "name": "Premonition II"
+            },
+            {
+                "type": "Reformer",
+                "name": "Reformer II"
+            }
+        ]
     },
     {
         "id": 48,
@@ -714,11 +1104,20 @@
         "max_power": 7268,
         "max_influence": 2327,
         "max_defense": 997,
-        "skills": {
-            "Negation": "Negation \u03b2 II",
-            "Systematic": "Systematic II",
-            "Sharp Strategist": "Sharp Strategist II"
-        }
+        "skills": [
+            {
+                "type": "Negation",
+                "name": "Negation \u03b2 II"
+            },
+            {
+                "type": "Systematic",
+                "name": "Systematic II"
+            },
+            {
+                "type": "Sharp Strategist",
+                "name": "Sharp Strategist II"
+            }
+        ]
     },
     {
         "id": 49,
@@ -729,11 +1128,20 @@
         "max_power": 7268,
         "max_influence": 2150,
         "max_defense": 1174,
-        "skills": {
-            "Preemptive Strike": "Preemptive Strike II",
-            "Balanced": "Balanced II",
-            "Skilled Diplomat": "Skilled Diplomat II"
-        }
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike II"
+            },
+            {
+                "type": "Balanced",
+                "name": "Balanced II"
+            },
+            {
+                "type": "Skilled Diplomat",
+                "name": "Skilled Diplomat II"
+            }
+        ]
     },
     {
         "id": 50,
@@ -744,11 +1152,20 @@
         "max_power": 7268,
         "max_influence": 2150,
         "max_defense": 1174,
-        "skills": {
-            "Bait & Lure": "Bait & Lure \u03b2 II",
-            "Emotional Projection": "Emotional Projection II",
-            "Opportunist": "Opportunist II"
-        }
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b2 II"
+            },
+            {
+                "type": "Emotional Projection",
+                "name": "Emotional Projection II"
+            },
+            {
+                "type": "Opportunist",
+                "name": "Opportunist II"
+            }
+        ]
     },
     {
         "id": 51,
@@ -759,11 +1176,20 @@
         "max_power": 7268,
         "max_influence": 2327,
         "max_defense": 997,
-        "skills": {
-            "Cover Tactics": "Cover Tactics \u03b3 II",
-            "Sound Judgment": "Sound Judgment II",
-            "Reformer": "Reformer II"
-        }
+        "skills": [
+            {
+                "type": "Cover Tactics",
+                "name": "Cover Tactics \u03b3 II"
+            },
+            {
+                "type": "Sound Judgment",
+                "name": "Sound Judgment II"
+            },
+            {
+                "type": "Reformer",
+                "name": "Reformer II"
+            }
+        ]
     },
     {
         "id": 52,
@@ -774,11 +1200,20 @@
         "max_power": 7268,
         "max_influence": 2216,
         "max_defense": 1108,
-        "skills": {
-            "Feigning Defeat": "Feigning Defeat \u03b3 II",
-            "Extrapolation": "Extrapolation II",
-            "Strike Weakness": "Strike Weakness II"
-        }
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b3 II"
+            },
+            {
+                "type": "Extrapolation",
+                "name": "Extrapolation II"
+            },
+            {
+                "type": "Strike Weakness",
+                "name": "Strike Weakness II"
+            }
+        ]
     },
     {
         "id": 53,
@@ -789,11 +1224,20 @@
         "max_power": 7268,
         "max_influence": 2216,
         "max_defense": 1108,
-        "skills": {
-            "Attention to Detail": "Attention to Detail \u03b3 II",
-            "Keen Observation": "Keen Observation II",
-            "Sharp Debater": "Sharp Debater II"
-        }
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b3 II"
+            },
+            {
+                "type": "Keen Observation",
+                "name": "Keen Observation II"
+            },
+            {
+                "type": "Sharp Debater",
+                "name": "Sharp Debater II"
+            }
+        ]
     },
     {
         "id": 54,
@@ -804,11 +1248,20 @@
         "max_power": 7268,
         "max_influence": 2105,
         "max_defense": 1219,
-        "skills": {
-            "Layer by Layer": "Layer by Layer \u03b2 II",
-            "Constant Improvement": "Constant Improvement II",
-            "Exemplar": "Exemplar II"
-        }
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b2 II"
+            },
+            {
+                "type": "Constant Improvement",
+                "name": "Constant Improvement II"
+            },
+            {
+                "type": "Exemplar",
+                "name": "Exemplar II"
+            }
+        ]
     },
     {
         "id": 55,
@@ -819,11 +1272,20 @@
         "max_power": 7425,
         "max_influence": 2251,
         "max_defense": 1230,
-        "skills": {
-            "Preemptive Strike": "Preemptive Strike II",
-            "Sharp Debater": "Sharp Debater II",
-            "Premonition": "Premonition II"
-        }
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike II"
+            },
+            {
+                "type": "Sharp Debater",
+                "name": "Sharp Debater II"
+            },
+            {
+                "type": "Premonition",
+                "name": "Premonition II"
+            }
+        ]
     },
     {
         "id": 56,
@@ -834,11 +1296,20 @@
         "max_power": 7425,
         "max_influence": 2205,
         "max_defense": 1277,
-        "skills": {
-            "Layer by Layer": "Layer by Layer \u03b2 II",
-            "Omnipotent Law": "Omnipotent Law II",
-            "Parallel Growth": "Parallel Growth II"
-        }
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b2 II"
+            },
+            {
+                "type": "Omnipotent Law",
+                "name": "Omnipotent Law II"
+            },
+            {
+                "type": "Parallel Growth",
+                "name": "Parallel Growth II"
+            }
+        ]
     },
     {
         "id": 57,
@@ -849,11 +1320,20 @@
         "max_power": 7425,
         "max_influence": 2321,
         "max_defense": 1161,
-        "skills": {
-            "Layer by Layer": "Layer by Layer \u03b3 II",
-            "Painstaking Investigator": "Painstaking Investigator II",
-            "Absolute Rationality": "Absolute Rationality II"
-        }
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b3 II"
+            },
+            {
+                "type": "Painstaking Investigator",
+                "name": "Painstaking Investigator II"
+            },
+            {
+                "type": "Absolute Rationality",
+                "name": "Absolute Rationality II"
+            }
+        ]
     },
     {
         "id": 58,
@@ -864,10 +1344,16 @@
         "max_power": 3913,
         "max_influence": 1148,
         "max_defense": 664,
-        "skills": {
-            "Indirect Approach": "Indirect Approach \u03b2 I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Indirect Approach",
+                "name": "Indirect Approach \u03b2 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 59,
@@ -878,10 +1364,16 @@
         "max_power": 3913,
         "max_influence": 1172,
         "max_defense": 640,
-        "skills": {
-            "Layer by Layer": "Layer by Layer \u03b1 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b1 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 60,
@@ -892,10 +1384,16 @@
         "max_power": 3913,
         "max_influence": 1148,
         "max_defense": 664,
-        "skills": {
-            "Virtuous Presence": "Virtuous Presence \u03b1 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Virtuous Presence",
+                "name": "Virtuous Presence \u03b1 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 61,
@@ -906,10 +1404,16 @@
         "max_power": 3913,
         "max_influence": 1208,
         "max_defense": 604,
-        "skills": {
-            "Layer by Layer": "Layer by Layer \u03b3 I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b3 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 62,
@@ -920,10 +1424,16 @@
         "max_power": 3913,
         "max_influence": 1244,
         "max_defense": 568,
-        "skills": {
-            "Attention to Detail": "Attention to Detail \u03b1 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b1 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 63,
@@ -934,10 +1444,16 @@
         "max_power": 3913,
         "max_influence": 1172,
         "max_defense": 640,
-        "skills": {
-            "Layer by Layer": "Layer by Layer \u03b2 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b2 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 64,
@@ -948,10 +1464,16 @@
         "max_power": 3913,
         "max_influence": 1244,
         "max_defense": 568,
-        "skills": {
-            "Indirect Approach": "Indirect Approach \u03b3 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Indirect Approach",
+                "name": "Indirect Approach \u03b3 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 65,
@@ -962,10 +1484,16 @@
         "max_power": 3913,
         "max_influence": 1329,
         "max_defense": 604,
-        "skills": {
-            "Logical Conclusion": "Logical Conclusion \u03b1 I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b1 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 66,
@@ -976,10 +1504,16 @@
         "max_power": 3913,
         "max_influence": 1268,
         "max_defense": 544,
-        "skills": {
-            "Negation": "Negation \u03b1 I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Negation",
+                "name": "Negation \u03b1 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 67,
@@ -990,10 +1524,16 @@
         "max_power": 3913,
         "max_influence": 1208,
         "max_defense": 604,
-        "skills": {
-            "Logical Conclusion": "Logical Conclusion \u03b1 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b1 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 68,
@@ -1004,10 +1544,16 @@
         "max_power": 3913,
         "max_influence": 1208,
         "max_defense": 604,
-        "skills": {
-            "Evasive Maneuver": "Evasive Maneuver \u03b3 I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Evasive Maneuver",
+                "name": "Evasive Maneuver \u03b3 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 69,
@@ -1018,10 +1564,16 @@
         "max_power": 3913,
         "max_influence": 1244,
         "max_defense": 568,
-        "skills": {
-            "Feigning Defeat": "Feigning Defeat \u03b2 I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b2 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 70,
@@ -1032,10 +1584,16 @@
         "max_power": 3913,
         "max_influence": 1208,
         "max_defense": 604,
-        "skills": {
-            "Indirect Approach": "Indirect Approach \u03b1 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Indirect Approach",
+                "name": "Indirect Approach \u03b1 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 71,
@@ -1046,10 +1604,16 @@
         "max_power": 3913,
         "max_influence": 1172,
         "max_defense": 640,
-        "skills": {
-            "Logical Conclusion": "Logical Conclusion \u03b1 I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b1 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 72,
@@ -1060,11 +1624,20 @@
         "max_power": 9699,
         "max_influence": 2820,
         "max_defense": 1632,
-        "skills": {
-            "Virtuous Presence": "Virtuous Presence \u03b1 III",
-            "Self-Evaluation": "Self-Evaluation III",
-            "Conversation Guide": "Conversation Guide III"
-        }
+        "skills": [
+            {
+                "type": "Virtuous Presence",
+                "name": "Virtuous Presence \u03b1 III"
+            },
+            {
+                "type": "Self-Evaluation",
+                "name": "Self-Evaluation III"
+            },
+            {
+                "type": "Conversation Guide",
+                "name": "Conversation Guide III"
+            }
+        ]
     },
     {
         "id": 73,
@@ -1075,11 +1648,20 @@
         "max_power": 9699,
         "max_influence": 2879,
         "max_defense": 1573,
-        "skills": {
-            "Preemptive Strike": "Preemptive Strike III",
-            "Dressage": "Dressage III",
-            "Mediator": "Mediator III"
-        }
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike III"
+            },
+            {
+                "type": "Dressage",
+                "name": "Dressage III"
+            },
+            {
+                "type": "Mediator",
+                "name": "Mediator III"
+            }
+        ]
     },
     {
         "id": 74,
@@ -1090,11 +1672,20 @@
         "max_power": 9699,
         "max_influence": 2968,
         "max_defense": 1484,
-        "skills": {
-            "Bait & Lure": "Bait & Lure \u03b1 III",
-            "Mutual Effect": "Mutual Effect III",
-            "Personality Profiler": "Personality Profiler III"
-        }
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b1 III"
+            },
+            {
+                "type": "Mutual Effect",
+                "name": "Mutual Effect III"
+            },
+            {
+                "type": "Personality Profiler",
+                "name": "Personality Profiler III"
+            }
+        ]
     },
     {
         "id": 75,
@@ -1105,11 +1696,20 @@
         "max_power": 9699,
         "max_influence": 2968,
         "max_defense": 1484,
-        "skills": {
-            "Attention to Detail": "Attention to Detail \u03b3 III",
-            "Dressage": "Dressage III",
-            "Prevention": "Prevention III"
-        }
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b3 III"
+            },
+            {
+                "type": "Dressage",
+                "name": "Dressage III"
+            },
+            {
+                "type": "Prevention",
+                "name": "Prevention III"
+            }
+        ]
     },
     {
         "id": 76,
@@ -1120,11 +1720,20 @@
         "max_power": 9699,
         "max_influence": 2879,
         "max_defense": 1573,
-        "skills": {
-            "Feigning Defeat": "Feigning Defeat \u03b1 III",
-            "Symphony": "Symphony III",
-            "Exemplar": "Exemplar III"
-        }
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b1 III"
+            },
+            {
+                "type": "Symphony",
+                "name": "Symphony III"
+            },
+            {
+                "type": "Exemplar",
+                "name": "Exemplar III"
+            }
+        ]
     },
     {
         "id": 77,
@@ -1135,11 +1744,20 @@
         "max_power": 9699,
         "max_influence": 2968,
         "max_defense": 1484,
-        "skills": {
-            "Logical Conclusion": "Logical Conclusion \u03b3 III",
-            "Cultured": "Cultured III",
-            "Skilled Diplomat": "Skilled Diplomat III"
-        }
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b3 III"
+            },
+            {
+                "type": "Cultured",
+                "name": "Cultured III"
+            },
+            {
+                "type": "Skilled Diplomat",
+                "name": "Skilled Diplomat III"
+            }
+        ]
     },
     {
         "id": 78,
@@ -1150,11 +1768,20 @@
         "max_power": 9699,
         "max_influence": 2878,
         "max_defense": 1574,
-        "skills": {
-            "Layer by Layer": "Layer by Layer \u03b2 III",
-            "Balanced": "Balanced III",
-            "Opportunist": "Opportunist III"
-        }
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b2 III"
+            },
+            {
+                "type": "Balanced",
+                "name": "Balanced III"
+            },
+            {
+                "type": "Opportunist",
+                "name": "Opportunist III"
+            }
+        ]
     },
     {
         "id": 79,
@@ -1165,11 +1792,20 @@
         "max_power": 9699,
         "max_influence": 2820,
         "max_defense": 1632,
-        "skills": {
-            "Preemptive Strike": "Preemptive Strike III",
-            "Keen Observation": "Keen Observation III",
-            "Sandplay Therapy": "Sandplay Therapy III"
-        }
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike III"
+            },
+            {
+                "type": "Keen Observation",
+                "name": "Keen Observation III"
+            },
+            {
+                "type": "Sandplay Therapy",
+                "name": "Sandplay Therapy III"
+            }
+        ]
     },
     {
         "id": 80,
@@ -1180,11 +1816,20 @@
         "max_power": 9699,
         "max_influence": 2820,
         "max_defense": 1632,
-        "skills": {
-            "Preemptive Strike": "Preemptive Strike III",
-            "Dressage": "Dressage III",
-            "Parallel Growth": "Parallel Growth III"
-        }
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike III"
+            },
+            {
+                "type": "Dressage",
+                "name": "Dressage III"
+            },
+            {
+                "type": "Parallel Growth",
+                "name": "Parallel Growth III"
+            }
+        ]
     },
     {
         "id": 81,
@@ -1195,11 +1840,20 @@
         "max_power": 7268,
         "max_influence": 2105,
         "max_defense": 1219,
-        "skills": {
-            "Preemptive Strike": "Preemptive Strike II",
-            "Deductive Reasoning": "Deductive Reasoning II",
-            "Exemplar": "Exemplar II"
-        }
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike II"
+            },
+            {
+                "type": "Deductive Reasoning",
+                "name": "Deductive Reasoning II"
+            },
+            {
+                "type": "Exemplar",
+                "name": "Exemplar II"
+            }
+        ]
     },
     {
         "id": 82,
@@ -1210,11 +1864,20 @@
         "max_power": 7268,
         "max_influence": 2282,
         "max_defense": 1042,
-        "skills": {
-            "Bait & Lure": "Bait & Lure \u03b1 II",
-            "Opportunist": "Opportunist II",
-            "Conversation Guide": "Conversation Guide II"
-        }
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b1 II"
+            },
+            {
+                "type": "Opportunist",
+                "name": "Opportunist II"
+            },
+            {
+                "type": "Conversation Guide",
+                "name": "Conversation Guide II"
+            }
+        ]
     },
     {
         "id": 83,
@@ -1225,11 +1888,20 @@
         "max_power": 7268,
         "max_influence": 2105,
         "max_defense": 1219,
-        "skills": {
-            "Bait & Lure": "Bait & Lure \u03b3 II",
-            "Dressage": "Dressage II",
-            "Drastic Measures": "Drastic Measures II"
-        }
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b3 II"
+            },
+            {
+                "type": "Dressage",
+                "name": "Dressage II"
+            },
+            {
+                "type": "Drastic Measures",
+                "name": "Drastic Measures II"
+            }
+        ]
     },
     {
         "id": 84,
@@ -1240,11 +1912,20 @@
         "max_power": 7268,
         "max_influence": 2282,
         "max_defense": 1042,
-        "skills": {
-            "Preemptive Strike": "Preemptive Strike II",
-            "Balanced": "Balanced II",
-            "Prevention": "Prevention II"
-        }
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike II"
+            },
+            {
+                "type": "Balanced",
+                "name": "Balanced II"
+            },
+            {
+                "type": "Prevention",
+                "name": "Prevention II"
+            }
+        ]
     },
     {
         "id": 85,
@@ -1255,11 +1936,20 @@
         "max_power": 7268,
         "max_influence": 2327,
         "max_defense": 997,
-        "skills": {
-            "Logical Conclusion": "Logical Conclusion \u03b2 II",
-            "Impeccable": "Impeccable II",
-            "Skilled Diplomat": "Skilled Diplomat II"
-        }
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b2 II"
+            },
+            {
+                "type": "Impeccable",
+                "name": "Impeccable II"
+            },
+            {
+                "type": "Skilled Diplomat",
+                "name": "Skilled Diplomat II"
+            }
+        ]
     },
     {
         "id": 86,
@@ -1270,11 +1960,20 @@
         "max_power": 7268,
         "max_influence": 2216,
         "max_defense": 1108,
-        "skills": {
-            "Layer by Layer": "Layer by Layer \u03b3 II",
-            "Emotional Appeal": "Emotional Appeal II",
-            "Drastic Measures": "Drastic Measures II"
-        }
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b3 II"
+            },
+            {
+                "type": "Emotional Appeal",
+                "name": "Emotional Appeal II"
+            },
+            {
+                "type": "Drastic Measures",
+                "name": "Drastic Measures II"
+            }
+        ]
     },
     {
         "id": 87,
@@ -1285,11 +1984,20 @@
         "max_power": 7268,
         "max_influence": 2150,
         "max_defense": 1174,
-        "skills": {
-            "Attention to Detail": "Attention to Detail \u03b1 II",
-            "Keen Observation": "Keen Observation II",
-            "Mediator": "Mediator II"
-        }
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b1 II"
+            },
+            {
+                "type": "Keen Observation",
+                "name": "Keen Observation II"
+            },
+            {
+                "type": "Mediator",
+                "name": "Mediator II"
+            }
+        ]
     },
     {
         "id": 88,
@@ -1300,11 +2008,20 @@
         "max_power": 7268,
         "max_influence": 2327,
         "max_defense": 997,
-        "skills": {
-            "Evasive Maneuver": "Evasive Maneuver \u03b2 II",
-            "Keen Observation": "Keen Observation II",
-            "Sandplay Therapy": "Sandplay Therapy II"
-        }
+        "skills": [
+            {
+                "type": "Evasive Maneuver",
+                "name": "Evasive Maneuver \u03b2 II"
+            },
+            {
+                "type": "Keen Observation",
+                "name": "Keen Observation II"
+            },
+            {
+                "type": "Sandplay Therapy",
+                "name": "Sandplay Therapy II"
+            }
+        ]
     },
     {
         "id": 89,
@@ -1315,11 +2032,20 @@
         "max_power": 7268,
         "max_influence": 2216,
         "max_defense": 1108,
-        "skills": {
-            "Negation": "Negation \u03b3 II",
-            "Deductive Reasoning": "Deductive Reasoning II",
-            "Rigor": "Rigor II"
-        }
+        "skills": [
+            {
+                "type": "Negation",
+                "name": "Negation \u03b3 II"
+            },
+            {
+                "type": "Deductive Reasoning",
+                "name": "Deductive Reasoning II"
+            },
+            {
+                "type": "Rigor",
+                "name": "Rigor II"
+            }
+        ]
     },
     {
         "id": 90,
@@ -1330,11 +2056,20 @@
         "max_power": 7425,
         "max_influence": 2321,
         "max_defense": 1161,
-        "skills": {
-            "Layer by Layer": "Layer by Layer \u03b3 II",
-            "Intuitive Thinking": "Intuitive Thinking II",
-            "Sandplay Therapy": "Sandplay Therapy II"
-        }
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b3 II"
+            },
+            {
+                "type": "Intuitive Thinking",
+                "name": "Intuitive Thinking II"
+            },
+            {
+                "type": "Sandplay Therapy",
+                "name": "Sandplay Therapy II"
+            }
+        ]
     },
     {
         "id": 91,
@@ -1345,11 +2080,20 @@
         "max_power": 7425,
         "max_influence": 2205,
         "max_defense": 1277,
-        "skills": {
-            "Layer by Layer": "Layer by Layer \u03b2 II",
-            "Dressage": "Dressage II",
-            "Rigor": "Rigor II"
-        }
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b2 II"
+            },
+            {
+                "type": "Dressage",
+                "name": "Dressage II"
+            },
+            {
+                "type": "Rigor",
+                "name": "Rigor II"
+            }
+        ]
     },
     {
         "id": 92,
@@ -1360,11 +2104,20 @@
         "max_power": 7425,
         "max_influence": 2251,
         "max_defense": 1230,
-        "skills": {
-            "Preemptive Strike": "Preemptive Strike II",
-            "Personality Profiler": "Personality Profiler II",
-            "Mutual Effect": "Mutual Effect II"
-        }
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike II"
+            },
+            {
+                "type": "Personality Profiler",
+                "name": "Personality Profiler II"
+            },
+            {
+                "type": "Mutual Effect",
+                "name": "Mutual Effect II"
+            }
+        ]
     },
     {
         "id": 93,
@@ -1375,10 +2128,16 @@
         "max_power": 3913,
         "max_influence": 1244,
         "max_defense": 568,
-        "skills": {
-            "Logical Conclusion": "Logical Conclusion \u03b3 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b3 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 94,
@@ -1389,10 +2148,16 @@
         "max_power": 3913,
         "max_influence": 1268,
         "max_defense": 544,
-        "skills": {
-            "Preemptive Strike": "Preemptive Strike I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 95,
@@ -1403,10 +2168,16 @@
         "max_power": 3913,
         "max_influence": 1148,
         "max_defense": 664,
-        "skills": {
-            "Cover Tactics": "Cover Tactics \u03b1 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Cover Tactics",
+                "name": "Cover Tactics \u03b1 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 96,
@@ -1417,10 +2188,16 @@
         "max_power": 3913,
         "max_influence": 1244,
         "max_defense": 568,
-        "skills": {
-            "Feigning Defeat": "Feigning Defeat \u03b2 I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b2 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 97,
@@ -1431,10 +2208,16 @@
         "max_power": 3913,
         "max_influence": 1208,
         "max_defense": 604,
-        "skills": {
-            "Indirect Approach": "Indirect Approach \u03b3 I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Indirect Approach",
+                "name": "Indirect Approach \u03b3 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 98,
@@ -1445,10 +2228,16 @@
         "max_power": 3913,
         "max_influence": 1172,
         "max_defense": 640,
-        "skills": {
-            "Feigning Defeat": "Feigning Defeat \u03b3 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b3 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 99,
@@ -1459,10 +2248,16 @@
         "max_power": 3913,
         "max_influence": 1208,
         "max_defense": 604,
-        "skills": {
-            "Preemptive Strike": "Preemptive Strike I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 100,
@@ -1473,10 +2268,16 @@
         "max_power": 3913,
         "max_influence": 1208,
         "max_defense": 604,
-        "skills": {
-            "Preemptive Strike": "Preemptive Strike I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 101,
@@ -1487,10 +2288,16 @@
         "max_power": 3913,
         "max_influence": 1148,
         "max_defense": 664,
-        "skills": {
-            "Preemptive Strike": "Preemptive Strike I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 102,
@@ -1501,10 +2308,16 @@
         "max_power": 3913,
         "max_influence": 1148,
         "max_defense": 664,
-        "skills": {
-            "Logical Conclusion": "Logical Conclusion \u03b3 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b3 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 103,
@@ -1515,10 +2328,16 @@
         "max_power": 3913,
         "max_influence": 1268,
         "max_defense": 544,
-        "skills": {
-            "Attention to Detail": "Attention to Detail \u03b3 I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b3 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 104,
@@ -1529,10 +2348,16 @@
         "max_power": 3913,
         "max_influence": 1172,
         "max_defense": 640,
-        "skills": {
-            "Evasive Maneuver": "Evasive Maneuver \u03b2 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Evasive Maneuver",
+                "name": "Evasive Maneuver \u03b2 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 105,
@@ -1543,10 +2368,16 @@
         "max_power": 3913,
         "max_influence": 1244,
         "max_defense": 568,
-        "skills": {
-            "Feigning Defeat": "Feigning Defeat \u03b3 I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b3 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 106,
@@ -1557,10 +2388,16 @@
         "max_power": 3913,
         "max_influence": 1172,
         "max_defense": 640,
-        "skills": {
-            "Bait & Lure": "Bait & Lure \u03b3 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b3 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 107,
@@ -1571,11 +2408,20 @@
         "max_power": 9699,
         "max_influence": 2879,
         "max_defense": 1573,
-        "skills": {
-            "Preemptive Strike": "Preemptive Strike III",
-            "Sharp One": "Sharp One III",
-            "Parallel Growth": "Parallel Growth III"
-        }
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike III"
+            },
+            {
+                "type": "Sharp One",
+                "name": "Sharp One III"
+            },
+            {
+                "type": "Parallel Growth",
+                "name": "Parallel Growth III"
+            }
+        ]
     },
     {
         "id": 108,
@@ -1586,11 +2432,20 @@
         "max_power": 9699,
         "max_influence": 2968,
         "max_defense": 1484,
-        "skills": {
-            "Bait & Lure": "Bait & Lure \u03b1 III",
-            "Artistic Talent": "Artistic Talent III",
-            "President's Orders": "President's Orders III"
-        }
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b1 III"
+            },
+            {
+                "type": "Artistic Talent",
+                "name": "Artistic Talent III"
+            },
+            {
+                "type": "President's Orders",
+                "name": "President's Orders III"
+            }
+        ]
     },
     {
         "id": 109,
@@ -1601,11 +2456,20 @@
         "max_power": 9699,
         "max_influence": 2820,
         "max_defense": 1632,
-        "skills": {
-            "Attention to Detail": "Attention to Detail \u03b2 III",
-            "Premonition": "Premonition III",
-            "Business Negotiator": "Business Negotiator III"
-        }
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b2 III"
+            },
+            {
+                "type": "Premonition",
+                "name": "Premonition III"
+            },
+            {
+                "type": "Business Negotiator",
+                "name": "Business Negotiator III"
+            }
+        ]
     },
     {
         "id": 110,
@@ -1616,11 +2480,20 @@
         "max_power": 9699,
         "max_influence": 2968,
         "max_defense": 1484,
-        "skills": {
-            "Bait & Lure": "Bait & Lure \u03b3 III",
-            "Sharp One": "Sharp One III",
-            "Opportunist": "Opportunist III"
-        }
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b3 III"
+            },
+            {
+                "type": "Sharp One",
+                "name": "Sharp One III"
+            },
+            {
+                "type": "Opportunist",
+                "name": "Opportunist III"
+            }
+        ]
     },
     {
         "id": 111,
@@ -1631,11 +2504,20 @@
         "max_power": 9699,
         "max_influence": 2879,
         "max_defense": 1573,
-        "skills": {
-            "Layer by Layer": "Layer by Layer \u03b3 III",
-            "Extrapolation": "Extrapolation III",
-            "Mediator": "Mediator III"
-        }
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b3 III"
+            },
+            {
+                "type": "Extrapolation",
+                "name": "Extrapolation III"
+            },
+            {
+                "type": "Mediator",
+                "name": "Mediator III"
+            }
+        ]
     },
     {
         "id": 112,
@@ -1646,11 +2528,20 @@
         "max_power": 9699,
         "max_influence": 2879,
         "max_defense": 1573,
-        "skills": {
-            "Layer by Layer": "Layer by Layer \u03b1 III",
-            "Advantage Taker": "Advantage Taker III",
-            "Business Negotiator": "Business Negotiator III"
-        }
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b1 III"
+            },
+            {
+                "type": "Advantage Taker",
+                "name": "Advantage Taker III"
+            },
+            {
+                "type": "Business Negotiator",
+                "name": "Business Negotiator III"
+            }
+        ]
     },
     {
         "id": 113,
@@ -1661,11 +2552,20 @@
         "max_power": 9699,
         "max_influence": 2968,
         "max_defense": 1484,
-        "skills": {
-            "Attention to Detail": "Attention to Detail \u03b3 III",
-            "Elite Education": "Elite Education III",
-            "Foresight": "Foresight III"
-        }
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b3 III"
+            },
+            {
+                "type": "Elite Education",
+                "name": "Elite Education III"
+            },
+            {
+                "type": "Foresight",
+                "name": "Foresight III"
+            }
+        ]
     },
     {
         "id": 114,
@@ -1676,11 +2576,20 @@
         "max_power": 9699,
         "max_influence": 2968,
         "max_defense": 1484,
-        "skills": {
-            "Feigning Defeat": "Feigning Defeat \u03b2 III",
-            "Sharp One": "Sharp One III",
-            "Business Negotiator": "Business Negotiator III"
-        }
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b2 III"
+            },
+            {
+                "type": "Sharp One",
+                "name": "Sharp One III"
+            },
+            {
+                "type": "Business Negotiator",
+                "name": "Business Negotiator III"
+            }
+        ]
     },
     {
         "id": 115,
@@ -1691,11 +2600,20 @@
         "max_power": 9699,
         "max_influence": 2820,
         "max_defense": 1632,
-        "skills": {
-            "Preemptive Strike": "Preemptive Strike III",
-            "Emotional Appeal": "Emotional Appeal III",
-            "President's Orders": "President's Orders III"
-        }
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike III"
+            },
+            {
+                "type": "Emotional Appeal",
+                "name": "Emotional Appeal III"
+            },
+            {
+                "type": "President's Orders",
+                "name": "President's Orders III"
+            }
+        ]
     },
     {
         "id": 116,
@@ -1706,11 +2624,20 @@
         "max_power": 9699,
         "max_influence": 2820,
         "max_defense": 1632,
-        "skills": {
-            "Logical Conclusion": "Logical Conclusion \u03b3 III",
-            "Advantage Taker": "Advantage Taker III",
-            "Game of Fortune": "Game of Fortune III"
-        }
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b3 III"
+            },
+            {
+                "type": "Advantage Taker",
+                "name": "Advantage Taker III"
+            },
+            {
+                "type": "Game of Fortune",
+                "name": "Game of Fortune III"
+            }
+        ]
     },
     {
         "id": 117,
@@ -1721,11 +2648,20 @@
         "max_power": 7268,
         "max_influence": 2216,
         "max_defense": 1108,
-        "skills": {
-            "Logical Conclusion": "Logical Conclusion \u03b2 II",
-            "Balanced": "Balanced II",
-            "Exemplar": "Exemplar II"
-        }
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b2 II"
+            },
+            {
+                "type": "Balanced",
+                "name": "Balanced II"
+            },
+            {
+                "type": "Exemplar",
+                "name": "Exemplar II"
+            }
+        ]
     },
     {
         "id": 118,
@@ -1736,11 +2672,20 @@
         "max_power": 7268,
         "max_influence": 2327,
         "max_defense": 997,
-        "skills": {
-            "Preemptive Strike": "Preemptive Strike II",
-            "Extrapolation": "Extrapolation II",
-            "Foresight": "Foresight II"
-        }
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike II"
+            },
+            {
+                "type": "Extrapolation",
+                "name": "Extrapolation II"
+            },
+            {
+                "type": "Foresight",
+                "name": "Foresight II"
+            }
+        ]
     },
     {
         "id": 119,
@@ -1751,11 +2696,20 @@
         "max_power": 7268,
         "max_influence": 2150,
         "max_defense": 1174,
-        "skills": {
-            "Attention to Detail": "Attention to Detail \u03b2 II",
-            "Keen Observation": "Keen Observation II",
-            "Prevention": "Prevention II"
-        }
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b2 II"
+            },
+            {
+                "type": "Keen Observation",
+                "name": "Keen Observation II"
+            },
+            {
+                "type": "Prevention",
+                "name": "Prevention II"
+            }
+        ]
     },
     {
         "id": 120,
@@ -1766,11 +2720,20 @@
         "max_power": 7268,
         "max_influence": 2282,
         "max_defense": 1042,
-        "skills": {
-            "Feigning Defeat": "Feigning Defeat \u03b3 II",
-            "Deductive Reasoning": "Deductive Reasoning II",
-            "Rigor": "Rigor II"
-        }
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b3 II"
+            },
+            {
+                "type": "Deductive Reasoning",
+                "name": "Deductive Reasoning II"
+            },
+            {
+                "type": "Rigor",
+                "name": "Rigor II"
+            }
+        ]
     },
     {
         "id": 121,
@@ -1781,11 +2744,20 @@
         "max_power": 0,
         "max_influence": 2216,
         "max_defense": 1108,
-        "skills": {
-            "Indirect Approach": "Indirect Approach \u03b3 II",
-            "Emotional Appeal": "Emotional Appeal II",
-            "Parallel Growth": "Parallel Growth II"
-        }
+        "skills": [
+            {
+                "type": "Indirect Approach",
+                "name": "Indirect Approach \u03b3 II"
+            },
+            {
+                "type": "Emotional Appeal",
+                "name": "Emotional Appeal II"
+            },
+            {
+                "type": "Parallel Growth",
+                "name": "Parallel Growth II"
+            }
+        ]
     },
     {
         "id": 122,
@@ -1796,11 +2768,20 @@
         "max_power": 7268,
         "max_influence": 2105,
         "max_defense": 1219,
-        "skills": {
-            "Bait & Lure": "Bait & Lure \u03b2 II",
-            "Sharp One": "Sharp One II",
-            "Strike Weakness": "Strike Weakness II"
-        }
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b2 II"
+            },
+            {
+                "type": "Sharp One",
+                "name": "Sharp One II"
+            },
+            {
+                "type": "Strike Weakness",
+                "name": "Strike Weakness II"
+            }
+        ]
     },
     {
         "id": 123,
@@ -1811,11 +2792,20 @@
         "max_power": 7268,
         "max_influence": 2327,
         "max_defense": 997,
-        "skills": {
-            "Layer by Layer": "Layer by Layer \u03b3 II",
-            "Mutual Effect": "Mutual Effect II",
-            "Drastic Measures": "Drastic Measures II"
-        }
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b3 II"
+            },
+            {
+                "type": "Mutual Effect",
+                "name": "Mutual Effect II"
+            },
+            {
+                "type": "Drastic Measures",
+                "name": "Drastic Measures II"
+            }
+        ]
     },
     {
         "id": 124,
@@ -1826,11 +2816,20 @@
         "max_power": 7268,
         "max_influence": 2150,
         "max_defense": 1174,
-        "skills": {
-            "Logical Conclusion": "Logical Conclusion \u03b1 II",
-            "Sharp One": "Sharp One II",
-            "Sharp Strategist": "Sharp Strategist II"
-        }
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b1 II"
+            },
+            {
+                "type": "Sharp One",
+                "name": "Sharp One II"
+            },
+            {
+                "type": "Sharp Strategist",
+                "name": "Sharp Strategist II"
+            }
+        ]
     },
     {
         "id": 125,
@@ -1841,11 +2840,20 @@
         "max_power": 7425,
         "max_influence": 2251,
         "max_defense": 1230,
-        "skills": {
-            "Preemptive Strike": "Preemptive Strike II",
-            "Business Negotiator": "Business Negotiator II",
-            "Premonition": "Premonition II"
-        }
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike II"
+            },
+            {
+                "type": "Business Negotiator",
+                "name": "Business Negotiator II"
+            },
+            {
+                "type": "Premonition",
+                "name": "Premonition II"
+            }
+        ]
     },
     {
         "id": 126,
@@ -1856,11 +2864,20 @@
         "max_power": 7425,
         "max_influence": 2321,
         "max_defense": 1161,
-        "skills": {
-            "Layer by Layer": "Layer by Layer \u03b3 II",
-            "Emotional Projection": "Emotional Projection II",
-            "President's Orders": "President's Orders II"
-        }
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b3 II"
+            },
+            {
+                "type": "Emotional Projection",
+                "name": "Emotional Projection II"
+            },
+            {
+                "type": "President's Orders",
+                "name": "President's Orders II"
+            }
+        ]
     },
     {
         "id": 127,
@@ -1871,10 +2888,16 @@
         "max_power": 3913,
         "max_influence": 1172,
         "max_defense": 640,
-        "skills": {
-            "Negation": "Negation \u03b2 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Negation",
+                "name": "Negation \u03b2 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 128,
@@ -1885,10 +2908,16 @@
         "max_power": 3913,
         "max_influence": 1148,
         "max_defense": 664,
-        "skills": {
-            "Layer by Layer": "Layer by Layer \u03b1 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b1 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 129,
@@ -1899,10 +2928,16 @@
         "max_power": 3913,
         "max_influence": 1244,
         "max_defense": 568,
-        "skills": {
-            "Layer by Layer": "Layer by Layer \u03b3 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b3 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 130,
@@ -1913,10 +2948,16 @@
         "max_power": 3913,
         "max_influence": 1148,
         "max_defense": 664,
-        "skills": {
-            "Feigning Defeat": "Feigning Defeat \u03b3 I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b3 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 131,
@@ -1927,10 +2968,16 @@
         "max_power": 3913,
         "max_influence": 1268,
         "max_defense": 544,
-        "skills": {
-            "Layer by Layer": "Layer by Layer \u03b2 I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b2 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 132,
@@ -1941,10 +2988,16 @@
         "max_power": 3913,
         "max_influence": 1329,
         "max_defense": 604,
-        "skills": {
-            "Bait & Lure": "Bait & Lure \u03b1 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b1 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 133,
@@ -1955,10 +3008,16 @@
         "max_power": 3913,
         "max_influence": 1208,
         "max_defense": 604,
-        "skills": {
-            "Negation": "Negation \u03b3 I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Negation",
+                "name": "Negation \u03b3 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 134,
@@ -1969,10 +3028,16 @@
         "max_power": 3913,
         "max_influence": 1148,
         "max_defense": 664,
-        "skills": {
-            "Logical Conclusion": "Logical Conclusion \u03b2 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b2 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 135,
@@ -1983,10 +3048,16 @@
         "max_power": 3913,
         "max_influence": 1172,
         "max_defense": 640,
-        "skills": {
-            "Bait & Lure": "Bait & Lure \u03b1 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b1 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 136,
@@ -1997,10 +3068,16 @@
         "max_power": 3913,
         "max_influence": 1244,
         "max_defense": 568,
-        "skills": {
-            "Virtuous Presence": "Virtuous Presence \u03b2 I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Virtuous Presence",
+                "name": "Virtuous Presence \u03b2 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 137,
@@ -2011,10 +3088,16 @@
         "max_power": 3913,
         "max_influence": 1208,
         "max_defense": 604,
-        "skills": {
-            "Evasive Maneuver": "Evasive Maneuver \u03b3 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Evasive Maneuver",
+                "name": "Evasive Maneuver \u03b3 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 138,
@@ -2025,10 +3108,16 @@
         "max_power": 3913,
         "max_influence": 1208,
         "max_defense": 604,
-        "skills": {
-            "Layer by Layer": "Layer by Layer \u03b2 I",
-            "Formidable": "Formidable I"
-        }
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b2 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
     },
     {
         "id": 139,
@@ -2039,10 +3128,16 @@
         "max_power": 3913,
         "max_influence": 1172,
         "max_defense": 640,
-        "skills": {
-            "Evasive Maneuver": "Evasive Maneuver \u03b1 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Evasive Maneuver",
+                "name": "Evasive Maneuver \u03b1 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     },
     {
         "id": 140,
@@ -2053,9 +3148,15 @@
         "max_power": 3913,
         "max_influence": 1208,
         "max_defense": 604,
-        "skills": {
-            "Bait & Lure": "Bait & Lure \u03b1 I",
-            "Progressive": "Progressive I"
-        }
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b1 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
     }
 ]
