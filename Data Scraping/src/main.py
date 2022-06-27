@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import re
+import json
 
 url = "https://bloodnbone.com/product-category/womens/dresses/"
 
@@ -77,4 +78,9 @@ def getDataProducts(products):
 
   return product_data
 
-print(scrape(url))
+def loadJSON(product_data):
+  with open('../data/WomenDress.json', 'w') as file:
+    json.dump(product_data, file, indent=4)
+  print("JSON file created")
+
+loadJSON(scrape(url))
