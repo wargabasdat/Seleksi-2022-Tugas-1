@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup as soup
 import time
 import json
 import os
+from tqdm import tqdm
 
 # dictionaries used
 
@@ -43,8 +44,8 @@ path = 'D:\seleksi basdat\Seleksi-2022-Tugas-1\Data Scraping\data\data.json'
 # function to write data in json
 def write_json(data_list, path):
     filepath = os.path.join(path)
-    with open(filepath, "w+") as f:
-        json_dump = json.dumps(data_list, indent=4)
+    with open(filepath, "w+", encoding='utf-8') as f:
+        json_dump = json.dumps(data_list, ensure_ascii = False, indent=4)
         f.write(json_dump)
         f.close()
 
@@ -53,9 +54,12 @@ def toJuta(number):
     if ('JT' in number):
         removed_JT = number.replace('JT', '')
         new_likes = removed_JT.replace(',','.')
+    elif ('M' in number):
+        removed_M = float(number.replace('M', '').replace(',','.'))
+        new_likes = removed_M * 1000
     else:
         toNumbers = float(number.replace('.',''))
-        new_likes = "{:.1f}".format(toNumbers/1000000)
+        new_likes = "{:.2f}".format(toNumbers/1000000)
     return float(new_likes)
 
 # function to convert rating format to float
@@ -88,9 +92,6 @@ def date_converter(date):
     new_date = '-'.join(date)
     return new_date
 
-# prepare data list
-data_list = []
-
 # start scraping
 url = 'https://www.webtoons.com/id/genre'
 headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36'}
@@ -103,34 +104,44 @@ page_soup = soup(page_html, 'lxml')
 cards = page_soup.find_all('ul', class_='card_lst')
 number_of_cards = len(cards)
 
+# find genre_list
+genre_list = page_soup.find_all('h2')
+
 # initialization
 card_count = 0
 wt_count = 0
-title_list = []
+data = {}
+idx_genre = 0
 
 print(f'Start scraping {url}')
 # iterate cards
 for card in cards:
     webtoons = card.find_all('li')
-    for webtoon in webtoons:
+    curr_genre = genre_list[idx_genre].text
+    print(f'Finding all {curr_genre} webtoons...')
+    for webtoon in tqdm(webtoons):
         # get title
         title = webtoon.find('p', class_='subj').text
 
-        # check list of titles to see if there's any duplicate
-        if (title in title_list):
-            break
+        # check list of data, add another genre if already scraped and skip it
+        try:
+            data[title]
+        except:
+            pass
         else:
-            title_list.append(title)
+            if (curr_genre != data[title].get("genre")[0]):
+                data[title]["genre"].append(curr_genre)
+            continue
 
         # get data from main page
-
         author = webtoon.find('p', class_='author').text
         if ('\u200b' in author):
             author.replace('\u200b','')  
         authors = author.split(' / ')
         likes = toJuta(webtoon.find('p', class_='grade_area').find('em', class_='grade_num').text)
-        
-        time.sleep(5)
+        genre = [curr_genre]
+
+        time.sleep(2)
 
         # get data from each webtoon page
         each_url = webtoon.a["href"]
@@ -145,7 +156,7 @@ for card in cards:
         views = toJuta(grade_area.find_all('li')[0].find('em', class_='cnt').text)
         subscribers = toJuta(grade_area.find_all('li')[1].find('em', class_='cnt').text)
         rating = rating_to_float(grade_area.find_all('li')[2].find('em', class_='cnt').text)
-        
+
         # get update details
         update_status = aside_detail.find('p', class_='day_info').text
         # check if the webtoon is ended. if yes, there will be no update_days
@@ -155,16 +166,13 @@ for card in cards:
         except:
             status = 'END'
 
-        # main genre
-        genre = each_soup.find('div', class_='info').find('h2').text.upper()
-
         # check latest episode to get episodes count and last update date
         latest_episode = each_soup.find('li', class_='_episodeItem')
         episodes_count = int(latest_episode.find('span', class_='tx').text.replace('#',''))
         last_update = date_converter(latest_episode.find('span', class_='date').text)
 
-        # look for the first episode in the last page
         time.sleep(2)
+        # look for the first episode in the last page
 
         # look for the last page
         get_last_pages = each_soup.find('div', class_='paginate').find_all('a')[-1]
@@ -181,9 +189,9 @@ for card in cards:
         
         # store data. if the status='END', don't write the update_days
         if (status == 'END'):
-            data = {
+            data[title] = {
                 "title": title,
-                "author(s)": authors,
+                "author": authors,
                 "genre": genre,
                 "likes(M)": likes,
                 "views(M)": views,
@@ -195,9 +203,9 @@ for card in cards:
                 "episode count": episodes_count
             }
         else:
-            data = {
+            data[title] = {
                 "title": title,
-                "author(s)": authors,
+                "author": authors,
                 "genre": genre,
                 "likes(M)": likes,
                 "views(M)": views,
@@ -209,10 +217,11 @@ for card in cards:
                 "last update": last_update,
                 "episode count": episodes_count
             }
-        data_list.append(data) 
-        time.sleep(3) 
+        time.sleep(2) 
         wt_count += 1
+        
 
+    idx_genre += 1
     card_count += 1
     print(f'Done scraping card: {card_count}/{number_of_cards}')
     print(f'Scraped {wt_count} webtoon(s)')
@@ -222,4 +231,4 @@ print('Done scraping all webtoons!')
 print(f'Scraped webtoons: {wt_count}')
 
 # write data in json
-write_json(data_list, path)
+write_json(data, path)
