@@ -15,7 +15,7 @@
 ## Deskripsi Data & DBMS
 Pada Tugas 1 ini, saya memilih untuk melakukan scraping pada <em> website </em> <a href='https://mydramalist.com/search?adv=titles&ty=68,83&so=top&page=1'>            mydramalist.com </a>. Alasan saya memilih <em> website </em> tersebut adalah tingginya animo masyarakat Indonesia terhadap drama dari luar negeri seperti misalnya      drama Korea maupun drama Taiwan. Data yang saya ambil dari <em> website </em> tersebut adalah judul drama, jenis drama, tahun pembuatan, jumlah episode, serta          rating drama tersebut yang dapat mempermudah orang-orang untuk menentukan drama mana yang ingin ditonton terlebih dahulu.
  
-DBMS yang saya gunakan untuk menyimpan hasil <em> scarping </em> tersebut adalah MongoDB. Alasan penggunaan MongoDB karena file hasil <em> export </em> dari <em> web scraping </em> berformat JSON sehingga cocok untuk menggunakan DBMS NoSQL khusunya MongoDB. MongoDB dapat meng-<em>import</em> file JSON dengan cepat dan fleksibel. Untuk penyimpanan cloud, MongoDB juga sudah menyediakan <em> platform </em> MongoDB Atlas sehingga mempermudah kita untuk membuat <em> cluster </em> di cloud.
+DBMS yang saya gunakan untuk menyimpan hasil <em> scraping </em> tersebut adalah MongoDB. Alasan penggunaan MongoDB karena file hasil <em> export </em> dari <em> web scraping </em> berformat JSON sehingga cocok untuk menggunakan DBMS NoSQL khusunya MongoDB. MongoDB dapat meng-<em>import</em> file JSON dengan cepat dan fleksibel. Untuk penyimpanan cloud, MongoDB juga sudah menyediakan <em> platform </em> MongoDB Atlas sehingga mempermudah kita untuk membuat <em> cluster </em> di cloud.
 
 ## Spesifikasi
 Program <em> web scraping </em> ini menggunakan bahasa pemrograman Python dengan bantuan library BeautifulSoup untuk melakukan <em>scraping</em>-nya. Terdapat beberapa library lain yang digunakan pada program ini yang akan dijelaskan kemudian serta dapat dilihat pada file `requirements.txt`.
@@ -38,7 +38,7 @@ Saya membuat API untuk mengakses data Top Drama yang sudah terlebih dahhulu disi
 ### Cara Menggunakan API
 1. Clone <em> repository </em> ini ke PC anda.
 2. Install seluruh library yang dibutuhkan dengan <em>command</em> berikut `pip install -r requirements.txt`
-3. <em> Run </em> program `main.py` yang terdapat pada folder `DataScraping/src/app/main.py`. Program ini akan otomatis menyalakan server lokal.
+3. <em> Run </em> program `main.py`. Program ini akan otomatis menyalakan server lokal.
 4. Pada <em> browser </em>, buka `127.0.0.1` atau `localhost:8000`. Bila muncul tulisan "Welcome to Top Drama Scraper", maka server sudah berhasil berjalan secara lokal.
 5. Pada <em> browser </em>, buka `127.0.0.1/docs` atau `localhost:8000/docs` untuk mengakses Swagger UI. Anda bisa mengakses database Top Drama yang berada pada MongoAtlas melalui Swagger UI tersebut.
 
