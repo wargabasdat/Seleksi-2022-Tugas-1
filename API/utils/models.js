@@ -50,6 +50,6 @@ const tvsSchema = mongoose.Schema({
     }]
 });
 
-const TvModel = mongoose.model('TvModel', tvsSchema);
+const TvShow = mongoose.model('TvShow', tvsSchema);
 
-module.exports = TvModel;
+module.exports = TvShow;

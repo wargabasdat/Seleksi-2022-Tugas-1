@@ -21,7 +21,7 @@ app.get('/', (req,res) => {
     res.send("TV Shows API");
 });
 
-app.use('/tv', tvsrouter);
+app.use('/tvshows', tvsrouter);
 
 app.listen(process.env.PORT, () => {
     console.log('The app is listening on port ' + process.env.PORT)

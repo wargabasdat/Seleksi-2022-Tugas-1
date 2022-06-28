@@ -1,12 +1,12 @@
 const express = require('express');
 const router = express.Router();
 
-const TvModel = require('./models');
+const TvShow = require('./models');
 
 // Get all data
 router.get('/', async (req,res) => {
     try {
-        const tvShowData = await TvModel.find();
+        const tvShowData = await TvShow.find();
         res.status(200).json(tvShowData);
     } catch(err) {
         console.log(err);
@@ -19,7 +19,7 @@ router.get('/', async (req,res) => {
 // Post data
 router.post('/', async(req, res) => {
     try {
-      const newTvShow = new TvModel({
+      const newTvShow = new TvShow({
         title : req.body.title,
         airing : req.body.airing,
         synopsis : req.body.synopsis,
@@ -45,9 +45,9 @@ router.post('/', async(req, res) => {
 router.get('/:id', async (req, res) => {
     try{
       let tvShowId = req.params.id;
-      const tvShow = await TvModel.findById(tvShowId);
+      const tvShowData = await TvShow.findById(tvShowId);
   
-      res.status(200).json(tvShow);
+      res.status(200).json(tvShowData);
     }
     catch(err) {
       res.status(404).json({message: err});
