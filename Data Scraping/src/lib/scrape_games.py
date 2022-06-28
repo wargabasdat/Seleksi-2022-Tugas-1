@@ -5,20 +5,38 @@ from lib.store_data import store_data
 from bs4 import BeautifulSoup
 import json
 import urllib.request
+import urllib.parse
 
-def scrape_games(minrating, year):
+# Scraping games data, save it to .json file (optional), and save it to database (optional)
+def scrape_games(player1, player2, minrating, ysign, year, msign, moves):
     print("Scraping games...")
 
     # Top-level url
-    url = f"https://www.chess.com/games/search?opening=&openingId=&p1=&p2=&mr={minrating}&lsty=1&year={year}&lstMoves=1&moves=&fen=&sort=&page="
+    url = "https://www.chess.com/games/search"
     
     # List to store data
     data = []
 
     # Iterate all pages needed
-    for i in range(1, 21):
+    for page in range(1, 21):
         # Get html from chess.com
-        full_url = url + str(i)
+        # Make a request with get parameters
+        params = {
+            "opening": "",
+            "openingId": "",
+            "p1": player1,
+            "p2": player2,
+            "mr": minrating,
+            "lsty": 1 if ysign == '' else ysign,
+            "year": year,
+            "lstMoves": 1 if msign == '' else msign,
+            "moves": moves,
+            "fen": "",
+            "sort": "",
+            "page": page
+        }
+        query_string = urllib.parse.urlencode(params)
+        full_url = url + "?" + query_string
         req = urllib.request.Request(full_url)
         req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64); dikyrest/dikyrestumaulana@gmail.com')
         html = urllib.request.urlopen(req).read()
@@ -42,19 +60,20 @@ def scrape_games(minrating, year):
     print("Done scraping games.")
 
     # Store data to json
-    print("Do you want to save the data to a file? (y/n)")
+    print("Save games data to a .json file? (y/n)")
     choice = input("Enter your choice: ")
     if(choice == "y"):
         with open('../data/games.json', 'w') as outfile:
             json.dump(data, outfile, indent=2)
-        print("Games saved to json.")
+        print("Games data saved to json.")
 	
 	# Store data to database
-    print("Do you want to store the games to database? (y/n)")
+    print("Store games data to database? (y/n)")
     choice = input("Enter your choice: ")
     if choice == "y":
-        store_data(data_dict, False)
+        store_data(data, False)
 
+# Get games data from soup
 def get_games(row):
     players = row.find_all("span", "master-games-username")
     white = players[0].get_text(strip=True)
