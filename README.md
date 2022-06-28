@@ -14,22 +14,18 @@
 
 ## Daftar Isi
 * [Deskripsi Data dan DBMS](#deskripsi-data-dan-dbms)
-* [Spesifikasi](#spesifikasi)
-* [Technologies Used](#technologies-used)
-* [Features](#features)
-* [Screenshots](#screenshots)
-* [Setup](#setup)
-* [Usage](#usage)
-* [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
-<!-- * [License](#license) -->
-
+* [Spesifikasi Program](#spesifikasi-program)
+* [Cara Menggunakan](#cara-menggunakan)
+* [Struktur JSON](#struktur-json)
+* [Struktur Basis Data](#struktur-basis-data)
+* [Screenshot](#screenshot)
+* [Referensi](#referensi)
+* [Penulis](#penulis)
+* [Lain-Lain](#lain-lain)
 
 ## Deskripsi Data dan DBMS
 
-Pada permainan Counter Strike: Global Offensive (CS:GO), terdapat tim dan pemain profesional dari berbagai negara yang bertarung pada turnamen tingkat regional maupun dunia. Setiap tim dan pemain profesional mempunyai statistik selama mereka bertanding. Salah satu situs web yang mencatat statistik para pemain dan tim CS:GO adalah [HLTV](http:/hltv.org). Pada projek ini, penulis melakukan _scraping_ situs web HLTV untuk mengambil statistik tersebut. Data statistik milik tim yang diambil, antara lain nama, negara asal, peringkat, pelatih, jumlah kemenangan, jumlah seri, jumlah kekalahan, jumlah _kill_, jumlah _death_, dan _kill-death ratio_. Sedangkan data statistik milik pemain yang diambil meliputi _nickname_, nama asli, negara asal, tim, _rating_, _deaths per round_, KAST (persentase pemain mendapatkan _kill_, _assists_, bertahan, atau _traded_), impact, _damage per round_ rata-rata, _kils per round_, jumlah _kill_, persentase _headshot_, _kill-death ratio_, jumlah _map_ yang sudah dimainkan.
+Pada permainan Counter Strike: Global Offensive (CS:GO), terdapat statistik tim dan pemain profesional selama mereka bertanding. Salah satu situs web yang mencatat statistik para pemain dan tim CS:GO adalah [HLTV](http:/hltv.org). Pada projek ini, penulis melakukan _scraping_ situs web HLTV untuk mengambil statistik tersebut. Data statistik milik tim yang diambil, antara lain nama, negara asal, peringkat, pelatih, jumlah kemenangan, jumlah seri, jumlah kekalahan, jumlah _kill_, jumlah _death_, dan _kill-death ratio_. Sedangkan data statistik milik pemain yang diambil meliputi _nickname_, nama asli, negara asal, tim, _rating_, _deaths per round_, KAST (persentase pemain mendapatkan _kill_, _assists_, bertahan, atau _traded_), impact, _damage per round_ rata-rata, _kils per round_, jumlah _kill_, persentase _headshot_, _kill-death ratio_, jumlah _map_ yang sudah dimainkan.
 
 Untuk menyimpan data tersebut, penulis memilih PostgreSQL sebagai DBMS. Hal ini karena PostgreSQL merupakan DBMS relasional yang memiliki reputasi yang baik dan dapat diandalkan. Selain itu, DBMS ini dapat di-_deploy_ pada _cloud platform_, yaitu Heroku. 
 
@@ -37,7 +33,7 @@ Untuk menyimpan data tersebut, penulis memilih PostgreSQL sebagai DBMS. Hal ini 
 
 Program _data scraping_ pada projek ini menggunakan bahasa Python dengan pustaka _HTML parser_ yang umum dipakai untuk melakukan _data scraping_, yaitu Beautiful Soup. Di sisi lain, API dibuat menggunakan bahasa Go dengan _framework_ Fiber. Selain itu, API menggunakan GORM sebagai pustaka _Object-Relational Mapping_ (ORM).
 
-## Cara Menjalankan Program 
+## Cara Menggunakan
 
 ### Program _Data Scraping_
 1. Pastikan Python3 ter-_install_ pada PC Anda. Jika tidak, silakan unduh Python3 [di sini](https://www.python.org/downloads/)
@@ -50,8 +46,8 @@ pip install -r requirements.txt
 ```
 py main.py
 ```
-5. Pilih indeks tim yang akan di-_scrape_ sesuai batas indeks yang tertera. Tunggu hingga program selesai melakukan _scraping_ data
-6. Untuk menyimpan data yang sudah di-_scrape_ ke dalam basis data, jalankan perintah di bawah ini untuk menjalankan `store.py`
+5. Pilih indeks tim yang akan di-_scrape_ sesuai batas indeks yang tertera. Tunggu hingga program selesai melakukan _scraping_ data. File JSON akan terbuat dalam folder `data`
+6. Untuk menyimpan data hasil _scraping_ ke dalam basis data, jalankan perintah di bawah ini untuk menjalankan `store.py`
 ```
 py store.py
 ```
@@ -74,10 +70,10 @@ go run main.go
 ```
 5. Bukalah _browser_ Anda dan pergi ke alamat `http://localhost:8000`. Jika halaman tersebut menampilkan teks "Selamat datang!", server berhasil berjalan
 6. Untuk mengakses data tambahkan path berikut:
-- `/player` untuk mengakses semua data pemain
-- `/player/:playerId` untuk mengakses data pemain berdasarkan id-nya, contohnya `/player/1` utnuk mengakses pemain dengan id 1
-- `/team` untuk mengakses semua data tim
-- `/team/:teamId` untuk mengakses data tim berdasarkan id-nya, contohnya `/team/1` untuk mengakses tim dengan id 1
+    - `/player` untuk mengakses semua data pemain
+    - `/player/:playerId` untuk mengakses data pemain berdasarkan id-nya, contohnya `/player/1` utnuk mengakses pemain dengan id 1
+    - `/team` untuk mengakses semua data tim
+    - `/team/:teamId` untuk mengakses data tim berdasarkan id-nya, contohnya `/team/1` untuk mengakses tim dengan id 1
 
 Gunakan [Postman](https://www.postman.com/API) dengan metode GET untuk mendapatkan tampilan yang lebih bagus. API dan basis data juga telah di-_deploy_ pada _platform_ Heroku dan dapat diakses [di sini](https://seleksi-basdat-13520118.herokuapp.com/)
 
@@ -120,84 +116,85 @@ Berikut ini adalah contoh struktur JSON untuk data tim:
 }
 </pre>
 
+## Struktur Basis Data
 
+Pada basis data, terdapat empat tabel, yaitu Team, Player, TeamStats, dan PlayerStats dengan rincian sebagai berikut:
+### Team
+|Kolom  |Tipe Data|
+| ----- | ------- |
+| team_id | INT |
+| name | VARCHAR |
+| country | VARCHAR |
+| rank | INT |
+| coach | VARCHAR |
 
-1. Lakukan _data scraping_ dari sebuah laman web untuk memperoleh data atau informasi tertentu __TANPA MENGGUNAKAN API__. Hasil _data scraping_ ini nantinya akan disimpan dalam DBMS dan digunakan sebagai bahan tugas analisis dan visualisasi data.
+### Player
+|Kolom  |Tipe Data|
+| ----- | ------- |
+| player_id | INT |
+| nickname | VARCHAR |
+| realname | VARCHAR |
+| rank | INT |
+| country | VARCHAR |
+| age | INT |
+| team_id | INT |
 
-2. Daftarkan judul topik yang akan dijadikan bahan _data scraping_ dan DBMS yang akan digunakan pada spreadsheet berikut: [Topik Data Scraping](https://docs.google.com/spreadsheets/d/1VjK-ZeJlSy38yqUJvaaCqYtS7yP8Vq609ewyWTA_k2Y/edit?usp=sharing). Usahakan agar tidak ada peserta dengan topik yang sama. Akses edit ke spreadsheet akan ditutup tanggal __10 Juni 2022 pukul 21.40 WIB__
+### TeamStats
+|Kolom  |Tipe Data|
+| ----- | ------- |
+| teamstats_id | INT |
+| win_count | INT |
+| draw_count | INT |
+| lose_count | INT |
+| kill_count | INT |
+| death_count | NUMERIC(3,2) |
+| kd_ratio | INT |
+| team_id | INT |
+### PlayerStats
+|Kolom  |Tipe Data|
+| ----- | ------- |
+| playerstats_id | INT |
+| rating | NUMERIC(3,2) |
+| dpr | NUMERIC(3,2) |
+| kast | NUMERIC(4,3) |
+| impact | NUMERIC(3,2) |
+| adr | NUMERIC(3,1) |
+| kpr | NUMERIC(3,2) |
+| kill_count | INT |
+| hs_percentage | NUMERIC(4,3) |
+| death_count | INT |
+| kd_ratio | NUMERIC(3,2) |
+| map_count | INT |
+| player_id | INT |
 
-3. Pada folder `Data Scraping`, calon warga basdat harus mengumpulkan _file script_, json hasil _data scraping_. Folder `Data Scraping` terdiri dari _folder_ `src`, `data` dan `screenshots`. 
-    - _Folder_ `src` berisi _file script_/kode yang __*WELL DOCUMENTED* dan *CLEAN CODE*__ 
-    - _Folder_ `data` berisi _file_ json hasil _scraper_
-    - _Folder_ `screenshot` berisi tangkapan layar program.
-
-4. Sebagai referensi untuk mengenal _data scraping_, asisten menyediakan dokumen "_Short Guidance To Data Scraping_" yang dapat diakses pada link berikut: [Data Scraping Guidance](http://bit.ly/DataScrapingGuidance). Mohon memperhatikan etika dalam melakukan _scraping_.
-
-5. Data yang diperolah harus dinormalisasi dan harus di-_preprocessing_
+### Foreign Key
 ```
-Preprocessing contohnya :
-- Cleaning
-- Parsing
-- Transformation
-- dan lainnya
-```
-
-### Data Storing
-
-1. Buatlah sebuah ER Diagram dari basis data yang akan digunakan untuk menyimpan data hasil _scraping_
-   
-2. Implementasikan ERD tersebut ke DBMS sesuai pilihan kalian
-
-3. Tools yang digunakan __dibebaskan__
-
-4. Calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Folder_ `Data Storing` terdiri dari folder `screenshots`, `export`, dan `design`
-    - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
-    - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
-    -  _Folder_ `design` berisi ER Diagram yang disimpan dalam format `.png`
-
-
-
-5. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    - Simpan ke _cloud database_
-    - Buatlah API sederhana untuk mengakses _database_ tersebut
-
-### Pengumpulan
-
-
-1. Dalam mengerjakan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: [Seleksi-2022-Tugas-1](https://github.com/wargabasdat/Seleksi-2022-Tugas-1). Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_1_[NIM]```
-
-2. Tambahkan juga `.gitignore` pada _file_ atau _folder_ yang tidak perlu di-_upload_, __NB: BINARY TIDAK DIUPLOAD__
-
-3. Berikan satu buah file `README` yang __WELL DOCUMENTED__ dengan cara __override__ _file_ `README.md` ini. `README` harus memuat minimal konten:
-
-
-```
-- Description of the data and DBMS (Why you choose it)
-- Specification of the program
-- How to use
-- JSON Structure
-- Database Structure
-- Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-- Reference (Library used, etc)
-- Author
+TeamStats(team_id) -> Team(team_id)
+PlayerStats(player_id) -> Player(player_id)
 ```
 
+## Referensi
+### Pustaka
+- Beautiful Soup
+- Psycopg2
+- Fiber
+- GORM
+### Tautan
+- https://blog.finxter.com/creating-reading-updating-a-config-file-with-python/
+- https://dev.to/percoguru/getting-started-with-apis-in-golang-feat-fiber-and-gorm-2n34
 
-4. Deadline pengumpulan tugas 1 adalah <span style="color:red">__1 Juli 2022 Pukul 22.40 WIB__</span>
-
-<h3 align="center">
-  <br>
-  Selamat Mengerjakan!
-  <br>
-</h3>
-
-<p align="center">
-  <i>
-  Happiness does not come from doing easy work
-  but from the afterglow of satisfaction that
-  comes after the achievement of a difficult
-  task that demanded our best.<br><br>
-  - Theodore Isaac Rubin
-  </i>
-</p>
+## Penulis
+Mohamad Daffa Argakoesoemah
 <br>
+13520118
+<br>
+Teknik Informatika, Institut Teknologi Bandung
+
+## Lain-Lain
+### Penanganan Encoding pada psql
+Pada tabel Player, terdapat beberapa nickname pemain mengandung huruf selain alfabet latin. Oleh karena itu, jika Anda ingin melakukan query melalui psql (PostgreSQL terminal), ubahlah encoding pada psql dengan menjalankan perintah di bawah ini pada Command Prompt sebelum masuk ke dalam psql.
+```
+SET PGCLIENTENCODING=utf-8
+chcp 65001
+```
+Selanjutnya, bukalah psql melalui jendela Command Prompt yang telah diubah _encoding_-nya.
