@@ -17,7 +17,7 @@ def scrape_skills():
 	skill_list = []
 	for skill in soup.find_all("table")[1].find("tbody").findAll("tr"):
 		skill_list.append(get_skill(skill))
-	print('Done scraping skills.')
+	print("Done scraping skills.")
 
 	# store skill list to json
 	print("Do you want to save the skills to a file? (y/n)")

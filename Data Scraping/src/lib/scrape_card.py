@@ -5,7 +5,7 @@ import urllib.request
 from .store_data import store_data
 
 def scrape_card():
-	print("Scraping cards...")
+	print("Scraping cards... ")
 
 	# get html from tot.wiki
 	req = urllib.request.Request("https://tot.wiki/wiki/Cards")
@@ -21,17 +21,18 @@ def scrape_card():
 	for card in soup.find_all("div", class_="filter-element card-preview"):
 		cards.append(get_card(card, id))
 		id += 1
+	print("Done scraping cards.")
 
 	# store card list to json
-	print("Do you want to save the skills to a file? (y/n)")
+	print("Do you want to save the cards to a file? (y/n)")
 	choice = input("Enter your choice: ")
 	if choice == "y":
 		with open('../data/cards.json', 'w') as outfile:
 			json.dump(cards, outfile, indent=4)
-		print("Skills saved to file.")
+		print("Cards saved to file.")
 	
 	# store data to database
-	print("Do you want to store the skills to a database? (y/n)")
+	print("Do you want to store the cards to a database? (y/n)")
 	choice = input("Enter your choice: ")
 	if choice == "y":
 		store_data(cards, True)
@@ -39,7 +40,6 @@ def scrape_card():
 
 def get_card(card, id):
 	# scrape card entry to dict
-	print('Scraping card:', card.get('data-name'))
 	dict = {}
 	# extract card name from quotation marks using re 
 	s = re.search('\"(.*?)\"', card.get('data-name')).group(1)
