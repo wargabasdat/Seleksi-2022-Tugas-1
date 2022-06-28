@@ -12,15 +12,6 @@
   <br>
 </h2>
 
-- Description of the data and DBMS (Why you choose it)
-- Specification of the program
-- How to use
-- JSON Structure
-- Database Structure
-- Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-- Reference (Library used, etc)
-- Author
-
 ## Description
 
 WEBTOON is a South Korean webtoons publisher launched in 2004 by Naver Corporation. As one of the biggest webtoon platform in the world, the company provides webtoons in different languages, such as Indonesian. Webtoons released in Indonesian can be accessed from [webtoons.com/id](webtoons.com/id). 
@@ -33,19 +24,19 @@ Data storing is done by importing the json file to MongoDB. I chose MongoDB beca
 
 A few libraries are needed to run the scraper.
 
-1. BeautifulSoup4
+1. **BeautifulSoup4**  
    Main library needed to do web scraping. You need to install this library before using.
-2. Requests
+2. **Requests**  
    Library used to access websites and request objects from websites. You need to install this library before using.
-3. Time
+3. **Time**  
    Library used to access sleep() function to prevent blocking.
-4. JSON
+4. **JSON**  
    Library used to write the data to a json file.
-5. OS
+5. **OS**  
    Library used to read or write file in operating system.
-6. TQDM
+6. **TQDM**  
    Library used to see progress bar in loops to monitor the scraping progress.
-7. LXML
+7. **LXML**  
    Library used to parse HTML because it is faster than html.parser. You need to install this library before using.
 
 ## How to Use
@@ -60,41 +51,41 @@ A few libraries are needed to run the scraper.
 ### ONGOING
 <pre>
 {
-_id:  {
-  $oid                  : ID generated automatically by exporting database from MongoDB
-}
-title {string}          : title of the webtoon
-author [{string}]       : author(s) of the webtoon
-genre [{string}]        : genre(s) of the webtoon
-likes(M) {float}        : total number of likes in millions
-views(M) {float}        : total number of views in millions
-subscribers(M) {float}  : total number of subscribers in millions
-rating {float}          : rating of the webtoon
-status {string}         : status of the webtoons ('END' or 'ONGOING')
-update days [{string}]  : update schedule of an ongoing webtoon
-first update {string}   : the release date of the first episode (in yyyy-mm-dd format)
-last update {string}    : the release date of the latest episode (in yyyy-mm-dd format)
-episode count {int}     : number of episodes released
+    _id:  {
+      $oid                            : ID generated automatically by exporting database from MongoDB
+    }
+    title {string}                    : title of the webtoon
+    author [{string}]                 : author(s) of the webtoon
+    genre [{string}]                  : genre(s) of the webtoon
+    likes_in_millions {float}         : total number of likes in millions
+    views_in_millions {float}         : total number of views in millions
+    subscribers_in_millions {float}   : total number of subscribers in millions
+    rating {float}                    : rating of the webtoon
+    status {string}                   : status of the webtoons ('END' or 'ONGOING')
+    update_days [{string}]            : update schedule of an ongoing webtoon
+    first_update {string}             : the release date of the first episode (in yyyy-mm-dd format)
+    last_update {string}              : the release date of the latest episode (in yyyy-mm-dd format)
+    episode_count {int}               : number of episodes released
 }
 </pre>
 
 ### END
 <pre>
 {
-_id:  {
-  $oid                  : ID generated automatically by exporting database from MongoDB
-}
-title {string}          : title of the webtoon
-author [{string}]       : author(s) of the webtoon
-genre [{string}]        : genre(s) of the webtoon
-likes(M) {float}        : total number of likes in millions
-views(M) {float}        : total number of views in millions
-subscribers(M) {float}  : total number of subscribers in millions
-rating {float}          : rating of the webtoon
-status {string}         : status of the webtoons ('END' or 'ONGOING')
-first update {string}   : the release date of the first episode (in yyyy-mm-dd format)
-last update {string}    : the release date of the latest episode (in yyyy-mm-dd format)
-episode count {int}     : number of episodes released
+    _id:  {
+      $oid                            : ID generated automatically by exporting database from MongoDB
+    }
+    title {string}                    : title of the webtoon
+    author [{string}]                 : author(s) of the webtoon
+    genre [{string}]                  : genre(s) of the webtoon
+    likes_in_millions {float}         : total number of likes in millions
+    views_in_millions {float}         : total number of views in millions
+    subscribers_in_millions {float}   : total number of subscribers in millions
+    rating {float}                    : rating of the webtoon
+    status {string}                   : status of the webtoons ('END' or 'ONGOING')
+    first_update {string}             : the release date of the first episode (in yyyy-mm-dd format)
+    last_update {string}              : the release date of the latest episode (in yyyy-mm-dd format)
+    episode_count {int}               : number of episodes released
 }
 </pre>
 
@@ -110,12 +101,12 @@ woohoooo
 
 ## Reference
 
-Web Scraping with Python - Beautiful Soup Crash Course: https://youtu.be/XVv6mJpFOb0
-Python libraries documentation: https://pypi.org/
-My problem solver besties: 
-- https://stackoverflow.com
-- https://www.geeksforgeeks.org/
-- https://www.w3schools.com/
+1. Web Scraping with Python - Beautiful Soup Crash Course: https://youtu.be/XVv6mJpFOb0
+2. Python libraries documentation: https://pypi.org/
+3. My problem solver besties: 
+  - https://stackoverflow.com
+  - https://www.geeksforgeeks.org/
+  - https://www.w3schools.com/
 
 ## Author
 
