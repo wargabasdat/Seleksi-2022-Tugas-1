@@ -82,6 +82,15 @@ def store_data(data, is_card):
 
         # create table if not exists
         cur.execute("""
+            CREATE TABLE IF NOT EXISTS skills (
+                skill_id SERIAL PRIMARY KEY, 
+                skill_type VARCHAR(50), 
+                skill_name VARCHAR(50), 
+                level_1_desc VARCHAR(255), 
+                level_10_desc VARCHAR(255)
+            )
+        """)
+        cur.execute("""
             CREATE TABLE IF NOT EXISTS cards (
                 card_id SERIAL PRIMARY KEY, 
                 card_name VARCHAR(50), 
@@ -96,16 +105,13 @@ def store_data(data, is_card):
         cur.execute("""
             CREATE TABLE IF NOT EXISTS card_skills (
                 card_id INTEGER, 
-                skill_id INTEGER
-            )
-        """)
-        cur.execute("""
-            CREATE TABLE IF NOT EXISTS skills (
-                skill_id SERIAL PRIMARY KEY, 
-                skill_type VARCHAR(50), 
-                skill_name VARCHAR(50), 
-                level_1_desc VARCHAR(255), 
-                level_10_desc VARCHAR(255)
+                skill_id INTEGER,
+                CONSTRAINT "FK_card_skills_cards" 
+                    FOREIGN KEY (card_id) 
+                        REFERENCES public.cards(card_id),
+                CONSTRAINT "FK_card_skills_skills" 
+                    FOREIGN KEY (skill_id) 
+                        REFERENCES public.skills(skill_id)
             )
         """)
 
