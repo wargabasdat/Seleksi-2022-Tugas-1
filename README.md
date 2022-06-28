@@ -37,6 +37,91 @@ Untuk menyimpan data tersebut, penulis memilih PostgreSQL sebagai DBMS. Hal ini 
 
 Program _data scraping_ pada projek ini menggunakan bahasa Python dengan pustaka _HTML parser_ yang umum dipakai untuk melakukan _data scraping_, yaitu Beautiful Soup. Di sisi lain, API dibuat menggunakan bahasa Go dengan _framework_ Fiber. Selain itu, API menggunakan GORM sebagai pustaka _Object-Relational Mapping_ (ORM).
 
+## Cara Menjalankan Program 
+
+### Program _Data Scraping_
+1. Pastikan Python3 ter-_install_ pada PC Anda. Jika tidak, silakan unduh Python3 [di sini](https://www.python.org/downloads/)
+2. Buka _command prompt_ lalu pindah ke direktori `src` di dalam folder `Data Scraping`
+3. Jalankan perintah di bawah ini untuk mengunduh pustaka yang dibutuhkan
+```
+pip install -r requirements.txt
+```
+4. Jalankan perintah di bawah ini untuk menjalankan `main.py` dan memulai _scrape_
+```
+py main.py
+```
+5. Pilih indeks tim yang akan di-_scrape_ sesuai batas indeks yang tertera. Tunggu hingga program selesai melakukan _scraping_ data
+6. Untuk menyimpan data yang sudah di-_scrape_ ke dalam basis data, jalankan perintah di bawah ini untuk menjalankan `store.py`
+```
+py store.py
+```
+7. Pilih opsi pertama jika ingin membuat file `config.ini` untuk konfigurasi basis data, sedangkan pilih opsi kedua file `config.ini` sudah tersedia dan ingin memasukkan data JSON ke dalam basis data tersebut
+
+### API
+1. Pastikan Go ter-_install_ pada PC Anda. Jika tidak, silakan unduh Go [di sini](https://go.dev/doc/install)
+2. Buatlah file .env di dalam folder `api` untuk menyimpan konfigurasi basis data yang sudah diisi data sebelumnya dengan contoh sebagai berikut:
+```
+DB_HOST= your_host
+DB_NAME= your_name
+DB_USER= your_user
+DB_PASSWORD= your_password
+DB_PORT= your_port
+```
+3. Bukalah _command prompt_ lalu pindah ke direktori `api`
+4. Jalankan perintah di bawah ini untuk menjalankan server melalui file `main.go`
+```
+go run main.go
+```
+5. Bukalah _browser_ Anda dan pergi ke alamat `http://localhost:8000`. Jika halaman tersebut menampilkan teks "Selamat datang!", server berhasil berjalan
+6. Untuk mengakses data tambahkan path berikut:
+- `/player` untuk mengakses semua data pemain
+- `/player/:playerId` untuk mengakses data pemain berdasarkan id-nya, contohnya `/player/1` utnuk mengakses pemain dengan id 1
+- `/team` untuk mengakses semua data tim
+- `/team/:teamId` untuk mengakses data tim berdasarkan id-nya, contohnya `/team/1` untuk mengakses tim dengan id 1
+
+Gunakan [Postman](https://www.postman.com/API) dengan metode GET untuk mendapatkan tampilan yang lebih bagus. API dan basis data juga telah di-_deploy_ pada _platform_ Heroku dan dapat diakses [di sini](https://seleksi-basdat-13520118.herokuapp.com/)
+
+## Struktur JSON
+
+Data yang di-_scrape_ akan disimpan dalam format JSON. Data pemain dan tim akan disimpan dalam dua buah file JSON berbeda. Berikut ini adalah contoh struktur JSON untuk data pemain:
+<pre>
+{
+        "nickname": "BnTeT",
+        "realname": "Hansel Ferdinand",
+        "country": "Indonesia",
+        "age": 26,
+        "team": "TYLOO",
+        "rating": 1.15,
+        "dpr": 0.62,
+        "kast": 0.745,
+        "impact": 1.15,
+        "adr": 83.0,
+        "kpr": 0.77,
+        "kills": 20502,
+        "hsPercentage": 0.398,
+        "deaths": 16695,
+        "kdRatio": 1.23,
+        "mapsPlayed": 1027
+}
+</pre>
+Berikut ini adalah contoh struktur JSON untuk data tim:
+<pre>
+{
+        "name": "fnatic",
+        "country": "Europe",
+        "rank": 34,
+        "coach": "keita",
+        "wins": 1109,
+        "draws": 8,
+        "losses": 759,
+        "kills": 171230,
+        "deaths": 163460,
+        "kdRatio": 1.05
+}
+</pre>
+
+
+
 1. Lakukan _data scraping_ dari sebuah laman web untuk memperoleh data atau informasi tertentu __TANPA MENGGUNAKAN API__. Hasil _data scraping_ ini nantinya akan disimpan dalam DBMS dan digunakan sebagai bahan tugas analisis dan visualisasi data.
 
 2. Daftarkan judul topik yang akan dijadikan bahan _data scraping_ dan DBMS yang akan digunakan pada spreadsheet berikut: [Topik Data Scraping](https://docs.google.com/spreadsheets/d/1VjK-ZeJlSy38yqUJvaaCqYtS7yP8Vq609ewyWTA_k2Y/edit?usp=sharing). Usahakan agar tidak ada peserta dengan topik yang sama. Akses edit ke spreadsheet akan ditutup tanggal __10 Juni 2022 pukul 21.40 WIB__
