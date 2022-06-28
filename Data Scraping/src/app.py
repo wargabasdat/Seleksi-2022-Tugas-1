@@ -23,7 +23,7 @@ def getCompaniesData():
         if company_logo != None:
             company_url_logo = company_logo["src"]
         else:
-            company_url_logo = None
+            company_url_logo = "null"
 
         company_status_element = company.find("td",{"class": "status"})
         # part of data preprocessing
@@ -46,7 +46,7 @@ def getCompaniesData():
         company_overview = company.find("td", {"class": "company-overview"}).text
 
         company_job_portal_element = company.find("td", {"class": "careers"}).find("a")
-        company_job_portal = company_job_portal_element["href"] if company_job_portal_element else None
+        company_job_portal = company_job_portal_element["href"] if company_job_portal_element else "null"
 
         data = {
             "company_rank": company_rank,

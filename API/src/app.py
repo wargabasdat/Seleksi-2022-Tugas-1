@@ -12,6 +12,7 @@ from models import db
 from config import app_config
 from flask_migrate import Migrate
 from views.companyView import company_api as company_blueprint
+import utils.firebaseUtils
 
 # app initiliazation
 load_dotenv()

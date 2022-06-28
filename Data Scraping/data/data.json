@@ -393,7 +393,7 @@
     "company_batch": "S11",
     "company_breakthrough": true,
     "company_headquarters": "San Francisco, CA",
-    "company_job_portal": null
+    "company_job_portal": "null"
   },
   {
     "company_rank": "34",
@@ -615,7 +615,7 @@
     "company_rank": "52",
     "company_name": "Opentrons",
     "company_website": "opentrons.com",
-    "company_url_logo": null,
+    "company_url_logo": "null",
     "company_overview": "We make robots for biologists. ",
     "company_status": "Active",
     "company_batch": "W16",
@@ -975,7 +975,7 @@
     "company_rank": "82",
     "company_name": "SmartAsset",
     "company_website": "smartasset.com",
-    "company_url_logo": null,
+    "company_url_logo": "null",
     "company_overview": "Marketplace connecting consumers to financial advisors",
     "company_status": "Active",
     "company_batch": "S12",
@@ -1485,7 +1485,7 @@
     "company_batch": "S20",
     "company_breakthrough": false,
     "company_headquarters": "Remote",
-    "company_job_portal": null
+    "company_job_portal": "null"
   },
   {
     "company_rank": "125",
@@ -1899,7 +1899,7 @@
     "company_rank": "159",
     "company_name": "Caper",
     "company_website": "caper.ai",
-    "company_url_logo": null,
+    "company_url_logo": "null",
     "company_overview": "Plug-and-play cashier-less retail powered by computer vision and AI",
     "company_status": "Exit",
     "company_batch": "W16",
@@ -2223,7 +2223,7 @@
     "company_rank": "186",
     "company_name": "Ribbon Health",
     "company_website": "ribbonhealth.com",
-    "company_url_logo": null,
+    "company_url_logo": "null",
     "company_overview": "Health enterprise API for data on doctors, insurance, costs, & quality",
     "company_status": "Active",
     "company_batch": "S17",
@@ -2301,7 +2301,7 @@
     "company_batch": "S13",
     "company_breakthrough": false,
     "company_headquarters": "San Francisco, CA",
-    "company_job_portal": null
+    "company_job_portal": "null"
   },
   {
     "company_rank": "193",
@@ -2499,7 +2499,7 @@
     "company_rank": "209",
     "company_name": "Avo",
     "company_website": "avo.co.il",
-    "company_url_logo": null,
+    "company_url_logo": "null",
     "company_overview": "Online convenience store for residential and office buildings",
     "company_status": "Active",
     "company_batch": "S18",
@@ -2643,7 +2643,7 @@
     "company_rank": "221",
     "company_name": "Netomi",
     "company_website": "netomi.com",
-    "company_url_logo": null,
+    "company_url_logo": "null",
     "company_overview": "Self-Driving Customer Care",
     "company_status": "Active",
     "company_batch": "W16",
@@ -3021,7 +3021,7 @@
     "company_batch": "W16",
     "company_breakthrough": false,
     "company_headquarters": "Durango, CO",
-    "company_job_portal": null
+    "company_job_portal": "null"
   },
   {
     "company_rank": "253",
@@ -3045,7 +3045,7 @@
     "company_batch": "W19",
     "company_breakthrough": false,
     "company_headquarters": "San Francisco, CA",
-    "company_job_portal": null
+    "company_job_portal": "null"
   },
   {
     "company_rank": "255",
@@ -3153,7 +3153,7 @@
     "company_batch": "S10",
     "company_breakthrough": false,
     "company_headquarters": "San Francisco, CA",
-    "company_job_portal": null
+    "company_job_portal": "null"
   },
   {
     "company_rank": "264",
