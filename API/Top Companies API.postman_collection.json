@@ -109,7 +109,23 @@
 			"name": "Get Companies",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/top_companies/get_companies",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"top_companies",
+						"get_companies"
+					]
+				}
 			},
 			"response": []
 		},
@@ -117,7 +133,24 @@
 			"name": "Get Company",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/top_companies/get_company/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"top_companies",
+						"get_company",
+						"2"
+					]
+				}
 			},
 			"response": []
 		}
