@@ -18,9 +18,20 @@ if choice == "1":
 	scrape_players()
 elif choice == "2":
 	# Scrape games
+	player1 = input("Enter player1's name: ")
+	player2 = input("Enter player2's name: ")
 	minrating = input("Enter minimal rating: ")
+	print("[1] =")
+	print("[2] >=")
+	print("[3] <=")
+	ysign = input("Choose sign for year: ")
 	year = input("Enter year: ")
-	scrape_games(minrating, year)
+	print("[1] =")
+	print("[2] >=")
+	print("[3] <=")
+	msign = input("Choose sign for moves: ")
+	moves = input("Enter moves: ")
+	scrape_games(player1, player2, minrating, ysign, year, msign, moves)
 elif choice == "3":
 	# From json to database
 	data = json.load(open('../data/players.json'))
