@@ -50,6 +50,10 @@ def getDataProducts(products):
     # description
     desc = soup.find("meta", {"property": "og:description"}).get('content')
 
+    # price
+    price = soup.find("span", {"class": "woocommerce-Price-amount"}).get_text()
+    price = int(price.replace("IDR", "").replace(",", "").strip())
+
     # colour
     colour = soup.find("ul", {"name": "attribute_colour"}).findAll('a')
     for i in range(len(colour)):
@@ -65,10 +69,12 @@ def getDataProducts(products):
 
     # dimensions
     dimensions = soup.find("tr", {"class": "woocommerce-product-attributes-item woocommerce-product-attributes-item--dimensions"}).find("td").get_text()
+    dimensions = dimensions.replace('×', 'x')
 
     data = {
       "title": title,
       "desc": desc,
+      "price": price,
       "colour": colour,
       "size": size,
       "weight": weight,
