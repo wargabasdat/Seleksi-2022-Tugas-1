@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "b23527c7-d3ca-4d6c-ae89-a449abe562cb",
+		"name": "Top Companies API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16996532"
+	},
+	"item": [
+		{
+			"name": "Add Companies",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n  {\r\n    \"company_rank\": \"1\",\r\n    \"company_name\": \"Airbnb\",\r\n    \"company_website\": \"airbnb.com\",\r\n    \"company_url_logo\": \"https://bookface-images.s3.amazonaws.com/small_logos/3e9a0092bee2ccf926e650e59c06503ec6b9ee65.png\",\r\n    \"company_overview\": \"Book accommodations around the world.\",\r\n    \"company_status\": \"Public\",\r\n    \"company_batch\": \"W09\",\r\n    \"company_breakthrough\": false,\r\n    \"company_headquarters\": \"San Francisco, CA\",\r\n    \"company_job_portal\": \"https://careers.airbnb.com/\"\r\n  },\r\n  {\r\n    \"company_rank\": \"2\",\r\n    \"company_name\": \"Stripe\",\r\n    \"company_website\": \"stripe.com\",\r\n    \"company_url_logo\": \"https://bookface-images.s3.amazonaws.com/small_logos/c29b3c85a1f648ebedea88c22f4656bafc2e7823.png\",\r\n    \"company_overview\": \"Payments infrastructure for the internet.\",\r\n    \"company_status\": \"Active\",\r\n    \"company_batch\": \"S09\",\r\n    \"company_breakthrough\": true,\r\n    \"company_headquarters\": \"San Francisco, CA\",\r\n    \"company_job_portal\": \"https://stripe.com/jobs/search\"\r\n  }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/top_companies/add_companies",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"top_companies",
+						"add_companies"
+					],
+					"query": [
+						{
+							"key": null,
+							"value": "  {\n    \"company_rank\": \"35\",\n    \"company_name\": \"Flutterwave\",\n    \"company_website\": \"flutterwave.com\",\n    \"company_url_logo\": \"https://bookface-images.s3.amazonaws.com/small_logos/dd32bdbfc11a8d096f336a6d56900dfcf322467a.png\",\n    \"company_overview\": \"Helping businesses make and accept payments from anywhere in Africa.\",\n    \"company_status\": \"Active\",\n    \"company_batch\": \"S16\",\n    \"company_breakthrough\": false,\n    \"company_headquarters\": \"Lagos, Nigeria\",\n    \"company_job_portal\": \"https://careers.flutterwave.com/jobs\"\n  }",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Company",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/top_companies/delete_company/4",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"top_companies",
+						"delete_company",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Company",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"company_name\": \"Nama baruu\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/top_companies/update_company/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"top_companies",
+						"update_company",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Companies",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Company",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
