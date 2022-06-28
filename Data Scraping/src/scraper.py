@@ -67,6 +67,10 @@ def rating_to_float(rating):
     new_rating = float(rating.replace(',', '.'))
     return new_rating
 
+# function to format episodes_count as int
+def format_epcount(epcount):
+    return int(epcount.replace('#',''))
+
 # function to format update_days as list
 def format_update_days(days):
     if ('Diupdate setiap hari' in days):
@@ -168,7 +172,7 @@ for card in cards:
 
         # check latest episode to get episodes count and last update date
         latest_episode = each_soup.find('li', class_='_episodeItem')
-        episodes_count = int(latest_episode.find('span', class_='tx').text.replace('#',''))
+        episodes_count = format_epcount(latest_episode.find('span', class_='tx').text)
         last_update = date_converter(latest_episode.find('span', class_='date').text)
 
         time.sleep(2)
@@ -193,29 +197,29 @@ for card in cards:
                 "title": title,
                 "author": authors,
                 "genre": genre,
-                "likes(M)": likes,
-                "views(M)": views,
-                "subscribers(M)": subscribers,
+                "likes_in_millions": likes,
+                "views_in_millions": views,
+                "subscribers_in_millions": subscribers,
                 "rating": rating,
                 "status": status,
-                "first update": first_update,
-                "last update": last_update,
-                "episode count": episodes_count
+                "first_update": first_update,
+                "last_update": last_update,
+                "episode_count": episodes_count
             }
         else:
             data[title] = {
                 "title": title,
                 "author": authors,
                 "genre": genre,
-                "likes(M)": likes,
-                "views(M)": views,
-                "subscribers(M)": subscribers,
+                "likes_in_millions": likes,
+                "views_in_millions": views,
+                "subscribers_in_millions": subscribers,
                 "rating": rating,
                 "status": status,
-                "update days": update_days,
-                "first update": first_update,
-                "last update": last_update,
-                "episode count": episodes_count
+                "update_days": update_days,
+                "first_update": first_update,
+                "last_update": last_update,
+                "episode_count": episodes_count
             }
         time.sleep(2) 
         wt_count += 1
