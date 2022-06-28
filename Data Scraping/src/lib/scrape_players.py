@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 import json
 import urllib.request
 
+# Scraping players data, save it to .json file (optional), and save it to database (optional)
 def scrape_players():
     print("Scraping players...")
 
@@ -30,7 +31,7 @@ def scrape_players():
 
         # Iterate each row in the table
         for row in rows:
-            data_dict = get_player(row)
+            data_dict = get_players(row)
 
             # Append to list
             data.append(data_dict)
@@ -38,20 +39,21 @@ def scrape_players():
     print("Done scraping players.")
 
     # Store data to json
-    print("Do you want to save the data to a file? (y/n)")
+    print("Save players data to a .json file? (y/n)")
     choice = input("Enter your choice: ")
     if(choice == "y"):
         with open('../data/players.json', 'w') as outfile:
             json.dump(data, outfile, indent=2)
-        print("Players saved to json.")
+        print("Players data saved to json.")
 	
 	# Store data to database
-    print("Do you want to store the players to database? (y/n)")
+    print("Store players data to database? (y/n)")
     choice = input("Enter your choice: ")
     if choice == "y":
-        store_data(data_dict, True)
+        store_data(data, True)
     
-def get_player(row):
+# Get players data from soup
+def get_players(row):
     rank = int(row.find("div", "master-players-rating-rank").get_text(strip=True).replace("#", ""))
     name = row.find("a", "username").get_text(strip=True)
 
@@ -67,9 +69,13 @@ def get_player(row):
         title = "-"
     
     ratings = row.find_all("div", "master-players-rating-player-rank")
+    rating_entry = {}
     classic = int(ratings[0].get_text(strip=True))
     rapid = int(ratings[1].get_text(strip=True))
     blitz = int(ratings[2].get_text(strip=True))
+    rating_entry["Classic"] = classic
+    rating_entry["Rapid"] = rapid
+    rating_entry["Blitz"] = blitz
 
     # Make a dictionary for json
     data_dict = {}
@@ -77,8 +83,6 @@ def get_player(row):
     data_dict['Name'] = name
     data_dict['Title'] = title
     data_dict['Nationality'] = nationality
-    data_dict['Classic'] = classic
-    data_dict['Rapid'] = rapid
-    data_dict['Blitz'] = blitz
+    data_dict["Rating"] = rating_entry
 
     return data_dict
