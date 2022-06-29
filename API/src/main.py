@@ -1,8 +1,9 @@
 from fastapi import FastAPI
 from psycopg2 import connect
 from dotenv import load_dotenv, find_dotenv
-from pathlib import Path
 import os
+
+from requests import request
 
 def get_db():
 	load_dotenv(find_dotenv())

@@ -1,5 +1,4 @@
 from bs4 import BeautifulSoup
-import re
 import json
 import urllib.request
 from .store_data import store_data
