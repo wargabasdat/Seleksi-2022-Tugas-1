@@ -8,7 +8,7 @@ import re
 
 def get_db():
 	load_dotenv(find_dotenv())
-	conn = connect(os.environ.get("DB_URI"))
+	conn = connect(os.environ.get("DATABASE_URL"))
 	return conn
 
 app = FastAPI()

@@ -72,7 +72,7 @@ def store_data(data, is_card):
     try:
         # connect to db
         load_dotenv(find_dotenv())
-        conn = psycopg2.connect(os.environ.get("DB_URI"))
+        conn = psycopg2.connect(os.environ.get("DATABASE_URL"))
         cur = conn.cursor()
 
         # create table if not exists
