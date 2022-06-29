@@ -1,81 +1,168 @@
 <h1 align="center">
   <br>
-  Seleksi Warga Basdat 2022
+  Zakwoow (Bag and Wallet Online Store) Web Scraping
   <br>
   <br>
 </h1>
 
 <h2 align="center">
   <br>
-  Tugas 1 : Data Scraping & Data Storing
+  Salimatussholati Az Zahra/18220054
   <br>
   <br>
 </h2>
 
 
-## Spesifikasi
+## Description of the data and DBMS 
 
-### Data Scraping
+### About Zakwoow. 
+![alt text](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/logozakwoow.png)
 
-1. Lakukan _data scraping_ dari sebuah laman web untuk memperoleh data atau informasi tertentu __TANPA MENGGUNAKAN API__. Hasil _data scraping_ ini nantinya akan disimpan dalam DBMS dan digunakan sebagai bahan tugas analisis dan visualisasi data.
+Zakwoow is an Indonesia's well-known bag and wallet online store based on social media. 
+Their instagram account reaches 141K followers and they are able to create a customer telegram group with a thousand of subscribers.
+Although they started as an online shop, they succeed to establish their offline store located in Yogyakarta.
+As an online shop, they provide various payment platforms, such as Shopee, Tokopedia, WhatsApp Business, and website.
+Their website's URL address is https://zakwoowstyle.com/
 
-2. Daftarkan judul topik yang akan dijadikan bahan _data scraping_ dan DBMS yang akan digunakan pada spreadsheet berikut: [Topik Data Scraping](https://docs.google.com/spreadsheets/d/1VjK-ZeJlSy38yqUJvaaCqYtS7yP8Vq609ewyWTA_k2Y/edit?usp=sharing). Usahakan agar tidak ada peserta dengan topik yang sama. Akses edit ke spreadsheet akan ditutup tanggal __10 Juni 2022 pukul 21.40 WIB__
 
-3. Pada folder `Data Scraping`, calon warga basdat harus mengumpulkan _file script_, json hasil _data scraping_. Folder `Data Scraping` terdiri dari _folder_ `src`, `data` dan `screenshots`. 
-    - _Folder_ `src` berisi _file script_/kode yang __*WELL DOCUMENTED* dan *CLEAN CODE*__ 
-    - _Folder_ `data` berisi _file_ json hasil _scraper_
-    - _Folder_ `screenshot` berisi tangkapan layar program.
+### About Data and DBMS
 
-4. Sebagai referensi untuk mengenal _data scraping_, asisten menyediakan dokumen "_Short Guidance To Data Scraping_" yang dapat diakses pada link berikut: [Data Scraping Guidance](http://bit.ly/DataScrapingGuidance). Mohon memperhatikan etika dalam melakukan _scraping_.
+Their website consists of product catalogue and payment method. If you go to https://zakwoowstyle.com/products, you will see all the information regarding each product, such as product's name, current price, discount, rating, stock, and so on. 
+In this project, I gathered Zakwoow's products data by scraping their website. The reason I chose to scrape data from Zakwoow's website is because they don't put many restrictions on their pages. I’m also inspired by how they put simplicity and completeness in their product catalogue page. From that, I'm eager to create a database out of all the data I could scrape from Zakwoow's website.
+I use PostgreSQL as my DBMS because it allows me to work on both JSON and SQL data to implement my desired relational database. Moreover, Postgres allows me to store and manage large dataset safely.
 
-5. Data yang diperolah harus dinormalisasi dan harus di-_preprocessing_
+## Specification of the Program
+
+To run the program, we need several libraries, such as:
+
+__Jupyter Notebook__
+
+The Jupyter Notebook is the original web application that makes it easy for
+us to create and maintain computational documents. In this project, I choose
+to use Jupyter Notebook to write scripts. All scripts will be saved in ipynb format.
+
+To install, type:
+
+```pip install notebook```
+
+on your terminal.
+
+__BeautifulSoup__
+
+BeautifulSoup is a Python package that is useful for web scraping. 
+Since I use Python as the programming language for this project, I choose
+BeautifulSoup as it is a compatible tool to work with.
+
+To install BeautifulSoup library, type
+
+```pip install beautifulsoup4```
+
+in your terminal
+
+__requests__
+
+Requests is a HTTP library for Python. 
+This module allows us to send HTTP requests using Python
+
+To install requests modul, type
+
+```pip install requests```
+
+in your terminal
+
+__Time__
+
+In order to keep the server from crashing, we need to put our program on sleep
+using the time.sleep() method. We can import time library immediately because it is 
+already preinstalled with python.
+
+__TQDM__
+
+In order to monitor the progress of my program during the web-scraping, I use TQDM because it
+can show me a progress bar on loops.
+
+To install tqdm, type
+
+```pip install tqdm```
+
+in your terminal
+
+__JSON__
+
+In this project, I store the scraped data in JSON format. To dump the
+scraped data into JSON format, we need to import a JSON library. JSON library
+is already preinstalled with Python. Therefore, we can just type 'import json' on Jupyter Notebook cell.
+
+__NumPy__
+
+I also import NumPy library because I need to use .array_split() method to help me preprocessing the data scraped.
+NumPy is a Python library used for working with arrays.
+
+To install NumPy, type
+
+```pip install NumPy```
+
+in your terminal
+
+*__OPTIONAL__*
+
+__Anaconda Navigator__
+
+Anaconda Navigator allows us to launch common Python programs and easily manage
+conda packages without using command-line commands. Using this desktop GUI (Graphical User Interface),
+we can launch and install Jupyter Notebook without command-line commands.
+
+### HOW TO USE
+
+1. Install and import all the libraries needed in this project. You can find the list of
+the necessary libraries on Specification of The Program.
+2. Make sure your internet connection is stable enough to avoid errors in running the program
+3. Clone this repository to your local directory
+4. Open Jupyter Notebook using Anaconda Navigator or typing 'jupyter-notebook'
+on your terminal (make sure to change the directory on your terminal based on your repository).
+5. Open zakwoow_webscraping.ipynb and run the scripts on Jupyter Notebook
+6. Make sure you run each cell on zakwoow_webscraping.ipynb sequentially from top to bottom
+
+
+### JSON Structure
+
+The scraped data will be dumped into JSON format. Below are the examples of JSON formatted scraped-data from each json file.
+
+produkTas.json
 ```
-Preprocessing contohnya :
-- Cleaning
-- Parsing
-- Transformation
-- dan lainnya
-```
-
-### Data Storing
-
-1. Buatlah sebuah ER Diagram dari basis data yang akan digunakan untuk menyimpan data hasil _scraping_
-   
-2. Implementasikan ERD tersebut ke DBMS sesuai pilihan kalian
-
-3. Tools yang digunakan __dibebaskan__
-
-4. Calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Folder_ `Data Storing` terdiri dari folder `screenshots`, `export`, dan `design`
-    - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
-    - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
-    -  _Folder_ `design` berisi ER Diagram yang disimpan dalam format `.png`
-
-
-
-5. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    - Simpan ke _cloud database_
-    - Buatlah API sederhana untuk mengakses _database_ tersebut
-
-### Pengumpulan
-
-
-1. Dalam mengerjakan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: [Seleksi-2022-Tugas-1](https://github.com/wargabasdat/Seleksi-2022-Tugas-1). Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_1_[NIM]```
-
-2. Tambahkan juga `.gitignore` pada _file_ atau _folder_ yang tidak perlu di-_upload_, __NB: BINARY TIDAK DIUPLOAD__
-
-3. Berikan satu buah file `README` yang __WELL DOCUMENTED__ dengan cara __override__ _file_ `README.md` ini. `README` harus memuat minimal konten:
-
+    {
+        "name": "Mini Aira Bag by Zakwoowstyle",
+        "price": 90000,
+        "rating": 0.0,
+        "isdiscountapplied": false,
+        "kondisistok": "Stok habis",
+        "idkategori": 199036
+    },
 
 ```
-- Description of the data and DBMS (Why you choose it)
-- Specification of the program
-- How to use
-- JSON Structure
-- Database Structure
-- Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-- Reference (Library used, etc)
-- Author
+
+produkBerdiskon.json
 ```
+    {
+        "name": "Posca Backpack by Zakwoowstyle",
+        "pricebeforediscount": 150000,
+        "priceafterdiscount": 50000,
+        "discount": 66.66666666666666
+    },
+
+```
+
+Kategori.json
+```
+    {
+        "idkategori": 199036,
+        "kategori": "Backpack"
+    },
+```
+
+### Database Structure
+Entity Relationship Diagram of Zakwoow Database
+![ERD](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/design/ERD_of_zakwoow.png)
 
 
 4. Deadline pengumpulan tugas 1 adalah <span style="color:red">__1 Juli 2022 Pukul 22.40 WIB__</span>
