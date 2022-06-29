@@ -13,48 +13,82 @@
 </h2>
 
 # Deskripsi Data dan DBMS
-Data yang dimasukkan adalah daftar kartu yang terdapat pada permainan seluler [Tears of Themis](https://play.google.com/store/apps/details?id=com.miHoYo.tot.glb). Sumber data diambil dari dari situs [Tears of Themis Wiki](https://tot.wiki). Penulis memilih untuk mengambil data dari website yang diberikan karena penulis suka dengan permainan ini.
+Data yang dimasukkan adalah daftar kartu yang terdapat pada permainan seluler [Tears of Themis](https://play.google.com/store/apps/details?id=com.miHoYo.tot.glb). Sumber data diambil dari dari situs [Tears of Themis Wiki](https://tot.wiki). Penulis memilih untuk mengambil data dari website yang diberikan karena penulis suka dengan permainan ini dan penasaran seputar daftar keseluruhan kartu dan skill yang terdapat di masing-masing kartu.
 
-Untuk DBMS, penulis memilih PostgresSQL, dengan alasan utama karena PostgresSQL merupakan RDBMS yang cenderung lebih disukai untuk melakukan *deployment* dengan Heroku, salah satu layanan hosting yang familiar oleh penulis dan mendukung addons Postgres dengan plan hobby-dev (free).
+Untuk DBMS, penulis memilih PostgresSQL, dengan alasan utama karena PostgresSQL merupakan RDBMS yang cenderung lebih disukai untuk melakukan *deployment* dengan Heroku, salah satu layanan yang familiar oleh penulis. Selain itu, Heroku juga mendukung addons Postgres dengan plan hobby-dev (free) sehingga penulis dapat memanfaatkan addons ini untuk menyimpan data hasil scraping ke dalam *cloud database*.
 
 # Spesifikasi Program
 
 Program dalam repository ini terbagi menjadi 2 bagian, yaitu program utama untuk scraping dan menyimpan data, serta API untuk mengakses data.
 
-Program utama terdapat pada `Data Scraping/src/main.py`, yang terdiri dari beberapa fungsi dalam folder lib.
+Program utama untuk melakukan Data Scraping dan Data Storing terdapat pada [main.py](/Data%20Scraping/src/main.py) dalam folder Data Scraping, yang terdiri dari beberapa fungsi dalam folder [lib](/Data%20Scraping/src/lib). Dalam program ini, pengguna dapat memilih untuk melakukan scraping cards atau skills, dan menyimpan data baik ke dalam database atau ke dalam file json sesuai pilihan. Untuk melakukan Data Scraping, penulis menggunakan library Beautiful Soup dan request dari urllib. 
 
-API dibuat menggunakan FastAPI.
+Untuk melakukan Data Storing ke file, penulis menggunakan library json untuk menyimpan data hasil scraping ke dalam bentuk JSON. Untuk melakukan Data Storing ke database, penulis menggunakan library dotenv untuk mengambil konfigurasi database dari file `.env`. Karena menggunakan konfigurasi database dari file `.env`, pengguna dapat mengkonfigurasi program untuk menyimpan data ke database local maupun cloud.
+
+API dibuat menggunakan FastAPI. Program utama API ini terdapat pada [main.py](/API/src/main.py). API ini digunakan untuk mengakses data cards dari database (remote/local) dengan konfigurasi environment yang diambil dari file `.env`. Selain itu, API ini juga dilengkapi dengan dokumentasi interaktif dari Swagger UI dan ReDoc sebagai bawaan dari library FastAPI.
+
+Daftar endpoint yang tersedia:
+
+```
+GET		/
+GET		/api
+GET		/api/cards
+GET		/api/cards/{id}
+GET		/api/skills
+GET		/api/skills/{id}
+```
 
 # Cara Menggunakan
 
-## Requirements
+## Requirements (local)
 
 - Python 3.7+
 - BeautifulSoup4
 - FastAPI
-- uvicorn (untuk menjalankan API di local)
 - PostgresSQL
 
-Spesifikasi lebih lanjut terdapat pada [`requirements.txt`](/Data%20Scraping/src/api/requirements.txt).
-
 ## Scraping & Storing
-Untuk melakukan scraping, dapat dengan menjalankan program `main.py`.
+
+Untuk menginstal keseluruhan requirements yang dibutuhkan untuk, dapat menginstal semua paket yang terdapat pada [requirements.txt](API/src/requirements.txt).
+
+```sh
+cd "Data Scraping/src"
+pip install -r requirements.txt
 ```
-cd "Data Scraping"/src
-py main.py
+
+Agar dapat melakukan storing, pengguna perlu mengkonfigurasi program dengan menyalin file `.env.example` ke `.env`, dan mengubah konfigurasi database yang diperlukan.
+
+Setelah semua konfigurasi selesai, pengguna dapat langsung menjalankan [main.py](/Data%20Scraping/src/main.py).
+
+```sh
+python main.py
 ```
 
 ## API
 API dapat dijalankan secara lokal maupun melalui remote.
 
-Untuk menjalankan secara lokal, dapat dilakukan dengan menjalankan uvicorn.
+## Lokal
+
+Untuk menginstal keseluruhan requirements yang dibutuhkan untuk menjalankan API, dapat dilakukan dengan menginstal semua paket yang terdapat pada [requirements.txt](API/src/requirements.txt).
+
 ```
+cd API/src
+pip install -r requirements.txt
+```
+
+Agar API dapat berjalan dengan baik di lokal, pengguna perlu mengkonfigurasi program dengan menyalin file `.env.example` ke `.env`, dan mengubah konfigurasi database yang diperlukan. Setelah itu, pengguna dapat menjalankan uvicorn dalam folder [API/src](/API/src/).
+
+```sh
 uvicorn main:app --reload
 ```
 
-Remote API telah tersedia dalam [https://tot-cards.herokuapp.com/](https://tot-cards.herokuapp.com/)
+Setelah dijalankan, API dapat diakses melalui [localhost:8000](http://localhost:8000). Selengkapnya mengenai dokumentasi API dan daftar endpoint yang tersedia dapat dilihat di [localhost:8000/docs](http://localhost:8000/docs/) dan [localhost:8000/redoc](http://localhost:8000/redoc/).
 
-Selengkapnya mengenai daftar endpoint yang tersedia dapat dilihat di [https://tot-cards.herokuapp.com/docs/](https://tot-cards.herokuapp.com/docs/).
+## Remote
+
+Remote API telah tersedia dalam [tot-cards.herokuapp.com](https://tot-cards.herokuapp.com/) dan dapat langsung digunakan.
+
+Selengkapnya mengenai dokumentasi API dan daftar endpoint yang tersedia dapat dilihat di [tot-cards.herokuapp.com/docs](https://tot-cards.herokuapp.com/docs/) dan [https://tot-cards.herokuapp.com/redoc](https://tot-cards.herokuapp.com/redoc/).
 
 # Struktur JSON
 
@@ -110,7 +144,6 @@ Richter)
   "level_1_desc": ...,
   "level_10_desc": ...
 },
-
 ```
 
 `type`: Tipe skill
@@ -143,16 +176,25 @@ Berikut ERD (Entity Relation Diagram) yang dibuat untuk membuat database.
 ![Storing Skills](/Data%20Storing/screenshot/Storing_3.png)
 
 ## API
-### Remote API
-![](/Data%20Storing/screenshot/API_remote_1.png)
-![](/Data%20Storing/screenshot/API_remote_2.png)
-![](/Data%20Storing/screenshot/API_remote_3.png)
-![](/Data%20Storing/screenshot/API_remote_4.png)
+
+### Local
+![](/API/screenshot/API_local_1.png)
+![](/API/screenshot/API_local_2.png)
+![](/API/screenshot/API_local_3.png)
+![](/API/screenshot/API_local_4.png)
+
+### Remote
+![](/API/screenshot/API_remote_1.png)
+![](/API/screenshot/API_remote_2.png)
+![](/API/screenshot/API_remote_3.png)
+![](/API/screenshot/API_remote_4.png)
 
 # Reference
 - Tears of Themis Wiki, [https://tot.wiki](https://tot.wiki)
 - Beautiful Soup 4.9.0 Documentation, [https://www.crummy.com/software/BeautifulSoup/bs4/doc](https://www.crummy.com/software/BeautifulSoup/bs4/doc)
 - PostgresSQL 14 Documentation, [https://www.postgresql.org/docs/14](https://www.postgresql.org/docs/14)
+- pgAdmin 4 6.9 Documentation, [https://www.pgadmin.org/docs/pgadmin4/development/index.html](https://www.pgadmin.org/docs/pgadmin4/development/index.html)
+- Export Postgresql table data using pgAdmin - Stack Overflow [https://stackoverflow.com/a/29246636](https://stackoverflow.com/a/29246636)
 - FastAPI Tutorial - User Guide, [https://fastapi.tiangolo.com/tutorial](https://fastapi.tiangolo.com/tutorial)
 
 # Author
