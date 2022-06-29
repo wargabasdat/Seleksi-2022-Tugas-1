@@ -10,7 +10,7 @@ type PlayerResult struct {
 	Rating       float64
 	DPR          float64
 	KAST         float64
-	IMPACT       float64
+	Impact       float64
 	ADR          float64
 	KPR          float64
 	KillCount    int
@@ -48,7 +48,7 @@ type PlayerStats struct {
 	Rating        float64
 	DPR           float64
 	KAST          float64
-	IMPACT        float64
+	Impact        float64
 	ADR           float64
 	KPR           float64
 	KillCount     int
