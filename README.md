@@ -9,16 +9,21 @@
   <br>
   Data Scraping & Data Storing : Website infokost.id
   <br>
+  <br>
 
   ![logo web](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1/blob/main/logo.jpg)
 
   <br>
-  <br>
+
 </h2>
 
 ## Table of Contents
 
 ## Description
+Data _scraping_ dilakukan pada salah satu website pencari kost di Indonesia, yaitu Infokost. Seperti yang tertulis pada website, sejak didirikan pada tahun 2007, Infokost telah menjadi salah satu sumber utama para pencari kost di seluruh Indonesia karena Infokost merupakan salah satu website yang memiliki database terbesar dan terlengkap. Untuk itu, dilakukan _scraping_ pada website ini dengan mengambil dan mengumpulkan data kost di Indonesia yang berisi nama kost, alamat dan daerah, tipe kost, tipe kamar, luas kamar, fasilitas kamar dan gedung, serta harga sewa per bulannya. Data tersebut dipilih karena para pencari kost biasanya akan mencari informasi untuk menemukan tempat kost ideal sesuai kebutuhan mereka.
+<br>
+<br>
+Dalam _project_ ini, DBMS yang akan digunakan untuk menyimpan hasil _web scraping_ adalah MongoDB. Hal tersebut karena MongoDB memiliki kinerja yang cepat dan fleksibel, serta dapat melakukan _storing_ data dalam format JSON, yaitu format yang digunakan dalam melakukan _export_ hasil _web scraping_. Selain itu, MongoDB juga memiliki MongoDB Atlas sebagai database cloud yang menyederhanakan proses pembuatan cluster di cloud dan relatif lebih aman.
 
 ## Specification
 ## How to Use
