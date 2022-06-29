@@ -22,13 +22,26 @@ def read_api():
 	return "200 OK"
 
 @app.get("/api/cards")
-def read_cards():
-	# TODO get parameters from request, make case for searching by name, etc.
+def read_cards(name: str | None = None, character: str | None = None, attribute: str | None = None):
 	# connect to db
 	conn = get_db()
 	cur = conn.cursor()
 	# get all cards
-	cur.execute("SELECT * FROM cards")
+	sql = "SELECT * FROM cards"
+	if name or character or attribute:
+		# search for cards with given name, character, or attribute
+		sql += " WHERE"
+		if name:
+			sql += " name ILIKE '%" + name + "%'"
+		if name and (character or attribute):
+			sql += " AND"
+		if character:
+			sql += " card_character ILIKE '%" + character + "%'"
+		if character and attribute:
+			sql += " AND"
+		if attribute:
+			sql += " card_attribute ILIKE '%" + attribute + "%'"
+	cur.execute(sql)
 	cards = cur.fetchall()
 	# make JSON response
 	cardlist = []
@@ -100,13 +113,15 @@ def read_card(id: int):
 	return card
 
 @app.get("/api/skills")
-def read_skills():
-	# TODO get parameters from request, make case for searching by name, etc.
+def read_skills(name: str | None = None): # optional search query
 	# connect to db
 	conn = get_db()
 	cur = conn.cursor()
 	# get all skills
-	cur.execute("SELECT * FROM skills")
+	sql = "SELECT * FROM skills"
+	if name:
+		sql += " WHERE skill_name ILIKE '%{}%'".format(name)
+	cur.execute(sql)
 	skills = cur.fetchall()
 	# make response in JSON format
 	skillist = []
