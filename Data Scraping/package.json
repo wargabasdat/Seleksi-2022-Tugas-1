@@ -1,0 +1,23 @@
+{
+  "name": "data-scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && tsc",
+    "build-windows": "rd /s /q dist && tsc",
+    "scrap": "node ./dist/scrap --unhandled-rejection=none",
+    "process": "node ./dist/process",
+    "puppeteer-install": "cd ./node_modules/puppeteer && npm run install && cd ../.."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "puppeteer": "^14.4.1"
+  }
+}
