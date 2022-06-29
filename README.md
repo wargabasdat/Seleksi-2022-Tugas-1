@@ -32,9 +32,9 @@ Daftar endpoint yang tersedia:
 ```
 GET		/
 GET		/api
-GET		/api/cards
+GET		/api/cards?name=<str>&character=<str>&attribute=<str>
 GET		/api/cards/{id}
-GET		/api/skills
+GET		/api/skills?name=<str>
 GET		/api/skills/{id}
 ```
 
