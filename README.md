@@ -190,12 +190,9 @@ Berikut beberapa _screenshot_ program _data scraping_
 
 ![Fungsi getTeamProfile](https://github.com/daffarg/Seleksi-2022-Tugas-1/blob/5963ccadc4b7ecc1225d63193f53d0c1bccf4cbb/Data%20Scraping/screenshot/getTeamProfile.png)
 
-#### Fungsi getPlayerData (1)
+#### Fungsi getPlayerData
 
 ![Fungsi getPlayerData(1)](https://github.com/daffarg/Seleksi-2022-Tugas-1/blob/5963ccadc4b7ecc1225d63193f53d0c1bccf4cbb/Data%20Scraping/screenshot/getPlayerData1.png)
-
-#### Fungsi getPlayerData (2)
-
 ![Fungsi getPlayerData(2)](https://github.com/daffarg/Seleksi-2022-Tugas-1/blob/5963ccadc4b7ecc1225d63193f53d0c1bccf4cbb/Data%20Scraping/screenshot/getPlayerData2.png)
 
 #### Fungsi writeJson
@@ -209,6 +206,11 @@ Berikut beberapa _screenshot_ program _data scraping_
 #### Program Main
 
 ![Program Main](https://github.com/daffarg/Seleksi-2022-Tugas-1/blob/5963ccadc4b7ecc1225d63193f53d0c1bccf4cbb/Data%20Scraping/screenshot/main.png)
+
+#### Penyimpanan Data pada Basis Data
+
+![tabel Player](https://github.com/daffarg/Seleksi-2022-Tugas-1/blob/fbe4f15cdc626ed0494c468028f9c9a73267cbd6/Data%20Storing/screenshot/player.png)
+![tabel Team](https://github.com/daffarg/Seleksi-2022-Tugas-1/blob/fbe4f15cdc626ed0494c468028f9c9a73267cbd6/Data%20Storing/screenshot/team.png)
 
 ## Referensi
 ### Pustaka
