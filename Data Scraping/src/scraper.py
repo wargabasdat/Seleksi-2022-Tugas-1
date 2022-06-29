@@ -223,8 +223,6 @@ for card in cards:
             }
         time.sleep(2) 
         wt_count += 1
-        
-
     idx_genre += 1
     card_count += 1
     print(f'Done scraping card: {card_count}/{number_of_cards}')

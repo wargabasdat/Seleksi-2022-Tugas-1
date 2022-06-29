@@ -40,11 +40,28 @@ A few libraries are needed to run the scraper.
    Library used to parse HTML because it is faster than html.parser. You need to install this library before using.
 
 ## How to Use
+
+### Data Scraping
 1. Clone this repository.
 2. Install all required libraries (and Python if you haven't).
 3. Open `scraper.py` in your IDE.
 4. Change the path or json file name to your preference on variable `path`.
 5. Run the code and the data will be stored in a json file on the chosen path.
+
+### Data Storing
+__Local__
+1. Download **MongoDB Compass**.
+2. Connect to your localhost (it is automatically provided so you just have to press **Connect**).
+3. Create database and create collection.
+4. Click **ADD DATA** and **Import File**.
+5. Select the JSON file from the scraping process and press **IMPORT**
+
+__MongoDB Atlas__
+1. Open https://www.mongodb.com/ on your browser and **Sign In**.
+2. Create a cluster. You can make one for free.
+3. Press **Connect** on your cluster and pick the MongoDB Compass choice.
+4. Copy the connection string and paste it to MongoDB Compass. Don't forget to add  your password.
+5. Connect to it and import file as explained in the Local part.
 
 ## JSON Structure
 
@@ -91,34 +108,55 @@ A few libraries are needed to run the scraper.
 
 ## Database Structure
 
-The structure of the database is as shown as the ERD below:
+The structure of the database is as shown as the ERD below:  
 
 ![ERD](Data%20Storing/design/erd.png)
 
 ## Screenshots
 
-woohoooo
+### Data Scraping
+
+__FUNCTIONS__
+![Function1](Data%20Scraping/screenshot/function1.png)
+![Function2](Data%20Scraping/screenshot/function2.png)
+![Function3](Data%20Scraping/screenshot/function3.png)
+![Function4](Data%20Scraping/screenshot/function4.png)
+![Function5](Data%20Scraping/screenshot/function1.png)
+![Function6](Data%20Scraping/screenshot/function1.png)
+![Function7](Data%20Scraping/screenshot/function1.png)
+![Function8](Data%20Scraping/screenshot/function1.png)
+![Function9](Data%20Scraping/screenshot/function1.png)
+
+__PREPROCESSING__
+![Preprocessing1](Data%20Scraping/screenshot/preprocessing1.png)
+![Preprocessing2](Data%20Scraping/screenshot/preprocessing2.png)
+![Preprocessing3](Data%20Scraping/screenshot/preprocessing3.png)
+
+__SCRAPING PROCESS__
+![Scraping Process1](Data%20Scraping/screenshot/scraping_process1.png)
+![Scraping Process2](Data%20Scraping/screenshot/scraping_process2.png)
+
+### Data Storing
+
+__Data stored in MongoDB Local__
+![Local](Data%20Storing/screenshot/storing_mongodb_local.png)  
+
+__Data stored in MongoDB Atlas__
+![Clous](Data%20Storing/screenshot/storing_mongodb_atlas.png)
+
 
 ## Reference
 
 1. Web Scraping with Python - Beautiful Soup Crash Course: https://youtu.be/XVv6mJpFOb0
 2. Python libraries documentation: https://pypi.org/
 3. My problem solver besties: 
-  - https://stackoverflow.com
-  - https://www.geeksforgeeks.org/
-  - https://www.w3schools.com/
+   - https://stackoverflow.com
+   - https://www.geeksforgeeks.org/
+   - https://www.w3schools.com/
 
 ## Author
 
-Gratia Nindyaratri
-18220017
-Sistem dan Teknologi Informasi
+Gratia Nindyaratri  
+18220017  
+Sistem dan Teknologi Informasi  
 
-
-<p align="center">
-  <i>
-  hehe<br><br>
-  - Gratia Nindyaratri
-  </i>
-</p>
-<br>
