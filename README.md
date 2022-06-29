@@ -16,6 +16,7 @@
 ## Description of the data and DBMS 
 
 ### About Zakwoow. 
+
 ![alt text](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/logozakwoow.png)
 
 Zakwoow is an Indonesia's well-known bag and wallet online store based on social media. 
@@ -162,24 +163,58 @@ Kategori.json
 
 ### Database Structure
 Entity Relationship Diagram of Zakwoow Database
+
 ![ERD](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/design/ERD_of_zakwoow.png)
 
+### Screenshots
+__Import Libraries__
+![1](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/01_import_libraries.jpg)
 
-4. Deadline pengumpulan tugas 1 adalah <span style="color:red">__1 Juli 2022 Pukul 22.40 WIB__</span>
+__Create Necessary Classes__
+![2](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/02_create_classes.jpg)
 
-<h3 align="center">
-  <br>
-  Selamat Mengerjakan!
-  <br>
-</h3>
+__Functions for Scraping part 1__
+![3](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/03_functions_for_scraping.jpg)
 
-<p align="center">
-  <i>
-  Happiness does not come from doing easy work
-  but from the afterglow of satisfaction that
-  comes after the achievement of a difficult
-  task that demanded our best.<br><br>
-  - Theodore Isaac Rubin
-  </i>
-</p>
-<br>
+__Functions for Scraping part 2__
+![4](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/04_functions_for_scraping2.jpg)
+
+__Progress Bar During Web Scraping part 1__
+![5](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/05_scraping1.jpg)
+
+__Progress Bar During Web Scraping part 2__
+![6](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/06_scraping2.jpg)
+
+__Progress Bar During Web Scraping part 3__
+![7](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/07_scraping3.jpg)
+
+__Check Whether The Scraping Process is Successful or Not__
+![8](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/08_is_scraped.jpg)
+
+__Store the Scraped Data into JSON Format__
+![9](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/09_dump_json.jpg)
+
+###Reference
+
+Web scraping Tutorial
+https://towardsdatascience.com/web-scraping-basics-82f8b5acd45c
+https://www.dataquest.io/blog/web-scraping-python-using-beautiful-soup/
+BeautifulSoup
+https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+TQDM
+https://www.geeksforgeeks.org/python-how-to-make-a-terminal-progress-bar-using-tqdm/
+Tutorial on How to Use PostgreSQL to Insert JSON Data Using SQL Statement
+https://kb.objectrocket.com/postgresql/postgres-insert-json-example-1270
+How to Store Data in JSON Format File
+https://www.geeksforgeeks.org/reading-and-writing-json-to-a-file-in-python/
+https://www.geeksforgeeks.org/json-dumps-in-python/
+NumPy Array Split
+https://numpy.org/doc/stable/reference/generated/numpy.array_split.html
+Solving Errors and Question
+https://stackoverflow.com/
+
+###Author
+Name : Salimatussholati Az Zahra
+NIM  : 18220054
+
+
