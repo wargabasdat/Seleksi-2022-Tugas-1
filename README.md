@@ -8,7 +8,7 @@
 <h2 align="center">
   <br>
   Data Scraping & Data Storing : Website infokost.id
-  ![logo web]()
+  ![logo web](logo.jpg)
   <br>
   <br>
 </h2>
@@ -17,6 +17,7 @@
 ## Table of Contents
 
 ## Description
+
 ## Specification
 ## How to Use
 ## JSON Structure
