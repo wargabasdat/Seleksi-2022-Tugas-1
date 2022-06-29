@@ -329,7 +329,7 @@ def web_scraper():
 
     print("Progress: Stadium scraper finished")
 
-    with open('Data Scraping/data/data.json', 'w', encoding='utf-8') as f:
+    with open('../data/data.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
     print("Progress: Web scraping done")
