@@ -1,20 +1,28 @@
 <h1 align="center">
   <br>
-  Seleksi Warga Basdat 2022
+  Data Sewa Kost di Indonesia
   <br>
   <br>
 </h1>
 
 <h2 align="center">
   <br>
-  Tugas 1 : Data Scraping & Data Storing
+  Data Scraping & Data Storing : Website infokost.id
+  ![logo web]()
   <br>
   <br>
 </h2>
 
 
-## Spesifikasi
+## Table of Contents
 
+## Description
+## Specification
+## How to Use
+## JSON Structure
+## Screenshots
+## Reference
+## Author
 ### Data Scraping
 
 1. Lakukan _data scraping_ dari sebuah laman web untuk memperoleh data atau informasi tertentu __TANPA MENGGUNAKAN API__. Hasil _data scraping_ ini nantinya akan disimpan dalam DBMS dan digunakan sebagai bahan tugas analisis dan visualisasi data.
