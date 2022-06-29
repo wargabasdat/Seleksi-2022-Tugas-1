@@ -9,6 +9,7 @@
   <br>
   Data Scraping & Data Storing : Website infokost.id
   <br>
+  <br>
   ![logo web](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1/blob/main/logo.jpg)
   <br>
   <br>
