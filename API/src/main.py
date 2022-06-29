@@ -2,24 +2,24 @@ from fastapi import FastAPI
 from psycopg2 import connect
 from dotenv import load_dotenv, find_dotenv
 import os
+import re
 
-from requests import request
+# TODO: use SQLAlchemy
 
 def get_db():
 	load_dotenv(find_dotenv())
-	conn = connect(
-		host=os.environ.get("DB_HOST"),
-		user=os.environ.get("DB_USER"),
-		password=os.environ.get("DB_PASSWORD"),
-		dbname=os.environ.get("DB_NAME")
-	)
+	conn = connect(os.environ.get("DB_URI"))
 	return conn
 
 app = FastAPI()
 
-@app.get("/api", status_code=200)
+@app.get("/")
 def read_root():
-	return {"message": "Hello World"}
+	return "200 OK"
+
+@app.get("/api")
+def read_api():
+	return "200 OK"
 
 @app.get("/api/cards")
 def read_cards():
