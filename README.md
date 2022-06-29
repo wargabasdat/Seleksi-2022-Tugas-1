@@ -194,26 +194,32 @@ __Check Whether The Scraping Process is Successful or Not__
 __Store the Scraped Data into JSON Format__
 ![9](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/09_dump_json.jpg)
 
-###Reference
+### Reference
 
 Web scraping Tutorial
 https://towardsdatascience.com/web-scraping-basics-82f8b5acd45c
 https://www.dataquest.io/blog/web-scraping-python-using-beautiful-soup/
+
 BeautifulSoup
 https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+
 TQDM
 https://www.geeksforgeeks.org/python-how-to-make-a-terminal-progress-bar-using-tqdm/
+
 Tutorial on How to Use PostgreSQL to Insert JSON Data Using SQL Statement
 https://kb.objectrocket.com/postgresql/postgres-insert-json-example-1270
+
 How to Store Data in JSON Format File
 https://www.geeksforgeeks.org/reading-and-writing-json-to-a-file-in-python/
 https://www.geeksforgeeks.org/json-dumps-in-python/
+
 NumPy Array Split
 https://numpy.org/doc/stable/reference/generated/numpy.array_split.html
+
 Solving Errors and Question
 https://stackoverflow.com/
 
-###Author
+### Author
 Name : Salimatussholati Az Zahra
 NIM  : 18220054
 
