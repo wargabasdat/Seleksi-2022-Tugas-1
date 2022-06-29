@@ -171,7 +171,44 @@ Pada basis data, terdapat empat tabel, yaitu Team, Player, TeamStats, dan Player
 ```
 TeamStats(team_id) -> Team(team_id)
 PlayerStats(player_id) -> Player(player_id)
+Player(team_id) -> Team(team_id)
 ```
+
+## Screenshot
+
+Berikut beberapa _screenshot_ program _data scraping_
+
+#### Fungsi parseHTML dan getTeamsLink
+
+![Fungsi parseHTML dan getTeamsLink](https://github.com/daffarg/Seleksi-2022-Tugas-1/blob/5963ccadc4b7ecc1225d63193f53d0c1bccf4cbb/Data%20Scraping/screenshot/parseHtml_getTeamsLink.png)
+
+#### Fungsi getTeamStats
+
+![Fungsi getTeamStats](https://github.com/daffarg/Seleksi-2022-Tugas-1/blob/5963ccadc4b7ecc1225d63193f53d0c1bccf4cbb/Data%20Scraping/screenshot/getTeamStats.png)
+
+#### Fungsi getTeamProfile
+
+![Fungsi getTeamProfile](https://github.com/daffarg/Seleksi-2022-Tugas-1/blob/5963ccadc4b7ecc1225d63193f53d0c1bccf4cbb/Data%20Scraping/screenshot/getTeamProfile.png)
+
+#### Fungsi getPlayerData (1)
+
+![Fungsi getPlayerData(1)](https://github.com/daffarg/Seleksi-2022-Tugas-1/blob/5963ccadc4b7ecc1225d63193f53d0c1bccf4cbb/Data%20Scraping/screenshot/getPlayerData1.png)
+
+#### Fungsi getPlayerData (2)
+
+![Fungsi getPlayerData(2)](https://github.com/daffarg/Seleksi-2022-Tugas-1/blob/5963ccadc4b7ecc1225d63193f53d0c1bccf4cbb/Data%20Scraping/screenshot/getPlayerData2.png)
+
+#### Fungsi writeJson
+
+![Fungsi writeJson](https://github.com/daffarg/Seleksi-2022-Tugas-1/blob/5963ccadc4b7ecc1225d63193f53d0c1bccf4cbb/Data%20Scraping/screenshot/writeJson.png)
+
+#### Fungsi startScrape
+
+![Fungsi startScrape](https://github.com/daffarg/Seleksi-2022-Tugas-1/blob/5963ccadc4b7ecc1225d63193f53d0c1bccf4cbb/Data%20Scraping/screenshot/startScrape.png)
+
+#### Program Main
+
+![Program Main](https://github.com/daffarg/Seleksi-2022-Tugas-1/blob/5963ccadc4b7ecc1225d63193f53d0c1bccf4cbb/Data%20Scraping/screenshot/main.png)
 
 ## Referensi
 ### Pustaka
@@ -192,7 +229,7 @@ Teknik Informatika, Institut Teknologi Bandung
 
 ## Lain-Lain
 ### Penanganan Encoding pada psql
-Pada tabel Player, terdapat beberapa nickname pemain mengandung huruf selain alfabet latin. Oleh karena itu, jika Anda ingin melakukan query melalui psql (PostgreSQL terminal), ubahlah encoding pada psql dengan menjalankan perintah di bawah ini pada Command Prompt sebelum masuk ke dalam psql.
+Pada tabel Player, terdapat beberapa nickname pemain mengandung huruf selain alfabet latin. Oleh karena itu, jika Anda ingin melakukan _query_ melalui psql (PostgreSQL terminal), ubahlah _encoding_ pada psql dengan menjalankan perintah di bawah ini pada Command Prompt sebelum masuk ke dalam psql.
 ```
 SET PGCLIENTENCODING=utf-8
 chcp 65001
