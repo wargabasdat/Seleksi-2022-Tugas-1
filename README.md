@@ -27,16 +27,34 @@ Untuk melakukan Data Storing ke file, penulis menggunakan library json untuk men
 
 API dibuat menggunakan FastAPI. Program utama API ini terdapat pada [main.py](/API/src/main.py). API ini digunakan untuk mengakses data cards dari database (remote/local) dengan konfigurasi environment yang diambil dari file `.env`. Selain itu, API ini juga dilengkapi dengan dokumentasi interaktif dari Swagger UI dan ReDoc sebagai bawaan dari library FastAPI.
 
+API dapat digunakan untuk mengambil data kartu dan skill dari database, baik keseluruhan maupun dengan id tertentu dengan menggunakan endpoint yang sesuai. Selain itu, API juga mendukung beberapa query parameter untuk melakukan pencarian/filter data.
+
 Daftar endpoint yang tersedia:
 
 ```
-GET		/
-GET		/api
-GET		/api/cards?name=<str>&character=<str>&attribute=<str>
-GET		/api/cards/{id}
-GET		/api/skills?name=<str>
-GET		/api/skills/{id}
+GET  /
+GET  /api
+GET  /api/cards?name=<str>&character=<str>&attribute=<str>
+GET  /api/cards/{id}
+GET	 /api/skills?name=<str>
+GET	 /api/skills/{id}
 ```
+
+### `GET /api/cards`
+
+Digunakan untuk mengambil data kartu secara keseluruhan dari database. Parameter yang dapat digunakan untuk melakukan pencarian/filter data adalah 'name', 'character' dan 'attribute'. Parameter 'name' digunakan untuk mencari berdasar nama kartu, 'character' untuk mencari berdasar nama karakter dalam kartu, dan attribute untuk mencari berdasar atribut kartu.
+
+### `GET /api/cards/{id}`
+
+Digunakan untuk mengambil data kartu berdasarkan id dari database.
+
+### `GET /api/skills`
+
+Digunakan untuk mengambil data skill secara keseluruhan dari database. Parameter yang dapat digunakan untuk melakukan pencarian/filter data adalah 'name'. Parameter 'name' digunakan untuk mencari berdasar nama kartu.
+
+### `GET /api/skills/{id}`
+
+Digunakan untuk mengambil data skill berdasarkan id dari database.
 
 # Cara Menggunakan
 
