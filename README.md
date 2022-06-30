@@ -166,9 +166,27 @@ Kategori.json
 ```
 
 ### Database Structure
+
 Entity Relationship Diagram of Zakwoow Database
 
-![ERD](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/design/ERD_of_zakwoow.png)
+![ERD](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/design/ERD_of_Zakwoow.png)
+
+
+Relational Diagram of Zakwoow Database
+
+![Relational](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/design/RelationalDiagram_of_Zakwoow.png)
+
+
+Data Storing using PostgreSQL part 1
+
+![PGAdmin1](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/screenshot/cmd_view_1.jpg)
+
+
+Data Storing using PostgreSQL part 2
+
+![PGAdmin2](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/screenshot/cmd_view_2.jpg)
+
+
 
 ### Screenshots
 
