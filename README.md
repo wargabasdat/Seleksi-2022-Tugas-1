@@ -176,6 +176,8 @@ Relational Diagram of Zakwoow Database
 
 ![Relational](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/design/RelationalDiagram_of_Zakwoow.png)
 
+Note: 'discount' attribute is in percentage format.
+
 
 Data Storing using PostgreSQL part 1
 
@@ -185,6 +187,20 @@ Data Storing using PostgreSQL part 1
 Data Storing using PostgreSQL part 2
 
 ![PGAdmin2](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/screenshot/cmd_view_2.jpg)
+
+Below are the screenshots of each table structure and data type.
+
+__produkTas table__
+
+![tab1](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/screenshot/datatype_1.jpg)
+
+__kategori table__
+
+![tab2](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/screenshot/datatype_2.jpg)
+
+__produkBerdiskon table__
+
+![tab3](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/screenshot/datatype_3.jpg)
 
 
 ### Cloud Data Storing Using Heroku Postgres
