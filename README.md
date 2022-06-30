@@ -18,6 +18,15 @@
 </h2>
 
 ## Table of Contents
+- [Table of Contents](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1#table-of-contents)
+- [Description](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1#description)
+- [Specification](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1#specification)
+- [How to Use](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1#how-to-use)
+- [JSON Structure](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1#json-structure)
+- [Database Structure](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1#database-structure)
+- [Screenshots](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1#screenshots)
+- [References](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1#references)
+- [Author](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1#author)
 
 ## Description
 Data _scraping_ dilakukan pada salah satu website pencari kost di Indonesia, yaitu Infokost. Seperti yang tertulis pada website, sejak didirikan pada tahun 2007, Infokost telah menjadi salah satu sumber utama para pencari kost di seluruh Indonesia karena Infokost merupakan salah satu website yang memiliki database terbesar dan terlengkap. Untuk itu, dilakukan _scraping_ pada website ini dengan mengambil dan mengumpulkan data kost di Indonesia yang berisi nama kost, alamat dan daerah, tipe kost, tipe kamar, luas kamar, fasilitas kamar dan gedung, serta harga sewa per bulannya. Data tersebut dipilih karena para pencari kost biasanya akan mencari informasi untuk menemukan tempat kost ideal sesuai kebutuhan mereka.
@@ -84,17 +93,23 @@ Berikut ini adalah ER Diagram dari database hasil data _scraping_ website Infoko
 
 ![ERD](Data%20Storing/design/ERD%20Seleksi%20Basdat%20(infokost).jpg)
 
-<h2>
+</h2>
 
 ## Screenshots
 - Fungsi Scraper
 
   ![fungsi scraper1](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/scraper%20function1.PNG)
+
 <br>
+
   ![fungsi scraper2](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/scraper%20function2.PNG)
+
 <br>
+
   ![fungsi scraper3](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/scraper%20function3.PNG)
+
 <br>
+
   ![fungsi scraper4](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/scraper%20function4.PNG)
 
 - Info saat program dijalankan
@@ -104,7 +119,9 @@ Berikut ini adalah ER Diagram dari database hasil data _scraping_ website Infoko
 - Preprocessing Input Data
  
   ![prepro1](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/preprocessing1.PNG)
+
 <br>
+
   ![prepro2](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/preprocessing2.PNG)
 
 - Output dalam format JSON
@@ -119,11 +136,11 @@ Berikut ini adalah ER Diagram dari database hasil data _scraping_ website Infoko
 
   ![MongoAtlas](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/storing%20mongo%20(cloud).PNG)
 
-## Reference
+## References
 - Web Scraping Tutorial
   <br>
   [Web Scraping with Python - Beautiful Soup Crash Course](https://www.youtube.com/watch?v=XVv6mJpFOb0)
-  
+
 - Dokumentasi
   <br>
   [PyPI](https://pypi.org/)
