@@ -2,9 +2,6 @@ from fastapi import FastAPI
 from psycopg2 import connect
 from dotenv import load_dotenv, find_dotenv
 import os
-import re
-
-# TODO: use SQLAlchemy
 
 def get_db():
 	load_dotenv(find_dotenv())
@@ -57,16 +54,23 @@ def read_cards(name: str | None = None, character: str | None = None, attribute:
 			"max_defense": card[7],
 		}
 		# search skills of the card
-		cur.execute("SELECT * FROM card_skills WHERE card_id = %s", (card["id"],))
+		cur.execute("""
+			SELECT skill_type, skill_name 
+			FROM skills 
+			WHERE skill_id IN (
+				SELECT skill_id 
+				FROM card_skills 
+				WHERE card_id = %s
+			)""", 
+			(card["id"],)
+		)
 		skills = cur.fetchall()
-		# add skills to response
+		# add skills to card
 		card["skills"] = []
 		for skill in skills:
-			cur.execute("SELECT * FROM skills WHERE skill_id = %s", (skill[1],))
-			skill_data = cur.fetchone()
 			card["skills"].append({
-				"type": skill_data[1],
-				"name": skill_data[2],
+				"type": skill[0],
+				"name": skill[1]
 			})
 		cardlist.append(card)
 	# close connection
@@ -94,17 +98,23 @@ def read_card(id: int):
 		"max_influence": card[6],
 		"max_defense": card[7],
 	}
-	# search skills of the card
-	cur.execute("SELECT * FROM card_skills WHERE card_id = %s", (card["id"],))
+	cur.execute("""
+		SELECT skill_type, skill_name 
+		FROM skills 
+		WHERE skill_id IN (
+			SELECT skill_id 
+			FROM card_skills 
+			WHERE card_id = %s
+		)""", 
+		(card["id"],)
+	)
 	skills = cur.fetchall()
-	# add skills to response
+	# add skills to card
 	card["skills"] = []
 	for skill in skills:
-		cur.execute("SELECT * FROM skills WHERE skill_id = %s", (skill[1],))
-		skill_data = cur.fetchone()
 		card["skills"].append({
-			"type": skill_data[1],
-			"name": skill_data[2],
+			"type": skill[0],
+			"name": skill[1]
 		})
 	# close db connection
 	cur.close()
