@@ -1,6 +1,6 @@
 # Deploy `json-server` to `heroku`
 
-> Instructions how to deploy the full fake REST API json-server to various heroku. There are 2 main steps to do
+> Instructions how to deploy the full REST API json-server to various heroku. There are 2 main steps to do
 
 * [**Create the database**](#create-the-database)
 * [Deploy to **Heroku**](#create-and-deploy-to-the-heroku-app)
