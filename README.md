@@ -167,28 +167,28 @@ Kategori.json
 
 ### Database Structure
 
-Entity Relationship Diagram of Zakwoow Database
+__Entity Relationship Diagram of Zakwoow Database__
 
 ![ERD](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/design/ERD_of_Zakwoow.png)
 
 
-Relational Diagram of Zakwoow Database
+__Relational Diagram of Zakwoow Database__
 
 ![Relational](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/design/RelationalDiagram_of_Zakwoow.png)
 
 Note: 'discount' attribute is in percentage format.
 
 
-Data Storing using PostgreSQL part 1
+__Data Storing using PostgreSQL part 1__
 
 ![PGAdmin1](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/screenshot/cmd_view_1.jpg)
 
 
-Data Storing using PostgreSQL part 2
+__Data Storing using PostgreSQL part 2__
 
 ![PGAdmin2](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/screenshot/cmd_view_2.jpg)
 
-Below are the screenshots of each table structure and data type.
+__Below are the screenshots of each table structure and data type.__
 
 __produkTas table__
 
@@ -203,7 +203,7 @@ __produkBerdiskon table__
 ![tab3](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/screenshot/datatype_3.jpg)
 
 
-### Cloud Data Storing Using Heroku Postgres
+### [BONUS] Cloud Data Storing Using Heroku Postgres
 
 Heroku is a platform for running apps in the cloud, and we can run a free PostgreSQL database alongside our app. It also works if our app lives elsewhere — we can connect to the database from outside Heroku. I chose Heroku because it offers free cloud databases with a certain amount of free storage and throughput. The URL address of Heroku Postgres is https://www.heroku.com/postgres .
 
@@ -236,7 +236,7 @@ We can also view our database and do queries on Heroku Postgres web application.
 
 
 
-### Screenshots
+### Screenshots of Web Scraping Program
 
 __Import Libraries__
 
