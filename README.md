@@ -13,9 +13,9 @@
 </h2>
 
 
-## Description of the data and DBMS 
+### Description of the data and DBMS 
 
-### About Zakwoow. 
+#### About Zakwoow. 
 
 ![logo](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/.gitignore/logozakwoow.png)
 
@@ -36,7 +36,7 @@ Their website consists of product catalogue and payment method. If you go to htt
 In this project, I gathered Zakwoow's products data by scraping their website. The reason I chose to scrape data from Zakwoow's website is because they don't put many restrictions on their pages. I’m also inspired by how they put simplicity and completeness in their product catalogue page. From that, I'm eager to create a database out of all the data I could scrape from Zakwoow's website.
 I use PostgreSQL as my DBMS because it allows me to work on both JSON and SQL data to implement my desired relational database. Moreover, Postgres allows me to store and manage large dataset safely.
 
-## Specification of the Program
+### Specification of the Program
 
 To run the program, we need several libraries, such as:
 
