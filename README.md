@@ -12,11 +12,7 @@
   <br>
 </h2>
 
-## Table of Contents
 
-[Description of the data and DBMS](#Description of the data and DBMS)
-...snip...
-<a name="Description of the data and DBMS"/>
 ## Description of the data and DBMS 
 
 ### About Zakwoow. 
