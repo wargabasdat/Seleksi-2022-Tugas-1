@@ -6,6 +6,8 @@ require('dotenv').config()
 
 const app = express();
 
+const port = process.env.PORT || 4000
+
 app.use(bodyParser.json());
 
 mongoose.connect(
@@ -23,6 +25,6 @@ app.get('/', (req,res) => {
 
 app.use('/tvshows', tvsrouter);
 
-app.listen(process.env.PORT, () => {
-    console.log('The app is listening on port ' + process.env.PORT)
+app.listen(port, () => {
+    console.log('The app is listening on port ' + port)
 });
