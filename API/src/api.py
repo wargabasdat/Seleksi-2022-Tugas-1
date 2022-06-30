@@ -18,6 +18,8 @@ class Product(BaseModel):
 # connect to the PostgreSQL server
 def connectToDB():
     conn = connect (
+        host = "localhost",
+        port = "5432",
         dbname = "femaledaily",
         user = "postgres",
         password = "Qazplm123",
