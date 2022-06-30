@@ -187,6 +187,38 @@ Data Storing using PostgreSQL part 2
 ![PGAdmin2](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/screenshot/cmd_view_2.jpg)
 
 
+### Cloud Data Storing Using Heroku Postgres
+
+Heroku is a platform for running apps in the cloud, and we can run a free PostgreSQL database alongside our app. It also works if our app lives elsewhere — we can connect to the database from outside Heroku. I chose Heroku because it offers free cloud databases with a certain amount of free storage and throughput. The URL address of Heroku Postgres is https://www.heroku.com/postgres .
+
+Before operating Heroku Postgres, we need to do the installation and Heroku account registration. In order to fulfill all the requirements, I followed the steps from https://www.youtube.com/watch?v=80oty2v4HsE .
+
+Below is the screenshot of my Git Bash before importing my Zakwoow database into Heroku cloud database.
+
+![1](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/.gitignore/before_connecting_to_heroku.jpg)
+
+
+Below is the screenshot of my Git Bash during the importing process of Zakwoow database.
+
+![2](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/.gitignore/connecting_to_heroku.jpg)
+
+
+Below is the screenshot of my Git Bash after successfully importing Zakwoow database into Heroku Postgres.
+
+![3](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/.gitignore/connecting_to_heroku.jpg)
+
+
+The screenshot of all tables imported in Heroku Postgres
+
+![4](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/.gitignore/tables_in_cloud_gitbash.jpg)
+
+We can also view our database and do queries on Heroku Postgres web application.
+
+![5](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/.gitignore/heroku_view1.jpg)
+
+![6](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/.gitignore/heroku_view.jpg)
+
+
 
 ### Screenshots
 
@@ -235,27 +267,52 @@ __Store the Scraped Data into JSON Format__
 ![9](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/09_dump_json.jpg)
 
 
-### Reference
+### References
 
 Web scraping Tutorial
+
 https://towardsdatascience.com/web-scraping-basics-82f8b5acd45c
 https://www.dataquest.io/blog/web-scraping-python-using-beautiful-soup/
 
+
 BeautifulSoup
+
 https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
+
 TQDM
+
 https://www.geeksforgeeks.org/python-how-to-make-a-terminal-progress-bar-using-tqdm/
 
+
 Tutorial on How to Use PostgreSQL to Insert JSON Data Using SQL Statement
+
 https://kb.objectrocket.com/postgresql/postgres-insert-json-example-1270
 
+
 How to Store Data in JSON Format File
+
 https://www.geeksforgeeks.org/reading-and-writing-json-to-a-file-in-python/
 https://www.geeksforgeeks.org/json-dumps-in-python/
 
+
 NumPy Array Split
+
 https://numpy.org/doc/stable/reference/generated/numpy.array_split.html
+
+
+Cloud Storing
+
+https://www.lastweekinaws.com/blog/10-free-cloud-databases-you-should-consider-and-1-you-shouldnt/
+
+Heroku Postgres Tutorial part 1
+
+https://www.youtube.com/watch?v=80oty2v4HsE
+
+Heroku Postgres Tutorial part 2
+
+https://www.youtube.com/watch?v=lmMFQMcWbq0
+
 
 Solving Errors and Question
 https://stackoverflow.com/
