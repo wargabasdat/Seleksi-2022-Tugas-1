@@ -14,19 +14,27 @@
 
 
 ## Table of Contents
-- [Table of Contents](#table-of-contents)
-- [Description](#description)
-- [Spesification](#spesification)
-  - [Libraries](#libraries)
-  - [Tools](#tools)
-- [How to Use](#how-to-use)
-- [JSON Structure](#json-structure)
-- [Database Structure](#database-structure)
-- [Screenshots](#screenshots)
-- [References](#references)
-- [Author](#author)
+- [Web Scraper](#web-scraper)
+  - [Description](#description)
+  - [Spesification](#spesification)
+    - [Libraries](#libraries)
+    - [Tools](#tools)
+  - [How to Use](#how-to-use)
+  - [JSON Structure](#json-structure)
+  - [Database Structure](#database-structure)
+  - [Screenshots](#screenshots)
+- [API](#api)
+  - [Description](#description-1)
+  - [Spesification](#spesification-1)
+    - [Libraries](#libraries-1)
+    - [Tools](#tools-1)
+  - [How to Use](#how-to-use-1)
+  - [Testing Screenshots](#testing-screenshots)
+    - [API Testing](#api-testing)
+  - [References](#references)
+  - [Author](#author)
 
-
+# Web Scraper
 ## Description
 As written on the website, <a href = 'https://www.rottentomatoes.com/' > Rotten Tomatoes</a> and the Tomatometer score are the world’s most trusted recommendation resources for quality entertainment. As the leading online aggregator of movie and TV show reviews from critics, they provide fans with a comprehensive guide to what’s Fresh – and what’s Rotten – in theaters and at home. This website provides general information on movies and TV shows and also their reviews containing the tomatometer score and the audience score. Tomatometer score is based on the opinions of hundreds of film and television critics and is a trusted measurement of critical recommendation for millions of fans. And the audience score represents the percentage of users who have rated a movie or TV show positively.
 
@@ -36,7 +44,7 @@ The DBMS used to store the result of web scraping in this project is <a href='ht
 
 
 ## Spesification
-These are some `Python` libraries and tools required to run this program.
+These are some `Python` libraries and tools required to run the scraper program.
 ### Libraries
 - #### Jupyter Notebook
   To make the code easier to write and maintain, Jupyter Notebook is used. The scraper file is stored in `.ipynb` format.
@@ -79,7 +87,7 @@ The scraped data will be stored into a `.json` file with the structure as writte
 <pre>
 {
   _id:{
-    $oid (string)           : _id is set as the default    primary key in MongoDB and is automatically generated when exported from the MongoDB
+    $oid (string)           : _id is set as the default primary key in MongoDB and is automatically generated when exported from the MongoDB
   }
   title (string)              : title of the series/TV show
   airing (string)             : airing years of the series (as a whole)
@@ -95,7 +103,7 @@ The scraped data will be stored into a `.json` file with the structure as writte
     [
       {
         season_title (string)  : title of the season
-        airing_year (int)      : the airing year of the season
+        airing_year (int)      : airing year of the season
         episodes (int)         : number of episodes in the season
         tomatometer (int)      : tomatometer score of the season (in percent)
         audience_score (int)   : audience score of the season (in percent)
@@ -129,6 +137,59 @@ The following is ERD of the database to store the scraped data, with _id as the 
   ![Data Storing MongoDB Atlas](Data%20Storing/screenshot/cloudstoring_mongodbatlas.png)
 
 
+# API
+## Description
+The author made a simple `API` to access the online database. The `API` itself is capable of `Insert and Read` operations. The `API` is deployed on the URL below.
+```
+https://rottentomatoes-tvshows.herokuapp.com/
+```
+
+## Spesification
+The API is written in `JavaScript` using `NodeJS`. These are some libraries and tools used to create the `API`. If you don't have `NodeJS` installed on your device yet, you can download it <a href='https://nodejs.org/en/'> here</a>.
+### Libraries
+You can see all used libraries in the `package.json` inside the API folder.
+- #### Body Parser
+  This library is used to parse the `req.body` in order to do the `POST` operation.
+- #### Dotenv
+  This library is used to make the `.env` file so that the `MONGO_URI` including the username and password of the DB so that it is not leaked to the public.
+- #### Express
+  This library is used to simplify the process of building the web application used by the `API`.
+- #### Mongoose
+  This library is used to create the schema and the model of the data to do posting to the web. It is also used to translate between objects in code and its representation in MongoDB.
+- #### Nodemon
+  This library is used to simplify the process of starting the `API` when developing as it wraps the Node app, watches the file system and automatically restarts the program if any changes is made.
+### Tools
+- #### Postman or Thunder Client (VS Code extension)
+  This tool is used to test and use the API by sending requests. The `GET` tool is used when any `Get All` or `Get by ID` requests. The `POST` tool is used when doing `Insert` requests.
+
+
+## How to Use
+1. Open `Postman` or `Thunder Client` in VS Code.
+2. Copy the URL below.
+```
+https://rottentomatoes-tvshows.herokuapp.com/tvshows
+```
+3. Send requests by `GET` and `POST`.
+   - #### `Get All`
+     - Send the `GET` request from the URL above.
+   - #### `Get by ID`
+     - add `/<id of the tv show>` to the URL above and send the request.
+   - #### `Insert`
+     - Add `/post` to the URL above and type in the JSON format of the data to the `Body` of the request. Then send the request.
+
+
+## Testing Screenshots
+### API Testing
+- #### Get All
+  ![GetAll API](API/screenshots/testapi_getall.png)
+- #### Get by ID
+  ![GetbyID API](API/screenshots/testapi_getbyid.png)
+- #### Post
+  ![Post API](API/screenshots/testapi_post.png)
+  ![Post API2](API/screenshots/testapi_post2.png)
+  ![Post API DB](API/screenshots/testapi_post_dbscreenshot.png)
+
+
 ## References
 - #### Documentations
   <a href='https://pypi.org/'> PyPI</a>
@@ -140,8 +201,13 @@ The following is ERD of the database to store the scraped data, with _id as the 
   <a href='https://www.mongodb.com/docs/'> MongoDB</a>
   <br>
   <a href='https://chromedriver.chromium.org/getting-started'> Chrome WebDriver</a>
+  <br>
+  <a href='https://mongoosejs.com/docs/api.html'> Mongoose API</a>
+  <br>
+  <a href='https://expressjs.com/en/api.html'> Express</a>
+  <br>
 - #### Additional Sources
-  Web scraping : <a href='https://www.youtube.com/watch?v=XVv6mJpFOb0'> Web Scraping with Python - Beautiful Soup Crash Course</a>
+  Web scraping : <a href='https://youtu.be/XVv6mJpFOb0'> Web Scraping with Python - Beautiful Soup Crash Course</a>
   <br>
   Python & JSON :<br>
   <a href='https://pynative.com/python-json-dumps-and-dump-for-json-encoding/'> Python JSON dump() and dumps() for JSON Encoding</a>
@@ -151,7 +217,11 @@ The following is ERD of the database to store the scraped data, with _id as the 
   Selenium : 
   <a href='https://medium.com/codex/web-scraping-with-selenium-in-python-832cf4b827a4'> Web Scraping with Selenium in Python</a>
   <br>
-  <a href=''> </a>
+  Rest API :
+  <br>
+  <a href='https://youtu.be/vjf774RKrLc'> Build A Restful Api With Node.js Express & MongoDB | Rest Api Tutorial</a>
+  <br>
+  <a href='https://youtu.be/lUEtzFsicJY'> Create a complete REST API with Node, Express and MongoDB | Deploy on Heroku</a>
 - #### Ask questions
   <a href='https://stackoverflow.com/'> Stack Overflow</a>
   <br>
