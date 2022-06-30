@@ -1,0 +1,11 @@
+node_modules
+
+package-lock.json
+
+.ipynb_checkpoints/
+
+index2.js
+
+TWS_Amazon_Scrape.ipynb
+
+connection.js
