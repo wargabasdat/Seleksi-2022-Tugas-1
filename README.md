@@ -26,7 +26,7 @@ As an online shop, they provide various payment platforms, such as Shopee, Tokop
 Their website's URL address is https://zakwoowstyle.com/
 
 
-### About Data and DBMS
+#### About Data and DBMS
 
 Their website consists of product catalogue and payment method. If you go to https://zakwoowstyle.com/products, you will see all the information regarding each product, such as product's name, current price, discount, rating, stock, and so on. 
 
