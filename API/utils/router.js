@@ -54,29 +54,4 @@ router.post('/post', async(req, res) => {
     }
 });
 
-// // delete by id
-// router.delete('/:id', async (req,res) => {
-//   try{
-//     let tvShowId = req.params.id;
-//     const deletedTvShow = await TvShow.remove(tvShowId);
-    
-//     res.json(deletedTvShow);
-//   }catch(err) {
-//     console.log(err);
-//     res.status(404).json({message:err});
-//   }
-// });
-
-// // update by id
-// router.patch(':/id/update', async (req,res) => {
-//   try{
-//     let tvShowId = req.params.id;
-//     const updatedTvShow = await TvShow.findByIdAndUpdate(tvShowId, req.body);
-
-//     res.status(200).json(updatedTvShow);
-//   }catch(err){
-//     res.status().json({message:err});
-//   }
-// });
-
 module.exports = router;
