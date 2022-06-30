@@ -1,0 +1,3162 @@
+[
+    {
+        "id": 0,
+        "name": "Alluring Gaze",
+        "rarity": "SSR",
+        "character": "Luke Pearce",
+        "attribute": "Empathy",
+        "max_power": 9699,
+        "max_influence": 2879,
+        "max_defense": 1573,
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b2 III"
+            },
+            {
+                "type": "Emotional Projection",
+                "name": "Emotional Projection III"
+            },
+            {
+                "type": "Parallel Growth",
+                "name": "Parallel Growth III"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Iridescent Heartbeat",
+        "rarity": "SSR",
+        "character": "Luke Pearce",
+        "attribute": "Empathy",
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b2 III"
+            },
+            {
+                "type": "Antique Repairer",
+                "name": "Antique Repairer III"
+            },
+            {
+                "type": "Strike Weakness",
+                "name": "Strike Weakness III"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Overflowing Thoughts",
+        "rarity": "SSR",
+        "character": "Luke Pearce",
+        "attribute": "Logic",
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b3 III"
+            },
+            {
+                "type": "Truth Restorer",
+                "name": "Truth Restorer III"
+            },
+            {
+                "type": "Exemplar",
+                "name": "Exemplar III"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Peaceful Place",
+        "rarity": "SSR",
+        "character": "Luke Pearce",
+        "attribute": "Empathy",
+        "max_power": 9699,
+        "max_influence": 2820,
+        "max_defense": 1632,
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike III"
+            },
+            {
+                "type": "Truth Restorer",
+                "name": "Truth Restorer III"
+            },
+            {
+                "type": "Parallel Growth",
+                "name": "Parallel Growth III"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Perfect Partner",
+        "rarity": "SSR",
+        "character": "Luke Pearce",
+        "attribute": "Logic",
+        "max_power": 9699,
+        "max_influence": 2820,
+        "max_defense": 1632,
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike III"
+            },
+            {
+                "type": "Deductive Reasoning",
+                "name": "Deductive Reasoning III"
+            },
+            {
+                "type": "Emergent Retreat",
+                "name": "Emergent Retreat III"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Shape of You",
+        "rarity": "SSR",
+        "character": "Luke Pearce",
+        "attribute": "Intuition",
+        "max_power": 9699,
+        "max_influence": 2879,
+        "max_defense": 1573,
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b2 III"
+            },
+            {
+                "type": "Instantaneous Capture",
+                "name": "Instantaneous Capture III"
+            },
+            {
+                "type": "Detective's Mind",
+                "name": "Detective's Mind III"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Through the Heavens",
+        "rarity": "SSR",
+        "character": "Luke Pearce",
+        "attribute": "Intuition",
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": [
+            {
+                "type": "Virtuous Presence",
+                "name": "Virtuous Presence \u03b3 III"
+            },
+            {
+                "type": "Curiosity",
+                "name": "Curiosity III"
+            },
+            {
+                "type": "Detective's Mind",
+                "name": "Detective's Mind III"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Twinkling Eyes",
+        "rarity": "SSR",
+        "character": "Luke Pearce",
+        "attribute": "Intuition",
+        "max_power": 9699,
+        "max_influence": 2820,
+        "max_defense": 1632,
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b2 III"
+            },
+            {
+                "type": "Premonition",
+                "name": "Premonition III"
+            },
+            {
+                "type": "Detective's Mind",
+                "name": "Detective's Mind III"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Warm Embrace",
+        "rarity": "SSR",
+        "character": "Luke Pearce",
+        "attribute": "Logic",
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b1 III"
+            },
+            {
+                "type": "Impeccable",
+                "name": "Impeccable III"
+            },
+            {
+                "type": "Detective's Mind",
+                "name": "Detective's Mind III"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "A Star in the Palm",
+        "rarity": "SR",
+        "character": "Luke Pearce",
+        "attribute": "Empathy",
+        "max_power": 7268,
+        "max_influence": 2327,
+        "max_defense": 997,
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b1 II"
+            },
+            {
+                "type": "Antique Repairer",
+                "name": "Antique Repairer II"
+            },
+            {
+                "type": "Drastic Measures",
+                "name": "Drastic Measures II"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Among the Great Blue",
+        "rarity": "SR",
+        "character": "Luke Pearce",
+        "attribute": "Intuition",
+        "max_power": 7268,
+        "max_influence": 2105,
+        "max_defense": 1219,
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b3 II"
+            },
+            {
+                "type": "Strategist",
+                "name": "Strategist II"
+            },
+            {
+                "type": "Foresight",
+                "name": "Foresight II"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "How I Remember You",
+        "rarity": "SR",
+        "character": "Luke Pearce",
+        "attribute": "Intuition",
+        "max_power": 7268,
+        "max_influence": 2282,
+        "max_defense": 1042,
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b2 II"
+            },
+            {
+                "type": "Intuitive Thinking",
+                "name": "Intuitive Thinking II"
+            },
+            {
+                "type": "Superior Stamina",
+                "name": "Superior Stamina II"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Inner Sanctum",
+        "rarity": "SR",
+        "character": "Luke Pearce",
+        "attribute": "Empathy",
+        "max_power": 7268,
+        "max_influence": 2282,
+        "max_defense": 1042,
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b2 II"
+            },
+            {
+                "type": "Emotional Appeal",
+                "name": "Emotional Appeal II"
+            },
+            {
+                "type": "Parallel Growth",
+                "name": "Parallel Growth II"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Moment of Danger",
+        "rarity": "SR",
+        "character": "Luke Pearce",
+        "attribute": "Empathy",
+        "max_power": 7268,
+        "max_influence": 2150,
+        "max_defense": 1174,
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike II"
+            },
+            {
+                "type": "Balanced",
+                "name": "Balanced II"
+            },
+            {
+                "type": "Drastic Measures",
+                "name": "Drastic Measures II"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Once Upon a Time",
+        "rarity": "SR",
+        "character": "Luke Pearce",
+        "attribute": "Logic",
+        "max_power": 7268,
+        "max_influence": 2216,
+        "max_defense": 1108,
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b3 II"
+            },
+            {
+                "type": "Strategist",
+                "name": "Strategist II"
+            },
+            {
+                "type": "Skilled Diplomat",
+                "name": "Skilled Diplomat II"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Radiant Sunlight",
+        "rarity": "SR",
+        "character": "Luke Pearce",
+        "attribute": "Intuition",
+        "max_power": 7268,
+        "max_influence": 2216,
+        "max_defense": 1108,
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b2 II"
+            },
+            {
+                "type": "Keen Observation",
+                "name": "Keen Observation II"
+            },
+            {
+                "type": "Prevention",
+                "name": "Prevention II"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Timely Rescue",
+        "rarity": "SR",
+        "character": "Luke Pearce",
+        "attribute": "Logic",
+        "max_power": 7268,
+        "max_influence": 2327,
+        "max_defense": 997,
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b3 II"
+            },
+            {
+                "type": "Painstaking Investigator",
+                "name": "Painstaking Investigator II"
+            },
+            {
+                "type": "Sharp Strategist",
+                "name": "Sharp Strategist II"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Together With You",
+        "rarity": "SR",
+        "character": "Luke Pearce",
+        "attribute": "Logic",
+        "max_power": 7268,
+        "max_influence": 2105,
+        "max_defense": 1219,
+        "skills": [
+            {
+                "type": "Cover Tactics",
+                "name": "Cover Tactics \u03b2 II"
+            },
+            {
+                "type": "Balanced",
+                "name": "Balanced II"
+            },
+            {
+                "type": "Skilled Diplomat",
+                "name": "Skilled Diplomat II"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Companionship",
+        "rarity": "MR",
+        "character": "Luke Pearce",
+        "attribute": "Logic",
+        "max_power": 7425,
+        "max_influence": 2251,
+        "max_defense": 1230,
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike II"
+            },
+            {
+                "type": "Detective's Mind",
+                "name": "Detective's Mind II"
+            },
+            {
+                "type": "Impeccable",
+                "name": "Impeccable II"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Entrusted Feelings",
+        "rarity": "MR",
+        "character": "Luke Pearce",
+        "attribute": "Intuition",
+        "max_power": 7425,
+        "max_influence": 2321,
+        "max_defense": 1161,
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b3 II"
+            },
+            {
+                "type": "Intuitive Thinking",
+                "name": "Intuitive Thinking II"
+            },
+            {
+                "type": "Emergent Retreat",
+                "name": "Emergent Retreat II"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Shining Warmth",
+        "rarity": "MR",
+        "character": "Luke Pearce",
+        "attribute": "Logic",
+        "max_power": 7425,
+        "max_influence": 2321,
+        "max_defense": 1161,
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike II"
+            },
+            {
+                "type": "Truth Restorer",
+                "name": "Truth Restorer II"
+            },
+            {
+                "type": "Rigor",
+                "name": "Rigor II"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "name": "All Ready",
+        "rarity": "R",
+        "character": "Luke Pearce",
+        "attribute": "Logic",
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": [
+            {
+                "type": "Cover Tactics",
+                "name": "Cover Tactics \u03b2 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Gaze",
+        "rarity": "R",
+        "character": "Luke Pearce",
+        "attribute": "Intuition",
+        "max_power": 3913,
+        "max_influence": 1148,
+        "max_defense": 664,
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b3 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Gourmet",
+        "rarity": "R",
+        "character": "Luke Pearce",
+        "attribute": "Logic",
+        "max_power": 3913,
+        "max_influence": 1148,
+        "max_defense": 664,
+        "skills": [
+            {
+                "type": "Negation",
+                "name": "Negation \u03b3 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Greetings",
+        "rarity": "R",
+        "character": "Luke Pearce",
+        "attribute": "Intuition",
+        "max_power": 3913,
+        "max_influence": 1172,
+        "max_defense": 640,
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b1 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Our Secret",
+        "rarity": "R",
+        "character": "Luke Pearce",
+        "attribute": "Logic",
+        "max_power": 3913,
+        "max_influence": 1244,
+        "max_defense": 568,
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b2 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Partner",
+        "rarity": "R",
+        "character": "Luke Pearce",
+        "attribute": "Empathy",
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b3 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Personal Server",
+        "rarity": "R",
+        "character": "Luke Pearce",
+        "attribute": "Empathy",
+        "max_power": 3913,
+        "max_influence": 1172,
+        "max_defense": 640,
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b3 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Quietly Waiting",
+        "rarity": "R",
+        "character": "Luke Pearce",
+        "attribute": "Intuition",
+        "max_power": 3913,
+        "max_influence": 1244,
+        "max_defense": 568,
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Tiredness",
+        "rarity": "R",
+        "character": "Luke Pearce",
+        "attribute": "Intuition",
+        "max_power": 3913,
+        "max_influence": 1268,
+        "max_defense": 544,
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b2 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Together",
+        "rarity": "R",
+        "character": "Luke Pearce",
+        "attribute": "Logic",
+        "max_power": 3913,
+        "max_influence": 1268,
+        "max_defense": 544,
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b2 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Waiting for You",
+        "rarity": "R",
+        "character": "Luke Pearce",
+        "attribute": "Empathy",
+        "max_power": 3913,
+        "max_influence": 1244,
+        "max_defense": 568,
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b2 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Warm Home",
+        "rarity": "R",
+        "character": "Luke Pearce",
+        "attribute": "Empathy",
+        "max_power": 3913,
+        "max_influence": 1148,
+        "max_defense": 664,
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b2 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Warm Up",
+        "rarity": "R",
+        "character": "Luke Pearce",
+        "attribute": "Intuition",
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b2 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Willful Youth",
+        "rarity": "R",
+        "character": "Luke Pearce",
+        "attribute": "Intuition",
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": [
+            {
+                "type": "Evasive Maneuver",
+                "name": "Evasive Maneuver \u03b3 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Atmospherics",
+        "rarity": "SSR",
+        "character": "Artem Wing",
+        "attribute": "Logic",
+        "max_power": 9699,
+        "max_influence": 2879,
+        "max_defense": 1573,
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b3 III"
+            },
+            {
+                "type": "Painstaking Investigator",
+                "name": "Painstaking Investigator III"
+            },
+            {
+                "type": "Rigor",
+                "name": "Rigor III"
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Dreamful Melodies",
+        "rarity": "SSR",
+        "character": "Artem Wing",
+        "attribute": "Empathy",
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b3 III"
+            },
+            {
+                "type": "Systematic",
+                "name": "Systematic III"
+            },
+            {
+                "type": "Drastic Measures",
+                "name": "Drastic Measures III"
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Echoes Ablaze",
+        "rarity": "SSR",
+        "character": "Artem Wing",
+        "attribute": "Logic",
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b3 III"
+            },
+            {
+                "type": "Omnipotent Law",
+                "name": "Omnipotent Law III"
+            },
+            {
+                "type": "Exemplar",
+                "name": "Exemplar III"
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Entwined Fate",
+        "rarity": "SSR",
+        "character": "Artem Wing",
+        "attribute": "Empathy",
+        "max_power": 9699,
+        "max_influence": 2820,
+        "max_defense": 1632,
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b2 III"
+            },
+            {
+                "type": "Omnipotent Law",
+                "name": "Omnipotent Law III"
+            },
+            {
+                "type": "Legal Expert",
+                "name": "Legal Expert III"
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Loving Memories",
+        "rarity": "SSR",
+        "character": "Artem Wing",
+        "attribute": "Intuition",
+        "max_power": 9699,
+        "max_influence": 2820,
+        "max_defense": 1632,
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike III"
+            },
+            {
+                "type": "Intuitive Thinking",
+                "name": "Intuitive Thinking III"
+            },
+            {
+                "type": "Absolute Rationality",
+                "name": "Absolute Rationality III"
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Por Una Cabeza",
+        "rarity": "SSR",
+        "character": "Artem Wing",
+        "attribute": "Intuition",
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b1 III"
+            },
+            {
+                "type": "Avoidance Instinct",
+                "name": "Avoidance Instinct III"
+            },
+            {
+                "type": "Sharp Debater",
+                "name": "Sharp Debater III"
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "name": "Sunshine After the Rain",
+        "rarity": "SSR",
+        "character": "Artem Wing",
+        "attribute": "Intuition",
+        "max_power": 9699,
+        "max_influence": 2879,
+        "max_defense": 1573,
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b3 III"
+            },
+            {
+                "type": "Premonition",
+                "name": "Premonition III"
+            },
+            {
+                "type": "Sharp Debater",
+                "name": "Sharp Debater III"
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Two Hearts as One",
+        "rarity": "SSR",
+        "character": "Artem Wing",
+        "attribute": "Logic",
+        "max_power": 9699,
+        "max_influence": 2820,
+        "max_defense": 1632,
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike III"
+            },
+            {
+                "type": "Omnipotent Law",
+                "name": "Omnipotent Law III"
+            },
+            {
+                "type": "Rigor",
+                "name": "Rigor III"
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "name": "Unusual Love",
+        "rarity": "SSR",
+        "character": "Artem Wing",
+        "attribute": "Empathy",
+        "max_power": 9699,
+        "max_influence": 2878,
+        "max_defense": 1573,
+        "skills": [
+            {
+                "type": "Virtuous Presence",
+                "name": "Virtuous Presence \u03b3 III"
+            },
+            {
+                "type": "Omnipotent Law",
+                "name": "Omnipotent Law III"
+            },
+            {
+                "type": "Absolute Rationality",
+                "name": "Absolute Rationality III"
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "name": "Wandering Heart",
+        "rarity": "SSR",
+        "character": "Artem Wing",
+        "attribute": "Logic",
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b2 III"
+            },
+            {
+                "type": "Impeccable",
+                "name": "Impeccable III"
+            },
+            {
+                "type": "Sharp Debater",
+                "name": "Sharp Debater III"
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "name": "Autumn Dreams",
+        "rarity": "SR",
+        "character": "Artem Wing",
+        "attribute": "Logic",
+        "max_power": 7268,
+        "max_influence": 2282,
+        "max_defense": 1042,
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b2 II"
+            },
+            {
+                "type": "Omnipotent Law",
+                "name": "Omnipotent Law II"
+            },
+            {
+                "type": "Exemplar",
+                "name": "Exemplar II"
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "name": "Choice",
+        "rarity": "SR",
+        "character": "Artem Wing",
+        "attribute": "Empathy",
+        "max_power": 7268,
+        "max_influence": 2282,
+        "max_defense": 1042,
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike II"
+            },
+            {
+                "type": "Strategist",
+                "name": "Strategist II"
+            },
+            {
+                "type": "Sharp Debater",
+                "name": "Sharp Debater II"
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "name": "Darkest Before Dawn",
+        "rarity": "SR",
+        "character": "Artem Wing",
+        "attribute": "Intuition",
+        "max_power": 7268,
+        "max_influence": 2105,
+        "max_defense": 1219,
+        "skills": [
+            {
+                "type": "Evasive Maneuver",
+                "name": "Evasive Maneuver \u03b2 II"
+            },
+            {
+                "type": "Premonition",
+                "name": "Premonition II"
+            },
+            {
+                "type": "Reformer",
+                "name": "Reformer II"
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "name": "Fixated on You",
+        "rarity": "SR",
+        "character": "Artem Wing",
+        "attribute": "Logic",
+        "max_power": 7268,
+        "max_influence": 2327,
+        "max_defense": 997,
+        "skills": [
+            {
+                "type": "Negation",
+                "name": "Negation \u03b2 II"
+            },
+            {
+                "type": "Systematic",
+                "name": "Systematic II"
+            },
+            {
+                "type": "Sharp Strategist",
+                "name": "Sharp Strategist II"
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "name": "Focus Fire",
+        "rarity": "SR",
+        "character": "Artem Wing",
+        "attribute": "Logic",
+        "max_power": 7268,
+        "max_influence": 2150,
+        "max_defense": 1174,
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike II"
+            },
+            {
+                "type": "Balanced",
+                "name": "Balanced II"
+            },
+            {
+                "type": "Skilled Diplomat",
+                "name": "Skilled Diplomat II"
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "name": "In Sickness or in Health",
+        "rarity": "SR",
+        "character": "Artem Wing",
+        "attribute": "Empathy",
+        "max_power": 7268,
+        "max_influence": 2150,
+        "max_defense": 1174,
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b2 II"
+            },
+            {
+                "type": "Emotional Projection",
+                "name": "Emotional Projection II"
+            },
+            {
+                "type": "Opportunist",
+                "name": "Opportunist II"
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "name": "Sparks",
+        "rarity": "SR",
+        "character": "Artem Wing",
+        "attribute": "Intuition",
+        "max_power": 7268,
+        "max_influence": 2327,
+        "max_defense": 997,
+        "skills": [
+            {
+                "type": "Cover Tactics",
+                "name": "Cover Tactics \u03b3 II"
+            },
+            {
+                "type": "Sound Judgment",
+                "name": "Sound Judgment II"
+            },
+            {
+                "type": "Reformer",
+                "name": "Reformer II"
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "name": "Staying Humble",
+        "rarity": "SR",
+        "character": "Artem Wing",
+        "attribute": "Empathy",
+        "max_power": 7268,
+        "max_influence": 2216,
+        "max_defense": 1108,
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b3 II"
+            },
+            {
+                "type": "Extrapolation",
+                "name": "Extrapolation II"
+            },
+            {
+                "type": "Strike Weakness",
+                "name": "Strike Weakness II"
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "name": "Thin Veil",
+        "rarity": "SR",
+        "character": "Artem Wing",
+        "attribute": "Intuition",
+        "max_power": 7268,
+        "max_influence": 2216,
+        "max_defense": 1108,
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b3 II"
+            },
+            {
+                "type": "Keen Observation",
+                "name": "Keen Observation II"
+            },
+            {
+                "type": "Sharp Debater",
+                "name": "Sharp Debater II"
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "name": "Winning Ball",
+        "rarity": "SR",
+        "character": "Artem Wing",
+        "attribute": "Logic",
+        "max_power": 7268,
+        "max_influence": 2105,
+        "max_defense": 1219,
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b2 II"
+            },
+            {
+                "type": "Constant Improvement",
+                "name": "Constant Improvement II"
+            },
+            {
+                "type": "Exemplar",
+                "name": "Exemplar II"
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "name": "Intentions",
+        "rarity": "MR",
+        "character": "Artem Wing",
+        "attribute": "Intuition",
+        "max_power": 7425,
+        "max_influence": 2251,
+        "max_defense": 1230,
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike II"
+            },
+            {
+                "type": "Sharp Debater",
+                "name": "Sharp Debater II"
+            },
+            {
+                "type": "Premonition",
+                "name": "Premonition II"
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "name": "Stretching",
+        "rarity": "MR",
+        "character": "Artem Wing",
+        "attribute": "Empathy",
+        "max_power": 7425,
+        "max_influence": 2205,
+        "max_defense": 1277,
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b2 II"
+            },
+            {
+                "type": "Omnipotent Law",
+                "name": "Omnipotent Law II"
+            },
+            {
+                "type": "Parallel Growth",
+                "name": "Parallel Growth II"
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "name": "Unwilling to Part",
+        "rarity": "MR",
+        "character": "Artem Wing",
+        "attribute": "Logic",
+        "max_power": 7425,
+        "max_influence": 2321,
+        "max_defense": 1161,
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b3 II"
+            },
+            {
+                "type": "Painstaking Investigator",
+                "name": "Painstaking Investigator II"
+            },
+            {
+                "type": "Absolute Rationality",
+                "name": "Absolute Rationality II"
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "name": "Back to Business",
+        "rarity": "R",
+        "character": "Artem Wing",
+        "attribute": "Empathy",
+        "max_power": 3913,
+        "max_influence": 1148,
+        "max_defense": 664,
+        "skills": [
+            {
+                "type": "Indirect Approach",
+                "name": "Indirect Approach \u03b2 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "name": "Deduction",
+        "rarity": "R",
+        "character": "Artem Wing",
+        "attribute": "Empathy",
+        "max_power": 3913,
+        "max_influence": 1172,
+        "max_defense": 640,
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b1 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "name": "Here for You",
+        "rarity": "R",
+        "character": "Artem Wing",
+        "attribute": "Intuition",
+        "max_power": 3913,
+        "max_influence": 1148,
+        "max_defense": 664,
+        "skills": [
+            {
+                "type": "Virtuous Presence",
+                "name": "Virtuous Presence \u03b1 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "name": "Lock and Load",
+        "rarity": "R",
+        "character": "Artem Wing",
+        "attribute": "Intuition",
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b3 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "name": "My Heart is Flying",
+        "rarity": "R",
+        "character": "Artem Wing",
+        "attribute": "Intuition",
+        "max_power": 3913,
+        "max_influence": 1244,
+        "max_defense": 568,
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b1 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "name": "Patience Is a Virtue",
+        "rarity": "R",
+        "character": "Artem Wing",
+        "attribute": "Intuition",
+        "max_power": 3913,
+        "max_influence": 1172,
+        "max_defense": 640,
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b2 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "name": "Picking a Gift",
+        "rarity": "R",
+        "character": "Artem Wing",
+        "attribute": "Empathy",
+        "max_power": 3913,
+        "max_influence": 1244,
+        "max_defense": 568,
+        "skills": [
+            {
+                "type": "Indirect Approach",
+                "name": "Indirect Approach \u03b3 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "name": "Questioning",
+        "rarity": "R",
+        "character": "Artem Wing",
+        "attribute": "Logic",
+        "max_power": 3913,
+        "max_influence": 1329,
+        "max_defense": 604,
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b1 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "name": "Rain Drops",
+        "rarity": "R",
+        "character": "Artem Wing",
+        "attribute": "Logic",
+        "max_power": 3913,
+        "max_influence": 1268,
+        "max_defense": 544,
+        "skills": [
+            {
+                "type": "Negation",
+                "name": "Negation \u03b1 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "name": "Sweet Tastes",
+        "rarity": "R",
+        "character": "Artem Wing",
+        "attribute": "Logic",
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b1 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "name": "Systematic",
+        "rarity": "R",
+        "character": "Artem Wing",
+        "attribute": "Intuition",
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": [
+            {
+                "type": "Evasive Maneuver",
+                "name": "Evasive Maneuver \u03b3 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "name": "Tailored Suit",
+        "rarity": "R",
+        "character": "Artem Wing",
+        "attribute": "Logic",
+        "max_power": 3913,
+        "max_influence": 1244,
+        "max_defense": 568,
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b2 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "name": "Taking a Breather",
+        "rarity": "R",
+        "character": "Artem Wing",
+        "attribute": "Empathy",
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": [
+            {
+                "type": "Indirect Approach",
+                "name": "Indirect Approach \u03b1 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "name": "With You",
+        "rarity": "R",
+        "character": "Artem Wing",
+        "attribute": "Logic",
+        "max_power": 3913,
+        "max_influence": 1172,
+        "max_defense": 640,
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b1 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "name": "A Star in the Night",
+        "rarity": "SSR",
+        "character": "Vyn Richter",
+        "attribute": "Logic",
+        "max_power": 9699,
+        "max_influence": 2820,
+        "max_defense": 1632,
+        "skills": [
+            {
+                "type": "Virtuous Presence",
+                "name": "Virtuous Presence \u03b1 III"
+            },
+            {
+                "type": "Self-Evaluation",
+                "name": "Self-Evaluation III"
+            },
+            {
+                "type": "Conversation Guide",
+                "name": "Conversation Guide III"
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "name": "Between Good and Evil",
+        "rarity": "SSR",
+        "character": "Vyn Richter",
+        "attribute": "Intuition",
+        "max_power": 9699,
+        "max_influence": 2879,
+        "max_defense": 1573,
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike III"
+            },
+            {
+                "type": "Dressage",
+                "name": "Dressage III"
+            },
+            {
+                "type": "Mediator",
+                "name": "Mediator III"
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "name": "Blazing Colors",
+        "rarity": "SSR",
+        "character": "Vyn Richter",
+        "attribute": "Empathy",
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b1 III"
+            },
+            {
+                "type": "Mutual Effect",
+                "name": "Mutual Effect III"
+            },
+            {
+                "type": "Personality Profiler",
+                "name": "Personality Profiler III"
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "name": "Flickering Moonlight",
+        "rarity": "SSR",
+        "character": "Vyn Richter",
+        "attribute": "Intuition",
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b3 III"
+            },
+            {
+                "type": "Dressage",
+                "name": "Dressage III"
+            },
+            {
+                "type": "Prevention",
+                "name": "Prevention III"
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "name": "Food for Thought",
+        "rarity": "SSR",
+        "character": "Vyn Richter",
+        "attribute": "Logic",
+        "max_power": 9699,
+        "max_influence": 2879,
+        "max_defense": 1573,
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b1 III"
+            },
+            {
+                "type": "Symphony",
+                "name": "Symphony III"
+            },
+            {
+                "type": "Exemplar",
+                "name": "Exemplar III"
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "name": "Heartfelt Suspense",
+        "rarity": "SSR",
+        "character": "Vyn Richter",
+        "attribute": "Logic",
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b3 III"
+            },
+            {
+                "type": "Cultured",
+                "name": "Cultured III"
+            },
+            {
+                "type": "Skilled Diplomat",
+                "name": "Skilled Diplomat III"
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "name": "Medieval Suspense",
+        "rarity": "SSR",
+        "character": "Vyn Richter",
+        "attribute": "Empathy",
+        "max_power": 9699,
+        "max_influence": 2878,
+        "max_defense": 1574,
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b2 III"
+            },
+            {
+                "type": "Balanced",
+                "name": "Balanced III"
+            },
+            {
+                "type": "Opportunist",
+                "name": "Opportunist III"
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "name": "Near and Far",
+        "rarity": "SSR",
+        "character": "Vyn Richter",
+        "attribute": "Intuition",
+        "max_power": 9699,
+        "max_influence": 2820,
+        "max_defense": 1632,
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike III"
+            },
+            {
+                "type": "Keen Observation",
+                "name": "Keen Observation III"
+            },
+            {
+                "type": "Sandplay Therapy",
+                "name": "Sandplay Therapy III"
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "name": "Neon Melody",
+        "rarity": "SSR",
+        "character": "Vyn Richter",
+        "attribute": "Empathy",
+        "max_power": 9699,
+        "max_influence": 2820,
+        "max_defense": 1632,
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike III"
+            },
+            {
+                "type": "Dressage",
+                "name": "Dressage III"
+            },
+            {
+                "type": "Parallel Growth",
+                "name": "Parallel Growth III"
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "name": "Cool Summer",
+        "rarity": "SR",
+        "character": "Vyn Richter",
+        "attribute": "Logic",
+        "max_power": 7268,
+        "max_influence": 2105,
+        "max_defense": 1219,
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike II"
+            },
+            {
+                "type": "Deductive Reasoning",
+                "name": "Deductive Reasoning II"
+            },
+            {
+                "type": "Exemplar",
+                "name": "Exemplar II"
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "name": "Entrapped",
+        "rarity": "SR",
+        "character": "Vyn Richter",
+        "attribute": "Empathy",
+        "max_power": 7268,
+        "max_influence": 2282,
+        "max_defense": 1042,
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b1 II"
+            },
+            {
+                "type": "Opportunist",
+                "name": "Opportunist II"
+            },
+            {
+                "type": "Conversation Guide",
+                "name": "Conversation Guide II"
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "name": "False Tears",
+        "rarity": "SR",
+        "character": "Vyn Richter",
+        "attribute": "Empathy",
+        "max_power": 7268,
+        "max_influence": 2105,
+        "max_defense": 1219,
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b3 II"
+            },
+            {
+                "type": "Dressage",
+                "name": "Dressage II"
+            },
+            {
+                "type": "Drastic Measures",
+                "name": "Drastic Measures II"
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "name": "Gentleman's Game",
+        "rarity": "SR",
+        "character": "Vyn Richter",
+        "attribute": "Intuition",
+        "max_power": 7268,
+        "max_influence": 2282,
+        "max_defense": 1042,
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike II"
+            },
+            {
+                "type": "Balanced",
+                "name": "Balanced II"
+            },
+            {
+                "type": "Prevention",
+                "name": "Prevention II"
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "name": "Lingering Warmth",
+        "rarity": "SR",
+        "character": "Vyn Richter",
+        "attribute": "Logic",
+        "max_power": 7268,
+        "max_influence": 2327,
+        "max_defense": 997,
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b2 II"
+            },
+            {
+                "type": "Impeccable",
+                "name": "Impeccable II"
+            },
+            {
+                "type": "Skilled Diplomat",
+                "name": "Skilled Diplomat II"
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "name": "Mended Heart",
+        "rarity": "SR",
+        "character": "Vyn Richter",
+        "attribute": "Empathy",
+        "max_power": 7268,
+        "max_influence": 2216,
+        "max_defense": 1108,
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b3 II"
+            },
+            {
+                "type": "Emotional Appeal",
+                "name": "Emotional Appeal II"
+            },
+            {
+                "type": "Drastic Measures",
+                "name": "Drastic Measures II"
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "name": "Mercury in Retrograde",
+        "rarity": "SR",
+        "character": "Vyn Richter",
+        "attribute": "Intuition",
+        "max_power": 7268,
+        "max_influence": 2150,
+        "max_defense": 1174,
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b1 II"
+            },
+            {
+                "type": "Keen Observation",
+                "name": "Keen Observation II"
+            },
+            {
+                "type": "Mediator",
+                "name": "Mediator II"
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "name": "Snowy Fairy Tale",
+        "rarity": "SR",
+        "character": "Vyn Richter",
+        "attribute": "Intuition",
+        "max_power": 7268,
+        "max_influence": 2327,
+        "max_defense": 997,
+        "skills": [
+            {
+                "type": "Evasive Maneuver",
+                "name": "Evasive Maneuver \u03b2 II"
+            },
+            {
+                "type": "Keen Observation",
+                "name": "Keen Observation II"
+            },
+            {
+                "type": "Sandplay Therapy",
+                "name": "Sandplay Therapy II"
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "name": "Spilling Light",
+        "rarity": "SR",
+        "character": "Vyn Richter",
+        "attribute": "Logic",
+        "max_power": 7268,
+        "max_influence": 2216,
+        "max_defense": 1108,
+        "skills": [
+            {
+                "type": "Negation",
+                "name": "Negation \u03b3 II"
+            },
+            {
+                "type": "Deductive Reasoning",
+                "name": "Deductive Reasoning II"
+            },
+            {
+                "type": "Rigor",
+                "name": "Rigor II"
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "name": "Focused Gaze",
+        "rarity": "MR",
+        "character": "Vyn Richter",
+        "attribute": "Intuition",
+        "max_power": 7425,
+        "max_influence": 2321,
+        "max_defense": 1161,
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b3 II"
+            },
+            {
+                "type": "Intuitive Thinking",
+                "name": "Intuitive Thinking II"
+            },
+            {
+                "type": "Sandplay Therapy",
+                "name": "Sandplay Therapy II"
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "name": "Morning Glory",
+        "rarity": "MR",
+        "character": "Vyn Richter",
+        "attribute": "Logic",
+        "max_power": 7425,
+        "max_influence": 2205,
+        "max_defense": 1277,
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b2 II"
+            },
+            {
+                "type": "Dressage",
+                "name": "Dressage II"
+            },
+            {
+                "type": "Rigor",
+                "name": "Rigor II"
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "name": "Promise",
+        "rarity": "MR",
+        "character": "Vyn Richter",
+        "attribute": "Empathy",
+        "max_power": 7425,
+        "max_influence": 2251,
+        "max_defense": 1230,
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike II"
+            },
+            {
+                "type": "Personality Profiler",
+                "name": "Personality Profiler II"
+            },
+            {
+                "type": "Mutual Effect",
+                "name": "Mutual Effect II"
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "name": "A Hobby of Mine",
+        "rarity": "R",
+        "character": "Vyn Richter",
+        "attribute": "Logic",
+        "max_power": 3913,
+        "max_influence": 1244,
+        "max_defense": 568,
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b3 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "name": "Another Side of You",
+        "rarity": "R",
+        "character": "Vyn Richter",
+        "attribute": "Empathy",
+        "max_power": 3913,
+        "max_influence": 1268,
+        "max_defense": 544,
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "name": "Dressed Up",
+        "rarity": "R",
+        "character": "Vyn Richter",
+        "attribute": "Intuition",
+        "max_power": 3913,
+        "max_influence": 1148,
+        "max_defense": 664,
+        "skills": [
+            {
+                "type": "Cover Tactics",
+                "name": "Cover Tactics \u03b1 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "name": "Elegance",
+        "rarity": "R",
+        "character": "Vyn Richter",
+        "attribute": "Empathy",
+        "max_power": 3913,
+        "max_influence": 1244,
+        "max_defense": 568,
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b2 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "name": "Fated Invitation",
+        "rarity": "R",
+        "character": "Vyn Richter",
+        "attribute": "Empathy",
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": [
+            {
+                "type": "Indirect Approach",
+                "name": "Indirect Approach \u03b3 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "name": "Gentlemanly Courtesy",
+        "rarity": "R",
+        "character": "Vyn Richter",
+        "attribute": "Logic",
+        "max_power": 3913,
+        "max_influence": 1172,
+        "max_defense": 640,
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b3 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "name": "Leisure Time",
+        "rarity": "R",
+        "character": "Vyn Richter",
+        "attribute": "Intuition",
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "name": "Observations",
+        "rarity": "R",
+        "character": "Vyn Richter",
+        "attribute": "Logic",
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 101,
+        "name": "Remaining in Control",
+        "rarity": "R",
+        "character": "Vyn Richter",
+        "attribute": "Empathy",
+        "max_power": 3913,
+        "max_influence": 1148,
+        "max_defense": 664,
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 102,
+        "name": "Secret Gift",
+        "rarity": "R",
+        "character": "Vyn Richter",
+        "attribute": "Logic",
+        "max_power": 3913,
+        "max_influence": 1148,
+        "max_defense": 664,
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b3 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 103,
+        "name": "Unexpected Letter",
+        "rarity": "R",
+        "character": "Vyn Richter",
+        "attribute": "Intuition",
+        "max_power": 3913,
+        "max_influence": 1268,
+        "max_defense": 544,
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b3 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 104,
+        "name": "Unexpected Run-In",
+        "rarity": "R",
+        "character": "Vyn Richter",
+        "attribute": "Intuition",
+        "max_power": 3913,
+        "max_influence": 1172,
+        "max_defense": 640,
+        "skills": [
+            {
+                "type": "Evasive Maneuver",
+                "name": "Evasive Maneuver \u03b2 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 105,
+        "name": "Whole New Experience",
+        "rarity": "R",
+        "character": "Vyn Richter",
+        "attribute": "Intuition",
+        "max_power": 3913,
+        "max_influence": 1244,
+        "max_defense": 568,
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b3 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 106,
+        "name": "Wish",
+        "rarity": "R",
+        "character": "Vyn Richter",
+        "attribute": "Empathy",
+        "max_power": 3913,
+        "max_influence": 1172,
+        "max_defense": 640,
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b3 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 107,
+        "name": "All Through the Night",
+        "rarity": "SSR",
+        "character": "Marius von Hagen",
+        "attribute": "Empathy",
+        "max_power": 9699,
+        "max_influence": 2879,
+        "max_defense": 1573,
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike III"
+            },
+            {
+                "type": "Sharp One",
+                "name": "Sharp One III"
+            },
+            {
+                "type": "Parallel Growth",
+                "name": "Parallel Growth III"
+            }
+        ]
+    },
+    {
+        "id": 108,
+        "name": "Crown of Glory",
+        "rarity": "SSR",
+        "character": "Marius von Hagen",
+        "attribute": "Empathy",
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b1 III"
+            },
+            {
+                "type": "Artistic Talent",
+                "name": "Artistic Talent III"
+            },
+            {
+                "type": "President's Orders",
+                "name": "President's Orders III"
+            }
+        ]
+    },
+    {
+        "id": 109,
+        "name": "Daytime Aurora",
+        "rarity": "SSR",
+        "character": "Marius von Hagen",
+        "attribute": "Intuition",
+        "max_power": 9699,
+        "max_influence": 2820,
+        "max_defense": 1632,
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b2 III"
+            },
+            {
+                "type": "Premonition",
+                "name": "Premonition III"
+            },
+            {
+                "type": "Business Negotiator",
+                "name": "Business Negotiator III"
+            }
+        ]
+    },
+    {
+        "id": 110,
+        "name": "Dimly Lit",
+        "rarity": "SSR",
+        "character": "Marius von Hagen",
+        "attribute": "Empathy",
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b3 III"
+            },
+            {
+                "type": "Sharp One",
+                "name": "Sharp One III"
+            },
+            {
+                "type": "Opportunist",
+                "name": "Opportunist III"
+            }
+        ]
+    },
+    {
+        "id": 111,
+        "name": "Eye of the Beholder",
+        "rarity": "SSR",
+        "character": "Marius von Hagen",
+        "attribute": "Intuition",
+        "max_power": 9699,
+        "max_influence": 2879,
+        "max_defense": 1573,
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b3 III"
+            },
+            {
+                "type": "Extrapolation",
+                "name": "Extrapolation III"
+            },
+            {
+                "type": "Mediator",
+                "name": "Mediator III"
+            }
+        ]
+    },
+    {
+        "id": 112,
+        "name": "Fabulous Feast",
+        "rarity": "SSR",
+        "character": "Marius von Hagen",
+        "attribute": "Logic",
+        "max_power": 9699,
+        "max_influence": 2879,
+        "max_defense": 1573,
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b1 III"
+            },
+            {
+                "type": "Advantage Taker",
+                "name": "Advantage Taker III"
+            },
+            {
+                "type": "Business Negotiator",
+                "name": "Business Negotiator III"
+            }
+        ]
+    },
+    {
+        "id": 113,
+        "name": "In the Darkness",
+        "rarity": "SSR",
+        "character": "Marius von Hagen",
+        "attribute": "Intuition",
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b3 III"
+            },
+            {
+                "type": "Elite Education",
+                "name": "Elite Education III"
+            },
+            {
+                "type": "Foresight",
+                "name": "Foresight III"
+            }
+        ]
+    },
+    {
+        "id": 114,
+        "name": "Matching Tattoos",
+        "rarity": "SSR",
+        "character": "Marius von Hagen",
+        "attribute": "Logic",
+        "max_power": 9699,
+        "max_influence": 2968,
+        "max_defense": 1484,
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b2 III"
+            },
+            {
+                "type": "Sharp One",
+                "name": "Sharp One III"
+            },
+            {
+                "type": "Business Negotiator",
+                "name": "Business Negotiator III"
+            }
+        ]
+    },
+    {
+        "id": 115,
+        "name": "Narrow Road",
+        "rarity": "SSR",
+        "character": "Marius von Hagen",
+        "attribute": "Empathy",
+        "max_power": 9699,
+        "max_influence": 2820,
+        "max_defense": 1632,
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike III"
+            },
+            {
+                "type": "Emotional Appeal",
+                "name": "Emotional Appeal III"
+            },
+            {
+                "type": "President's Orders",
+                "name": "President's Orders III"
+            }
+        ]
+    },
+    {
+        "id": 116,
+        "name": "Will of the Trees",
+        "rarity": "SSR",
+        "character": "Marius von Hagen",
+        "attribute": "Logic",
+        "max_power": 9699,
+        "max_influence": 2820,
+        "max_defense": 1632,
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b3 III"
+            },
+            {
+                "type": "Advantage Taker",
+                "name": "Advantage Taker III"
+            },
+            {
+                "type": "Game of Fortune",
+                "name": "Game of Fortune III"
+            }
+        ]
+    },
+    {
+        "id": 117,
+        "name": "A Dance on the Clouds",
+        "rarity": "SR",
+        "character": "Marius von Hagen",
+        "attribute": "Logic",
+        "max_power": 7268,
+        "max_influence": 2216,
+        "max_defense": 1108,
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b2 II"
+            },
+            {
+                "type": "Balanced",
+                "name": "Balanced II"
+            },
+            {
+                "type": "Exemplar",
+                "name": "Exemplar II"
+            }
+        ]
+    },
+    {
+        "id": 118,
+        "name": "Butterflies",
+        "rarity": "SR",
+        "character": "Marius von Hagen",
+        "attribute": "Intuition",
+        "max_power": 7268,
+        "max_influence": 2327,
+        "max_defense": 997,
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike II"
+            },
+            {
+                "type": "Extrapolation",
+                "name": "Extrapolation II"
+            },
+            {
+                "type": "Foresight",
+                "name": "Foresight II"
+            }
+        ]
+    },
+    {
+        "id": 119,
+        "name": "Child at Heart",
+        "rarity": "SR",
+        "character": "Marius von Hagen",
+        "attribute": "Intuition",
+        "max_power": 7268,
+        "max_influence": 2150,
+        "max_defense": 1174,
+        "skills": [
+            {
+                "type": "Attention to Detail",
+                "name": "Attention to Detail \u03b2 II"
+            },
+            {
+                "type": "Keen Observation",
+                "name": "Keen Observation II"
+            },
+            {
+                "type": "Prevention",
+                "name": "Prevention II"
+            }
+        ]
+    },
+    {
+        "id": 120,
+        "name": "Dream of Thebes",
+        "rarity": "SR",
+        "character": "Marius von Hagen",
+        "attribute": "Logic",
+        "max_power": 7268,
+        "max_influence": 2282,
+        "max_defense": 1042,
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b3 II"
+            },
+            {
+                "type": "Deductive Reasoning",
+                "name": "Deductive Reasoning II"
+            },
+            {
+                "type": "Rigor",
+                "name": "Rigor II"
+            }
+        ]
+    },
+    {
+        "id": 121,
+        "name": "Falling into You",
+        "rarity": "SR",
+        "character": "Marius von Hagen",
+        "attribute": "Empathy",
+        "max_power": 0,
+        "max_influence": 2216,
+        "max_defense": 1108,
+        "skills": [
+            {
+                "type": "Indirect Approach",
+                "name": "Indirect Approach \u03b3 II"
+            },
+            {
+                "type": "Emotional Appeal",
+                "name": "Emotional Appeal II"
+            },
+            {
+                "type": "Parallel Growth",
+                "name": "Parallel Growth II"
+            }
+        ]
+    },
+    {
+        "id": 122,
+        "name": "Overtone",
+        "rarity": "SR",
+        "character": "Marius von Hagen",
+        "attribute": "Empathy",
+        "max_power": 7268,
+        "max_influence": 2105,
+        "max_defense": 1219,
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b2 II"
+            },
+            {
+                "type": "Sharp One",
+                "name": "Sharp One II"
+            },
+            {
+                "type": "Strike Weakness",
+                "name": "Strike Weakness II"
+            }
+        ]
+    },
+    {
+        "id": 123,
+        "name": "Twilight Beauty",
+        "rarity": "SR",
+        "character": "Marius von Hagen",
+        "attribute": "Empathy",
+        "max_power": 7268,
+        "max_influence": 2327,
+        "max_defense": 997,
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b3 II"
+            },
+            {
+                "type": "Mutual Effect",
+                "name": "Mutual Effect II"
+            },
+            {
+                "type": "Drastic Measures",
+                "name": "Drastic Measures II"
+            }
+        ]
+    },
+    {
+        "id": 124,
+        "name": "Vibrant Graffiti",
+        "rarity": "SR",
+        "character": "Marius von Hagen",
+        "attribute": "Logic",
+        "max_power": 7268,
+        "max_influence": 2150,
+        "max_defense": 1174,
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b1 II"
+            },
+            {
+                "type": "Sharp One",
+                "name": "Sharp One II"
+            },
+            {
+                "type": "Sharp Strategist",
+                "name": "Sharp Strategist II"
+            }
+        ]
+    },
+    {
+        "id": 125,
+        "name": "Keepsake",
+        "rarity": "MR",
+        "character": "Marius von Hagen",
+        "attribute": "Intuition",
+        "max_power": 7425,
+        "max_influence": 2251,
+        "max_defense": 1230,
+        "skills": [
+            {
+                "type": "Preemptive Strike",
+                "name": "Preemptive Strike II"
+            },
+            {
+                "type": "Business Negotiator",
+                "name": "Business Negotiator II"
+            },
+            {
+                "type": "Premonition",
+                "name": "Premonition II"
+            }
+        ]
+    },
+    {
+        "id": 126,
+        "name": "Palpitations",
+        "rarity": "MR",
+        "character": "Marius von Hagen",
+        "attribute": "Empathy",
+        "max_power": 7425,
+        "max_influence": 2321,
+        "max_defense": 1161,
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b3 II"
+            },
+            {
+                "type": "Emotional Projection",
+                "name": "Emotional Projection II"
+            },
+            {
+                "type": "President's Orders",
+                "name": "President's Orders II"
+            }
+        ]
+    },
+    {
+        "id": 127,
+        "name": "Discussion",
+        "rarity": "R",
+        "character": "Marius von Hagen",
+        "attribute": "Logic",
+        "max_power": 3913,
+        "max_influence": 1172,
+        "max_defense": 640,
+        "skills": [
+            {
+                "type": "Negation",
+                "name": "Negation \u03b2 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 128,
+        "name": "Freeze-Frame",
+        "rarity": "R",
+        "character": "Marius von Hagen",
+        "attribute": "Intuition",
+        "max_power": 3913,
+        "max_influence": 1148,
+        "max_defense": 664,
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b1 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 129,
+        "name": "Fully Prepped",
+        "rarity": "R",
+        "character": "Marius von Hagen",
+        "attribute": "Logic",
+        "max_power": 3913,
+        "max_influence": 1244,
+        "max_defense": 568,
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b3 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 130,
+        "name": "Half-Time",
+        "rarity": "R",
+        "character": "Marius von Hagen",
+        "attribute": "Empathy",
+        "max_power": 3913,
+        "max_influence": 1148,
+        "max_defense": 664,
+        "skills": [
+            {
+                "type": "Feigning Defeat",
+                "name": "Feigning Defeat \u03b3 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 131,
+        "name": "Interlude",
+        "rarity": "R",
+        "character": "Marius von Hagen",
+        "attribute": "Empathy",
+        "max_power": 3913,
+        "max_influence": 1268,
+        "max_defense": 544,
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b2 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 132,
+        "name": "Invitation",
+        "rarity": "R",
+        "character": "Marius von Hagen",
+        "attribute": "Empathy",
+        "max_power": 3913,
+        "max_influence": 1329,
+        "max_defense": 604,
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b1 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 133,
+        "name": "Kingly Praise",
+        "rarity": "R",
+        "character": "Marius von Hagen",
+        "attribute": "Logic",
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": [
+            {
+                "type": "Negation",
+                "name": "Negation \u03b3 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 134,
+        "name": "Myth",
+        "rarity": "R",
+        "character": "Marius von Hagen",
+        "attribute": "Logic",
+        "max_power": 3913,
+        "max_influence": 1148,
+        "max_defense": 664,
+        "skills": [
+            {
+                "type": "Logical Conclusion",
+                "name": "Logical Conclusion \u03b2 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 135,
+        "name": "Perfectionist",
+        "rarity": "R",
+        "character": "Marius von Hagen",
+        "attribute": "Empathy",
+        "max_power": 3913,
+        "max_influence": 1172,
+        "max_defense": 640,
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b1 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 136,
+        "name": "Practice Makes Perfect",
+        "rarity": "R",
+        "character": "Marius von Hagen",
+        "attribute": "Intuition",
+        "max_power": 3913,
+        "max_influence": 1244,
+        "max_defense": 568,
+        "skills": [
+            {
+                "type": "Virtuous Presence",
+                "name": "Virtuous Presence \u03b2 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 137,
+        "name": "Presence",
+        "rarity": "R",
+        "character": "Marius von Hagen",
+        "attribute": "Intuition",
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": [
+            {
+                "type": "Evasive Maneuver",
+                "name": "Evasive Maneuver \u03b3 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 138,
+        "name": "Rhythm",
+        "rarity": "R",
+        "character": "Marius von Hagen",
+        "attribute": "Logic",
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": [
+            {
+                "type": "Layer by Layer",
+                "name": "Layer by Layer \u03b2 I"
+            },
+            {
+                "type": "Formidable",
+                "name": "Formidable I"
+            }
+        ]
+    },
+    {
+        "id": 139,
+        "name": "Sudden Occurrence",
+        "rarity": "R",
+        "character": "Marius von Hagen",
+        "attribute": "Intuition",
+        "max_power": 3913,
+        "max_influence": 1172,
+        "max_defense": 640,
+        "skills": [
+            {
+                "type": "Evasive Maneuver",
+                "name": "Evasive Maneuver \u03b1 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    },
+    {
+        "id": 140,
+        "name": "Victory Is at Hand",
+        "rarity": "R",
+        "character": "Marius von Hagen",
+        "attribute": "Empathy",
+        "max_power": 3913,
+        "max_influence": 1208,
+        "max_defense": 604,
+        "skills": [
+            {
+                "type": "Bait & Lure",
+                "name": "Bait & Lure \u03b1 I"
+            },
+            {
+                "type": "Progressive",
+                "name": "Progressive I"
+            }
+        ]
+    }
+]
