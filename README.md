@@ -167,32 +167,51 @@ Entity Relationship Diagram of Zakwoow Database
 ![ERD](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/design/ERD_of_zakwoow.png)
 
 ### Screenshots
+
 __Import Libraries__
+
 ![1](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/01_import_libraries.jpg)
 
+
 __Create Necessary Classes__
+
 ![2](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/02_create_classes.jpg)
 
+
 __Functions for Scraping part 1__
+
 ![3](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/03_functions_for_scraping.jpg)
 
+
 __Functions for Scraping part 2__
+
 ![4](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/04_functions_for_scraping2.jpg)
 
+
 __Progress Bar During Web Scraping part 1__
+
 ![5](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/05_scraping1.jpg)
 
+
 __Progress Bar During Web Scraping part 2__
+
 ![6](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/06_scraping2.jpg)
 
+
 __Progress Bar During Web Scraping part 3__
+
 ![7](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/07_scraping3.jpg)
 
+
 __Check Whether The Scraping Process is Successful or Not__
+
 ![8](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/08_is_scraped.jpg)
 
+
 __Store the Scraped Data into JSON Format__
+
 ![9](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/09_dump_json.jpg)
+
 
 ### Reference
 
