@@ -78,7 +78,40 @@ Data yang di-_scrape_ akan disimpan dalam file dengan format JSON dengan struktu
         "harga_per_bulan": 3000000
     },
 ```
+## Database Structure
+Berikut ini adalah ER Diagram dari database hasil data _scraping_ website Infokost pada _project_ ini, dengan _id sebagai _primary key_.
+<h2 align="center">
+
+![ERD](Data%20Storing/design/ERD%20Seleksi%20Basdat%20(infokost).jpg)
+
+<h2>
+
 ## Screenshots
+- Fungsi Scraper
+
+![fungsi scraper1](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/scraper%20function1.PNG)
+<br>
+![fungsi scraper2](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/scraper%20function2.PNG)
+<br>
+![fungsi scraper3](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/scraper%20function3.PNG)
+<br>
+![fungsi scraper4](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/scraper%20function4.PNG)
+
+- Info saat program dijalankan
+  
+![program running](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/scraper%20running.PNG)
+
+- Preprocessing Input Data
+ 
+![prepro1](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/preprocessing1.PNG)
+<br>
+![prepro2](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/preprocessing2.PNG)
+
+- Output dalam format JSON
+  
+
+- Data Storing di MongoDB (lokal)
+- Data Storing di MongoDB Atlas
 ## Reference
 ## Author
 
