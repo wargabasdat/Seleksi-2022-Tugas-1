@@ -36,7 +36,7 @@ I use PostgreSQL as my DBMS because it allows me to work on both JSON and SQL da
 
 To run the program, we need several libraries, such as:
 
-__Jupyter Notebook__
+__1. Jupyter Notebook__
 
 The Jupyter Notebook is the original web application that makes it easy for
 us to create and maintain computational documents. In this project, I choose
@@ -48,7 +48,7 @@ To install, type:
 
 on your terminal.
 
-__BeautifulSoup__
+__2. BeautifulSoup__
 
 BeautifulSoup is a Python package that is useful for web scraping. 
 Since I use Python as the programming language for this project, I choose
@@ -60,7 +60,7 @@ To install BeautifulSoup library, type
 
 in your terminal
 
-__requests__
+__3. requests__
 
 Requests is a HTTP library for Python. 
 This module allows us to send HTTP requests using Python
@@ -71,13 +71,13 @@ To install requests modul, type
 
 in your terminal
 
-__Time__
+__4. Time__
 
 In order to keep the server from crashing, we need to put our program on sleep
 using the time.sleep() method. We can import time library immediately because it is 
 already preinstalled with python.
 
-__TQDM__
+__5. TQDM__
 
 In order to monitor the progress of my program during the web-scraping, I use TQDM because it
 can show me a progress bar on loops.
@@ -88,13 +88,13 @@ To install tqdm, type
 
 in your terminal
 
-__JSON__
+__6. JSON__
 
 In this project, I store the scraped data in JSON format. To dump the
 scraped data into JSON format, we need to import a JSON library. JSON library
 is already preinstalled with Python. Therefore, we can just type 'import json' on Jupyter Notebook cell.
 
-__NumPy__
+__7. NumPy__
 
 I also import NumPy library because I need to use .array_split() method to help me preprocessing the data scraped.
 NumPy is a Python library used for working with arrays.
@@ -107,7 +107,7 @@ in your terminal
 
 *__OPTIONAL__*
 
-__Anaconda Navigator__
+__8. Anaconda Navigator__
 
 Anaconda Navigator allows us to launch common Python programs and easily manage
 conda packages without using command-line commands. Using this desktop GUI (Graphical User Interface),
