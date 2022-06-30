@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  Scraping CS:GO Teams and Players
+  Scraping CS:GO Teams and Players from HLTV.org
   <br>
   <br>
 </h1>
@@ -11,6 +11,9 @@
   <br>
   <br>
 </h2>
+
+![hltv](https://user-images.githubusercontent.com/84183006/176602749-e7379d6d-383d-4cec-8768-df621cbacebb.png)
+
 
 ## Daftar Isi
 * [Deskripsi Data dan DBMS](#deskripsi-data-dan-dbms)
@@ -27,7 +30,7 @@
 
 Pada permainan Counter Strike: Global Offensive (CS:GO), terdapat statistik tim dan pemain profesional selama mereka bertanding. Salah satu situs web yang mencatat statistik para pemain dan tim CS:GO adalah [HLTV](http:/hltv.org). Pada projek ini, penulis melakukan _scraping_ situs web HLTV untuk mengambil statistik tersebut. Data statistik milik tim yang diambil, antara lain nama, negara asal, peringkat, pelatih, jumlah kemenangan, jumlah seri, jumlah kekalahan, jumlah _kill_, jumlah _death_, dan _kill-death ratio_. Sedangkan data statistik milik pemain yang diambil meliputi _nickname_, nama asli, negara asal, tim, _rating_, _deaths per round_, KAST (persentase pemain mendapatkan _kill_, _assists_, bertahan, atau _traded_), impact, _damage per round_ rata-rata, _kils per round_, jumlah _kill_, persentase _headshot_, _kill-death ratio_, jumlah _map_ yang sudah dimainkan.
 
-Untuk menyimpan data tersebut, penulis memilih PostgreSQL sebagai DBMS. Hal ini karena PostgreSQL merupakan DBMS relasional yang memiliki reputasi yang baik dan dapat diandalkan. Selain itu, DBMS ini dapat di-_deploy_ pada _cloud platform_, yaitu Heroku. 
+Penulis memilih PostgreSQL sebagai DBMS untuk menyimpan data hasil _scraping_ tersebut. Hal ini karena PostgreSQL merupakan DBMS relasional _open-source_ yang memiliki reputasi yang baik serta cukup kaya dengan fitur. Selain itu, DBMS ini dapat di-_deploy_ pada _cloud platform_, yaitu Heroku. 
 
 ## Spesifikasi Program
 
@@ -36,9 +39,9 @@ Program _data scraping_ pada projek ini menggunakan bahasa Python dengan pustaka
 ## Cara Menggunakan
 
 ### Program _Data Scraping_
-1. Pastikan Python3 ter-_install_ pada PC Anda. Jika tidak, silakan unduh Python3 [di sini](https://www.python.org/downloads/)
-2. Buka _command prompt_ lalu pindah ke direktori `src` di dalam folder `Data Scraping`
-3. Jalankan perintah di bawah ini untuk mengunduh pustaka yang dibutuhkan
+1. Pastikan Python3 dan PostgreSQL ter-_install_ pada PC Anda. Jika tidak, silakan unduh Python3 [di sini](https://www.python.org/downloads/) dan PostgreSQL [di sini](https://www.postgresql.org/download/)
+3. Buka _command prompt_ lalu pindah ke direktori `src` di dalam folder `Data Scraping`
+4. Jalankan perintah di bawah ini untuk mengunduh pustaka yang dibutuhkan
 ```
 pip install -r requirements.txt
 ```
@@ -79,50 +82,62 @@ Gunakan [Postman](https://www.postman.com/API) dengan metode GET untuk mendapatk
 
 ## Struktur JSON
 
-Data yang di-_scrape_ akan disimpan dalam format JSON. Data pemain dan tim akan disimpan dalam dua buah file JSON berbeda. Berikut ini adalah contoh struktur JSON untuk data pemain:
+Data yang di-_scrape_ akan disimpan dalam format JSON. Data pemain dan tim akan disimpan dalam dua buah file JSON berbeda. Berikut ini adalah struktur JSON untuk data pemain:
+
 <pre>
 {
-        "nickname": "BnTeT",
-        "realname": "Hansel Ferdinand",
-        "country": "Indonesia",
-        "age": 26,
-        "team": "TYLOO",
-        "rating": 1.15,
-        "dpr": 0.62,
-        "kast": 0.745,
-        "impact": 1.15,
-        "adr": 83.0,
-        "kpr": 0.77,
-        "kills": 20502,
-        "hsPercentage": 0.398,
-        "deaths": 16695,
-        "kdRatio": 1.23,
-        "mapsPlayed": 1027
+      "players": [
+          {
+              "nickname": string,
+              "realname": string,
+              "country": string,
+              "age": integer,
+              "team": string,
+              "rating": float,
+              "dpr": float,
+              "kast": float,
+              "impact": float,
+              "adr": float,
+              "kpr": float,
+              "kills": integer,
+              "hsPercentage": float,
+              "deaths": float,
+              "kdRatio": float,
+              "mapsPlayed": integer
+        },
+        ..
+     ]
 }
+
 </pre>
-Berikut ini adalah contoh struktur JSON untuk data tim:
+Berikut ini adalah struktur JSON untuk data tim:
 <pre>
 {
-        "name": "fnatic",
-        "country": "Europe",
-        "rank": 34,
-        "coach": "keita",
-        "wins": 1109,
-        "draws": 8,
-        "losses": 759,
-        "kills": 171230,
-        "deaths": 163460,
-        "kdRatio": 1.05
+    "teams": [
+        {
+            "name": string,
+            "country": string,
+            "rank": integer,
+            "coach": string,
+            "wins": integer,
+            "draws": integer,
+            "losses": integer,
+            "kills": integer,
+            "deaths": integer,
+            "kdRatio": float
+        },
+        ..
+    ]
 }
 </pre>
 
 ## Struktur Basis Data
 
-Pada basis data, terdapat empat tabel, yaitu Team, Player, TeamStats, dan PlayerStats dengan rincian sebagai berikut:
+Pada basis data, terdapat empat tabel, yaitu Team, Player, TeamStats, dan PlayerStats dengan rincian di bawah ini. Kolom yang dicetak tebal merupakan _primary key_.
 ### Team
 |Kolom  |Tipe Data|
 | ----- | ------- |
-| team_id | INT |
+| **team_id** | INT |
 | name | VARCHAR |
 | country | VARCHAR |
 | rank | INT |
@@ -131,7 +146,7 @@ Pada basis data, terdapat empat tabel, yaitu Team, Player, TeamStats, dan Player
 ### Player
 |Kolom  |Tipe Data|
 | ----- | ------- |
-| player_id | INT |
+| **player_id** | INT |
 | nickname | VARCHAR |
 | realname | VARCHAR |
 | rank | INT |
@@ -142,7 +157,7 @@ Pada basis data, terdapat empat tabel, yaitu Team, Player, TeamStats, dan Player
 ### TeamStats
 |Kolom  |Tipe Data|
 | ----- | ------- |
-| teamstats_id | INT |
+| **teamstats_id** | INT |
 | win_count | INT |
 | draw_count | INT |
 | lose_count | INT |
@@ -153,7 +168,7 @@ Pada basis data, terdapat empat tabel, yaitu Team, Player, TeamStats, dan Player
 ### PlayerStats
 |Kolom  |Tipe Data|
 | ----- | ------- |
-| playerstats_id | INT |
+| **playerstats_id** | INT |
 | rating | NUMERIC(3,2) |
 | dpr | NUMERIC(3,2) |
 | kast | NUMERIC(4,3) |
