@@ -12,87 +12,125 @@
   <br>
 </h2>
 
+## Daftar Isi
+* [Deskripsi Data dan DBMS](#deskripsi-data-dan-dbms)
+* [Spesifikasi Program](#spesifikasi-program)
+* [Cara Menggunakan](#cara-menggunakan)
+* [Struktur JSON](#struktur-json)
+* [Struktur Basis Data](#struktur-basis-data)
+* [Screenshot](#screenshot-program)
+* [Referensi](#referensi)
+* [Author](#author)
 
-## Spesifikasi
+## Deskripsi Data dan DBMS
+[Femaledaily](https://femaledaily.com/) merupakan website populer yang menyediakan informasi mengenai berbagai produk kecantikan dan perawatan tubuh, serta review lengkap dari penggunanya. Informasi tersebut sangat membantu dalam pengambilan keputusan sebelum membeli sebuah produk, oleh karena itu, saya memutuskan untuk mengambil data dari website ini dengan harapan bisa mendapatkan berbagai informasi yang bermanfaat untuk menentukan pilihan sebelum membeli produk. Data yang saya ambil adalah produk skincare, yang terbagi ke dalam 4 jenis yaitu Moisturizer, Treatment, Mask, dan Cleanser. Setiap jenisnya terbagi lagi menjadi beberapa kategori, dan untuk tugas ini saya mengambil seperlunya saja. Data yang diperoleh dari produk meliputi nama produk, brand, harga, serta review dari produk tersebut.
 
+DBMS yang saya gunakan untuk menyimpan data-data produk hasil scraping yaitu PostgreSQL. Alasan penggunaannya adalah untuk mempermudah penyimpanan record data produk skincare yang sangat banyak, PostgreSQL menyediakan berbagai fitur yang dapat menjaga keamanan dan integritas data Selain itu, akses terhadap informasi untuk mendapatkan insights juga jelas dengan memanfaatkan query SQL.
+
+## Spesifikasi Program
+Program _data scraping_ pada projek ini menggunakan bahasa Python dengan library Beautiful Soup yang umum dipakai sebagai _HTML Parser_ untuk melakukan _data scraping_.
+
+## Cara Menggunakan
 ### Data Scraping
-
-1. Lakukan _data scraping_ dari sebuah laman web untuk memperoleh data atau informasi tertentu __TANPA MENGGUNAKAN API__. Hasil _data scraping_ ini nantinya akan disimpan dalam DBMS dan digunakan sebagai bahan tugas analisis dan visualisasi data.
-
-2. Daftarkan judul topik yang akan dijadikan bahan _data scraping_ dan DBMS yang akan digunakan pada spreadsheet berikut: [Topik Data Scraping](https://docs.google.com/spreadsheets/d/1VjK-ZeJlSy38yqUJvaaCqYtS7yP8Vq609ewyWTA_k2Y/edit?usp=sharing). Usahakan agar tidak ada peserta dengan topik yang sama. Akses edit ke spreadsheet akan ditutup tanggal __10 Juni 2022 pukul 21.40 WIB__
-
-3. Pada folder `Data Scraping`, calon warga basdat harus mengumpulkan _file script_, json hasil _data scraping_. Folder `Data Scraping` terdiri dari _folder_ `src`, `data` dan `screenshots`. 
-    - _Folder_ `src` berisi _file script_/kode yang __*WELL DOCUMENTED* dan *CLEAN CODE*__ 
-    - _Folder_ `data` berisi _file_ json hasil _scraper_
-    - _Folder_ `screenshot` berisi tangkapan layar program.
-
-4. Sebagai referensi untuk mengenal _data scraping_, asisten menyediakan dokumen "_Short Guidance To Data Scraping_" yang dapat diakses pada link berikut: [Data Scraping Guidance](http://bit.ly/DataScrapingGuidance). Mohon memperhatikan etika dalam melakukan _scraping_.
-
-5. Data yang diperolah harus dinormalisasi dan harus di-_preprocessing_
+1. Pastikan Python3 dan PostgreSQL ter-_install_ pada PC Anda. Jika tidak, silakan unduh Python3 [di sini](https://www.python.org/downloads/) dan PostgreSQL [di sini](https://www.postgresql.org/download/)
+2. Buka _command prompt_ lalu masuk ke dalam direktori `src` dalam folder `Data Scraping`
+3. Jalankan command dibawah ini untuk menginstall library yang diperlukan
 ```
-Preprocessing contohnya :
-- Cleaning
-- Parsing
-- Transformation
-- dan lainnya
+pip install beautifulsoup4 requests
 ```
+4. Jalankan perintah `python scraper.py` untuk memulai proses scraping.
+5. Data yang telah diperoleh akan dituliskan pada file JSON di folder `data`
+
+### API
+1. Buka _command prompt_ lalu masuk ke dalam direktori `src` dalam folder `API`
+2. Jalankan command dibawah ini untuk menginstall library yang diperlukan
+```
+pip install psycopg2 fastapi pydantic
+```
+3. Karena merupakan API lokal, maka pengguna perlu menyesuaikan konfigurasi program dengan mengubah konfigurasi yang terdapat pada fungsi connectToDB sesuai konfigurasi database yang dibutuhkan. 
+4. Jalankan uvicorn dengan menuliskan perintah dibawah ini
+```
+uvicorn api:app --reload
+```
+5. Setelah berhasil, API dapat diakses pada `localhost:8000`. Pengguna dapat melihat endpoint yang tesedia dengan cara mengakses `localhost:8000/docs`.
+
+Berikut adalah daftar endpoints yang dapat digunakan :
+```
+GET  /
+GET  /products/                             : untuk mendapatkan seluruh data produk
+GET  /products?brand=<str>&category=<str>   : untuk mencari produk berdasarkan brand, kategori, atau keduanya
+GET  /products/{id}                         : untuk mencari produk berdasarkan id
+```
+
+## Struktur JSON
+<pre>
+   {
+      "name": str,
+      "category": str,
+      "brand": str,
+      "price": integer,
+      "rating": float,
+      "total_reviews": integer,
+      "recom_percentage": integer,
+      "image_url": str,
+      "brand_url": str"
+   }
+</pre>
+
+## Struktur Basis Data
+Tabel yang terdapat pada basis data adalah femaledailyproducts, dengan struktur sebagai berikut
+![ERD](https://github.com/lyorafelicya/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/design/ERD.png)
+
+## Screenshot program
+### Data Scraping
+#### Init
+![prep](https://github.com/lyorafelicya/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/init.jpeg)
+
+#### Fungsi untuk mendapatkan link halaman dari setiap produk
+![links](https://github.com/lyorafelicya/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/fungsi%20getproductlinks.jpeg)
+![links2](https://github.com/lyorafelicya/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/treatment%20product.jpeg)
+![links3](https://github.com/lyorafelicya/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/mask%20product.jpeg)
+![links4](https://github.com/lyorafelicya/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/cleanser%20product.jpeg)
+
+#### Fungsi untuk mengambil dan menyimpan data dari produk
+![data](https://github.com/lyorafelicya/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/fungsi%20get%20product%20data.jpeg)
+![data2](https://github.com/lyorafelicya/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/fungsi%20get%20product%20data(2).jpeg)
+
+#### Fungsi untuk menuliskan data yang diperoleh ke dalam file json
+![write](https://github.com/lyorafelicya/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/fungsi%20write%20json.jpeg)
+
+#### Run Program
+![run](https://github.com/lyorafelicya/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/run%20program.jpeg)
 
 ### Data Storing
+#### Penyimpanan data ke dalam PostgreSQL
+![postgre](https://github.com/lyorafelicya/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/screenshot/postgresql.jpeg)
 
-1. Buatlah sebuah ER Diagram dari basis data yang akan digunakan untuk menyimpan data hasil _scraping_
-   
-2. Implementasikan ERD tersebut ke DBMS sesuai pilihan kalian
+### API
+#### FastAPI
+![api](https://github.com/lyorafelicya/Seleksi-2022-Tugas-1/blob/main/API/screenshots/fastapi.jpg)
 
-3. Tools yang digunakan __dibebaskan__
+#### Retrieve all product data
+![all](https://github.com/lyorafelicya/Seleksi-2022-Tugas-1/blob/main/API/screenshots/allproducts.jpeg)
 
-4. Calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Folder_ `Data Storing` terdiri dari folder `screenshots`, `export`, dan `design`
-    - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
-    - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
-    -  _Folder_ `design` berisi ER Diagram yang disimpan dalam format `.png`
+#### Search by product id
+![id](https://github.com/lyorafelicya/Seleksi-2022-Tugas-1/blob/main/API/screenshots/id.jpeg)
 
+#### Search by category
+![cat](https://github.com/lyorafelicya/Seleksi-2022-Tugas-1/blob/main/API/screenshots/search%20by%20category.jpeg)
 
+#### Search by brand
+![brand](https://github.com/lyorafelicya/Seleksi-2022-Tugas-1/blob/main/API/screenshots/brand.jpeg)
 
-5. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    - Simpan ke _cloud database_
-    - Buatlah API sederhana untuk mengakses _database_ tersebut
+#### Search by brand and category
+![both](https://github.com/lyorafelicya/Seleksi-2022-Tugas-1/blob/main/API/screenshots/both.jpeg)
 
-### Pengumpulan
+## Referensi
+1. Web Scraping with Python : https://youtu.be/nCuPv3tf2Hg
+2. Python FastAPI : https://youtu.be/-ykeT6kk4bk
+3. Dokumentasi PostgreSQL dan Python
 
-
-1. Dalam mengerjakan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: [Seleksi-2022-Tugas-1](https://github.com/wargabasdat/Seleksi-2022-Tugas-1). Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_1_[NIM]```
-
-2. Tambahkan juga `.gitignore` pada _file_ atau _folder_ yang tidak perlu di-_upload_, __NB: BINARY TIDAK DIUPLOAD__
-
-3. Berikan satu buah file `README` yang __WELL DOCUMENTED__ dengan cara __override__ _file_ `README.md` ini. `README` harus memuat minimal konten:
-
-
-```
-- Description of the data and DBMS (Why you choose it)
-- Specification of the program
-- How to use
-- JSON Structure
-- Database Structure
-- Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-- Reference (Library used, etc)
-- Author
-```
-
-
-4. Deadline pengumpulan tugas 1 adalah <span style="color:red">__1 Juli 2022 Pukul 22.40 WIB__</span>
-
-<h3 align="center">
-  <br>
-  Selamat Mengerjakan!
-  <br>
-</h3>
-
-<p align="center">
-  <i>
-  Happiness does not come from doing easy work
-  but from the afterglow of satisfaction that
-  comes after the achievement of a difficult
-  task that demanded our best.<br><br>
-  - Theodore Isaac Rubin
-  </i>
-</p>
-<br>
+## Author 
+Lyora Felicya <br>
+13520073 <br>
+Teknik Informatika 
