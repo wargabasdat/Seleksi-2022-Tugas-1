@@ -9,8 +9,9 @@ def scrape(url):
   products = []
   pages = getNextPage(url)
   products = getProducts(url, products)
-  for page in pages:
-    products = getProducts(page, products)
+  for i in range(len(pages)):
+    print(f"Scraping page {i+1} of {len(pages)} pages")
+    products = getProducts(pages[i], products)
   product_data = getDataProducts(products)
   return product_data
 
@@ -39,8 +40,9 @@ def getProducts(url, products):
 
 def getDataProducts(products):
   product_data = []
-  for product in products:
-    url = "https://bloodnbone.com/product/" + product
+  for i in range(len(products)):
+    print(f"Scraping product {i+1} of {len(products)} products")
+    url = "https://bloodnbone.com/product/" + products[i]
     page = requests.get(url)
     soup = BeautifulSoup(page.text, 'html.parser')
 
