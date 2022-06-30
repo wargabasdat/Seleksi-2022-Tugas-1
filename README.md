@@ -221,12 +221,13 @@ Below is the screenshot of my Git Bash during the importing process of Zakwoow d
 
 Below is the screenshot of my Git Bash after successfully importing Zakwoow database into Heroku Postgres.
 
-![3](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/.gitignore/connecting_to_heroku.jpg)
+![3](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/.gitignore/after_connecting_to_heroku.jpg)
 
 
 The screenshot of all tables imported in Heroku Postgres
 
 ![4](https://github.com/salimashockbgt/Seleksi-2022-Tugas-1/blob/main/.gitignore/tables_in_cloud_gitbash.jpg)
+
 
 We can also view our database and do queries on Heroku Postgres web application.
 
