@@ -39,7 +39,7 @@ Program data scraping ini menggunakan bahasa Python dengan beberapa library tamb
 ```
 
 ## Database Structure
-![ERD](/Data Storing/design/ERD.png)
+![ERD](Data Storing/design/ERD.png)
 
 ### Screenshot Program
 ![SS Program 1](Data Scraping/screenshot/SS Program 1.png)
