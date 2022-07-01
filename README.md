@@ -12,13 +12,30 @@
   <br>
 </h2>
 
+## Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Description](#description)
+- [Specification](#specification)
+- [How to Use](#how-to-use)
+  - [Data Scraping](#data-scraping)
+  - [Data Storing](#data-storing)
+- [JSON Structure](#json-structure)
+  - [ONGOING](#ongoing)
+  - [END](#end)
+- [Database Structure](#database-structure)
+- [Screenshots](#screenshots)
+  - [Data Scraping](#data-scraping-1)
+  - [Data Storing](#data-storing-1)
+- [References](#references)
+- [Author](#author)
+
 ## Description
 
 WEBTOON is a South Korean webtoons publisher launched in 2004 by Naver Corporation. As one of the biggest webtoon platform in the world, the company provides webtoons in different languages, such as Indonesian. Webtoons released in Indonesian can be accessed from [webtoons.com/id](webtoons.com/id). 
 
 The data provided in this project is scraped from [webtoons.com/id/genre](webtoons.com/id/genre), where you can see all the webtoons available on the website. I scraped data from 683 available official webtoons. I chose to scrap this platform as WEBTOON's popularity is steadily increasing because lots of webtoons from this platform are adapted to live actions and it is often talked about on social media. The data can help people interested in reading webtoons to know information about available webtoons on the most popular platform and might help them to make decisions in reading webtoons.
 
-Data storing is done by importing the json file to MongoDB. I chose MongoDB because of a few reasons. First, it's easier to import json file to a MongoDB database because it is a document-oriented NoSQL database that uses JSON-like documents. MongoDB is also faster and more scalable than SQL server. It is also a popular and widely used NoSQL database program.
+Data storing is done by importing the json file to MongoDB. I chose MongoDB because of a few reasons. First, it's easier to import json file to a MongoDB database because it is a document-oriented NoSQL database that uses JSON-like documents. MongoDB is also faster and more scalable than SQL server. It is also a popular and widely used NoSQL database program. MongoDB also has MongoDB Atlas which help making a cluster 
 
 ## Specification
 
@@ -150,7 +167,7 @@ __Data stored in MongoDB Atlas__
 ![Cloud](Data%20Storing/screenshot/storing_mongodb_atlas.png)
 
 
-## Reference
+## References
 
 1. [Web Scraping with Python - Beautiful Soup Crash Course](https://youtu.be/XVv6mJpFOb0)
 2. [Python libraries documentation](https://pypi.org/)
