@@ -12,87 +12,113 @@
   <br>
 </h2>
 
+## Daftar Isi
+- [Deskripsi Data dan DBMS](#deskripsi-data-dan-dbms)
+- [Spesifikasi Program](#spesifikasi-program)
+- [Cara Menggunakan](#cara-menggunakan)
+- [Struktur JSON](#struktur-json)
+- [Struktur Database](#struktur-database)
+- [Screenshot](#screenshot)
+- [Referensi](#referensi)
+- [Author](#author)
 
-## Spesifikasi
+## Deskripsi Data dan DBMS
+Saat ini terdapat banyak pengusaha yang memanfaatkan teknologi untuk memasarkan produk yang dimilikinya. [Blood+Bone](https://bloodnbone.com/) merupakan salah satu _website_ toko _online_ yang menyediakan berbagai macam pakaian untuk pria dan wanita. Para pembeli dapat melihat foto produk dan detail dari produk yang dijual dalam _website_ ini. Data yang penulis ambil dari _website_ ini adalah data dress wanita meliputi nama, deskripsi, harga, warna, ukuran, berat, dan dimensi dari produk. Penulis mengambil data-data ini karena tertarik dengan informasi mengenai pakaian wanita dan berharap bisa memperoleh _insight_ yang menarik dari informasi ini.
 
+DBMS yang penulis gunakan dalam menyimpan data hasil _scraping_ adalah PostgreSQL karena merupakan _database_ relasional yang stabil, aman, dan terpercaya meskipun bersifat _open source_, serta mudah untuk digunakan, khususnya dalam menyimpan data produk dress yang cukup banyak.
+
+## Spesifikasi Program
+Program untuk melakukan _data scraping_ ditulis dalam bahasa pemrograman Python dengan library BeautifulSoup. Data hasil _scraping_ kemudian disimpan dalam bentuk JSON menggunakan library json.
+
+Data dress yang ada dapat diakses melalui API yang dibuat dalam bahasa Python dengan bantuan FastAPI. API ini akan berinteraksi dengan data yang telah disimpan dalam _cloud database_ MongoDB.
+
+## Cara Menggunakan
 ### Data Scraping
-
-1. Lakukan _data scraping_ dari sebuah laman web untuk memperoleh data atau informasi tertentu __TANPA MENGGUNAKAN API__. Hasil _data scraping_ ini nantinya akan disimpan dalam DBMS dan digunakan sebagai bahan tugas analisis dan visualisasi data.
-
-2. Daftarkan judul topik yang akan dijadikan bahan _data scraping_ dan DBMS yang akan digunakan pada spreadsheet berikut: [Topik Data Scraping](https://docs.google.com/spreadsheets/d/1VjK-ZeJlSy38yqUJvaaCqYtS7yP8Vq609ewyWTA_k2Y/edit?usp=sharing). Usahakan agar tidak ada peserta dengan topik yang sama. Akses edit ke spreadsheet akan ditutup tanggal __10 Juni 2022 pukul 21.40 WIB__
-
-3. Pada folder `Data Scraping`, calon warga basdat harus mengumpulkan _file script_, json hasil _data scraping_. Folder `Data Scraping` terdiri dari _folder_ `src`, `data` dan `screenshots`. 
-    - _Folder_ `src` berisi _file script_/kode yang __*WELL DOCUMENTED* dan *CLEAN CODE*__ 
-    - _Folder_ `data` berisi _file_ json hasil _scraper_
-    - _Folder_ `screenshot` berisi tangkapan layar program.
-
-4. Sebagai referensi untuk mengenal _data scraping_, asisten menyediakan dokumen "_Short Guidance To Data Scraping_" yang dapat diakses pada link berikut: [Data Scraping Guidance](http://bit.ly/DataScrapingGuidance). Mohon memperhatikan etika dalam melakukan _scraping_.
-
-5. Data yang diperolah harus dinormalisasi dan harus di-_preprocessing_
+1. Clone _repository_ ini ke PC Anda.
+2. Pastikan Python telah ter-_install_ pada PC Anda.
+3. Install seluruh library yang dibutuhkan dengan menjalankan command berikut ke terminal.
 ```
-Preprocessing contohnya :
-- Cleaning
-- Parsing
-- Transformation
-- dan lainnya
+pip install -r requirements.txt
 ```
+4. Buka _folder_ `Data Scraping/src` pada terminal.
+5. Jalankan command `python main.py` untuk melakukan _scraping_.
+6. File json hasil _scraping_ akan tersedia pada folder `Data Scraping/data`.
+
+### API
+1. Clone _repository_ ini ke PC Anda.
+2. Pastikan Python telah ter-_install_ pada PC Anda.
+3. Install seluruh library yang dibutuhkan dengan menjalankan command berikut ke terminal.
+```
+pip install -r requirements.txt
+```
+4. Jalankan command berikut pada terminal.
+```
+uvicorn main:app
+```
+5. API dapat diakses melalui [localhost:8000](http://localhost:8000/). Endpoint yang tersedia dapat dilihat dengan mengakses [localhost:8000/docs](http://localhost:8000/docs).
+
+## Struktur JSON
+Berikut merupakan struktur JSON hasil _scraping_.
+<pre>
+{
+  "title": str,
+  "desc": str,
+  "price": int,
+  "colour": list[str],
+  "size": list[str],
+  "weight": str,
+  "dimensions": str
+}
+</pre>
+
+## Struktur Database
+### ER Diagram
+![ERD](https://github.com/leoniantoinette/Seleksi-2022-Tugas-1/blob/007744b2dc7eddae9bb795ae5b62fff93bade543/Data%20Storing/design/ERD.png)
+
+### Model Relasional
+```
+dress = (id, title, description, price, weight, dimensions)
+dress_colour = (id, colour)
+dress_size = (id, size)
+```
+
+## Screenshot
+### Data Scraping
+#### Run Program
+![scrape1](https://github.com/leoniantoinette/Seleksi-2022-Tugas-1/blob/007744b2dc7eddae9bb795ae5b62fff93bade543/Data%20Scraping/screenshot/run1.png) <br>
+![scrape2](https://github.com/leoniantoinette/Seleksi-2022-Tugas-1/blob/007744b2dc7eddae9bb795ae5b62fff93bade543/Data%20Scraping/screenshot/run2.png)
 
 ### Data Storing
+#### PostgreSQL
+dress <br>
+![postgresql1](https://github.com/leoniantoinette/Seleksi-2022-Tugas-1/blob/007744b2dc7eddae9bb795ae5b62fff93bade543/Data%20Storing/screenshot/db1.png) <br>
+dress_colour <br>
+![postgresql2](https://github.com/leoniantoinette/Seleksi-2022-Tugas-1/blob/007744b2dc7eddae9bb795ae5b62fff93bade543/Data%20Storing/screenshot/db2.png) <br>
+dress_size <br>
+![postgresql3](https://github.com/leoniantoinette/Seleksi-2022-Tugas-1/blob/007744b2dc7eddae9bb795ae5b62fff93bade543/Data%20Storing/screenshot/db3.png)
 
-1. Buatlah sebuah ER Diagram dari basis data yang akan digunakan untuk menyimpan data hasil _scraping_
-   
-2. Implementasikan ERD tersebut ke DBMS sesuai pilihan kalian
+### Cloud Database
+![mongoDB](https://github.com/leoniantoinette/Seleksi-2022-Tugas-1/blob/007744b2dc7eddae9bb795ae5b62fff93bade543/Data%20Storing/screenshot/mongodb.png)
 
-3. Tools yang digunakan __dibebaskan__
+### API
+![API](https://github.com/leoniantoinette/Seleksi-2022-Tugas-1/blob/007744b2dc7eddae9bb795ae5b62fff93bade543/API/screenshot/api.png)
+#### Retrieve all data
+![Retrieve all data](https://github.com/leoniantoinette/Seleksi-2022-Tugas-1/blob/007744b2dc7eddae9bb795ae5b62fff93bade543/API/screenshot/api2.png)
+#### Search by title
+![Search by title](https://github.com/leoniantoinette/Seleksi-2022-Tugas-1/blob/007744b2dc7eddae9bb795ae5b62fff93bade543/API/screenshot/api3.png)
 
-4. Calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Folder_ `Data Storing` terdiri dari folder `screenshots`, `export`, dan `design`
-    - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
-    - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
-    -  _Folder_ `design` berisi ER Diagram yang disimpan dalam format `.png`
+## Referensi
+### Libraries:
+- BeautifulSoup
+- requests
+- FastAPI
+- pydantic
+- pymongo
+- uvicorn
+- gunicorn
 
-
-
-5. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    - Simpan ke _cloud database_
-    - Buatlah API sederhana untuk mengakses _database_ tersebut
-
-### Pengumpulan
-
-
-1. Dalam mengerjakan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: [Seleksi-2022-Tugas-1](https://github.com/wargabasdat/Seleksi-2022-Tugas-1). Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_1_[NIM]```
-
-2. Tambahkan juga `.gitignore` pada _file_ atau _folder_ yang tidak perlu di-_upload_, __NB: BINARY TIDAK DIUPLOAD__
-
-3. Berikan satu buah file `README` yang __WELL DOCUMENTED__ dengan cara __override__ _file_ `README.md` ini. `README` harus memuat minimal konten:
-
-
-```
-- Description of the data and DBMS (Why you choose it)
-- Specification of the program
-- How to use
-- JSON Structure
-- Database Structure
-- Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-- Reference (Library used, etc)
-- Author
-```
-
-
-4. Deadline pengumpulan tugas 1 adalah <span style="color:red">__1 Juli 2022 Pukul 22.40 WIB__</span>
-
-<h3 align="center">
-  <br>
-  Selamat Mengerjakan!
-  <br>
-</h3>
-
-<p align="center">
-  <i>
-  Happiness does not come from doing easy work
-  but from the afterglow of satisfaction that
-  comes after the achievement of a difficult
-  task that demanded our best.<br><br>
-  - Theodore Isaac Rubin
-  </i>
-</p>
-<br>
+## Author
+Flavia Beatrix Leoni A. S. <br>
+13520051 <br>
+Teknik Informatika <br>
+Institut Teknologi Bandung
