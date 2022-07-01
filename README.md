@@ -45,11 +45,21 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
-3. Ikuti perintah selanjutnya yang diberikan pada CLI
+7. Akan diberikan beberapa pilihan menu yang dapat dilakukan.
+```
+[1] Scrape data pemain
+[2] Scrape data pertandingan
+[2] Store data pemain dari .json ke database
+[3] Store data pertandingan dari .json ke database
+```
+8. Jika anda memilih scrape data pertandingan, selanjutnya anda akan diminta beberapa masukan yang tidak harus diisi semua. Cukup diisi beberapa saja sesuai kemauan anda.
+9. Di akhir proses scraping, anda akan diberikan pilihan untuk menyimpan data ke dalam file .json dan/atau ke dalam database.
+10. File .json hasil scraping akan disimpan di dalam folder `Data Scraping/data`.
+11. Jika anda memilih store data, maka data akan disimpan ke dalam database. Namun, file .json harus sudah tersedia di dalam folder `Data Scraping/data`.
 
 ### API
 1. Atur konfigurasi pada file `.env` di folder `API/src` sesuai dengan lokasi database di PC anda.
-2. Buka terminal lalu pindah ke direktori `src` di dalam folder `API`
+2. Buka terminal lalu pindah ke direktori `src` di dalam folder `API`.
 3. Jalankan perintah di bawah ini untuk mengunduh pustaka yang dibutuhkan
 ```
 pip install -r requirements.txt
@@ -58,8 +68,18 @@ pip install -r requirements.txt
 ```
 uvicorn main:app --reload
 ```
-5. Buka browser dan akses `localhost:8000`, tambahkan `/docs` di akhir URL untuk memunculkan Swagger UI
-6. Selamat menggunakan API
+5. Buka browser dan akses `localhost:8000`, tambahkan `/docs` di akhir URL untuk memunculkan Swagger UI berisi _method_ dan _endpoints_ yang tersedia.
+
+Berikut adalah daftar _method_ dan _endpoints_ yang tersedia:
+```
+GET /api/players                                    : mendapatkan seluruh data pemain
+GET /api/players?name=<str>&nationality=<str>       : mendapatkan data pemain berdasarkan nama dan/atau kewarganegaraan
+GET /api/players/{id}                               : mendapatkan data pemain berdasarkan id
+GET /api/ratings                                    : mendapatkan seluruh data rating
+GET /api/ratings/{rank}                             : mendapatkan data rating berdasarkan peringkat
+GET /api/games                                      : mendapatkan seluruh data pertandingan
+GEt /api/games?winner=<str>&moves=<int>&year=<int>  : mendapatkan data pertandingan berdasarkan hasil pertandingan, peringkat, dan tahun pelaksanaan
+```
 
 ## Struktur JSON
 1. `players.json`
