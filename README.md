@@ -15,7 +15,7 @@
 
 ## Sekilas mengenai Amazon.com
 
-![logo](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/tree/main.gitignore/amazon_logo.jpg)
+![logo](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/blob/main/.gitignore/amazon_logo.jpg)
 
 Amazon.com, Inc. adalah multinasional teknologi Perusahaan Amerika yang berfokus pada e-niaga, komputasi awan, streaming digital dan kecerdasan buatan. Perusahaan ini adalah salah satu dari Lima Besar perusahaan di industri teknologi informasi AS, bersama dengan Google (Alphabet), Apple, Meta (Facebook) dan Microsoft. Perusahaan ini telah disebut sebagai "salah satu kekuatan ekonomi dan budaya paling berpengaruh di dunia", serta merek paling berharga di dunia. <a href='https://id.wikipedia.org/wiki/Amazon_(perusahaan)'>(sumber: id.wikipedia.org) </a>.
 
@@ -23,7 +23,7 @@ Amazon.com, Inc. adalah multinasional teknologi Perusahaan Amerika yang berfokus
 
 Pada tugas ini, saya mengambil data dari situs <a href='https://www.amazon.com/s?k=tws&i=electronics&rh=n%3A172541&qid=1656672311&ref=sr_pg_1'> amazon.com </a> mengenai _True Wireless Stereo(TWS)_. Beberapa data yang disediakan dan akan discrape mengenai produk tersebut antara lain nama, harga awal, harga setelah didiskon, persentase diskon, rating, jumlah review, dan url.
 
-![product_example](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/tree/main.gitignore/contoh_data.jpg)
+![product_example](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/blob/main/.gitignore/contoh_data.jpeg)
 
 DBMS yang saya gunakan pada projek ini adalah PostgreSQL. Alasan pemilih penggunaan DBMS ini adalah karena PostgreSQL dapat _support_ untuk beberapa bahasa pemrograman seperti python, c, c++, atau js. DBMS ini juga support untuk menyimpan data dalam format JSON. Selain itu, integritas dan keamanan data juga terjamin.
 
@@ -80,30 +80,29 @@ Contoh data hasil _scraping_ adalah seperti berikut
 
 ## Screenshots
 * Preprocessing
+![preprocessing](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/Preprocessing.jpeg)
+
 * Saat program berjalan
-* Cleaning
+Berikut ini adalah pop up aplikasi `Google Chrome` saat proses _scraping_ berjalan
+![chrome_page](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/Scraping%20process.jpeg)
+Berikut ini adalah keadaan setelah proses _scraping_ selesai
+![main_function](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/Run%20main%20function.jpeg)
+
 * Storing ke DBMS
+Saya melakukan modification terlebih dahulu dengan membuat PRIMARY_KEY id yang terurut naik mulai dari 1
+![add_primary_key](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/screenshot/add_primary_key.jpeg)
+Berikut ini adalah data yang sudah distore ke PostgreSQL
+![psql_storing](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/screenshot/storing_psql.jpeg)
+
 * Deployment ke Heroku Postgres
+Berikut ini adalah proses import ke database postgres heroku melalui CLI
+![importing_data](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/blob/main/.gitignore/heroku_postgres.jpeg)
+Berikut ini adalah database yang sudah berhasil dideploy di heroku
+![heroku_database](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/blob/main/.gitignore/database_heroku.jpeg)
+
 * API
+![api](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/blob/main/.gitignore/api.jpeg)
 
-
-2. Daftarkan judul topik yang akan dijadikan bahan _data scraping_ dan DBMS yang akan digunakan pada spreadsheet berikut: [Topik Data Scraping](https://docs.google.com/spreadsheets/d/1VjK-ZeJlSy38yqUJvaaCqYtS7yP8Vq609ewyWTA_k2Y/edit?usp=sharing). Usahakan agar tidak ada peserta dengan topik yang sama. Akses edit ke spreadsheet akan ditutup tanggal __10 Juni 2022 pukul 21.40 WIB__
-
-3. Pada folder `Data Scraping`, calon warga basdat harus mengumpulkan _file script_, json hasil _data scraping_. Folder `Data Scraping` terdiri dari _folder_ `src`, `data` dan `screenshots`. 
-    - _Folder_ `src` berisi _file script_/kode yang __*WELL DOCUMENTED* dan *CLEAN CODE*__ 
-    - _Folder_ `data` berisi _file_ json hasil _scraper_
-    - _Folder_ `screenshot` berisi tangkapan layar program.
-
-4. Sebagai referensi untuk mengenal _data scraping_, asisten menyediakan dokumen "_Short Guidance To Data Scraping_" yang dapat diakses pada link berikut: [Data Scraping Guidance](http://bit.ly/DataScrapingGuidance). Mohon memperhatikan etika dalam melakukan _scraping_.
-
-5. Data yang diperolah harus dinormalisasi dan harus di-_preprocessing_
-```
-Preprocessing contohnya :
-- Cleaning
-- Parsing
-- Transformation
-- dan lainnya
-```
 
 ### Data Storing
 
