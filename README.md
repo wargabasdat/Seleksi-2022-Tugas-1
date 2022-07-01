@@ -16,7 +16,7 @@
 
 WEBTOON is a South Korean webtoons publisher launched in 2004 by Naver Corporation. As one of the biggest webtoon platform in the world, the company provides webtoons in different languages, such as Indonesian. Webtoons released in Indonesian can be accessed from [webtoons.com/id](webtoons.com/id). 
 
-The data provided in this project is scraped from [webtoons.com/id/genre](webtoons.com/id/genre), where you can see all the webtoons available on the website. I scraped data from 683 available official webtoons. I chose to scrap this platform as WEBTOON's popularity is steadily increasing because lots of webtoons from this platform are adapted to live actions and it is often talked about on social media. The data can help people interested in reading webtoons to know information on available webtoons on the most popular platform and might help them to make decisions in reading webtoons.
+The data provided in this project is scraped from [webtoons.com/id/genre](webtoons.com/id/genre), where you can see all the webtoons available on the website. I scraped data from 683 available official webtoons. I chose to scrap this platform as WEBTOON's popularity is steadily increasing because lots of webtoons from this platform are adapted to live actions and it is often talked about on social media. The data can help people interested in reading webtoons to know information about available webtoons on the most popular platform and might help them to make decisions in reading webtoons.
 
 Data storing is done by importing the json file to MongoDB. I chose MongoDB because of a few reasons. First, it's easier to import json file to a MongoDB database because it is a document-oriented NoSQL database that uses JSON-like documents. MongoDB is also faster and more scalable than SQL server. It is also a popular and widely used NoSQL database program.
 
@@ -62,6 +62,7 @@ __MongoDB Atlas__
 3. Press **Connect** on your cluster and pick the MongoDB Compass choice.
 4. Copy the connection string and paste it to MongoDB Compass. Don't forget to add  your password.
 5. Connect to it and import file as explained in the Local part.
+6. Open MongoDB Atlas and see collection in the cluster.
 
 ## JSON Structure
 
@@ -116,11 +117,11 @@ The structure of the database is as shown as the ERD below:
 
 ### Data Scraping
 
-__Libraries and Dictionaries__
+__Libraries and Dictionaries__  
 ![Libraries](Data%20Scraping/screenshot/libraries.JPG)
 ![Dictionaries](Data%20Scraping/screenshot/dictionaries.JPG)
 
-__Scraper and Additional Functions__
+__Scraper and Additional Functions__  
 ![Function1](Data%20Scraping/screenshot/function1.png)
 ![Function2](Data%20Scraping/screenshot/function2.png)
 ![Function3](Data%20Scraping/screenshot/function3.png)
@@ -131,36 +132,38 @@ __Scraper and Additional Functions__
 ![Function8](Data%20Scraping/screenshot/function8.png)
 ![Function9](Data%20Scraping/screenshot/function9.png)
 
-__Preprocessing__
+__Preprocessing__  
 ![Preprocessing1](Data%20Scraping/screenshot/preprocessing1.png)
 ![Preprocessing2](Data%20Scraping/screenshot/preprocessing2.png)
 ![Preprocessing3](Data%20Scraping/screenshot/preprocessing3.png)
 
-__Scraping Process__
+__Scraping Process__  
 ![Scraping Process1](Data%20Scraping/screenshot/scraping_process1.png)
 ![Scraping Process2](Data%20Scraping/screenshot/scraping_process2.png)
 
 ### Data Storing
 
-__Data stored in MongoDB Local__
+__Data stored in MongoDB Local__  
 ![Local](Data%20Storing/screenshot/storing_mongodb_local.png)  
 
-__Data stored in MongoDB Atlas__
+__Data stored in MongoDB Atlas__  
 ![Cloud](Data%20Storing/screenshot/storing_mongodb_atlas.png)
 
 
 ## Reference
 
-1. Web Scraping with Python - Beautiful Soup Crash Course: https://youtu.be/XVv6mJpFOb0
-2. Python libraries documentation: https://pypi.org/
-3. My problem solver besties: 
-   - https://stackoverflow.com
-   - https://www.geeksforgeeks.org/
-   - https://www.w3schools.com/
+1. [Web Scraping with Python - Beautiful Soup Crash Course](https://youtu.be/XVv6mJpFOb0)
+2. [Python libraries documentation](https://pypi.org/)
+3. [BeautifulSoup documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+4. [MongoDB documentation](https://www.mongodb.com/docs/)
+5. Problem solvers: 
+   - [Stack Overflow](https://stackoverflow.com)
+   - [GeeksforGeeks](https://www.geeksforgeeks.org/)
+   - [W3Schools](https://www.w3schools.com/)
 
 ## Author
 
 Gratia Nindyaratri  
 18220017  
 Sistem dan Teknologi Informasi  
-
+Institut Teknologi Bandung
