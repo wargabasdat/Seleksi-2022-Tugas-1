@@ -67,17 +67,17 @@ A few libraries are needed to run the scraper.
 
 ### Data Storing
 __Local__
-1. Download **MongoDB Compass**.
+1. Install **MongoDB Compass**.
 2. Connect to your localhost (it is automatically provided so you just have to press **Connect**).
 3. Create database and create collection.
 4. Click **ADD DATA** and **Import File**.
 5. Select the JSON file from the scraping process and press **IMPORT**
 
 __MongoDB Atlas__
-1. Open https://www.mongodb.com/ on your browser and **Sign In**.
+1. Open https://www.mongodb.com/atlas on your browser and **Sign In**.
 2. Create a cluster. You can make one for free.
 3. Press **Connect** on your cluster and pick the MongoDB Compass choice.
-4. Copy the connection string and paste it to MongoDB Compass. Don't forget to add  your password.
+4. Copy the connection string and paste it to MongoDB Compass. Don't forget to add your username and password.
 5. Connect to it and import file as explained in the Local part.
 6. Open MongoDB Atlas and see collection in the cluster.
 
