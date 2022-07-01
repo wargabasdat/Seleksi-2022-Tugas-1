@@ -2,17 +2,14 @@
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
-import numpy as np
 import re
 import json
 
 # URL data yang discrape
 url = "https://military-history.fandom.com/wiki/List_of_active_United_States_military_aircraft"
 
-# Get request HTML
+# Request HTML
 html_content = requests.get(url).text
-
-# Parse HTML code for the entire site
 soup = BeautifulSoup(html_content, "lxml")
 
 
