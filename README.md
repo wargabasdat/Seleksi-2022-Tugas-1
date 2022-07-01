@@ -12,87 +12,47 @@
   <br>
 </h2>
 
+### Deskripsi Data dan DBMS
 
-## Spesifikasi
+Fandom merupakan website yang digunakan sebagai sumber informasi berbagai macam kategori, baik film, *TV Show*, maupun *Video Game*. Fandom digunakan oleh banyak orang yang ingin menggali lebih lanjut informasi terkait suatu topik. Data yang saya ambil berasal dari military-history.fandom yang merupakan fandom yang membahas terkait militer dari berbagai aspek seperti perlengkapan, jabatan, taktik dll. Dalam rangka perilisan film TOP GUN : Maverick, maka dalam kesempatan ini saya akan mengambil data pesawat yang aktif digunakan oleh Amerika Serikat. Data pesawat ini meliputi data pesawat yang digunakan oleh Angkatan Udara (*US Air Force*), Angkatan Darat (*US Army*), *Coast Guard*, Marinir (*US Marine*), Angkatan Laut (*US Navy*), dan UAV.
 
-### Data Scraping
+DBMS yang digunakan dalam penyimpanan data kali ini adalah postgreSQL. Alasan dari pemilihan PostgreSQL adalah tingginya popularitas sehingga memudahkan proses troubleshooting apabila terjadi *error* dalam penggunaan. Selain itu, familiaritas dalam penggunaan juga merupakan salah satu faktor penguat saya untuk menggunakan DBMS ini.
 
-1. Lakukan _data scraping_ dari sebuah laman web untuk memperoleh data atau informasi tertentu __TANPA MENGGUNAKAN API__. Hasil _data scraping_ ini nantinya akan disimpan dalam DBMS dan digunakan sebagai bahan tugas analisis dan visualisasi data.
+### Spesifikasi Program
 
-2. Daftarkan judul topik yang akan dijadikan bahan _data scraping_ dan DBMS yang akan digunakan pada spreadsheet berikut: [Topik Data Scraping](https://docs.google.com/spreadsheets/d/1VjK-ZeJlSy38yqUJvaaCqYtS7yP8Vq609ewyWTA_k2Y/edit?usp=sharing). Usahakan agar tidak ada peserta dengan topik yang sama. Akses edit ke spreadsheet akan ditutup tanggal __10 Juni 2022 pukul 21.40 WIB__
+Program data scraping ini menggunakan bahasa Python dengan beberapa library tambahan yang digunakan seperti pandas dan beautifulsoup.
 
-3. Pada folder `Data Scraping`, calon warga basdat harus mengumpulkan _file script_, json hasil _data scraping_. Folder `Data Scraping` terdiri dari _folder_ `src`, `data` dan `screenshots`. 
-    - _Folder_ `src` berisi _file script_/kode yang __*WELL DOCUMENTED* dan *CLEAN CODE*__ 
-    - _Folder_ `data` berisi _file_ json hasil _scraper_
-    - _Folder_ `screenshot` berisi tangkapan layar program.
+### Cara Menggunakan
 
-4. Sebagai referensi untuk mengenal _data scraping_, asisten menyediakan dokumen "_Short Guidance To Data Scraping_" yang dapat diakses pada link berikut: [Data Scraping Guidance](http://bit.ly/DataScrapingGuidance). Mohon memperhatikan etika dalam melakukan _scraping_.
+1. Clone repository ini pada direktori lokal
+2. Pastikan python dan library yang digunakan sudah ter-*install*
+3. Jalankan program yang ada pada *directory* 'src'
+4. Data akan diperoleh dalam bentuk file JSON
 
-5. Data yang diperolah harus dinormalisasi dan harus di-_preprocessing_
+### JSON Structure
 ```
-Preprocessing contohnya :
-- Cleaning
-- Parsing
-- Transformation
-- dan lainnya
-```
-
-### Data Storing
-
-1. Buatlah sebuah ER Diagram dari basis data yang akan digunakan untuk menyimpan data hasil _scraping_
-   
-2. Implementasikan ERD tersebut ke DBMS sesuai pilihan kalian
-
-3. Tools yang digunakan __dibebaskan__
-
-4. Calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Folder_ `Data Storing` terdiri dari folder `screenshots`, `export`, dan `design`
-    - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
-    - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
-    -  _Folder_ `design` berisi ER Diagram yang disimpan dalam format `.png`
-
-
-
-5. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    - Simpan ke _cloud database_
-    - Buatlah API sederhana untuk mengakses _database_ tersebut
-
-### Pengumpulan
-
-
-1. Dalam mengerjakan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: [Seleksi-2022-Tugas-1](https://github.com/wargabasdat/Seleksi-2022-Tugas-1). Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_1_[NIM]```
-
-2. Tambahkan juga `.gitignore` pada _file_ atau _folder_ yang tidak perlu di-_upload_, __NB: BINARY TIDAK DIUPLOAD__
-
-3. Berikan satu buah file `README` yang __WELL DOCUMENTED__ dengan cara __override__ _file_ `README.md` ini. `README` harus memuat minimal konten:
-
-
-```
-- Description of the data and DBMS (Why you choose it)
-- Specification of the program
-- How to use
-- JSON Structure
-- Database Structure
-- Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-- Reference (Library used, etc)
-- Author
+{
+    "id_plane":1,
+    "Aircraft":"A-10 Thunderbolt II",
+    "Role":"Attack Aircraft"
+}
 ```
 
+## Database Structure
+![ERD](https://github.com/kofifanhertza/Seleksi-2022-Tugas-1/tree/main/Data%20Storing/design/ERD.png)
 
-4. Deadline pengumpulan tugas 1 adalah <span style="color:red">__1 Juli 2022 Pukul 22.40 WIB__</span>
+### Screenshot Program
+![SS Program 1](https://github.com/kofifanhertza/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/SS%20Program%201.png)
+![SS Program 2](https://github.com/kofifanhertza/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/SS%20Program%202.png)
+![SS Hasil](https://github.com/kofifanhertza/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/SS%20Hasil.png)
 
-<h3 align="center">
-  <br>
-  Selamat Mengerjakan!
-  <br>
-</h3>
 
-<p align="center">
-  <i>
-  Happiness does not come from doing easy work
-  but from the afterglow of satisfaction that
-  comes after the achievement of a difficult
-  task that demanded our best.<br><br>
-  - Theodore Isaac Rubin
-  </i>
-</p>
-<br>
+### Referensi
+1. Dokumentasi Python dan PostgreSQL
+2. Dokumentasi library pandas : https://pandas.pydata.org/docs/reference/frame.html
+3. Web Scraping : https://towardsdatascience.com/web-scraping-scraping-table-data-1665b6b2271c
+
+### Author
+Kofifan Hertza Haribowo
+18220022
+Sistem dan Teknologi Informasi
