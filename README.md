@@ -43,6 +43,7 @@ Pada program ini, saya menggunakan bahasa pemrograman TypeScript dan library Pup
      - Example: `npm run scrap -- --open-browser --write-intermediate`
    - Warning: this scrapping process requires a lot of memory, so please close as many program as posible.
    - Warning: it is posible for this scraping process to terminate automatically due to lack of memory or slow internet connection, so please close as many program as possible and keep internet connection running well.
+   - Sangat direkomendasikan untuk menggunakan flag `--open-browser` dan membuka browser tersebut dan ditunggu, tanpa beralih ke program lain karena program ini memerlukan memory besar
 
 
 2. Data storing
