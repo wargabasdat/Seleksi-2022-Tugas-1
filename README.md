@@ -25,9 +25,12 @@ python scrapping.py
 
 ### API
 Request GET dapat dikirimkan ke URL-URL berikut ini:
-mobilbekas123.herokuapp.com/mobilBekas
-mobilbekas123.herokuapp.com/modelMobil
-mobilbekas123.herokuapp.com/penjual
+
+[mobilbekas123.herokuapp.com/mobilBekas](mobilbekas123.herokuapp.com/mobilBekas)
+
+[mobilbekas123.herokuapp.com/modelMobil](mobilbekas123.herokuapp.com/modelMobil)
+
+[mobilbekas123.herokuapp.com/penjual](mobilbekas123.herokuapp.com/penjual)
 
 ## JSON Structure
 Ada 7 buah file json yang dihasilkan oleh program scrapper yang masing-masing memiliki struktur sebagai berikut:
