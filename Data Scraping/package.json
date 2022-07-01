@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf dist && tsc",
-    "build-windows": "rd /s /q dist && tsc",
+    "build-windows": "del /F /Q dist 2>nul && tsc",
     "scrap": "node ./dist/scrap --unhandled-rejection=none",
     "process": "node ./dist/process",
     "puppeteer-install": "cd ./node_modules/puppeteer && npm run install && cd ../.."
