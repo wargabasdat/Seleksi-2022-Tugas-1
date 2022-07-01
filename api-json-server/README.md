@@ -9,8 +9,7 @@
 ## Create the database
 
 1. The database (`tws_export.json`) is store in the db.json file.
-2. Commit the database to git locally
-3. 
+2. Commit the database to the git locally
 
 _this example will create `/tws-information` object , each resource will have `id`, `name`, `normal_price`, `discounted_price`, `discount_percentage`, `rating`, `review_count`, and `url`_
 ```json
@@ -43,27 +42,22 @@ Heroku is a free hosting service for hosting small projects. Easy setup and depl
 heroku login
 ```
 
-4. Connect the Heroku CLI to your account by writing the following command in your terminal and follow the instructions on the command line:
-```bash
-heroku login
-```
-
-5. Then create a remote heroku project, kinda like creating a git repository on GitHub. This will create a project on Heroku with a random name. If you want to name your app you have to supply your own name like `heroku create project-name`:
+4. Then create a remote heroku project, kinda like creating a git repository on GitHub. This will create a project on Heroku with a random name. If you want to name your app you have to supply your own name like `heroku create project-name`:
 ```bash
 heroku create project-name
 ```
 
-6 . Push your app to __Heroku__ (you will see a wall of code)
+5. Push your app to __Heroku__ (you will see a wall of code)
 ```bash
 git push heroku master
 ```
 
-7 . Visit your newly create app by opening it via heroku:
+6. Visit your newly create app by opening it via heroku:
 ```bash
 heroku open
 ```
 
-8 . For debugging if something went wrong:
+7. For debugging if something went wrong:
 ```bash
 heroku logs --tail
 ```
