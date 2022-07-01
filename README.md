@@ -30,18 +30,21 @@ Program data scraping ini menggunakan bahasa Python dengan beberapa library tamb
 4. Data akan diperoleh dalam bentuk file JSON
 
 ### JSON Structure
-'''
+```
 {
     "id_plane":1,
     "Aircraft":"A-10 Thunderbolt II",
     "Role":"Attack Aircraft"
 }
-'''
+```
 
 ## Database Structure
-![](Data Storing/design/ERD.png)
+![Struktur Database](/Data Storing/design/ERD.png)
 
 ### Screenshot Program
+![](/Data Scraping/screenshot/SS Program 1.png)
+![](/Data Scraping/screenshot/SS Program 2.png)
+![](/Data Scraping/screenshot/SS Hasil.png)
 
 ### Referensi
 1. Dokumentasi Python dan PostgreSQL
