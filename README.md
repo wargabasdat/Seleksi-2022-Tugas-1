@@ -2,97 +2,188 @@
   <br>
   Seleksi Warga Basdat 2022
   <br>
-  <br>
 </h1>
 
 <h2 align="center">
   <br>
   Tugas 1 : Data Scraping & Data Storing
   <br>
-  <br>
 </h2>
 
-
-## Spesifikasi
-
-### Data Scraping
-
-1. Lakukan _data scraping_ dari sebuah laman web untuk memperoleh data atau informasi tertentu __TANPA MENGGUNAKAN API__. Hasil _data scraping_ ini nantinya akan disimpan dalam DBMS dan digunakan sebagai bahan tugas analisis dan visualisasi data.
-
-2. Daftarkan judul topik yang akan dijadikan bahan _data scraping_ dan DBMS yang akan digunakan pada spreadsheet berikut: [Topik Data Scraping](https://docs.google.com/spreadsheets/d/1VjK-ZeJlSy38yqUJvaaCqYtS7yP8Vq609ewyWTA_k2Y/edit?usp=sharing). Usahakan agar tidak ada peserta dengan topik yang sama. Akses edit ke spreadsheet akan ditutup tanggal __10 Juni 2022 pukul 21.40 WIB__
-
-3. Pada folder `Data Scraping`, calon warga basdat harus mengumpulkan _file script_, json hasil _data scraping_. Folder `Data Scraping` terdiri dari _folder_ `src`, `data` dan `screenshots`. 
-    - _Folder_ `src` berisi _file script_/kode yang __*WELL DOCUMENTED* dan *CLEAN CODE*__ 
-    - _Folder_ `data` berisi _file_ json hasil _scraper_
-    - _Folder_ `screenshot` berisi tangkapan layar program.
-
-4. Sebagai referensi untuk mengenal _data scraping_, asisten menyediakan dokumen "_Short Guidance To Data Scraping_" yang dapat diakses pada link berikut: [Data Scraping Guidance](http://bit.ly/DataScrapingGuidance). Mohon memperhatikan etika dalam melakukan _scraping_.
-
-5. Data yang diperolah harus dinormalisasi dan harus di-_preprocessing_
-```
-Preprocessing contohnya :
-- Cleaning
-- Parsing
-- Transformation
-- dan lainnya
-```
-
-### Data Storing
-
-1. Buatlah sebuah ER Diagram dari basis data yang akan digunakan untuk menyimpan data hasil _scraping_
-   
-2. Implementasikan ERD tersebut ke DBMS sesuai pilihan kalian
-
-3. Tools yang digunakan __dibebaskan__
-
-4. Calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Folder_ `Data Storing` terdiri dari folder `screenshots`, `export`, dan `design`
-    - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
-    - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
-    -  _Folder_ `design` berisi ER Diagram yang disimpan dalam format `.png`
-
-
-
-5. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    - Simpan ke _cloud database_
-    - Buatlah API sederhana untuk mengakses _database_ tersebut
-
-### Pengumpulan
-
-
-1. Dalam mengerjakan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: [Seleksi-2022-Tugas-1](https://github.com/wargabasdat/Seleksi-2022-Tugas-1). Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_1_[NIM]```
-
-2. Tambahkan juga `.gitignore` pada _file_ atau _folder_ yang tidak perlu di-_upload_, __NB: BINARY TIDAK DIUPLOAD__
-
-3. Berikan satu buah file `README` yang __WELL DOCUMENTED__ dengan cara __override__ _file_ `README.md` ini. `README` harus memuat minimal konten:
-
-
-```
-- Description of the data and DBMS (Why you choose it)
-- Specification of the program
-- How to use
-- JSON Structure
-- Database Structure
-- Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-- Reference (Library used, etc)
-- Author
-```
-
-
-4. Deadline pengumpulan tugas 1 adalah <span style="color:red">__1 Juli 2022 Pukul 22.40 WIB__</span>
-
-<h3 align="center">
-  <br>
-  Selamat Mengerjakan!
-  <br>
-</h3>
-
-<p align="center">
-  <i>
-  Happiness does not come from doing easy work
-  but from the afterglow of satisfaction that
-  comes after the achievement of a difficult
-  task that demanded our best.<br><br>
-  - Theodore Isaac Rubin
-  </i>
-</p>
 <br>
+
+## Deskripsi Data dan DBMS
+_Web scraping_ yang dilakukan bertujuan untuk memperoleh data klub sepakbola Eropa yang terdaftar dalam permainan FIFA22. Data yang diambil bersumber dari [sofifa.com](https://sofifa.com/). Data-data yang diambil meliputi statistik, taktik bermain, liga sepakbola, stadium, kapten, dan pelatih tiap klub.
+
+DBMS yang dipilih untuk menyimpan data hasil _scraping_ adalah PostgreSQL. Alasan pemilihan PostgreSQL adalah PostgreSQL merupakan DBMS yang _open source_ dan dapat diandalkan untuk menyimpan data-data yang ada.
+
+## Spesifikasi Program
+Program yang dibuat bertujuan untuk memperoleh data klub sepakbola Eropa yang terdaftar dalam permainan FIFA22 dan menyimpannya dalam bentuk JSON.
+
+## Penggunaan Program
+1. Pastikan Python sudah ter-_install_. Instalasi Python dapat dilakukan melalui link https://www.python.org/downloads/.
+2. Buka folder Data Scraping/src pada terminal.
+3. Jalankan perintah berikut untuk melakukan instalasi _package_ yang diperlukan
+```
+pip install -r requirements.txt
+```
+4. Jalankan perintah berikut untuk menjalankan program
+```
+python web_scraping.py
+```
+
+## Struktur JSON
+```
+{
+  "clubs": [
+    {
+      "club_id": ID unik klub,
+      "club_name": Nama klub,
+      "league_id": ID liga yang diikuti klub,
+      "overall": Rating keseluruhan pemain klub,
+      "attack": Rating pemain menyerang klub,
+      "midfield": Rating pemain gelandang klub,
+      "defense": Rating pemain bertahan klub,
+      "transfer_budget": Anggaran transfer klub,
+      "number_of_players": Jumlah pemain klub,
+      "defensive_style_id": ID gaya bertahan klub,
+      "defense_width": Lebar bertahan klub,
+      "defense_depth": Kedalaman bertahan klub,
+      "build_up_play_id": ID gaya membangun serangan klub,
+      "chance_creation_id": ID gaya menciptakan peluang klub,
+      "offense_width": Lebar menyerang klub,
+      "offense_player_in_box": Jumlah pemain dalam kotak penalti ketika menyerang,
+      "corner_player_in_box": Jumlah pemain dalam kotak penalti ketika melakukan sepak pojok,
+      "free_kick_player_in_box": Jumlah pemain dalam kotak penalti ketika melakukan tendangan bebas,
+      "rival_club_id": ID klub rival,
+      "club_worth": Nilai klub,
+      "average_age": Rata-rata usia pemain klub,
+      "captain_id": ID kapten klub,
+      "home_stadium_id": ID stadium klub
+    }, ...
+  ],
+  "leagues": [
+    {
+      "league_id": ID liga,
+      "league_name": Nama liga
+    }, ...
+  ],
+  "stadiums": [
+    {
+      "stadium_id": ID stadium,
+      "stadium_name": Nama stadium
+    }, ...
+  ],
+  "captains": [
+    {
+      "captain_id": ID kapten,
+      "captain_name": Nama kapten
+    }, ...
+  ],
+  "coaches": [
+    {
+      "coach_id": ID pelatih,
+      "coach_name": Nama pelatih,
+      "birth_date": Tanggal lahir pelatih,
+      "club_id": ID klub yang dilatih
+    }, ...
+  ],
+  "defensive_style": [
+    {
+      "defensive_style_id": ID gaya bertahan,
+      "defensive_style_name": Nama gaya bertahan
+    }, ...
+  ],
+  "build_up_play": [
+    {
+      "build_up_play_id": ID gaya membangun serangan,
+      "build_up_play_name": Nama gaya membangun serangan
+    }, ...
+  ],
+  "chance_creation": [
+    {
+      "chance_creation_id": ID gaya menciptakan peluang,
+      "chance_creation_name": Nama gaya menciptakan peluang
+    }, ...
+  ]
+}
+```
+
+## Struktur Database
+- ER Diagram
+![ER Diagram](Data%20Storing/design/ER%20Diagram.png)
+- Model Relasional
+```
+club = (club_id, club_name, overall, attack, midfield, defense, transfer_budget, number_of_players, defense_width, defense_depth, offense_width, offense_player_in_box, corner_player_in_box, free_kick_player_in_box, club_worth, average_age, league_id, home_stadium_id, captain_id, defensive_style_id, build_up_play_id, chance_creation_id, rival_club_id)
+
+league = (league_id, league_name)
+
+stadium = (stadium_id, stadium_name)
+
+captain = (captain_id, captain_name)
+
+coach = (coach_id, coach_name, birth_date, club_id)
+
+defensive_style = (defensive_style_id, defensive_style_name)
+
+build_up_play = (build_up_play_id, build_up_play_name)
+
+chance_creation = (chance_creation_id, chance_creation_name)
+```
+_Catatan: Atribut ID menjadi primary key tiap tabel_
+
+## Screenshot Program
+- Data Scraping
+
+![Functionalities](Data%20Scraping/screenshot/Functionalities.png)
+
+![Running Program](Data%20Scraping/screenshot/Running%20program.png)
+
+- Data Storing (Local)
+
+![Local Club Table](Data%20Storing/screenshot/local%20club%20table.png)
+
+![Local League Table](Data%20Storing/screenshot/local%20league%20table.png)
+
+![Local Stadium Table](Data%20Storing/screenshot/local%20stadium%20table.png)
+
+![Local Captain Table](Data%20Storing/screenshot/local%20captain%20table.png)
+
+![Local Coach Table](Data%20Storing/screenshot/local%20coach%20table.png)
+
+![Local Defensive Style Table](Data%20Storing/screenshot/local%20defensive_style%20table.png)
+
+![Local Build Up Play Table](Data%20Storing/screenshot/local%20build_up_play%20table.png)
+
+![Local Chance Creation Table](Data%20Storing/screenshot/local%20chance_creation%20table.png)
+
+- Data Storing (Cloud)
+
+![Cloud Club Table](Data%20Storing/screenshot/cloud%20club%20table.png)
+
+![Cloud League Table](Data%20Storing/screenshot/cloud%20league%20table.png)
+
+![Cloud Stadium Table](Data%20Storing/screenshot/cloud%20stadium%20table.png)
+
+![Cloud Captain Table](Data%20Storing/screenshot/cloud%20captain%20table.png)
+
+![Cloud Coach Table](Data%20Storing/screenshot/cloud%20coach%20table.png)
+
+![Cloud Defensive Style Table](Data%20Storing/screenshot/cloud%20defensive_style%20table.png)
+
+![Cloud Build Up Play Table](Data%20Storing/screenshot/cloud%20build_up_play%20table.png)
+
+![Cloud Chance Creation Table](Data%20Storing/screenshot/cloud%20chance_creation%20table.png)
+
+## Referensi
+- Python (https://docs.python.org/3/)
+- bs4 (https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+- requests (https://requests.readthedocs.io/en/latest/)
+- re (https://docs.python.org/3/library/re.html)
+- json (https://docs.python.org/3/library/json.html)
+- datetime (https://docs.python.org/3/library/datetime.html)
+
+## Author
+Fernaldy
+
+13520112
