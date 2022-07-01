@@ -1,23 +1,91 @@
 <h1 align="center">
   <br>
-  Seleksi Warga Basdat 2022
+  Scraping Data TWS Amazon.com
   <br>
   <br>
 </h1>
 
 <h2 align="center">
   <br>
-  Tugas 1 : Data Scraping & Data Storing
+  Tugas 1 Seleksi Calon Warga Basdat 2022
   <br>
   <br>
 </h2>
 
 
-## Spesifikasi
+## Sekilas mengenai Amazon.com
 
-### Data Scraping
+![logo](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/tree/main.gitignore/amazon_logo.jpg)
 
-1. Lakukan _data scraping_ dari sebuah laman web untuk memperoleh data atau informasi tertentu __TANPA MENGGUNAKAN API__. Hasil _data scraping_ ini nantinya akan disimpan dalam DBMS dan digunakan sebagai bahan tugas analisis dan visualisasi data.
+Amazon.com, Inc. adalah multinasional teknologi Perusahaan Amerika yang berfokus pada e-niaga, komputasi awan, streaming digital dan kecerdasan buatan. Perusahaan ini adalah salah satu dari Lima Besar perusahaan di industri teknologi informasi AS, bersama dengan Google (Alphabet), Apple, Meta (Facebook) dan Microsoft. Perusahaan ini telah disebut sebagai "salah satu kekuatan ekonomi dan budaya paling berpengaruh di dunia", serta merek paling berharga di dunia. <a href='https://id.wikipedia.org/wiki/Amazon_(perusahaan)'>(sumber: id.wikipedia.org) </a>.
+
+## Deskripsi Data dan DBMS
+
+Pada tugas ini, saya mengambil data dari situs <a href='https://www.amazon.com/s?k=tws&i=electronics&rh=n%3A172541&qid=1656672311&ref=sr_pg_1'> amazon.com </a> mengenai _True Wireless Stereo(TWS)_. Beberapa data yang disediakan dan akan discrape mengenai produk tersebut antara lain nama, harga awal, harga setelah didiskon, persentase diskon, rating, jumlah review, dan url.
+
+![product_example](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/tree/main.gitignore/contoh_data.jpg)
+
+DBMS yang saya gunakan pada projek ini adalah PostgreSQL. Alasan pemilih penggunaan DBMS ini adalah karena PostgreSQL dapat _support_ untuk beberapa bahasa pemrograman seperti python, c, c++, atau js. DBMS ini juga support untuk menyimpan data dalam format JSON. Selain itu, integritas dan keamanan data juga terjamin.
+
+## Spesifikasi Program
+Proses _data scraping_ ini dilakukan pada `jupyter-lab` dengan menggunakan bahasa pemrograman python. Beberapa library yang diperlukan adalah pandas, selenium, dan beautifulsoup.
+
+## Heroku API
+Saya melakukan deployment data ke dalam heroku menggunakan _add-ons_ `Heroku Postgres`. Selain itu, saya juga membuat API untuk mengakses data TWS Amazon menggunakan `json-server`. API tersebut dapat diakses pada tautan
+
+
+## How To Use
+1. Instal dan impor semua library (terdapat pada file requirements.txt pada folder Data Scraping/src) dengan 
+```
+pip install -r requirements.txt
+```
+2. Buka `TWS_Amazon_Scrape.ipynb` pada dengan mengetik `jupyter-lab` pada CLI
+3. Kloning repositori ini ke direktori lokal Anda
+4. Jalankan program
+5. Program harus berjalan sesuai dengan urutan dimulai dari sel paling atas ke paling bawah
+6. Program akan melakukan instalasi `WebDriver manager` yang diperlukan untuk menjalankan proses
+![web_driver](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/tree/main.gitignore/web_driver.jpg)
+7. Sebuah window `Google-Chrome` akan muncul seiring berjalannya proses _scraping_
+8. Ketika proses selesai, akan terbentuk 2 buah file di directory tersebut, yaitu `TWS_amazon.csv` dan `TWS_amazon.json`
+
+## JSON Structure
+
+Berikut ini adalah struktur `JSON` hasil _data scraping_
+
+```
+{
+  "Name": string,
+  "Normal Price (USD)": float,
+  "Discounted Price (USD)": float,
+  "Discount percentage (%)": float,
+  "Rating (out of 5 stars)": float,
+  "Review Count": integer,
+  "Url": string
+}
+```
+
+Contoh data hasil _scraping_ adalah seperti berikut
+
+```
+{
+  "Name": "Aurasound Wireless Earphones, Bluetooth Earbuds Noise Cancelling, TWS Earbuds with 13mm driver/30H Playtime/Music&Game Dual Mode, in-Ear Lightweight Earbuds for iOS/Android\uff08Black\uff09",
+  "Normal Price (USD)": "14.99",
+  "Discounted Price (USD)": "14.99",
+  "Discount percentage (%)": "0",
+  "Rating (out of 5 stars)": "3.7",
+  "Review Count": "47",
+  "Url": "https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=pa_sp_atf_electronics_sr_pg1_1?ie=UTF8&adId=A08610343HW08PUIJBAU&url=%2FAurasound-FUNbuds-Headphones-Lightweight-Android%25EF%25BC%2588Black%25EF%25BC%2589%2Fdp%2FB09KGS36DT%2Fref%3Dsr_1_1_sspa%3Fkeywords%3Dtws%26qid%3D1656433430%26s%3Daht%26sr%3D1-1-spons%26psc%3D1&qualifier=1656433430&id=5886059493908647&widgetName=sp_atf"
+}
+```
+
+## Screenshots
+* Preprocessing
+* Saat program berjalan
+* Cleaning
+* Storing ke DBMS
+* Deployment ke Heroku Postgres
+* API
+
 
 2. Daftarkan judul topik yang akan dijadikan bahan _data scraping_ dan DBMS yang akan digunakan pada spreadsheet berikut: [Topik Data Scraping](https://docs.google.com/spreadsheets/d/1VjK-ZeJlSy38yqUJvaaCqYtS7yP8Vq609ewyWTA_k2Y/edit?usp=sharing). Usahakan agar tidak ada peserta dengan topik yang sama. Akses edit ke spreadsheet akan ditutup tanggal __10 Juni 2022 pukul 21.40 WIB__
 
