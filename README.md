@@ -1,98 +1,133 @@
+
 <h1 align="center">
   <br>
-  Seleksi Warga Basdat 2022
+  Data Scrapping dan Database Mobil Bekas dari mobil123.com
   <br>
   <br>
 </h1>
 
-<h2 align="center">
-  <br>
-  Tugas 1 : Data Scraping & Data Storing
-  <br>
-  <br>
-</h2>
+## Description of The Data and DBMS
+Data yang ada pada project ini adalah data-data mobil bekas yang diambil dari mobil123.com. Data mencakupi data mobil bekas (seperti harga, model, mileage, tahun produksi), model mobil (seperti brand, tipe mobil), review dari model mobil, dan penjual mobil bekas.
+
+DBMS yang dipakai adalah PostgreSQL yang merupakan sistem database relasional. Alasan pemilihan DBMS ini adalah karena saya familiar dengan DBMS ini.
+
+## Specification
+Program scrapping menggunakan bahasa python dan library beautifulsoup. Melakukan scrapping dari web mobil123.com dan mengoutput 4 file json.
+API dibuat dengan node.js dengan framework express dan dihost di heroku, database PostgreSQL juga dihost di Heroku.
 
 
-## Spesifikasi
+## How to Use
+### Program Scrapping 
+Program scrapping (yaitu scrapping.py yang berada di Data Scrapping/src) dapat digunakan setelah seluruh library yang dibutuhkan telah diinstal. Library bisa diinstal dengan mwnggunakan command
+pip install [Nama Library]
+Setelah semua library yang dibutuhkan telah diinstall, program dapat dijalankan dengan command berikut di directory src.
+python scrapping.py
 
-### Data Scraping
+### API
+Request GET dapat dikirimkan ke URL-URL berikut ini:
+mobilbekas123.herokuapp.com/mobilBekas
+mobilbekas123.herokuapp.com/modelMobil
+mobilbekas123.herokuapp.com/penjual
 
-1. Lakukan _data scraping_ dari sebuah laman web untuk memperoleh data atau informasi tertentu __TANPA MENGGUNAKAN API__. Hasil _data scraping_ ini nantinya akan disimpan dalam DBMS dan digunakan sebagai bahan tugas analisis dan visualisasi data.
-
-2. Daftarkan judul topik yang akan dijadikan bahan _data scraping_ dan DBMS yang akan digunakan pada spreadsheet berikut: [Topik Data Scraping](https://docs.google.com/spreadsheets/d/1VjK-ZeJlSy38yqUJvaaCqYtS7yP8Vq609ewyWTA_k2Y/edit?usp=sharing). Usahakan agar tidak ada peserta dengan topik yang sama. Akses edit ke spreadsheet akan ditutup tanggal __10 Juni 2022 pukul 21.40 WIB__
-
-3. Pada folder `Data Scraping`, calon warga basdat harus mengumpulkan _file script_, json hasil _data scraping_. Folder `Data Scraping` terdiri dari _folder_ `src`, `data` dan `screenshots`. 
-    - _Folder_ `src` berisi _file script_/kode yang __*WELL DOCUMENTED* dan *CLEAN CODE*__ 
-    - _Folder_ `data` berisi _file_ json hasil _scraper_
-    - _Folder_ `screenshot` berisi tangkapan layar program.
-
-4. Sebagai referensi untuk mengenal _data scraping_, asisten menyediakan dokumen "_Short Guidance To Data Scraping_" yang dapat diakses pada link berikut: [Data Scraping Guidance](http://bit.ly/DataScrapingGuidance). Mohon memperhatikan etika dalam melakukan _scraping_.
-
-5. Data yang diperolah harus dinormalisasi dan harus di-_preprocessing_
+## JSON Structure
+Ada 7 buah file json yang dihasilkan oleh program scrapper yang masing-masing memiliki struktur sebagai berikut:
+mobilBekas =
 ```
-Preprocessing contohnya :
-- Cleaning
-- Parsing
-- Transformation
-- dan lainnya
+        {
+                "idMobilBekas": id unik ,
+                "judulMobilBekas": Judul yang ditaruh oleh penjual,
+                "idModel": id model (foreign key),
+                "transmisi": transmisi mobil,
+                "kapasitasMesin": CC mesin,
+                "bahanBakar": bahan bakar yang dipakai,
+                "kapasitas": kapasitas penumpang,
+                "warna": warna mobil,
+                "harga": harga dalam rupiah,
+                "mileage": jarak yang sudah ditempuh mobil,
+                "tahunProduksi": tahun mobil diluncukan,
+                "urlMobil": page mobil,
+                "idPenjual": id mobil (foreign key)
+        }
 ```
-
-### Data Storing
-
-1. Buatlah sebuah ER Diagram dari basis data yang akan digunakan untuk menyimpan data hasil _scraping_
-   
-2. Implementasikan ERD tersebut ke DBMS sesuai pilihan kalian
-
-3. Tools yang digunakan __dibebaskan__
-
-4. Calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Folder_ `Data Storing` terdiri dari folder `screenshots`, `export`, dan `design`
-    - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
-    - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
-    -  _Folder_ `design` berisi ER Diagram yang disimpan dalam format `.png`
-
-
-
-5. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    - Simpan ke _cloud database_
-    - Buatlah API sederhana untuk mengakses _database_ tersebut
-
-### Pengumpulan
-
-
-1. Dalam mengerjakan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: [Seleksi-2022-Tugas-1](https://github.com/wargabasdat/Seleksi-2022-Tugas-1). Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_1_[NIM]```
-
-2. Tambahkan juga `.gitignore` pada _file_ atau _folder_ yang tidak perlu di-_upload_, __NB: BINARY TIDAK DIUPLOAD__
-
-3. Berikan satu buah file `README` yang __WELL DOCUMENTED__ dengan cara __override__ _file_ `README.md` ini. `README` harus memuat minimal konten:
-
-
+modelMobil =
 ```
-- Description of the data and DBMS (Why you choose it)
-- Specification of the program
-- How to use
-- JSON Structure
-- Database Structure
-- Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-- Reference (Library used, etc)
-- Author
+        {
+                "idModel": id unik,
+                "brand": merk,
+                "model": model,
+                "tipeMobil": tipe mobil
+        }
+```
+reviewModel =
+```
+        {
+                "idReview": id unik,
+                "idModelMobil": id model (foreign key),
+                "namaReviewer": nama reviewer,
+                "tanggalReview": timestamp review disubmit,
+                "judulReview": judul review,
+                "bodyReview": isi review,
+                "rating": rating (skala 5)
+        }
 ```
 
+penjual =
+```
+        {
+                "idPenjual": id unik,
+                "namaPenjual": nama penjual/dealer,
+                "tipePenjual": tipe penjual (private/dealer),
+                "kotaPenjual": kota,
+                "provinsiPenjual": provinsi
+        }
+```
+## Database Structure
+Berikut adalah ER diagram dari database ini 
+![ERD](Data%20Storing/design/ER%20Diagram.png)
 
-4. Deadline pengumpulan tugas 1 adalah <span style="color:red">__1 Juli 2022 Pukul 22.40 WIB__</span>
+Setiap mobil bekas memiliki tipe model mobil tertentu dan beberapa mobil bekas bisa memiliki model yang sama. Oleh karena itu, hubungan antara mobilBekas dan modelMobil adalah many to one.
 
-<h3 align="center">
-  <br>
-  Selamat Mengerjakan!
-  <br>
-</h3>
+Sebuah review pasti membahas suatu model mobil, tetapi tidak semua model mobil memiliki review. Oleh karena itu, hubungan antara reviewModel dan modelMobil adalah many to one dengan partisipasi parsial dari modelMobil.
 
-<p align="center">
-  <i>
-  Happiness does not come from doing easy work
-  but from the afterglow of satisfaction that
-  comes after the achievement of a difficult
-  task that demanded our best.<br><br>
-  - Theodore Isaac Rubin
-  </i>
-</p>
-<br>
+Setiap mobil bekas pasti dijual oleh seorang penjual. Tetapi seorang penjual bisa saja menjual lebih dari satu mobil. Sehingga hubungan antara penjual dan mobilBekas adalah one to many.
+
+## Screenshots
+Program Scrapper
+![Screenshot Program Scraping](Data%20Scraping/screenshot/Screenshot%20Program.png)
+
+### List of Tables di Database Lokal
+![List Tables](Data%20Storing/screenshot/List%20of%20Tables.jpg)
+
+### Relasi mobilBekas di Database Lokal
+![List Tables](Data%20Storing/screenshot/mobilBekas.png)
+
+### Relasi modelMobil di Database Lokal
+![List Tables](Data%20Storing/screenshot/modelMobil.png)
+
+### Relasi reviewModel di Database Lokal
+![List Tables](Data%20Storing/screenshot/reviewModel.png)
+
+### Relasi penjual di Database Lokal
+![List Tables](Data%20Storing/screenshot/penjual.png)
+
+### Penyimpanan di Cloud dan API
+![List Tables](Data%20Storing/screenshot/Cloud1.png)
+![List Tables](Data%20Storing/screenshot/Cloud2.png)
+![List Tables](Data%20Storing/screenshot/Cloud3.png)
+
+## References
+Tutorial BeautifulSoup
+https://youtu.be/ng2o98k983k
+
+Deploy Database PostgreSQL ke Heroku
+https://youtu.be/80oty2v4HsE
+
+CRUD Rest API node.js dan Express dengan PostgreSQL
+https://blog.logrocket.com/crud-rest-api-node-js-express-postgresql/
+
+Deploy Aplikasi node.js ke Heroku
+https://lo-victoria.com/build-rest-api-with-nodejs-deploy-to-heroku
+https://link.medium.com/EsHwIPHXirb
+
+Saat menemukan error
+https://stackoverflow.com/
