@@ -32,7 +32,9 @@ Proses _data scraping_ ini dilakukan pada `jupyter-lab` dengan menggunakan bahas
 
 ## Heroku API
 Saya melakukan deployment data ke dalam heroku menggunakan _add-ons_ `Heroku Postgres`. Selain itu, saya juga membuat API untuk mengakses data TWS Amazon menggunakan `json-server`. API tersebut dapat diakses pada tautan
-
+```
+https://project-api-basdat.herokuapp.com/tws
+```
 
 ## How To Use
 1. Instal dan impor semua library (terdapat pada file requirements.txt pada folder Data Scraping/src) dengan 
