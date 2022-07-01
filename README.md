@@ -39,12 +39,12 @@ Program data scraping ini menggunakan bahasa Python dengan beberapa library tamb
 ```
 
 ## Database Structure
-![Struktur Database](/Data Storing/design/ERD.png)
+![ERD](/Data Storing/design/ERD.png)
 
 ### Screenshot Program
-![](/Data Scraping/screenshot/SS Program 1.png)
-![](/Data Scraping/screenshot/SS Program 2.png)
-![](/Data Scraping/screenshot/SS Hasil.png)
+![SS Program 1](Data Scraping/screenshot/SS Program 1.png)
+![SS Program 2](Data Scraping/screenshot/SS Program 2.png)
+![SS Hasil](Data Scraping/screenshot/SS Hasil.png)
 
 ### Referensi
 1. Dokumentasi Python dan PostgreSQL
