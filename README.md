@@ -45,6 +45,8 @@ pip install -r requirements.txt
 6. File json hasil _scraping_ akan tersedia pada folder `Data Scraping/data`.
 
 ### API
+API dapat diakses melalui [dressdatabase.herokuapp.com](https://dressdatabase.herokuapp.com/) dan endpoint yang tersedia dapat diakses melalui [dressdatabase.herokuapp.com/docs](https://dressdatabase.herokuapp.com/docs). <br>
+Selain itu, Anda juga dapat mengakses API dengan cara
 1. Clone _repository_ ini ke PC Anda.
 2. Pastikan Python telah ter-_install_ pada PC Anda.
 3. Install seluruh library yang dibutuhkan dengan menjalankan command berikut ke terminal.
