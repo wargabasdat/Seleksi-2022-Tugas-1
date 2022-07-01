@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  Data Webtoon Bahasa Indonesia dari webtoons.com/id
+   Indonesian WEBTOONS Data from webtoons.com/id
   <br>
   <br>
 </h1>
@@ -121,11 +121,11 @@ __FUNCTIONS__
 ![Function2](Data%20Scraping/screenshot/function2.png)
 ![Function3](Data%20Scraping/screenshot/function3.png)
 ![Function4](Data%20Scraping/screenshot/function4.png)
-![Function5](Data%20Scraping/screenshot/function1.png)
-![Function6](Data%20Scraping/screenshot/function1.png)
-![Function7](Data%20Scraping/screenshot/function1.png)
-![Function8](Data%20Scraping/screenshot/function1.png)
-![Function9](Data%20Scraping/screenshot/function1.png)
+![Function5](Data%20Scraping/screenshot/function5.png)
+![Function6](Data%20Scraping/screenshot/function6.png)
+![Function7](Data%20Scraping/screenshot/function7.png)
+![Function8](Data%20Scraping/screenshot/function8.png)
+![Function9](Data%20Scraping/screenshot/function9.png)
 
 __PREPROCESSING__
 ![Preprocessing1](Data%20Scraping/screenshot/preprocessing1.png)
@@ -142,7 +142,7 @@ __Data stored in MongoDB Local__
 ![Local](Data%20Storing/screenshot/storing_mongodb_local.png)  
 
 __Data stored in MongoDB Atlas__
-![Clous](Data%20Storing/screenshot/storing_mongodb_atlas.png)
+![Cloud](Data%20Storing/screenshot/storing_mongodb_atlas.png)
 
 
 ## Reference
