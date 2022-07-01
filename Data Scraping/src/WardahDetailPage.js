@@ -13,7 +13,7 @@ function splitNewLine(strHowTo) {
     return res
 }
 
-export async function getProductData(url, browser) {
+export async function getProductData(url, browser, id_product) {
     const page = await browser.newPage();
 
     await page.goto(url, {
@@ -51,6 +51,7 @@ export async function getProductData(url, browser) {
     await page.close();
 
     return {
+        id: id_product,
         category: kategori,
         image: gambar,
         sub_category: subKategori,

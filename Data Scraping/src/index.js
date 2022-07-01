@@ -23,10 +23,11 @@ for (let l of category_url) {
 
 const allProductDetail = [];
 
+let id = 0;
 for (let link of allProducts) {
-    const data = await getProductData(link, browser);
-
+    const data = await getProductData(link, browser, id);
     allProductDetail.push(data);
+    id += 1;
 }
 
 fs.writeFileSync("data/wardah.json", JSON.stringify(allProductDetail))
