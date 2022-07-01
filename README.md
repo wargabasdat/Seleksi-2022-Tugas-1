@@ -41,7 +41,7 @@ https://project-api-basdat.herokuapp.com/tws
 ```
 pip install -r requirements.txt
 ```
-2. Buka `TWS_Amazon_Scrape.ipynb` pada dengan mengetik `jupyter-lab` pada CLI
+2. Buka `TWS_Amazon_Scrape.ipynb` pada jupyter-lab dengan mengetik `jupyter-lab` pada CLI
 3. Kloning repositori ini ke direktori lokal Anda
 4. Jalankan program
 5. Program harus berjalan sesuai dengan urutan dimulai dari sel paling atas ke paling bawah
