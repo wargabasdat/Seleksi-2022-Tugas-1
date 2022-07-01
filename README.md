@@ -50,12 +50,6 @@ Preprocessing contohnya :
     - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
     -  _Folder_ `design` berisi ER Diagram yang disimpan dalam format `.png`
 
-
-
-5. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    - Simpan ke _cloud database_
-    - Buatlah API sederhana untuk mengakses _database_ tersebut
-
 ### Pengumpulan
 
 
