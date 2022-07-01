@@ -11,6 +11,7 @@ Program ini dibuat dengan menggunakan Node.js
 - Program berhasil di-run di localhost:8080
 
 # JSON Structure
+- id
 - category
 - image
 - sub_category
@@ -21,10 +22,13 @@ Program ini dibuat dengan menggunakan Node.js
 - variant
 
 # Database  Structure
+![Blank diagram - Page 6](https://user-images.githubusercontent.com/40686115/176924668-6ea39eaa-d958-41c6-b6e8-589a1c083a99.png)
 
-# Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
+# Screenshot program
+![Screenshot (241)](https://user-images.githubusercontent.com/40686115/176924720-a897b680-9370-4bbe-b04f-35d68b2e2048.png)
 
 # Reference (Library used, etc)
+https://nodejs.org/en/docs/
 
 # Author
 Hana Fathiyah
