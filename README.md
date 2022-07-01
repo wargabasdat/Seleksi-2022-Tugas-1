@@ -41,6 +41,9 @@ Pada program ini, saya menggunakan bahasa pemrograman TypeScript dan library Pup
      - `--open-browser` is used to open browser while scraping so user can see scraping progress
      - `--write-intermediate` is used to write intermediate JSON results to files
      - Example: `npm run scrap -- --open-browser --write-intermediate`
+   - Warning: this scrapping process requires a lot of memory, so please close as many program as posible.
+   - Warning: it is posible for this scraping process to terminate automatically due to lack of memory or slow internet connection, so please close as many program as possible and keep internet connection running well.
+
 
 2. Data storing
    - `cd "Data Storing"`
@@ -103,6 +106,7 @@ Berikut merupakan ER Diagram dari struktur database project ini
 ![Cloud Database](Data%20Storing/screenshot/cloud-database.png)
   - API Server Local
 ![API Server Local](Data%20Storing/screenshot/api-server-local.png)
+![API Server Local 2](Data%20Storing/screenshot/api-server-local-2.png)
   - API Documentation
 ![API Documentation](Data%20Storing/screenshot/api-documentation.png)
   - API Documentation Example
