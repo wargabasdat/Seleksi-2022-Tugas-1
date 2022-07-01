@@ -135,7 +135,7 @@ The structure of the database is as shown as the ERD below:
 ### Data Scraping
 
 __Libraries and Dictionaries__  
-![Libraries](Data%20Scraping/screenshot/libraries.PNG)
+![Libraries](Data%20Scraping/screenshot/libraries.PNG)  
 ![Dictionaries](Data%20Scraping/screenshot/dictionaries.PNG)
 
 __Scraper and Additional Functions__  
