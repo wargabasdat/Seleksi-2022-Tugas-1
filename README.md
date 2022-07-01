@@ -41,10 +41,10 @@ https://project-api-basdat.herokuapp.com/tws
 ```
 pip install -r requirements.txt
 ```
-2. Buka `TWS_Amazon_Scrape.ipynb` pada jupyter-lab dengan mengetik `jupyter-lab` pada CLI
-3. Kloning repositori ini ke direktori lokal Anda
+2. _Clone_ / _downlaod_ repositori ini ke direktori lokal
+3. Buka `TWS_Amazon_Scrape.ipynb` pada jupyter-lab dengan mengetik `jupyter-lab` pada CLI
 4. Jalankan program
-5. Program harus berjalan sesuai dengan urutan dimulai dari sel paling atas ke paling bawah
+5. Program harus dijalankan sesuai dengan urutan dimulai dari sel paling atas ke paling bawah
 6. Program akan melakukan instalasi `WebDriver manager` yang diperlukan untuk menjalankan proses
 ![web_driver](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/blob/main/extras/web_driver.jpeg)
 7. Sebuah window `Google-Chrome` akan muncul seiring berjalannya proses _scraping_
