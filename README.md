@@ -91,7 +91,7 @@ Data yang di-_scrape_ akan disimpan dalam file dengan format JSON dengan struktu
 Berikut ini adalah ER Diagram dari database hasil data _scraping_ website Infokost pada _project_ ini, dengan _id sebagai _primary key_.
 <h2 align="center">
 
-![ERD](Data%20Storing/design/ERD%20Seleksi%20Basdat%20(infokost).jpg)
+![ERD](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/design/ERD%20infokost%20(seleksi%20basdat).png)
 
 </h2>
 
