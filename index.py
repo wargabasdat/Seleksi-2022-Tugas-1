@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from routes.dress_routes import dress_api_router
+from API.src.routes.dress_routes import dress_api_router
 
 app = FastAPI()
 

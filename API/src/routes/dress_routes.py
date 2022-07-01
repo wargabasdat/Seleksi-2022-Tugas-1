@@ -1,7 +1,7 @@
 from fastapi import APIRouter
-from config.database import collection_name
-from models.dress_model import Dress
-from schemas.dress_schema import dresses_serializer
+from API.src.config.database import collection_name
+from API.src.models.dress_model import Dress
+from API.src.schemas.dress_schema import dresses_serializer
 from bson import ObjectId
 
 dress_api_router = APIRouter()
