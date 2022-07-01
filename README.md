@@ -9,90 +9,122 @@
   <br>
   Tugas 1 : Data Scraping & Data Storing
   <br>
+  Data Scraping & Data Storing Website <a href="https://footballdatabase.com/clubs-index">footballdatabase.com</a>
+  <br>
   <br>
 </h2>
 
+## Description of the data and DBMS
+Sepakbola merupakan olahraga yang banyak menarik minat masyarakat. Hal ini dapat dilihat dari banyaknya klub sepakbola di berbagai negara dan dari berbagai benua pula. Di antara klub-klub tersebut, tentunya terdapat perankingan dari berbagai aspek, baik perankingan per negara, per benua, maupun satu dunia. Hal tersebut cukup penting untuk membandingkan performa masing-masing tim. Pada project ini, akan dilakukan data scraping dan data storing terkait perankingan klub-klub sepakbola di masing-masing negara, benua, maupun satu dunia dari website [football database](http://footballdatabase.com/clubs-index). Data yang akan didapat berupa data perankingan masing-masing team sepakbola untuk tingkat negara, tingkat benua, dan tingkat dunia.
 
-## Spesifikasi
+DBMS yang akan digunakan ialah MySQL. DBMS ini banyak sekali digunakan serta berbasis SQL. Alasan dipilihnya DBMS ini ialah saya telah cukup familiar dengan DBMS ini serta cukup banyak penyedia penyimpanan database yang gratis untuk DBMS ini.
 
-### Data Scraping
+## Specification of the program
+Pada program ini, saya menggunakan bahasa pemrograman TypeScript dan library Puppeteer untuk data scraping dan data storing. Saya juga menggunakan bahasa pemrograman Java dan Spring Boot sebagai framework untuk membuat server API sederhana. Untuk menjalankan program ini, anda membutuhkan beberapa environment berikut:
+- Node JS versi 14 ke atas, penulis sarankan versi 16 (16.11.0)
+- JVM & JRE
+- Intellij IDEA IDE (opsional, tetapi penulis sarankan karena petunjuk menjalankan server ini menggunakan Intellij IDEA IDE)
 
-1. Lakukan _data scraping_ dari sebuah laman web untuk memperoleh data atau informasi tertentu __TANPA MENGGUNAKAN API__. Hasil _data scraping_ ini nantinya akan disimpan dalam DBMS dan digunakan sebagai bahan tugas analisis dan visualisasi data.
+## How to use
+1. Data Scraping
+   - `cd "Data Scraping"`
+   - `npm ci`
+   - `npm run build / npm run build-windows`
+   - `npm run scrap [-- [--print-log] [--open-browser] [--write-intermediate]]`
+   - `npm run process`
 
-2. Daftarkan judul topik yang akan dijadikan bahan _data scraping_ dan DBMS yang akan digunakan pada spreadsheet berikut: [Topik Data Scraping](https://docs.google.com/spreadsheets/d/1VjK-ZeJlSy38yqUJvaaCqYtS7yP8Vq609ewyWTA_k2Y/edit?usp=sharing). Usahakan agar tidak ada peserta dengan topik yang sama. Akses edit ke spreadsheet akan ditutup tanggal __10 Juni 2022 pukul 21.40 WIB__
+   Note:
+   - If error with puppeteer, please try run `npm run puppeteer-install`
+   - Flag explanation for `npm run scrap`
+     - If you want to add flag, you need to add ` -- ` first
+     - `--print-log` is used to log current scraping process
+     - `--open-browser` is used to open browser while scraping so user can see scraping progress
+     - `--write-intermediate` is used to write intermediate JSON results to files
 
-3. Pada folder `Data Scraping`, calon warga basdat harus mengumpulkan _file script_, json hasil _data scraping_. Folder `Data Scraping` terdiri dari _folder_ `src`, `data` dan `screenshots`. 
-    - _Folder_ `src` berisi _file script_/kode yang __*WELL DOCUMENTED* dan *CLEAN CODE*__ 
-    - _Folder_ `data` berisi _file_ json hasil _scraper_
-    - _Folder_ `screenshot` berisi tangkapan layar program.
+2. Data storing
+   - `cd "Data Storing"`
+   - `cd sql-converter`
+   - `npm ci`
+   - `npm run build / npm run build-windows`
+   - `npm run start`
+3. API
+   - Import sql export to your local database
+   - Rename [application.properties.example](Data%20Storing\api\basdat-api\src\main\resources\application.properties.example) to application.properties and fill required properties' value.
+   - Open [pom.xml file](Data%20Storing\api\basdat-api\pom.xml) using Intellij IDEA IDE (Intellij IDEA IDE will automatically resolve dependencies)
+   - Run main function of [BasdatApiApplication.java](Data%20Storing\api\basdat-api\src\main\java\com\malikrafsan\basdatapi\BasdatApiApplication.java)
+   - Open (http://localhost:8080/swagger-ui.html) to see the API documentation
 
-4. Sebagai referensi untuk mengenal _data scraping_, asisten menyediakan dokumen "_Short Guidance To Data Scraping_" yang dapat diakses pada link berikut: [Data Scraping Guidance](http://bit.ly/DataScrapingGuidance). Mohon memperhatikan etika dalam melakukan _scraping_.
-
-5. Data yang diperolah harus dinormalisasi dan harus di-_preprocessing_
-```
-Preprocessing contohnya :
-- Cleaning
-- Parsing
-- Transformation
-- dan lainnya
-```
-
-### Data Storing
-
-1. Buatlah sebuah ER Diagram dari basis data yang akan digunakan untuk menyimpan data hasil _scraping_
-   
-2. Implementasikan ERD tersebut ke DBMS sesuai pilihan kalian
-
-3. Tools yang digunakan __dibebaskan__
-
-4. Calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Folder_ `Data Storing` terdiri dari folder `screenshots`, `export`, dan `design`
-    - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
-    - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
-    -  _Folder_ `design` berisi ER Diagram yang disimpan dalam format `.png`
-
-
-
-5. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    - Simpan ke _cloud database_
-    - Buatlah API sederhana untuk mengakses _database_ tersebut
-
-### Pengumpulan
-
-
-1. Dalam mengerjakan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: [Seleksi-2022-Tugas-1](https://github.com/wargabasdat/Seleksi-2022-Tugas-1). Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_1_[NIM]```
-
-2. Tambahkan juga `.gitignore` pada _file_ atau _folder_ yang tidak perlu di-_upload_, __NB: BINARY TIDAK DIUPLOAD__
-
-3. Berikan satu buah file `README` yang __WELL DOCUMENTED__ dengan cara __override__ _file_ `README.md` ini. `README` harus memuat minimal konten:
-
-
-```
-- Description of the data and DBMS (Why you choose it)
-- Specification of the program
-- How to use
-- JSON Structure
-- Database Structure
-- Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-- Reference (Library used, etc)
-- Author
+## JSON Structure
+Berikut merupakan struktur JSON hasil scraping dan preprocessing
+```ts
+{
+    continent: string;
+    nations: {
+        nation: string;
+        teams: {
+            team: string;
+            worldRanking: number;
+            continentRanking: number;
+            nationRanking: number;
+        }[];
+    }[];
+}[]
 ```
 
+## Database Structure
+Berikut merupakan ER Diagram dari struktur database project ini
+![Database ER Diagram](Data%20Storing/diagram/diagram.png)
 
-4. Deadline pengumpulan tugas 1 adalah <span style="color:red">__1 Juli 2022 Pukul 22.40 WIB__</span>
+## Bonus
 
-<h3 align="center">
-  <br>
-  Selamat Mengerjakan!
-  <br>
-</h3>
+### API
+- Cloud Database
+  - Database project ini disimpan di clever cloud. Cloud database ini tidak bisa diakses secara langsung selain yang telah diotorisasi, tetapi bukti penyimpanan akan ditampilkan di Screenshots section
 
-<p align="center">
-  <i>
-  Happiness does not come from doing easy work
-  but from the afterglow of satisfaction that
-  comes after the achievement of a difficult
-  task that demanded our best.<br><br>
-  - Theodore Isaac Rubin
-  </i>
-</p>
-<br>
+- API Server
+  - API server ini di-deploy di Heroku server yang dapat dilihat [di sini](https://warm-harbor-18516.herokuapp.com/). Terkait dokumentasi dapat di-generate menggunakan library Swagger dan dapat dilihat [di sini](http://warm-harbor-18516.herokuapp.com/swagger-ui.html)
+
+## Screenshots
+- Data Scraping
+  - Scraping Browser
+![Scraping Browser](Data%20Scraping/screenshot/scraping-browser.png)
+  - Scraping Terminal
+![Scraping Terminal](Data%20Scraping/screenshot/scraping-terminal.png)
+
+- Data Storing
+  - Database Schema
+![Database Schema](Data%20Storing/screenshot/database-schema.png)
+  - Data Storing
+![Data Storing](Data%20Storing/screenshot/data-storing.png)
+
+- Bonus
+  - Cloud Database
+![Cloud Database](Data%20Storing/screenshot/cloud-database.png)
+  - API Server Local
+![API Server Local](Data%20Storing/screenshot/api-server-local.png)
+  - API Documentation
+![API Documentation](Data%20Storing/screenshot/api-documentation.png)
+  - API Documentation Example
+![API Documentation Example](Data%20Storing/screenshot/api-documentation-2.png)
+  - Remote API Server
+![Remote API Server](Data%20Storing/screenshot/api-server.png)
+![Remote API Server 2](Data%20Storing/screenshot/api-server-2.png)
+
+## References
+
+### Reading Materials
+- [Puppeteer Documentation](https://pptr.dev/)
+- [UUID NPM Package](https://www.npmjs.com/package/uuid)
+- [Spring Boot Documentation](https://spring.io/projects/spring-boot)
+- [Spring Boot Basic Tutorial](https://www.youtube.com/watch?v=VM3rwdMBORY)
+
+### Libraries
+- Puppeteer
+- UUID
+- Spring Boot
+- Swagger UI
+
+## Author
+   Malik Akbar Hashemi Rafsanjani
+   <br/>
+   13520105 / Teknik Informatika
