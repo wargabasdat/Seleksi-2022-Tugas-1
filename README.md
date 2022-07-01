@@ -1,98 +1,186 @@
 <h1 align="center">
   <br>
-  Seleksi Warga Basdat 2022
+   Indonesian WEBTOONS Data from webtoons.com/id
   <br>
   <br>
 </h1>
 
 <h2 align="center">
   <br>
-  Tugas 1 : Data Scraping & Data Storing
+  Data Scraping & Data Storing
   <br>
   <br>
 </h2>
 
+## Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Description](#description)
+- [Specification](#specification)
+- [How to Use](#how-to-use)
+  - [Data Scraping](#data-scraping)
+  - [Data Storing](#data-storing)
+- [JSON Structure](#json-structure)
+  - [ONGOING](#ongoing)
+  - [END](#end)
+- [Database Structure](#database-structure)
+- [Screenshots](#screenshots)
+  - [Data Scraping](#data-scraping-1)
+  - [Data Storing](#data-storing-1)
+- [References](#references)
+- [Author](#author)
 
-## Spesifikasi
+## Description
+
+WEBTOON is a South Korean webtoons publisher launched in 2004 by Naver Corporation. As one of the biggest webtoon platform in the world, the company provides webtoons in different languages, such as Indonesian. Webtoons released in Indonesian can be accessed from [webtoons.com/id](webtoons.com/id). 
+
+The data provided in this project is scraped from [webtoons.com/id/genre](webtoons.com/id/genre), where you can see all the webtoons available on the website. I scraped data from 683 available official webtoons. I chose to scrap this platform as WEBTOON's popularity is steadily increasing because lots of webtoons from this platform are adapted to live actions and it is often talked about on social media. The data can help people interested in reading webtoons to know information about available webtoons on the most popular platform and might help them to make decisions in reading webtoons.
+
+Data storing is done by importing the json file to MongoDB. I chose MongoDB because of a few reasons. First, it's easier to import json file to a MongoDB database because it is a document-oriented NoSQL database that uses JSON-like documents. MongoDB is also faster and more scalable than SQL server. It is also a popular and widely used NoSQL database program. MongoDB also has MongoDB Atlas which help making a cluster 
+
+## Specification
+
+A few libraries are needed to run the scraper.
+
+1. **BeautifulSoup4**  
+   Main library needed to do web scraping. You need to install this library before using.
+2. **Requests**  
+   Library used to access websites and request objects from websites. You need to install this library before using.
+3. **Time**  
+   Library used to access sleep() function to prevent blocking.
+4. **JSON**  
+   Library used to write the data to a json file.
+5. **OS**  
+   Library used to read or write file in operating system.
+6. **TQDM**  
+   Library used to see progress bar in loops to monitor the scraping progress.
+7. **LXML**  
+   Library used to parse HTML because it is faster than html.parser. You need to install this library before using.
+
+## How to Use
+
+### Data Scraping
+1. Clone this repository.
+2. Install all required libraries (and Python if you haven't).
+3. Open `scraper.py` in your IDE.
+4. Change the path or json file name to your preference on variable `path`.
+5. Run the code and the data will be stored in a json file on the chosen path.
+
+### Data Storing
+__Local__
+1. Install **MongoDB Compass**.
+2. Connect to your localhost (it is automatically provided so you just have to press **Connect**).
+3. Create database and create collection.
+4. Click **ADD DATA** and **Import File**.
+5. Select the JSON file from the scraping process and press **IMPORT**
+
+__MongoDB Atlas__
+1. Open https://www.mongodb.com/atlas on your browser and **Sign In**.
+2. Create a cluster. You can make one for free.
+3. Press **Connect** on your cluster and pick the MongoDB Compass choice.
+4. Copy the connection string and paste it to MongoDB Compass. Don't forget to add your username and password.
+5. Connect to it and import file as explained in the Local part.
+6. Open MongoDB Atlas and see collection in the cluster.
+
+## JSON Structure
+
+### ONGOING
+<pre>
+{
+    _id:  {
+      $oid                            : ID generated automatically by exporting database from MongoDB
+    }
+    title {string}                    : title of the webtoon
+    author [{string}]                 : author(s) of the webtoon
+    genre [{string}]                  : genre(s) of the webtoon
+    likes_in_millions {float}         : total number of likes in millions
+    views_in_millions {float}         : total number of views in millions
+    subscribers_in_millions {float}   : total number of subscribers in millions
+    rating {float}                    : rating of the webtoon
+    status {string}                   : status of the webtoons ('END' or 'ONGOING')
+    update_days [{string}]            : update schedule of an ongoing webtoon
+    first_update {string}             : the release date of the first episode (in yyyy-mm-dd format)
+    last_update {string}              : the release date of the latest episode (in yyyy-mm-dd format)
+    episode_count {int}               : number of episodes released
+}
+</pre>
+
+### END
+<pre>
+{
+    _id:  {
+      $oid                            : ID generated automatically by exporting database from MongoDB
+    }
+    title {string}                    : title of the webtoon
+    author [{string}]                 : author(s) of the webtoon
+    genre [{string}]                  : genre(s) of the webtoon
+    likes_in_millions {float}         : total number of likes in millions
+    views_in_millions {float}         : total number of views in millions
+    subscribers_in_millions {float}   : total number of subscribers in millions
+    rating {float}                    : rating of the webtoon
+    status {string}                   : status of the webtoons ('END' or 'ONGOING')
+    first_update {string}             : the release date of the first episode (in yyyy-mm-dd format)
+    last_update {string}              : the release date of the latest episode (in yyyy-mm-dd format)
+    episode_count {int}               : number of episodes released
+}
+</pre>
+
+## Database Structure
+
+The structure of the database is as shown as the ERD below:  
+
+![ERD](Data%20Storing/design/erd.png)
+
+## Screenshots
 
 ### Data Scraping
 
-1. Lakukan _data scraping_ dari sebuah laman web untuk memperoleh data atau informasi tertentu __TANPA MENGGUNAKAN API__. Hasil _data scraping_ ini nantinya akan disimpan dalam DBMS dan digunakan sebagai bahan tugas analisis dan visualisasi data.
+__Libraries and Dictionaries__  
+![Libraries](Data%20Scraping/screenshot/libraries.PNG)  
+![Dictionaries](Data%20Scraping/screenshot/dictionaries.PNG)
 
-2. Daftarkan judul topik yang akan dijadikan bahan _data scraping_ dan DBMS yang akan digunakan pada spreadsheet berikut: [Topik Data Scraping](https://docs.google.com/spreadsheets/d/1VjK-ZeJlSy38yqUJvaaCqYtS7yP8Vq609ewyWTA_k2Y/edit?usp=sharing). Usahakan agar tidak ada peserta dengan topik yang sama. Akses edit ke spreadsheet akan ditutup tanggal __10 Juni 2022 pukul 21.40 WIB__
+__Scraper and Additional Functions__  
+![Function1](Data%20Scraping/screenshot/function1.png)
+![Function2](Data%20Scraping/screenshot/function2.png)
+![Function3](Data%20Scraping/screenshot/function3.png)
+![Function4](Data%20Scraping/screenshot/function4.png)
+![Function5](Data%20Scraping/screenshot/function5.png)
+![Function6](Data%20Scraping/screenshot/function6.png)
+![Function7](Data%20Scraping/screenshot/function7.png)
+![Function8](Data%20Scraping/screenshot/function8.png)
+![Function9](Data%20Scraping/screenshot/function9.png)
 
-3. Pada folder `Data Scraping`, calon warga basdat harus mengumpulkan _file script_, json hasil _data scraping_. Folder `Data Scraping` terdiri dari _folder_ `src`, `data` dan `screenshots`. 
-    - _Folder_ `src` berisi _file script_/kode yang __*WELL DOCUMENTED* dan *CLEAN CODE*__ 
-    - _Folder_ `data` berisi _file_ json hasil _scraper_
-    - _Folder_ `screenshot` berisi tangkapan layar program.
+__Preprocessing__  
+![Preprocessing1](Data%20Scraping/screenshot/preprocessing1.png)
+![Preprocessing2](Data%20Scraping/screenshot/preprocessing2.png)
+![Preprocessing3](Data%20Scraping/screenshot/preprocessing3.png)
 
-4. Sebagai referensi untuk mengenal _data scraping_, asisten menyediakan dokumen "_Short Guidance To Data Scraping_" yang dapat diakses pada link berikut: [Data Scraping Guidance](http://bit.ly/DataScrapingGuidance). Mohon memperhatikan etika dalam melakukan _scraping_.
-
-5. Data yang diperolah harus dinormalisasi dan harus di-_preprocessing_
-```
-Preprocessing contohnya :
-- Cleaning
-- Parsing
-- Transformation
-- dan lainnya
-```
+__Scraping Process__  
+![Scraping Process1](Data%20Scraping/screenshot/scraping_process1.png)
+![Scraping Process2](Data%20Scraping/screenshot/scraping_process2.png)
 
 ### Data Storing
 
-1. Buatlah sebuah ER Diagram dari basis data yang akan digunakan untuk menyimpan data hasil _scraping_
-   
-2. Implementasikan ERD tersebut ke DBMS sesuai pilihan kalian
+__Data stored in MongoDB Local__  
+![Local](Data%20Storing/screenshot/storing_mongodb_local.png)  
 
-3. Tools yang digunakan __dibebaskan__
-
-4. Calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Folder_ `Data Storing` terdiri dari folder `screenshots`, `export`, dan `design`
-    - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
-    - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
-    -  _Folder_ `design` berisi ER Diagram yang disimpan dalam format `.png`
+__Data stored in MongoDB Atlas__  
+![Cloud](Data%20Storing/screenshot/storing_mongodb_atlas.png)
 
 
+## References
 
-5. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    - Simpan ke _cloud database_
-    - Buatlah API sederhana untuk mengakses _database_ tersebut
+1. [Web Scraping with Python - Beautiful Soup Crash Course](https://youtu.be/XVv6mJpFOb0)
+2. [Python libraries documentation](https://pypi.org/)
+3. [BeautifulSoup documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+4. [MongoDB documentation](https://www.mongodb.com/docs/)
+5. Problem solvers: 
+   - [Stack Overflow](https://stackoverflow.com)
+   - [GeeksforGeeks](https://www.geeksforgeeks.org/)
+   - [W3Schools](https://www.w3schools.com/)
 
-### Pengumpulan
+## Author
 
-
-1. Dalam mengerjakan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: [Seleksi-2022-Tugas-1](https://github.com/wargabasdat/Seleksi-2022-Tugas-1). Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_1_[NIM]```
-
-2. Tambahkan juga `.gitignore` pada _file_ atau _folder_ yang tidak perlu di-_upload_, __NB: BINARY TIDAK DIUPLOAD__
-
-3. Berikan satu buah file `README` yang __WELL DOCUMENTED__ dengan cara __override__ _file_ `README.md` ini. `README` harus memuat minimal konten:
-
-
-```
-- Description of the data and DBMS (Why you choose it)
-- Specification of the program
-- How to use
-- JSON Structure
-- Database Structure
-- Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-- Reference (Library used, etc)
-- Author
-```
-
-
-4. Deadline pengumpulan tugas 1 adalah <span style="color:red">__1 Juli 2022 Pukul 22.40 WIB__</span>
-
-<h3 align="center">
-  <br>
-  Selamat Mengerjakan!
-  <br>
-</h3>
-
-<p align="center">
-  <i>
-  Happiness does not come from doing easy work
-  but from the afterglow of satisfaction that
-  comes after the achievement of a difficult
-  task that demanded our best.<br><br>
-  - Theodore Isaac Rubin
-  </i>
-</p>
-<br>
+Gratia Nindyaratri  
+18220017  
+Sistem dan Teknologi Informasi  
+Institut Teknologi Bandung
