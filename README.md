@@ -176,11 +176,12 @@ _Catatan: Atribut ID menjadi primary key tiap tabel_
 ![Cloud Chance Creation Table](Data%20Storing/screenshot/cloud%20chance_creation%20table.png)
 
 ## Referensi
-- bs4
-- requests
-- re
-- json
-- datetime
+- Python (https://docs.python.org/3/)
+- bs4 (https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+- requests (https://requests.readthedocs.io/en/latest/)
+- re (https://docs.python.org/3/library/re.html)
+- json (https://docs.python.org/3/library/json.html)
+- datetime (https://docs.python.org/3/library/datetime.html)
 
 ## Author
 Fernaldy
