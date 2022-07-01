@@ -130,11 +130,11 @@ Berikut ini adalah ER Diagram dari database hasil data _scraping_ website Infoko
 
 - Data Storing di MongoDB (lokal)
   
-  ![MongoLokal](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/storing%20mongo%20(local).PNG)
+  ![MongoLokal](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/screenshot/storing%20mongo%20(local).PNG)
 
 - Data Storing di MongoDB Atlas
 
-  ![MongoAtlas](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/storing%20mongo%20(cloud).PNG)
+  ![MongoAtlas](https://github.com/mutiarakirana21/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/screenshot/storing%20(cloud)%20mongodb%20atlas.PNG)
 
 ## References
 - Web Scraping Tutorial
