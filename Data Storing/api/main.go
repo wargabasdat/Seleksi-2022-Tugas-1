@@ -7,7 +7,6 @@ import (
 	"os"
 
 	"github.com/gorilla/mux"
-	"github.com/joho/godotenv"
 	"github.com/rs/cors"
 )
 
@@ -31,10 +30,10 @@ func main() {
 }
 
 func initDB() {
-	errEnv := godotenv.Load()
-	if errEnv != nil {
-		panic("Error loading .env file")
-	}
+	// errEnv := godotenv.Load()
+	// if errEnv != nil {
+	// 	panic("Error loading .env file")
+	// }
 	config :=
 		database.Config{
 			User:     os.Getenv("DB_USER"),
