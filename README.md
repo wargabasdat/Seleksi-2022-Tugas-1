@@ -21,7 +21,7 @@ Amazon.com, Inc. adalah multinasional teknologi Perusahaan Amerika yang berfokus
 
 ## Deskripsi Data dan DBMS
 
-Pada tugas ini, saya mengambil data dari situs <a href='https://www.amazon.com/s?k=tws&i=electronics&rh=n%3A172541&qid=1656672311&ref=sr_pg_1'> amazon.com </a> mengenai _True Wireless Stereo(TWS)_. Beberapa data yang disediakan dan akan discrape mengenai produk tersebut antara lain nama, harga awal, harga setelah didiskon, persentase diskon, rating, jumlah review, dan url.
+Pada tugas ini, saya mengambil data dari situs <a href='https://www.amazon.com/s?k=tws&i=electronics&rh=n%3A172541&qid=1656672311&ref=sr_pg_1'> amazon.com </a> mengenai _True Wireless Stereo (TWS)_. Beberapa data yang disediakan dan akan discrape mengenai produk tersebut antara lain nama, harga awal, harga setelah didiskon, persentase diskon, rating, jumlah review, dan url.
 
 ![product_example](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/blob/main/.gitignore/contoh_data.jpeg)
 
@@ -44,7 +44,7 @@ pip install -r requirements.txt
 4. Jalankan program
 5. Program harus berjalan sesuai dengan urutan dimulai dari sel paling atas ke paling bawah
 6. Program akan melakukan instalasi `WebDriver manager` yang diperlukan untuk menjalankan proses
-![web_driver](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/tree/main.gitignore/web_driver.jpg)
+![web_driver](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/blob/main/.gitignore/web_driver.jpeg)
 7. Sebuah window `Google-Chrome` akan muncul seiring berjalannya proses _scraping_
 8. Ketika proses selesai, akan terbentuk 2 buah file di directory tersebut, yaitu `TWS_amazon.csv` dan `TWS_amazon.json`
 
@@ -82,19 +82,19 @@ Contoh data hasil _scraping_ adalah seperti berikut
 * Preprocessing
 ![preprocessing](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/Preprocessing.jpeg)
 
-* Saat program berjalan
+* Saat program berjalan <br>
 Berikut ini adalah pop up aplikasi `Google Chrome` saat proses _scraping_ berjalan
 ![chrome_page](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/Scraping%20process.jpeg)
 Berikut ini adalah keadaan setelah proses _scraping_ selesai
 ![main_function](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/Run%20main%20function.jpeg)
 
-* Storing ke DBMS
+* Storing ke DBMS <br>
 Saya melakukan modification terlebih dahulu dengan membuat PRIMARY_KEY id yang terurut naik mulai dari 1
 ![add_primary_key](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/screenshot/add_primary_key.jpeg)
 Berikut ini adalah data yang sudah distore ke PostgreSQL
 ![psql_storing](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/screenshot/storing_psql.jpeg)
 
-* Deployment ke Heroku Postgres
+* Deployment ke Heroku Postgres <br>
 Berikut ini adalah proses import ke database postgres heroku melalui CLI
 ![importing_data](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/blob/main/.gitignore/heroku_postgres.jpeg)
 Berikut ini adalah database yang sudah berhasil dideploy di heroku
@@ -102,6 +102,35 @@ Berikut ini adalah database yang sudah berhasil dideploy di heroku
 
 * API
 ![api](https://github.com/fikfikriii/Seleksi-2022-Tugas-1/blob/main/.gitignore/api.jpeg)
+
+## References
+
+Web scraping tutorial using selenium
+https://towardsdatascience.com/how-to-use-selenium-to-web-scrape-with-example-80f9b23a843a
+
+Beautifulsoup
+https://www.youtube.com/watch?v=RvCBzhhydNk&t=1122s&ab_channel=Pythonology
+https://www.youtube.com/watch?v=Ql8Na3astdQ&t=1502s&ab_channel=Pythonology
+
+Convert CSV to JSON with python
+https://medium.com/@hannah15198/convert-csv-to-json-with-python-b8899c722f6d
+
+Adding an attribute and set it to primary key in PostgreSQL
+https://www.postgresql.org/docs/current/ddl-generated-columns.html
+
+Store data in JSON format
+https://www.geeksforgeeks.org/reading-and-writing-json-to-a-file-in-python/ https://www.geeksforgeeks.org/json-dumps-in-python/
+
+Deploy data to heroku
+https://www.youtube.com/watch?v=WY6eVl8FzTg&ab_channel=FelixLiawi
+https://www.youtube.com/watch?v=80oty2v4HsE&ab_channel=CodeHive
+https://www.youtube.com/watch?v=DA1Trq51JZs&t=166s&ab_channel=azamsharp
+
+Create heroku JSON API using json-server
+https://www.youtube.com/watch?v=jAnJCsQDyXk&ab_channel=ninjakodtv
+
+Debugging + special credit to
+https://stackoverflow.com/
 
 <h3 align="center">
   <br>
@@ -111,7 +140,7 @@ Berikut ini adalah database yang sudah berhasil dideploy di heroku
 
 <p align="center">
   <i>
-  Muhamad Fikri Nurohman<br><br>
+  Muhamad Fikri Nurohman<br>
   18220097
   </i>
 </p>
