@@ -40,6 +40,7 @@ Pada program ini, saya menggunakan bahasa pemrograman TypeScript dan library Pup
      - `--print-log` is used to log current scraping process
      - `--open-browser` is used to open browser while scraping so user can see scraping progress
      - `--write-intermediate` is used to write intermediate JSON results to files
+     - Example: `npm run scrap -- --open-browser --write-intermediate`
 
 2. Data storing
    - `cd "Data Storing"`
