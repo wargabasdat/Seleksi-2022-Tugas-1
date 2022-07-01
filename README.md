@@ -116,7 +116,11 @@ The structure of the database is as shown as the ERD below:
 
 ### Data Scraping
 
-__FUNCTIONS__
+__Libraries and Dictionaries__
+![Libraries](Data%20Scraping/screenshot/libraries.jpg)
+![Dictionaries](Data%20Scraping/screenshot/dictionaries.jpg)
+
+__Scraper and Additional Functions__
 ![Function1](Data%20Scraping/screenshot/function1.png)
 ![Function2](Data%20Scraping/screenshot/function2.png)
 ![Function3](Data%20Scraping/screenshot/function3.png)
@@ -127,12 +131,12 @@ __FUNCTIONS__
 ![Function8](Data%20Scraping/screenshot/function8.png)
 ![Function9](Data%20Scraping/screenshot/function9.png)
 
-__PREPROCESSING__
+__Preprocessing__
 ![Preprocessing1](Data%20Scraping/screenshot/preprocessing1.png)
 ![Preprocessing2](Data%20Scraping/screenshot/preprocessing2.png)
 ![Preprocessing3](Data%20Scraping/screenshot/preprocessing3.png)
 
-__SCRAPING PROCESS__
+__Scraping Process__
 ![Scraping Process1](Data%20Scraping/screenshot/scraping_process1.png)
 ![Scraping Process2](Data%20Scraping/screenshot/scraping_process2.png)
 
