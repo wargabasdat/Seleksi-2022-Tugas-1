@@ -1,0 +1,3125 @@
+[
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Anish Giri",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: 3.Nf3 Nf6",
+    "Winner": "White",
+    "Moves": 34,
+    "Year": 2022
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Maxime Vachier-Lagrave",
+    "Notation": "1. d4 Nf6 2. c4 g6 3. Nc3 d5",
+    "Opening": "Gr\u00fcnfeld Defense: Exchange Variation, 5.e4 Nxc3 6.bxc3 Bg7 7.Bb5+ c6 8.Ba4",
+    "Winner": "White",
+    "Moves": 54,
+    "Year": 2022
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Shakhriyar Mamedyarov",
+    "Notation": "1. Nf3 d5 2. g3 g6 3. Bg2 Bg7",
+    "Opening": "King's Indian Attack: Double Fianchetto Variation, 3.Bg2 Bg7",
+    "Winner": "White",
+    "Moves": 56,
+    "Year": 2022
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Wang Hao",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: 3.Nf3 Nf6",
+    "Winner": "White",
+    "Moves": 42,
+    "Year": 2022
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Teimour Radjabov",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: 3.Nf3 Nf6",
+    "Winner": "White",
+    "Moves": 36,
+    "Year": 2022
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Maxime Vachier-Lagrave",
+    "Notation": "1. d4 Nf6 2. c4 g6 3. Nc3 d5",
+    "Opening": "Gr\u00fcnfeld Defense: Exchange Variation, 5.e4 Nxc3 6.bxc3 Bg7 7.Bb5+ c6 8.Ba4",
+    "Winner": "-",
+    "Moves": 79,
+    "Year": 2022
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Wang Hao",
+    "Notation": "1. Nf3 d5 2. g3 Nd7 3. d4 Nb6",
+    "Opening": "King's Indian Attack",
+    "Winner": "-",
+    "Moves": 47,
+    "Year": 2022
+  },
+  {
+    "White": "Aryan Tari",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 b6 2. d4 Bb7 3. Nc3 d6",
+    "Opening": "King's Pawn Opening: Owen's Defense, 2.d4 Bb7",
+    "Winner": "White",
+    "Moves": 37,
+    "Year": 2022
+  },
+  {
+    "White": "Viswanathan Anand",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6",
+    "Opening": "Giuoco Piano Game: Giuoco Pianissimo Variation, 4...Nf6",
+    "Winner": "White",
+    "Moves": 50,
+    "Year": 2022
+  },
+  {
+    "White": "Wesley So",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6",
+    "Opening": "Giuoco Piano Game: Giuoco Pianissimo Variation, 4...Nf6",
+    "Winner": "White",
+    "Moves": 50,
+    "Year": 2022
+  },
+  {
+    "White": "Aryan Tari",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6",
+    "Opening": "Four Knights Game: Scotch Variation Accepted, 5.Nxd4 Bb4 6.Nxc6 bxc6 7.Bd3 d5",
+    "Winner": "-",
+    "Moves": 33,
+    "Year": 2022
+  },
+  {
+    "White": "Viswanathan Anand",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6",
+    "Opening": "Italian Game: Two Knights, Modern Bishop's Opening",
+    "Winner": "-",
+    "Moves": 40,
+    "Year": 2022
+  },
+  {
+    "White": "Wesley So",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 d5 2. c4 c6 3. Nf3 Nf6",
+    "Opening": "Semi-Slav Defense",
+    "Winner": "-",
+    "Moves": 38,
+    "Year": 2022
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Maxime Vachier-Lagrave",
+    "Notation": "1. d4 Nf6 2. c4 g6 3. Nc3 d5",
+    "Opening": "Gr\u00fcnfeld Defense: Exchange Variation, 5.e4 Nxc3 6.bxc3 Bg7",
+    "Winner": "White",
+    "Moves": 40,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Nils Grandelius",
+    "Notation": "1. e4 c5 2. Nf3 d6 3. d4 cxd4",
+    "Opening": "Sicilian Defense: Open, Najdorf Variation",
+    "Winner": "White",
+    "Moves": 65,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Alireza Firouzja",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Modern, Knight Defense, 5.Nf3 h6 6.Bh4",
+    "Winner": "White",
+    "Moves": 40,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Levon Aronian",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Ragozin Defense, 5.cxd5 exd5 6.Bg5 h6 7.Bh4",
+    "Winner": "White",
+    "Moves": 47,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Samuel Shankland",
+    "Notation": "1. c4 c6 2. Qa4 Nf6 3. Nf3 g6",
+    "Opening": "English Opening: Caro-Kann Defensive System",
+    "Winner": "White",
+    "Moves": 33,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Hikaru Nakamura",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Three Knights, Harrwitz Attack, 5...O-O",
+    "Winner": "White",
+    "Moves": 33,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Daniil Dubov",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6",
+    "Opening": "Italian Game: Two Knights, Modern Bishop's Opening",
+    "Winner": "White",
+    "Moves": 34,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Daniil Dubov",
+    "Notation": "1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6",
+    "Opening": "Scandinavian Defense: Mieses-Kotr\u010d, Gubinsky-Melts Defense, 4.d4 Nf6 5.Nf3",
+    "Winner": "White",
+    "Moves": 42,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Daniil Dubov",
+    "Notation": "1. e4 c5 2. Nf3 Nc6 3. Bb5 g6",
+    "Opening": "Sicilian Defense: Nyezhmetdinov-Rossolimo, Fianchetto Variation, 4.O-O Bg7",
+    "Winner": "White",
+    "Moves": 64,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Daniil Dubov",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6",
+    "Opening": "Italian Game: Two Knights, Modern Bishop's Opening",
+    "Winner": "White",
+    "Moves": 28,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Maxime Vachier-Lagrave",
+    "Notation": "1. d4 Nf6 2. c4 g6 3. Nc3 d5",
+    "Opening": "Gr\u00fcnfeld Defense: Exchange Variation, 5.e4 Nxc3 6.bxc3 Bg7",
+    "Winner": "White",
+    "Moves": 50,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Maxime Vachier-Lagrave",
+    "Notation": "1. d4 Nf6 2. c4 g6 3. Nc3 d5",
+    "Opening": "Gr\u00fcnfeld Defense: Exchange Variation, 5.Bd2 Bg7 6.e4 Nb6 7.Be3",
+    "Winner": "White",
+    "Moves": 36,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Maxime Vachier-Lagrave",
+    "Notation": "1. Nf3 Nf6 2. c4 g6 3. Nc3 d5",
+    "Opening": "English Opening: Anglo-Indian, Anglo-Gr\u00fcnfeld Defense, 3.cxd5 Nxd5 4.Nf3 g6",
+    "Winner": "White",
+    "Moves": 39,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Maxime Vachier-Lagrave",
+    "Notation": "1. d4 Nf6 2. c4 g6 3. Nc3 d5",
+    "Opening": "Gr\u00fcnfeld Defense: Exchange Variation, 5.Bd2 Bg7 6.e4 Nb6 7.Be3",
+    "Winner": "White",
+    "Moves": 40,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Maxime Vachier-Lagrave",
+    "Notation": "1. c3 b6 2. e4 Bb7 3. d3 e6",
+    "Opening": "Saragossa Opening",
+    "Winner": "White",
+    "Moves": 34,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "David Anton Guijarro",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Anderssen Variation",
+    "Winner": "White",
+    "Moves": 85,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Shakhriyar Mamedyarov",
+    "Notation": "1. e4 c5 2. Nf3 e6 3. d4 cxd4",
+    "Opening": "Sicilian Defense: Taimanov Variation, 5.Nc3 Nf6 6.a3",
+    "Winner": "White",
+    "Moves": 27,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Sergey Karjakin",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Orthodox, Rubinstein Variation",
+    "Winner": "White",
+    "Moves": 40,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Alan Pichot",
+    "Notation": "1. e4 c5 2. Nf3 e6 3. d4 cxd4",
+    "Opening": "Sicilian Defense: Taimanov, Bastrikov Variation, 6.g3 a6 7.Bg2 Nf6 8.O-O",
+    "Winner": "White",
+    "Moves": 42,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Levon Aronian",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nc3 Bb4",
+    "Opening": "Nimzo-Indian Defense: Classical, Noa Variation, 5.a3 Bxc3+ 6.Qxc3 O-O",
+    "Winner": "White",
+    "Moves": 75,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Ian Nepomniachtchi",
+    "Notation": "1. e4 c5 2. Nf3 d6 3. d4 cxd4",
+    "Opening": "Sicilian Defense: Open, Najdorf Variation, 6.a4 e5",
+    "Winner": "White",
+    "Moves": 33,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Ian Nepomniachtchi",
+    "Notation": "1. e4 c5 2. Nf3 d6 3. d4 cxd4",
+    "Opening": "Sicilian Defense: Open, Najdorf Variation, 6.a4 e5",
+    "Winner": "White",
+    "Moves": 33,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Wesley So",
+    "Notation": "1. e4 e5 2. Nf3 Nf6 3. Nc3 Nc6",
+    "Opening": "Four Knights Game",
+    "Winner": "White",
+    "Moves": 23,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Wesley So",
+    "Notation": "1. e4 e5 2. Nf3 Nf6 3. Nc3 Nc6",
+    "Opening": "Four Knights Game",
+    "Winner": "White",
+    "Moves": 23,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Leinier Dominguez Perez",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: Main Line, Giuoco Pianissimo Variation",
+    "Winner": "White",
+    "Moves": 60,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Teimour Radjabov",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nc3 Bb4",
+    "Opening": "Nimzo-Indian Defense: Classical, Noa Variation, 5.a3 Bxc3+ 6.Qxc3",
+    "Winner": "White",
+    "Moves": 41,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Gawain Jones",
+    "Notation": "1. e4 c5 2. Nf3 d6 3. d4 cxd4",
+    "Opening": "Sicilian Defense: Open, Dragon Variation, 6.Be3 Bg7 7.Qd2",
+    "Winner": "White",
+    "Moves": 42,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Jan-Krzysztof Duda",
+    "Notation": "1. e4 c5 2. Nf3 d6 3. d4 cxd4",
+    "Opening": "Sicilian Defense: Open, Najdorf, English Attack, 6...e5 7.Nb3 Be6 8.f3",
+    "Winner": "White",
+    "Moves": 60,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Levon Aronian",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Bf4 d5",
+    "Opening": "Indian Game: East Indian Defense",
+    "Winner": "White",
+    "Moves": 46,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Levon Aronian",
+    "Notation": "1. e4 c5 2. Nf3 d6 3. Bb5+ Nc6",
+    "Opening": "Sicilian Defense: Canal Attack, 3...Nc6 4.O-O Bd7 5.Re1",
+    "Winner": "White",
+    "Moves": 37,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Hikaru Nakamura",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: Main Line, Giuoco Pianissimo Variation",
+    "Winner": "White",
+    "Moves": 90,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Alexander Grischuk",
+    "Notation": "1. b3 e5 2. Bb2 Nc6 3. c4 Nf6",
+    "Opening": "Nimzowitsch-Larsen Attack: Modern Variation, 2.Bb2 Nc6",
+    "Winner": "White",
+    "Moves": 25,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Hikaru Nakamura",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Harrwitz, Two Knights Defense",
+    "Winner": "White",
+    "Moves": 23,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Hikaru Nakamura",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: 4.O-O Nf6",
+    "Winner": "White",
+    "Moves": 31,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Hikaru Nakamura",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: 4.O-O Nf6",
+    "Winner": "White",
+    "Moves": 37,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Teimour Radjabov",
+    "Notation": "1. e4 c5 2. Nf3 Nc6 3. Nc3 e5",
+    "Opening": "Sicilian Defense: Closed, Traditional Line, 3.Nf3 e5 4.Bc4",
+    "Winner": "White",
+    "Moves": 52,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Teimour Radjabov",
+    "Notation": "1. d4 Nf6 2. Nf3 g6 3. c4 Bg7",
+    "Opening": "King's Indian Defense: Pterodactyl Defense, 5.Bg2",
+    "Winner": "White",
+    "Moves": 46,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Teimour Radjabov",
+    "Notation": "1. e4 b6 2. d4 Bb7 3. Bd3 e6",
+    "Opening": "King's Pawn Opening: Owen's Defense, 2.d4 Bb7 3.Bd3",
+    "Winner": "White",
+    "Moves": 39,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Wesley So",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6",
+    "Opening": "Giuoco Piano Game: Giuoco Pianissimo Variation, 4...Nf6",
+    "Winner": "White",
+    "Moves": 44,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Wesley So",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Three Knights, Semi-Tarrasch Defense, 5.e3",
+    "Winner": "White",
+    "Moves": 39,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Hou Yifan",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Three Knights, Semi-Tarrasch Defense, 5.e3",
+    "Winner": "White",
+    "Moves": 37,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Peter Svidler",
+    "Notation": "1. e4 c5 2. Nf3 d6 3. d4 cxd4",
+    "Opening": "Sicilian Defense: Open, Najdorf Variation",
+    "Winner": "White",
+    "Moves": 40,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Daniil Dubov",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Berlin Defense, 4.d3 Bc5",
+    "Winner": "White",
+    "Moves": 56,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Santosh Gujrathi Vidit",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Semi-Tarrasch, Main Line, 5...cxd4",
+    "Winner": "White",
+    "Moves": 66,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Wesley So",
+    "Notation": "1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6",
+    "Opening": "English Opening: Four Knights, Korchnoi Line",
+    "Winner": "White",
+    "Moves": 33,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Wesley So",
+    "Notation": "1. c4 e5 2. Nc3 Nf6 3. Nf3 Nc6",
+    "Opening": "English Opening: Four Knights, Flexible Line",
+    "Winner": "White",
+    "Moves": 47,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Wesley So",
+    "Notation": "1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6",
+    "Opening": "English Opening: Four Knights, Kingside Fianchetto Line, 4...d5 5.cxd5 Nxd5 6.Bg2",
+    "Winner": "White",
+    "Moves": 49,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Ding Liren",
+    "Notation": "1. c4 Nf6 2. Nc3 e5 3. e3 Nc6",
+    "Opening": "English Opening: Reversed Sicilian, Closed, 3.e3 Nf6",
+    "Winner": "White",
+    "Moves": 32,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Levon Aronian",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nc3 Bb4",
+    "Opening": "Nimzo-Indian Defense: Ragozin, Gligori\u0107 System, 7.O-O dxc4 8.Bxc4 cxd4 9.exd4 b6",
+    "Winner": "White",
+    "Moves": 64,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Levon Aronian",
+    "Notation": "1. d4 Nf6 2. Bf4 d5 3. e3 Bg4",
+    "Opening": "Indian Game",
+    "Winner": "White",
+    "Moves": 66,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Ding Liren",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Closed, Martinez Variation, 6...b5 7.Bb3",
+    "Winner": "White",
+    "Moves": 38,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Sasa Martinovic",
+    "Notation": "1. e4 c5 2. Nf3 d6 3. d4 cxd4",
+    "Opening": "Sicilian Defense: Open, Classical Variation",
+    "Winner": "White",
+    "Moves": 77,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Aryan Tari",
+    "Notation": "1. c4 e6 2. g3 d5 3. Bg2 dxc4",
+    "Opening": "English Opening: Agincourt Defense, 2.g3 d5 3.Bg2",
+    "Winner": "White",
+    "Moves": 40,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Radoslaw Wojtaszek",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nc3 Bb4",
+    "Opening": "Nimzo-Indian Defense: Bishop Attack, Classical Defense, 6.Ne2 c5 7.cxd5 cxd4 8.exd4 Nxd5 9.O-O",
+    "Winner": "White",
+    "Moves": 48,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Andrey Esipenko",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Catalan Opening",
+    "Winner": "White",
+    "Moves": 31,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Andrey Esipenko",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Berlin Defense, 4.d3 d6",
+    "Winner": "White",
+    "Moves": 62,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Etienne Bacrot",
+    "Notation": "1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7",
+    "Opening": "Sicilian Defense: Canal, Main Line, Sokolsky Variation",
+    "Winner": "White",
+    "Moves": 39,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Vladimir Fedoseev",
+    "Notation": "1. e4 c6 2. d4 d5 3. e5 Bf5",
+    "Opening": "Caro-Kann Defense: Advance Variation, 3...Bf5",
+    "Winner": "White",
+    "Moves": 50,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Wesley So",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Bf4 d5",
+    "Opening": "Indian Game: East Indian Defense",
+    "Winner": "White",
+    "Moves": 55,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Le Quang Liem",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Closed, Suetin Variation",
+    "Winner": "White",
+    "Moves": 43,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Daniel Naroditsky",
+    "Notation": "1. e4 c6 2. d4 d5 3. e5 c5",
+    "Opening": "Caro-Kann Defense: Advance, Botvinnik-Carls Defense, 4.dxc5",
+    "Winner": "White",
+    "Moves": 26,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Maxime Vachier-Lagrave",
+    "Notation": "1. d4 Nf6 2. c4 g6 3. Nc3 d5",
+    "Opening": "Gr\u00fcnfeld Defense: Zaitsev Gambit",
+    "Winner": "White",
+    "Moves": 37,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Jan-Krzysztof Duda",
+    "Notation": "1. Nf3 d5 2. g3 g6 3. Bg2 Bg7",
+    "Opening": "King's Indian Attack: Double Fianchetto Variation, 3.Bg2 Bg7 4.O-O",
+    "Winner": "White",
+    "Moves": 36,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Jan-Krzysztof Duda",
+    "Notation": "1. e4 c5 2. Nf3 e6 3. b3 Nc6",
+    "Opening": "Sicilian Defense: Westerinen Attack",
+    "Winner": "White",
+    "Moves": 38,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Levon Aronian",
+    "Notation": "1. e4 c5 2. Nf3 d6 3. d4 cxd4",
+    "Opening": "Sicilian Defense: Open, Najdorf, Opo\u010densk\u00fd Variation, 6...e5 7.Nf3",
+    "Winner": "White",
+    "Moves": 51,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Vladislav Artemiev",
+    "Notation": "1. d4 d5 2. c4 e6 3. Nf3 Nf6",
+    "Opening": "Queen's Gambit Declined: Exchange Variation, 4...exd5 5.Nf3 Nbd7",
+    "Winner": "White",
+    "Moves": 50,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Vladislav Artemiev",
+    "Notation": "1. d4 d5 2. c4 e6 3. Nc3 c5",
+    "Opening": "Tarrasch Defense: Tarrasch Gambit",
+    "Winner": "White",
+    "Moves": 29,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Vladislav Artemiev",
+    "Notation": "1. e4 c5 2. Nf3 d6 3. d4 cxd4",
+    "Opening": "Sicilian Defense: Open, Dragon, Classical Variation, 6...a6",
+    "Winner": "White",
+    "Moves": 49,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Aryan Tari",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6",
+    "Opening": "Giuoco Piano Game: Main Line, Giuoco Pianissimo Variation",
+    "Winner": "White",
+    "Moves": 47,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Ian Nepomniachtchi",
+    "Notation": "1. Nf3 Nf6 2. g3 d5 3. Bg2 g6",
+    "Opening": "King's Indian Attack: Yugoslav Variation, 3.Bg2 g6",
+    "Winner": "White",
+    "Moves": 41,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Alireza Firouzja",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Columbus Variation, 4...Nf6 5.O-O b5 6.Bb3 Bc5 7.a4 Rb8",
+    "Winner": "White",
+    "Moves": 52,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Richard Rapport",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Berlin, Mortimer Variation",
+    "Winner": "White",
+    "Moves": 77,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Sergey Karjakin",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Berlin Defense, 4.d3 Bc5",
+    "Winner": "White",
+    "Moves": 53,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Enrique Llobel Cortell",
+    "Notation": "1. e4 c5 2. Nf3 Nc6 3. Bb5 d6",
+    "Opening": "Sicilian Defense: Canal Attack, 3...Nc6 4.Bxc6+",
+    "Winner": "White",
+    "Moves": 34,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Ian Nepomniachtchi",
+    "Notation": "1. e4 e5 2. Nf3 Nf6 3. d4 Nxe4",
+    "Opening": "Petrov's Defense: Steinitz Attack, Symmetrical, Center Variation, 4...d5 5.Nxe5 Nd7 6.Nxd7 Bxd7",
+    "Winner": "White",
+    "Moves": 46,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Ian Nepomniachtchi",
+    "Notation": "1. d4 Nf6 2. Nf3 d5 3. g3 e6",
+    "Opening": "Queen's Pawn Opening: Pseudo-Catalan Variation",
+    "Winner": "White",
+    "Moves": 136,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Daniil Dubov",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6",
+    "Opening": "Italian Game: Two Knights, Modern Bishop's Opening",
+    "Winner": "Black",
+    "Moves": 25,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Maxime Vachier-Lagrave",
+    "Notation": "1. d4 Nf6 2. c4 g6 3. Nc3 d5",
+    "Opening": "Gr\u00fcnfeld Defense: Exchange Variation, 5.Bd2 Bg7 6.e4 Nb6 7.Be3",
+    "Winner": "Black",
+    "Moves": 24,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Ian Nepomniachtchi",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Three Knights, Vienna Variation",
+    "Winner": "Black",
+    "Moves": 45,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Ian Nepomniachtchi",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nc3 d5",
+    "Opening": "Queen's Gambit Declined: Exchange, Positional Line",
+    "Winner": "Black",
+    "Moves": 65,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Maxime Vachier-Lagrave",
+    "Notation": "1. e4 c5 2. Nc3 d6 3. f3 Nc6",
+    "Opening": "Sicilian Defense: Closed, 2...d6",
+    "Winner": "Black",
+    "Moves": 53,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Hikaru Nakamura",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: 4.O-O Nf6",
+    "Winner": "Black",
+    "Moves": 57,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Wesley So",
+    "Notation": "1. b4 d5 2. Bb2 Nf6 3. e3 Bg4",
+    "Opening": "Polish Opening: 1...Nf6 2.Bb2 d5 3.e3",
+    "Winner": "Black",
+    "Moves": 39,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Wesley So",
+    "Notation": "1. d4 Nf6 2. Nf3 d5 3. c4 e6",
+    "Opening": "Queen's Gambit Declined: Three Knights, Vienna, Quiet Variation",
+    "Winner": "Black",
+    "Moves": 71,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Levon Aronian",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Columbus Variation, 4...Nf6 5.O-O b5 6.Bb3 Bc5 7.c3 d6",
+    "Winner": "Black",
+    "Moves": 92,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Levon Aronian",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: Main Line, Giuoco Pianissimo Variation",
+    "Winner": "Black",
+    "Moves": 39,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Ding Liren",
+    "Notation": "1. b3 d5 2. Bb2 Bf5 3. Nf3 e6",
+    "Opening": "Nimzowitsch-Larsen Attack: Classical Variation, 2.Bb2",
+    "Winner": "Black",
+    "Moves": 48,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Jan-Krzysztof Duda",
+    "Notation": "1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7",
+    "Opening": "Sicilian Defense: Canal, Main Line, 4.Bxd7+ Qxd7 5.O-O",
+    "Winner": "Black",
+    "Moves": 74,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Anish Giri",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: Main Line, Giuoco Pianissimo Variation",
+    "Winner": "-",
+    "Moves": 42,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Alexander Donchenko",
+    "Notation": "1. e4 c5 2. Nf3 d6 3. d4 cxd4",
+    "Opening": "Sicilian Defense: Open, Najdorf, English Attack, 6...e5 7.Nb3 Be6",
+    "Winner": "-",
+    "Moves": 69,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Pentala Harikrishna",
+    "Notation": "1. e4 c5 2. Nf3 e6 3. d4 cxd4",
+    "Opening": "Sicilian Defense: Taimanov, Bastrikov Variation, 6.f4 a6 7.Nxc6",
+    "Winner": "-",
+    "Moves": 30,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Aryan Tari",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Semi-Tarrasch, Main Line, 5...cxd4",
+    "Winner": "-",
+    "Moves": 56,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Anish Giri",
+    "Notation": "1. e3 d5 2. c4 e6 3. Nf3 Nf6",
+    "Opening": "Van't Kruijs Opening: 1...d5",
+    "Winner": "-",
+    "Moves": 20,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Jan-Krzysztof Duda",
+    "Notation": "1. c4 e6 2. Nc3 Nf6 3. e4 d5",
+    "Opening": "English Opening: Mik\u0117nas-Carls Variation, 3...d5 4.cxd5",
+    "Winner": "-",
+    "Moves": 37,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Teimour Radjabov",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nc3 Bb4",
+    "Opening": "Nimzo-Indian Defense: Ragozin, Gligori\u0107, Bernstein, Exchange Variation",
+    "Winner": "-",
+    "Moves": 56,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Maxime Vachier-Lagrave",
+    "Notation": "1. d4 Nf6 2. c4 g6 3. g3 c6",
+    "Opening": "King's Indian Defense: 3.g3",
+    "Winner": "-",
+    "Moves": 32,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Maxime Vachier-Lagrave",
+    "Notation": "1. e4 c5 2. Nf3 d6 3. d4 cxd4",
+    "Opening": "Sicilian Defense: Open, Najdorf Variation",
+    "Winner": "-",
+    "Moves": 60,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Wesley So",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nc3 Bb4",
+    "Opening": "Nimzo-Indian Defense: Three Knights Variation, 4...O-O",
+    "Winner": "-",
+    "Moves": 53,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Wesley So",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Berlin, Rio Gambit Accepted, 5.Re1 Nd6 6.Nxe5",
+    "Winner": "-",
+    "Moves": 29,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Wesley So",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: 4.O-O Nf6",
+    "Winner": "-",
+    "Moves": 55,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Wesley So",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6",
+    "Opening": "Giuoco Piano Game: Main Line, Giuoco Pianissimo Variation",
+    "Winner": "-",
+    "Moves": 55,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Hikaru Nakamura",
+    "Notation": "1. e4 e5 2. Ke2 Ke7 3. Ke1 Ke8",
+    "Opening": "King's Pawn Opening: The Bongcloud",
+    "Winner": "-",
+    "Moves": 6,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Levon Aronian",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Ragozin Defense, 5.cxd5 exd5",
+    "Winner": "-",
+    "Moves": 65,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Levon Aronian",
+    "Notation": "1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7",
+    "Opening": "Sicilian Defense: Canal Attack, 3...Nd7 4.d4 cxd4",
+    "Winner": "-",
+    "Moves": 47,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Levon Aronian",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6",
+    "Opening": "Four Knights Game: Scotch Variation Accepted, 5.Nxd4 Bb4 6.Nxc6 bxc6 7.Bd3 d5 8.exd5 cxd5 9.O-O O-O 10.Bg5",
+    "Winner": "-",
+    "Moves": 41,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Ian Nepomniachtchi",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Three Knights, Vienna Variation",
+    "Winner": "-",
+    "Moves": 100,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Sergey Karjakin",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Berlin Defense, 4.d3 Bc5",
+    "Winner": "-",
+    "Moves": 66,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Teimour Radjabov",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Berlin Defense, 4.d3 Bc5",
+    "Winner": "-",
+    "Moves": 45,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Teimour Radjabov",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Modern Variation, 4...Be7 5.Nf3 h6 6.Bxf6 Bxf6 7.e3",
+    "Winner": "-",
+    "Moves": 36,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Wesley So",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Berlin, Rio Gambit Accepted, 5.Re1 Nd6 6.Nxe5",
+    "Winner": "-",
+    "Moves": 31,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Teimour Radjabov",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Berlin Defense, 4.d3 Bc5",
+    "Winner": "-",
+    "Moves": 29,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Teimour Radjabov",
+    "Notation": "1. e4 c5 2. Nf3 Nc6 3. Nc3 Nf6",
+    "Opening": "Sicilian Defense: Closed, Traditional Line, 3.Nf3",
+    "Winner": "-",
+    "Moves": 36,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Levon Aronian",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Columbus Variation, 4...Nf6 5.O-O b5 6.Bb3 Bc5",
+    "Winner": "-",
+    "Moves": 50,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Hikaru Nakamura",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: Main Line, Giuoco Pianissimo Variation",
+    "Winner": "-",
+    "Moves": 57,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Levon Aronian",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: Giuoco Pianissimo Variation",
+    "Winner": "-",
+    "Moves": 43,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Levon Aronian",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: Main Line, Giuoco Pianissimo Variation",
+    "Winner": "-",
+    "Moves": 36,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Hikaru Nakamura",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: Main Line, Giuoco Pianissimo Variation",
+    "Winner": "-",
+    "Moves": 24,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Hikaru Nakamura",
+    "Notation": "1. e4 c5 2. c3 g6 3. d4 cxd4",
+    "Opening": "Sicilian Defense: Alapin Variation, 2...g6 3.d4 cxd4",
+    "Winner": "-",
+    "Moves": 43,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Hikaru Nakamura",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nc3 Bb4",
+    "Opening": "Nimzo-Indian Defense: Classical, Noa Variation, 5.a3 Bxc3+ 6.Qxc3 O-O",
+    "Winner": "-",
+    "Moves": 65,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Ian Nepomniachtchi",
+    "Notation": "1. e4 c5 2. Nc3 e6 3. Nf3 Nc6",
+    "Opening": "Sicilian Defense: Pin Variation",
+    "Winner": "-",
+    "Moves": 47,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Peter Svidler",
+    "Notation": "1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7",
+    "Opening": "Sicilian Defense: Canal Attack, 3...Nd7 4.d4 cxd4",
+    "Winner": "-",
+    "Moves": 55,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Hikaru Nakamura",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: Main Line, Giuoco Pianissimo Variation",
+    "Winner": "-",
+    "Moves": 51,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Anish Giri",
+    "Notation": "1. b4 e5 2. Bb2 Bxb4 3. Bxe5 Nf6",
+    "Opening": "Polish Opening: Kucharkowski-Meybohm Gambit",
+    "Winner": "-",
+    "Moves": 53,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Hikaru Nakamura",
+    "Notation": "1. b4 e5 2. Bb2 Bxb4 3. Bxe5 Nf6",
+    "Opening": "Polish Opening: Kucharkowski-Meybohm Gambit",
+    "Winner": "-",
+    "Moves": 47,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Teimour Radjabov",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: 4.O-O Nf6",
+    "Winner": "-",
+    "Moves": 43,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Wesley So",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Berlin, Rio Gambit Accepted, 5.Re1 Nd6 6.Nxe5",
+    "Winner": "-",
+    "Moves": 29,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Teimour Radjabov",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Berlin, Rio Gambit Accepted, 5.Re1 Nd6 6.Nxe5",
+    "Winner": "-",
+    "Moves": 43,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Wesley So",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Semi-Tarrasch, Main Line, 5...cxd4",
+    "Winner": "-",
+    "Moves": 34,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Anish Giri",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6",
+    "Opening": "Giuoco Piano Game: Giuoco Pianissimo Variation, 4...Nf6",
+    "Winner": "-",
+    "Moves": 37,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Gukesh D",
+    "Notation": "1. d4 d5 2. Bf4 Nf6 3. e3 Bg4",
+    "Opening": "Queen's Pawn Opening: Accelerated London System",
+    "Winner": "-",
+    "Moves": 87,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Baskaran Adhiban",
+    "Notation": "1. d4 Nf6 2. c4 g6 3. Nc3 Bg7",
+    "Opening": "King's Indian Defense: Bayonet Attack, 9...a5",
+    "Winner": "-",
+    "Moves": 48,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Wesley So",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Berlin, Rio Gambit Accepted, 5.Re1 Nd6 6.Nxe5",
+    "Winner": "-",
+    "Moves": 29,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Ding Liren",
+    "Notation": "1. e4 c6 2. d4 d5 3. exd5 cxd5",
+    "Opening": "Caro-Kann Defense: Exchange Variation, 3...cxd5 4.Bd3",
+    "Winner": "-",
+    "Moves": 39,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Levon Aronian",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Columbus Variation, 4...Nf6 5.O-O b5 6.Bb3 Bc5 7.c3 d6",
+    "Winner": "-",
+    "Moves": 127,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Andrey Esipenko",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Catalan Opening",
+    "Winner": "-",
+    "Moves": 24,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Radoslaw Wojtaszek",
+    "Notation": "1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7",
+    "Opening": "Sicilian Defense: Canal Attack, 3...Nd7 4.d4 cxd4",
+    "Winner": "-",
+    "Moves": 34,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Andrey Esipenko",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Catalan Opening",
+    "Winner": "-",
+    "Moves": 48,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Jan-Krzysztof Duda",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Three Knights, Vienna Variation",
+    "Winner": "-",
+    "Moves": 32,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Anish Giri",
+    "Notation": "1. e4 c5 2. Nc3 Nc6 3. Nf3 g6",
+    "Opening": "Sicilian Defense: Closed, Traditional Line, 3.Nf3",
+    "Winner": "-",
+    "Moves": 62,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Levon Aronian",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Ragozin, Vienna Variation",
+    "Winner": "-",
+    "Moves": 56,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Jan-Krzysztof Duda",
+    "Notation": "1. e4 c5 2. Nf3 e6 3. c3 Nf6",
+    "Opening": "Sicilian Defense: Alapin Variation, 2...e6 3.Nf3",
+    "Winner": "-",
+    "Moves": 124,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Shakhriyar Mamedyarov",
+    "Notation": "1. d4 d5 2. Nf3 Nf6 3. Bf4 Bf5",
+    "Opening": "London System",
+    "Winner": "-",
+    "Moves": 71,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Jan-Krzysztof Duda",
+    "Notation": "1. e4 c5 2. Nf3 e6 3. c3 Nf6",
+    "Opening": "Sicilian Defense: Alapin Variation, 2...e6 3.Nf3",
+    "Winner": "-",
+    "Moves": 64,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Levon Aronian",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Ragozin Defense",
+    "Winner": "-",
+    "Moves": 44,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Levon Aronian",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: Main Line, Giuoco Pianissimo Variation",
+    "Winner": "-",
+    "Moves": 54,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Levon Aronian",
+    "Notation": "1. e4 c5 2. Nc3 a6 3. Nge2 d6",
+    "Opening": "Sicilian Defense: Closed",
+    "Winner": "-",
+    "Moves": 60,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Vladislav Artemiev",
+    "Notation": "1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7",
+    "Opening": "Sicilian Defense: Canal Attack, 3...Nd7",
+    "Winner": "-",
+    "Moves": 51,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Aryan Tari",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6",
+    "Opening": "Giuoco Piano Game: Main Line, Giuoco Pianissimo Variation",
+    "Winner": "-",
+    "Moves": 46,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Ian Nepomniachtchi",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Berlin, l'Hermet, Berlin Wall Defense",
+    "Winner": "-",
+    "Moves": 39,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Ian Nepomniachtchi",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Catalan Opening: Open Defense, Classical Line, 6.O-O O-O",
+    "Winner": "-",
+    "Moves": 58,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Fabiano Caruana",
+    "Notation": "1. d4 Nf6 2. Nf3 d5 3. c4 e6",
+    "Opening": "Queen's Gambit Declined: Harrwitz, Main Line, 8.Qc2 Nc6 9.a3 Qa5",
+    "Winner": "-",
+    "Moves": 40,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Ian Nepomniachtchi",
+    "Notation": "1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6",
+    "Opening": "Petrov's Defense: Classical Attack, Marshall Variation, Staunton Variation, 9.Re1",
+    "Winner": "-",
+    "Moves": 33,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Ian Nepomniachtchi",
+    "Notation": "1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6",
+    "Opening": "Petrov's Defense: Classical, Karklins-Martinovsky Variation",
+    "Winner": "-",
+    "Moves": 41,
+    "Year": 2021
+  },
+  {
+    "White": "Andrey Esipenko",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 d6 3. d4 cxd4",
+    "Opening": "Sicilian Defense: Open, Scheveningen, Classical Variation, 6...a6 7.Be3",
+    "Winner": "White",
+    "Moves": 38,
+    "Year": 2021
+  },
+  {
+    "White": "Wesley So",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7",
+    "Opening": "Sicilian Defense: Canal, Main Line, Sokolsky Variation",
+    "Winner": "White",
+    "Moves": 53,
+    "Year": 2021
+  },
+  {
+    "White": "Ding Liren",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 a6",
+    "Opening": "Indian Game: East Indian, Anti-Nimzo-Indian, Dzindzi-Indian Defense",
+    "Winner": "White",
+    "Moves": 36,
+    "Year": 2021
+  },
+  {
+    "White": "Daniil Dubov",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 b6",
+    "Opening": "Queen's Indian Defense: Fianchetto, Capablanca Variation, 6.Bd2 c5",
+    "Winner": "White",
+    "Moves": 25,
+    "Year": 2021
+  },
+  {
+    "White": "Daniil Dubov",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Catalan Opening",
+    "Winner": "White",
+    "Moves": 101,
+    "Year": 2021
+  },
+  {
+    "White": "Maxime Vachier-Lagrave",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 Nc6 3. Bb5 e6",
+    "Opening": "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, 3...e6 4.O-O Nge7 5.b3",
+    "Winner": "White",
+    "Moves": 31,
+    "Year": 2021
+  },
+  {
+    "White": "Maxime Vachier-Lagrave",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 Nc6 3. Bb5 e6",
+    "Opening": "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, 3...e6 4.O-O Nge7 5.Re1",
+    "Winner": "White",
+    "Moves": 51,
+    "Year": 2021
+  },
+  {
+    "White": "Wesley So",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: Center Attack, 5...exd4 6.e5 d5 7.Bb5 Ne4 8.cxd4",
+    "Winner": "White",
+    "Moves": 37,
+    "Year": 2021
+  },
+  {
+    "White": "Wesley So",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 Nc6 3. Bb5 e6",
+    "Opening": "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, 3...e6 4.O-O Nge7 5.c3 a6",
+    "Winner": "White",
+    "Moves": 28,
+    "Year": 2021
+  },
+  {
+    "White": "Anish Giri",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 g6 3. d4 cxd4",
+    "Opening": "Sicilian Defense: Open, Accelerated Dragon, Mar\u00f3czy Bind Formation, 5...Nf6 6.Nc3 d6 7.Be2 Nxd4 8.Qxd4 Bg7 9.O-O",
+    "Winner": "White",
+    "Moves": 58,
+    "Year": 2021
+  },
+  {
+    "White": "Levon Aronian",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. Nf3 e6 3. Bf4 b6",
+    "Opening": "Indian Game: London System",
+    "Winner": "White",
+    "Moves": 68,
+    "Year": 2021
+  },
+  {
+    "White": "Hikaru Nakamura",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nc3 Bb4",
+    "Opening": "Nimzo-Indian Defense: Classical, Noa Variation, 5.cxd5 exd5 6.Bg5 h6 7.Bh4 c5",
+    "Winner": "White",
+    "Moves": 49,
+    "Year": 2021
+  },
+  {
+    "White": "Levon Aronian",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 d5 2. Nf3 Nf6 3. Bf4 c5",
+    "Opening": "London System: 3...c5 4.e3",
+    "Winner": "White",
+    "Moves": 51,
+    "Year": 2021
+  },
+  {
+    "White": "Hikaru Nakamura",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Open, Classical Defense, 10.Nbd2 Nc5",
+    "Winner": "White",
+    "Moves": 36,
+    "Year": 2021
+  },
+  {
+    "White": "Hikaru Nakamura",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Berlin Defense, 4.d3 Bc5",
+    "Winner": "White",
+    "Moves": 58,
+    "Year": 2021
+  },
+  {
+    "White": "Teimour Radjabov",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Ragozin Defense, 5.Bg5 h6 6.Bxf6 Qxf6",
+    "Winner": "White",
+    "Moves": 54,
+    "Year": 2021
+  },
+  {
+    "White": "Wesley So",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: Center Attack, 5...exd4 6.e5 d5 7.Bb5 Ne4 8.cxd4",
+    "Winner": "White",
+    "Moves": 33,
+    "Year": 2021
+  },
+  {
+    "White": "Wesley So",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 Nc6 3. Bb5 e5",
+    "Opening": "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack",
+    "Winner": "White",
+    "Moves": 40,
+    "Year": 2021
+  },
+  {
+    "White": "Alireza Firouzja",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nc3 Nf6 3. Bc4 Bc5",
+    "Opening": "King's Gambit Declined: Classical Variation, 3.Nf3 d6 4.Nc3 Nf6 5.Bc4 Nc6 6.d3",
+    "Winner": "White",
+    "Moves": 45,
+    "Year": 2021
+  },
+  {
+    "White": "Levon Aronian",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 Nc6 3. Bb5 g6",
+    "Opening": "Sicilian Defense: Nyezhmetdinov-Rossolimo, Fianchetto Variation, 4.Nc3",
+    "Winner": "White",
+    "Moves": 66,
+    "Year": 2021
+  },
+  {
+    "White": "Wesley So",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: Main Line, Giuoco Pianissimo Variation",
+    "Winner": "White",
+    "Moves": 46,
+    "Year": 2021
+  },
+  {
+    "White": "Wesley So",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: Center Attack, 5...exd4 6.e5 d5 7.Bb5 Ne4 8.cxd4",
+    "Winner": "White",
+    "Moves": 57,
+    "Year": 2021
+  },
+  {
+    "White": "Levon Aronian",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Deferred Steinitz Defense, 6.c3",
+    "Winner": "White",
+    "Moves": 63,
+    "Year": 2021
+  },
+  {
+    "White": "Levon Aronian",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e6 2. d4 d5 3. exd5 exd5",
+    "Opening": "French Defense: Exchange Variation, 3...exd5 4.Nf3 Bd6 5.c4",
+    "Winner": "White",
+    "Moves": 34,
+    "Year": 2021
+  },
+  {
+    "White": "Levon Aronian",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Closed, Yates, Bogoljubov Variation, 10.Be3 exd4",
+    "Winner": "White",
+    "Moves": 48,
+    "Year": 2021
+  },
+  {
+    "White": "Ding Liren",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. g3 d5",
+    "Opening": "Catalan Opening: Open Defense, Classical Line, 6.O-O O-O",
+    "Winner": "White",
+    "Moves": 66,
+    "Year": 2021
+  },
+  {
+    "White": "Ding Liren",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 g6 3. g3 c5",
+    "Opening": "King's Indian Defense: 3.g3",
+    "Winner": "White",
+    "Moves": 34,
+    "Year": 2021
+  },
+  {
+    "White": "Andrey Esipenko",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: Main Line, Giuoco Pianissimo Variation",
+    "Winner": "White",
+    "Moves": 64,
+    "Year": 2021
+  },
+  {
+    "White": "Alireza Firouzja",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5",
+    "Opening": "Scandinavian Defense: Mieses-Kotr\u010d, Main Line, 4.d4 Nf6 5.Nf3 Bf5 6.Ne5 c6",
+    "Winner": "White",
+    "Moves": 35,
+    "Year": 2021
+  },
+  {
+    "White": "Vladislav Artemiev",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. Nf3 c5 2. c4 Nf6 3. g3 Nc6",
+    "Opening": "English Opening: Symmetrical Variation, 2.Nf3 Nf6 3.g3",
+    "Winner": "White",
+    "Moves": 38,
+    "Year": 2021
+  },
+  {
+    "White": "Sergey Karjakin",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 Nc6 3. d4 cxd4",
+    "Opening": "Sicilian Defense: Open, Pelik\u00e1n and Sveshnikov Variations, 6.Ndb5 d6 7.Nd5",
+    "Winner": "White",
+    "Moves": 54,
+    "Year": 2021
+  },
+  {
+    "White": "Matthias Bluebaum",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 d5 2. Nf3 e6 3. e3 Nf6",
+    "Opening": "Colle System: Rubinstein Opening, 5...Nc6",
+    "Winner": "Black",
+    "Moves": 57,
+    "Year": 2021
+  },
+  {
+    "White": "Leinier Dominguez Perez",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 d6 3. d4 cxd4",
+    "Opening": "Sicilian Defense: Open, Dragon, Yugoslav Attack, 7...a6",
+    "Winner": "Black",
+    "Moves": 72,
+    "Year": 2021
+  },
+  {
+    "White": "Santosh Gujrathi Vidit",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 d5 2. c4 e6 3. Nf3 c6",
+    "Opening": "Slav Defense: Modern, Triangle System",
+    "Winner": "Black",
+    "Moves": 42,
+    "Year": 2021
+  },
+  {
+    "White": "Wesley So",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6",
+    "Opening": "Italian Game: Knight Attack, Polerio, Bishop Check Line, 6...c6 7.dxc6 bxc6",
+    "Winner": "Black",
+    "Moves": 55,
+    "Year": 2021
+  },
+  {
+    "White": "Jorden van Foreest",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 g6 3. Bc4 Bg7",
+    "Opening": "Sicilian Defense: Hyperaccelerated Dragon Variation",
+    "Winner": "Black",
+    "Moves": 50,
+    "Year": 2021
+  },
+  {
+    "White": "Ian Nepomniachtchi",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 Nc6 3. d4 cxd4",
+    "Opening": "Sicilian Defense: Open, Pelik\u00e1n and Sveshnikov, Chelyabinsk Variation, 9...Be7 10.Bxf6 Bxf6 11.c3",
+    "Winner": "Black",
+    "Moves": 54,
+    "Year": 2021
+  },
+  {
+    "White": "Levon Aronian",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Anderssen Variation",
+    "Winner": "Black",
+    "Moves": 33,
+    "Year": 2021
+  },
+  {
+    "White": "Levon Aronian",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Neo-Arkhangelsk Variation, 6.c3",
+    "Winner": "Black",
+    "Moves": 42,
+    "Year": 2021
+  },
+  {
+    "White": "Le Quang Liem",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. Nf3 d5 3. c4 e6",
+    "Opening": "Queen's Gambit Declined: Three Knights Variation",
+    "Winner": "Black",
+    "Moves": 52,
+    "Year": 2021
+  },
+  {
+    "White": "Aryan Tari",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 g6 2. d4 d6 3. Nc3 c6",
+    "Opening": "Modern Defense: Rat Defense, Accelerated Gurgenidze Variation",
+    "Winner": "Black",
+    "Moves": 66,
+    "Year": 2021
+  },
+  {
+    "White": "Alireza Firouzja",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 d5 2. Nf3 Nf6 3. e3 Bf5",
+    "Opening": "Slav Defense: Modern, Quiet, Schallopp Defense, 5.Nc3",
+    "Winner": "Black",
+    "Moves": 49,
+    "Year": 2021
+  },
+  {
+    "White": "Levon Aronian",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. Nf3 d5 3. Bf4 e6",
+    "Opening": "London System",
+    "Winner": "Black",
+    "Moves": 52,
+    "Year": 2021
+  },
+  {
+    "White": "Hikaru Nakamura",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 d5 2. c4 c6 3. Nf3 Nf6",
+    "Opening": "Slav Defense: Modern, Quiet, Pin Defense",
+    "Winner": "Black",
+    "Moves": 37,
+    "Year": 2021
+  },
+  {
+    "White": "Hikaru Nakamura",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 d5 2. c4 e6 3. Nc3 a6",
+    "Opening": "Queen's Gambit Declined: Janowski Variation",
+    "Winner": "Black",
+    "Moves": 39,
+    "Year": 2021
+  },
+  {
+    "White": "Shakhriyar Mamedyarov",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. Nf3 d5 2. g3 c6 3. Bg2 Bg4",
+    "Opening": "King's Indian Attack: 2...c6 3.Bg2 Bg4",
+    "Winner": "Black",
+    "Moves": 53,
+    "Year": 2021
+  },
+  {
+    "White": "Daniil Dubov",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 d5 2. c4 c5 3. Nf3 cxd4",
+    "Opening": "Queen's Gambit Declined: Austrian Variation",
+    "Winner": "Black",
+    "Moves": 41,
+    "Year": 2021
+  },
+  {
+    "White": "Hikaru Nakamura",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7",
+    "Opening": "Sicilian Defense: Canal Attack, 3...Nd7",
+    "Winner": "Black",
+    "Moves": 49,
+    "Year": 2021
+  },
+  {
+    "White": "Hikaru Nakamura",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Berlin Defense, 4.d3 Bc5",
+    "Winner": "Black",
+    "Moves": 37,
+    "Year": 2021
+  },
+  {
+    "White": "Wesley So",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: Center Attack, 5...exd4 6.e5 d5 7.Bb5 Ne4 8.cxd4",
+    "Winner": "Black",
+    "Moves": 33,
+    "Year": 2021
+  },
+  {
+    "White": "Teimour Radjabov",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 d5 2. c4 e6 3. Nc3 h6",
+    "Opening": "Queen's Gambit Declined: Queen's Knight Variation",
+    "Winner": "Black",
+    "Moves": 44,
+    "Year": 2021
+  },
+  {
+    "White": "Wesley So",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7",
+    "Opening": "Sicilian Defense: Canal Attack, 3...Nd7 4.O-O Nf6 5.Re1 a6 6.Bf1",
+    "Winner": "Black",
+    "Moves": 36,
+    "Year": 2021
+  },
+  {
+    "White": "Saleh Salem",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 d5 2. c4 c6 3. Nc3 Nf6",
+    "Opening": "Slav Defense: 3.Nc3",
+    "Winner": "Black",
+    "Moves": 31,
+    "Year": 2021
+  },
+  {
+    "White": "Wesley So",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: Main Line, Giuoco Pianissimo Variation",
+    "Winner": "Black",
+    "Moves": 85,
+    "Year": 2021
+  },
+  {
+    "White": "Sasa Martinovic",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 g6 3. Nc3 d5",
+    "Opening": "Gr\u00fcnfeld Defense: Exchange Variation, 5.Bd2",
+    "Winner": "Black",
+    "Moves": 34,
+    "Year": 2021
+  },
+  {
+    "White": "Aryan Tari",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 e6 3. d4 cxd4",
+    "Opening": "Sicilian Defense: Taimanov Variation, 5.Nc3 a6",
+    "Winner": "Black",
+    "Moves": 75,
+    "Year": 2021
+  },
+  {
+    "White": "Andrey Esipenko",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: Main Line, Giuoco Pianissimo Variation",
+    "Winner": "Black",
+    "Moves": 43,
+    "Year": 2021
+  },
+  {
+    "White": "Etienne Bacrot",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Anti-Marshall Variation, 8...Bb7 9.d3 d6",
+    "Winner": "Black",
+    "Moves": 44,
+    "Year": 2021
+  },
+  {
+    "White": "Vladimir Fedoseev",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 g6 3. h4 Bg7",
+    "Opening": "King's Indian Defense",
+    "Winner": "Black",
+    "Moves": 41,
+    "Year": 2021
+  },
+  {
+    "White": "Awonder Liang",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 e6 3. d4 cxd4",
+    "Opening": "Sicilian Defense: Taimanov Variation, 5.Nc3 a6 6.Nxc6 bxc6 7.Bd3 d5",
+    "Winner": "Black",
+    "Moves": 39,
+    "Year": 2021
+  },
+  {
+    "White": "Eric Hansen",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: Closed, Center Holding Variation, 6.O-O Nf6",
+    "Winner": "Black",
+    "Moves": 35,
+    "Year": 2021
+  },
+  {
+    "White": "Jan-Krzysztof Duda",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Berlin Defense, 4.d3 Bc5",
+    "Winner": "Black",
+    "Moves": 42,
+    "Year": 2021
+  },
+  {
+    "White": "Jan-Krzysztof Duda",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. c4 Nf6 2. Nc3 e5 3. g3 Bb4",
+    "Opening": "English Opening: Carls-Bremen, Smyslov System",
+    "Winner": "Black",
+    "Moves": 76,
+    "Year": 2021
+  },
+  {
+    "White": "Vladislav Artemiev",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. c4 Nf6 2. Nf3 c5 3. Nc3 e6",
+    "Opening": "Queen's Gambit Declined: Three Knights, Semi-Tarrasch Defense, 5.e3 a6 6.cxd5 exd5",
+    "Winner": "Black",
+    "Moves": 35,
+    "Year": 2021
+  },
+  {
+    "White": "Levon Aronian",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Anti-Marshall Variation, 8...Bb7 9.d3",
+    "Winner": "Black",
+    "Moves": 44,
+    "Year": 2021
+  },
+  {
+    "White": "Aryan Tari",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Closed, 6.Re1 b5 7.Bb3 O-O 8.c3 Na5 9.Bc2",
+    "Winner": "Black",
+    "Moves": 51,
+    "Year": 2021
+  },
+  {
+    "White": "Ian Nepomniachtchi",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nc3 Nc6 3. Bc4 Nf6",
+    "Opening": "Bishop's Opening: Berlin, Vienna Hybrid Variation",
+    "Winner": "Black",
+    "Moves": 56,
+    "Year": 2021
+  },
+  {
+    "White": "Jelle Sarrau",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. c4 e5 2. g3 Nf6 3. Bg2 h6",
+    "Opening": "English Opening: King's English Variation, 2.g3",
+    "Winner": "Black",
+    "Moves": 91,
+    "Year": 2021
+  },
+  {
+    "White": "Benjamin Arvola Notkevich",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c6 2. d4 d5 3. exd5 cxd5",
+    "Opening": "Nimzo-Indian Defense: Ragozin, Gligori\u0107 System, 7.O-O dxc4 8.Bxc4 cxd4 9.exd4 b6 10.Bg5 Bb7",
+    "Winner": "Black",
+    "Moves": 57,
+    "Year": 2021
+  },
+  {
+    "White": "Ian Nepomniachtchi",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6",
+    "Opening": "Giuoco Piano Game: Main Line, Giuoco Pianissimo Variation",
+    "Winner": "Black",
+    "Moves": 49,
+    "Year": 2021
+  },
+  {
+    "White": "Radoslaw Wojtaszek",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 d5 2. c4 e6 3. Nf3 c6",
+    "Opening": "Semi-Slav Defense: Main Line, Stoltz Variation, 6...Bd6",
+    "Winner": "-",
+    "Moves": 35,
+    "Year": 2021
+  },
+  {
+    "White": "Jan-Krzysztof Duda",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6",
+    "Opening": "Giuoco Piano Game: Giuoco Pianissimo Variation, 4...Nf6",
+    "Winner": "-",
+    "Moves": 50,
+    "Year": 2021
+  },
+  {
+    "White": "Fabiano Caruana",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. g3 d5",
+    "Opening": "Queen's Gambit Declined: Catalan Opening",
+    "Winner": "-",
+    "Moves": 42,
+    "Year": 2021
+  },
+  {
+    "White": "David Anton Guijarro",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 Nc6 3. Nc3 g6",
+    "Opening": "Sicilian Defense: Closed, Traditional Line, 3.Nf3",
+    "Winner": "-",
+    "Moves": 69,
+    "Year": 2021
+  },
+  {
+    "White": "Jorden van Foreest",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Arkhangelsk Variation, 7.d3 Be7",
+    "Winner": "-",
+    "Moves": 59,
+    "Year": 2021
+  },
+  {
+    "White": "Ian Nepomniachtchi",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Arkhangelsk Variation, 7.d3 Be7",
+    "Winner": "-",
+    "Moves": 35,
+    "Year": 2021
+  },
+  {
+    "White": "Alexander Grischuk",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 Nc6 3. Nc3 e5",
+    "Opening": "Sicilian Defense: Closed, Traditional Line, 3.Nf3 e5 4.Bc4",
+    "Winner": "-",
+    "Moves": 65,
+    "Year": 2021
+  },
+  {
+    "White": "Daniil Dubov",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 d5 2. c4 c6 3. Nf3 Nf6",
+    "Opening": "Semi-Slav Defense",
+    "Winner": "-",
+    "Moves": 122,
+    "Year": 2021
+  },
+  {
+    "White": "Daniil Dubov",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Catalan Opening",
+    "Winner": "-",
+    "Moves": 43,
+    "Year": 2021
+  },
+  {
+    "White": "Daniil Dubov",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Catalan Opening",
+    "Winner": "-",
+    "Moves": 53,
+    "Year": 2021
+  },
+  {
+    "White": "Maxime Vachier-Lagrave",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Breyer, Zaitsev Hybrid Variation, 11.Nbd2 Bb7 12.Bc2 Re8 13.Nf1 Bf8 14.Ng3 g6 15.a4",
+    "Winner": "-",
+    "Moves": 72,
+    "Year": 2021
+  },
+  {
+    "White": "Maxime Vachier-Lagrave",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Closed, 6.Re1 b5 7.Bb3 O-O 8.c3 Na5 9.Bc2",
+    "Winner": "-",
+    "Moves": 67,
+    "Year": 2021
+  },
+  {
+    "White": "Wesley So",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: 4.O-O Nf6",
+    "Winner": "-",
+    "Moves": 54,
+    "Year": 2021
+  },
+  {
+    "White": "Alireza Firouzja",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. Nf3 e6 3. e3 c5",
+    "Opening": "Colle System: Rubinstein Opening, 5...Nc6 6.Bb2",
+    "Winner": "-",
+    "Moves": 40,
+    "Year": 2021
+  },
+  {
+    "White": "Nils Grandelius",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, 3...Nf6",
+    "Winner": "-",
+    "Moves": 60,
+    "Year": 2021
+  },
+  {
+    "White": "Teimour Radjabov",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 d5 2. c4 e6 3. Nf3 Nf6",
+    "Opening": "Semi-Slav Defense: Anti-Meran, Anti-Moscow Gambit",
+    "Winner": "-",
+    "Moves": 35,
+    "Year": 2021
+  },
+  {
+    "White": "Wesley So",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 d5 2. c4 c6 3. cxd5 cxd5",
+    "Opening": "Slav Defense: Exchange Variation, 3...cxd5 4.Bf4",
+    "Winner": "-",
+    "Moves": 43,
+    "Year": 2021
+  },
+  {
+    "White": "Daniil Dubov",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 d5 2. c4 c6 3. Nf3 Nf6",
+    "Opening": "Semi-Slav Defense",
+    "Winner": "-",
+    "Moves": 77,
+    "Year": 2021
+  },
+  {
+    "White": "Levon Aronian",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Berlin, l'Hermet, Berlin Wall Defense",
+    "Winner": "-",
+    "Moves": 71,
+    "Year": 2021
+  },
+  {
+    "White": "Ian Nepomniachtchi",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Open, Classical Defense, 10.Nbd2 Nc5",
+    "Winner": "-",
+    "Moves": 20,
+    "Year": 2021
+  },
+  {
+    "White": "Ian Nepomniachtchi",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7",
+    "Opening": "Sicilian Defense: Canal Attack, 3...Nd7 4.O-O Nf6 5.Re1 a6 6.Bf1",
+    "Winner": "-",
+    "Moves": 66,
+    "Year": 2021
+  },
+  {
+    "White": "Ian Nepomniachtchi",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Closed, Martinez Variation, 6...b5 7.Bb3",
+    "Winner": "-",
+    "Moves": 62,
+    "Year": 2021
+  },
+  {
+    "White": "Ian Nepomniachtchi",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Closed, Martinez Variation, 6...b5 7.Bb3",
+    "Winner": "-",
+    "Moves": 62,
+    "Year": 2021
+  },
+  {
+    "White": "Wesley So",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Anti-Marshall Variation, 8...Bb7 9.d3",
+    "Winner": "-",
+    "Moves": 57,
+    "Year": 2021
+  },
+  {
+    "White": "Wesley So",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Anti-Marshall Variation, 8...Bb7 9.d3",
+    "Winner": "-",
+    "Moves": 57,
+    "Year": 2021
+  },
+  {
+    "White": "Wesley So",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Anti-Marshall Variation, 8...Bb7 9.d3",
+    "Winner": "-",
+    "Moves": 57,
+    "Year": 2021
+  },
+  {
+    "White": "Santosh Gujrathi Vidit",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nc3 Bb4",
+    "Opening": "Nimzo-Indian Defense: Classical, Noa Variation, 5.cxd5 Qxd5 6.e3 c5",
+    "Winner": "-",
+    "Moves": 75,
+    "Year": 2021
+  },
+  {
+    "White": "Shakhriyar Mamedyarov",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 d5 2. c4 c6 3. Nc3 Nf6",
+    "Opening": "Slav Defense: 3.Nc3",
+    "Winner": "-",
+    "Moves": 39,
+    "Year": 2021
+  },
+  {
+    "White": "Praggnanandhaa R",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Three Knights Variation",
+    "Winner": "-",
+    "Moves": 80,
+    "Year": 2021
+  },
+  {
+    "White": "Teimour Radjabov",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Semi-Tarrasch, Main Line, 5...cxd4",
+    "Winner": "-",
+    "Moves": 56,
+    "Year": 2021
+  },
+  {
+    "White": "Teimour Radjabov",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Three Knights, Barmen Variation, 5.Bf4",
+    "Winner": "-",
+    "Moves": 31,
+    "Year": 2021
+  },
+  {
+    "White": "Teimour Radjabov",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Three Knights Variation",
+    "Winner": "-",
+    "Moves": 40,
+    "Year": 2021
+  },
+  {
+    "White": "Teimour Radjabov",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Ragozin, Vienna Variation",
+    "Winner": "-",
+    "Moves": 40,
+    "Year": 2021
+  },
+  {
+    "White": "Johan-Sebastian Christiansen",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 d6 2. d4 g6 3. Nc3 c6",
+    "Opening": "Modern Defense: Rat Defense, Accelerated Gurgenidze Variation",
+    "Winner": "-",
+    "Moves": 92,
+    "Year": 2021
+  },
+  {
+    "White": "Levon Aronian",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. Nf3 e6 3. Bf4 b6",
+    "Opening": "Indian Game: London System",
+    "Winner": "-",
+    "Moves": 41,
+    "Year": 2021
+  },
+  {
+    "White": "Levon Aronian",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. Nf3 d5 3. Bf4 Bf5",
+    "Opening": "London System",
+    "Winner": "-",
+    "Moves": 39,
+    "Year": 2021
+  },
+  {
+    "White": "Hikaru Nakamura",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Berlin Defense, 4.d3 Bc5",
+    "Winner": "-",
+    "Moves": 38,
+    "Year": 2021
+  },
+  {
+    "White": "Alan Pichot",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c6 2. Nf3 d5 3. d3 Qc7",
+    "Opening": "Caro-Kann Defense: 2.Nf3 d5",
+    "Winner": "-",
+    "Moves": 61,
+    "Year": 2021
+  },
+  {
+    "White": "Alireza Firouzja",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Berlin Defense, 4.d3 Bc5",
+    "Winner": "-",
+    "Moves": 44,
+    "Year": 2021
+  },
+  {
+    "White": "Ding Liren",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 d5 2. c4 e6 3. Nc3 a6",
+    "Opening": "Queen's Gambit Declined: Janowski Variation",
+    "Winner": "-",
+    "Moves": 55,
+    "Year": 2021
+  },
+  {
+    "White": "Hikaru Nakamura",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Berlin Defense, 4.d3 Bc5",
+    "Winner": "-",
+    "Moves": 36,
+    "Year": 2021
+  },
+  {
+    "White": "Fabiano Caruana",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Berlin, Rio Gambit Accepted, 5.Re1 Nd6 6.Nxe5",
+    "Winner": "-",
+    "Moves": 52,
+    "Year": 2021
+  },
+  {
+    "White": "Teimour Radjabov",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 d5 2. c4 e6 3. Nc3 a6",
+    "Opening": "Queen's Gambit Declined: Janowski Variation",
+    "Winner": "-",
+    "Moves": 48,
+    "Year": 2021
+  },
+  {
+    "White": "Teimour Radjabov",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Semi-Tarrasch, Main Line, 5...cxd4",
+    "Winner": "-",
+    "Moves": 57,
+    "Year": 2021
+  },
+  {
+    "White": "Jan-Krzysztof Duda",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Three Knights Variation",
+    "Winner": "-",
+    "Moves": 38,
+    "Year": 2021
+  },
+  {
+    "White": "Vladislav Artemiev",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6",
+    "Opening": "English Opening: Four Knights, Kingside Fianchetto Line, 4...d5 5.cxd5 Nxd5 6.Bg2",
+    "Winner": "-",
+    "Moves": 37,
+    "Year": 2021
+  },
+  {
+    "White": "Ding Liren",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. g3 d5",
+    "Opening": "Catalan Opening: Closed, 4...Bb4+ 5.Bd2",
+    "Winner": "-",
+    "Moves": 15,
+    "Year": 2021
+  },
+  {
+    "White": "Arjun Erigaisi",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 d5 2. c4 c6 3. Nf3 Nf6",
+    "Opening": "Gr\u00fcnfeld Defense: Burille Variation, 5...c6 6.Be2 O-O 7.O-O",
+    "Winner": "-",
+    "Moves": 64,
+    "Year": 2021
+  },
+  {
+    "White": "Wesley So",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: Main Line, Giuoco Pianissimo Variation",
+    "Winner": "-",
+    "Moves": 68,
+    "Year": 2021
+  },
+  {
+    "White": "Wesley So",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 d5 2. c4 e6 3. Nc3 a6",
+    "Opening": "Queen's Gambit Declined: Janowski Variation",
+    "Winner": "-",
+    "Moves": 68,
+    "Year": 2021
+  },
+  {
+    "White": "Ding Liren",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. g3 d5",
+    "Opening": "Catalan Opening: Open Defense, Classical Line, 6.O-O O-O",
+    "Winner": "-",
+    "Moves": 62,
+    "Year": 2021
+  },
+  {
+    "White": "Levon Aronian",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 Nc6 3. Bb5 g6",
+    "Opening": "Sicilian Defense: Nyezhmetdinov-Rossolimo, Fianchetto Variation, 4.O-O Bg7",
+    "Winner": "-",
+    "Moves": 68,
+    "Year": 2021
+  },
+  {
+    "White": "Levon Aronian",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 Nc6 3. Bb5 g6",
+    "Opening": "Sicilian Defense: Nyezhmetdinov-Rossolimo, Fianchetto Variation",
+    "Winner": "-",
+    "Moves": 28,
+    "Year": 2021
+  },
+  {
+    "White": "Ding Liren",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. g3 d5",
+    "Opening": "Catalan Opening: Open Defense, Classical Line, 6.O-O O-O",
+    "Winner": "-",
+    "Moves": 69,
+    "Year": 2021
+  },
+  {
+    "White": "Ding Liren",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. g3 d5",
+    "Opening": "Catalan Opening: Closed, 4...Bb4+ 5.Bd2",
+    "Winner": "-",
+    "Moves": 39,
+    "Year": 2021
+  },
+  {
+    "White": "Radoslaw Wojtaszek",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. g3 d5",
+    "Opening": "Catalan Opening: Closed, 4...Be7 5.Nf3 O-O 6.O-O",
+    "Winner": "-",
+    "Moves": 35,
+    "Year": 2021
+  },
+  {
+    "White": "Radoslaw Wojtaszek",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. g3 d5",
+    "Opening": "Catalan Opening: Closed, 4...Bb4+ 5.Bd2",
+    "Winner": "-",
+    "Moves": 36,
+    "Year": 2021
+  },
+  {
+    "White": "Andrey Esipenko",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: Main Line, Giuoco Pianissimo Variation",
+    "Winner": "-",
+    "Moves": 36,
+    "Year": 2021
+  },
+  {
+    "White": "Andrey Esipenko",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: Main Line, Giuoco Pianissimo Variation",
+    "Winner": "-",
+    "Moves": 85,
+    "Year": 2021
+  },
+  {
+    "White": "Jan-Krzysztof Duda",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Anderssen Variation, 5...d6 6.c3 g6",
+    "Winner": "-",
+    "Moves": 33,
+    "Year": 2021
+  },
+  {
+    "White": "Jan-Krzysztof Duda",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Anti-Marshall Variation",
+    "Winner": "-",
+    "Moves": 65,
+    "Year": 2021
+  },
+  {
+    "White": "Vidit Santosh Gujrathi",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 f5 2. g3 Nf6 3. Bg2 g6",
+    "Opening": "Dutch Defense: Leningrad, Main Line, 5...O-O 6.O-O d6 7.Nc3",
+    "Winner": "-",
+    "Moves": 58,
+    "Year": 2021
+  },
+  {
+    "White": "Vladislav Artemiev",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. c4 g6 2. d4 Nf6 3. Nf3 Bg7",
+    "Opening": "King's Indian Defense: 3.Nf3 Bg7 4.g3",
+    "Winner": "-",
+    "Moves": 39,
+    "Year": 2021
+  },
+  {
+    "White": "Jorden van Foreest",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 d6 2. e4 g6 3. Nc3 c6",
+    "Opening": "Modern Defense: Rat Defense, Accelerated Gurgenidze Variation",
+    "Winner": "-",
+    "Moves": 57,
+    "Year": 2021
+  },
+  {
+    "White": "Leinier Dominguez Perez",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5",
+    "Opening": "Scandinavian Defense: Mieses-Kotr\u010d, Main Line, 4.d4 Nf6 5.Nf3 Bf5",
+    "Winner": "-",
+    "Moves": 54,
+    "Year": 2021
+  },
+  {
+    "White": "Jan-Krzysztof Duda",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Berlin Defense, 4.d3 d6",
+    "Winner": "-",
+    "Moves": 85,
+    "Year": 2021
+  },
+  {
+    "White": "Levon Aronian",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Arkhangelsk Variation, 7.d3 Be7",
+    "Winner": "-",
+    "Moves": 43,
+    "Year": 2021
+  },
+  {
+    "White": "Levon Aronian",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Berlin, l'Hermet, Berlin Wall Defense",
+    "Winner": "-",
+    "Moves": 41,
+    "Year": 2021
+  },
+  {
+    "White": "Levon Aronian",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Anti-Marshall Variation, 8...Bb7 9.d3 d6 10.c3",
+    "Winner": "-",
+    "Moves": 60,
+    "Year": 2021
+  },
+  {
+    "White": "Vladislav Artemiev",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. g3 d5 3. exd5 Qxd5",
+    "Opening": "Sicilian Defense: Lasker-Dunne Attack",
+    "Winner": "-",
+    "Moves": 49,
+    "Year": 2021
+  },
+  {
+    "White": "Richard Rapport",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. g3 d5 2. Nf3 c5 3. Bg2 Nc6",
+    "Opening": "King's Indian Attack: French Variation, 4.O-O",
+    "Winner": "-",
+    "Moves": 42,
+    "Year": 2021
+  },
+  {
+    "White": "Richard Rapport",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7",
+    "Opening": "King's Indian Defense: Orthodox Variation, 6...e5 7.O-O exd4 8.Nxd4 Re8 9.f3 Nc6",
+    "Winner": "-",
+    "Moves": 18,
+    "Year": 2021
+  },
+  {
+    "White": "Alireza Firouzja",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 Nc6 3. Bb5 e6",
+    "Opening": "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, 3...e6 4.O-O Nge7 5.Re1",
+    "Winner": "-",
+    "Moves": 39,
+    "Year": 2021
+  },
+  {
+    "White": "Alireza Firouzja",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 Nc6 3. Bb5 e6",
+    "Opening": "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, 3...e6 4.O-O Nge7 5.Re1",
+    "Winner": "-",
+    "Moves": 57,
+    "Year": 2021
+  },
+  {
+    "White": "Ian Nepomniachtchi",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: Center Attack, 5...exd4 6.e5 d5 7.Bb5 Ne4 8.cxd4",
+    "Winner": "-",
+    "Moves": 33,
+    "Year": 2021
+  },
+  {
+    "White": "Shakhriyar Mamedyarov",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 g6 2. c4 Bg7 3. Nf3 Nf6",
+    "Opening": "King's Indian Defense: Fianchetto, Karlsbad, Uhlmann-Szab\u00f3 System",
+    "Winner": "-",
+    "Moves": 69,
+    "Year": 2021
+  },
+  {
+    "White": "Ian Nepomniachtchi",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Closed, 6.Re1 b5 7.Bb3 O-O 8.h3",
+    "Winner": "-",
+    "Moves": 45,
+    "Year": 2021
+  },
+  {
+    "White": "Ian Nepomniachtchi",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Anti-Marshall Variation, 8...Bb7 9.d3 d6",
+    "Winner": "-",
+    "Moves": 41,
+    "Year": 2021
+  },
+  {
+    "White": "Ian Nepomniachtchi",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Anti-Marshall Variation",
+    "Winner": "-",
+    "Moves": 41,
+    "Year": 2021
+  },
+  {
+    "White": "Ian Nepomniachtchi",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Anti-Marshall Variation",
+    "Winner": "-",
+    "Moves": 43,
+    "Year": 2021
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Nikita Vitiugov",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Closed, Martinez Variation, 6...b5 7.Bb3",
+    "Winner": "White",
+    "Moves": 30,
+    "Year": 2020
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Vladislav Kovalev",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Neo-Orthodox Variation",
+    "Winner": "White",
+    "Moves": 37,
+    "Year": 2020
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Daniil Dubov",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "Opening": "Ruy L\u00f3pez Opening: Morphy Defense, Anderssen Variation, 5...b5",
+    "Winner": "White",
+    "Moves": 72,
+    "Year": 2020
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Hikaru Nakamura",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Berlin, Rio Gambit Accepted, 5.Re1 Nd6 6.Nxe5",
+    "Winner": "White",
+    "Moves": 54,
+    "Year": 2020
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Daniil Dubov",
+    "Notation": "1. e4 c5 2. Nf3 Nc6 3. Bb5 g6",
+    "Opening": "Sicilian Defense: Nyezhmetdinov-Rossolimo, Fianchetto Variation, 4.O-O Bg7",
+    "Winner": "White",
+    "Moves": 58,
+    "Year": 2020
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Daniil Dubov",
+    "Notation": "1. Nf3 Nf6 2. c4 e6 3. Nc3 c5",
+    "Opening": "Queen's Gambit Declined: Three Knights, Semi-Tarrasch Defense, 5.e3 a6 6.cxd5 exd5",
+    "Winner": "Black",
+    "Moves": 38,
+    "Year": 2020
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Anish Giri",
+    "Notation": "1. c4 Nf6 2. Nc3 e5 3. e3 Nc6",
+    "Opening": "English Opening: Reversed Sicilian, Closed, 3.e3 Nf6",
+    "Winner": "-",
+    "Moves": 25,
+    "Year": 2020
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Jeffery Xiong",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Semi-Tarrasch, Main Line, Exchange Variation, 6...Nxc3 7.bxc3 cxd4 8.cxd4 Bb4+ 9.Bd2 Bxd2+ 10.Qxd2 O-O",
+    "Winner": "-",
+    "Moves": 56,
+    "Year": 2020
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Daniil Dubov",
+    "Notation": "1. e4 c5 2. Nf3 Nc6 3. Bb5 g6",
+    "Opening": "Sicilian Defense: Nyezhmetdinov-Rossolimo, Fianchetto Variation, 4.O-O Bg7 5.Re1 e5",
+    "Winner": "-",
+    "Moves": 47,
+    "Year": 2020
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Fabiano Caruana",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Modern Variation, 4...Be7 5.Nf3 h6 6.Bh4",
+    "Winner": "-",
+    "Moves": 28,
+    "Year": 2020
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Vladislav Artemiev",
+    "Notation": "1. d4 Nf6 2. c4 g6 3. Nc3 d5",
+    "Opening": "Gr\u00fcnfeld Defense: Exchange, Modern Exchange Variation, 7...c5 8.Be3 O-O 9.Rc1 Qa5 10.Qd2",
+    "Winner": "-",
+    "Moves": 37,
+    "Year": 2020
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Daniil Dubov",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6",
+    "Opening": "Four Knights Game: Spanish Variation, Rubinstein, Henneberger Variation",
+    "Winner": "-",
+    "Moves": 76,
+    "Year": 2020
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Anish Giri",
+    "Notation": "1. d4 Nf6 2. c4 g6 3. Nc3 d5",
+    "Opening": "Gr\u00fcnfeld Defense: Burille Variation, 5...O-O 6.cxd5 Nxd5 7.Bc4",
+    "Winner": "-",
+    "Moves": 42,
+    "Year": 2020
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Levon Aronian",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Ragozin Defense, 5.cxd5 exd5",
+    "Winner": "-",
+    "Moves": 61,
+    "Year": 2020
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Teimour Radjabov",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Harrwitz, Two Knights, Blockade Line",
+    "Winner": "-",
+    "Moves": 47,
+    "Year": 2020
+  },
+  {
+    "White": "Magnus Carlsen",
+    "Black": "Maxime Vachier-Lagrave",
+    "Notation": "1. Nf3 Nf6 2. c4 g6 3. Nc3 d5",
+    "Opening": "English Opening: Anglo-Indian, Anglo-Gr\u00fcnfeld Defense, 3.cxd5 Nxd5 4.Nf3 g6",
+    "Winner": "-",
+    "Moves": 41,
+    "Year": 2020
+  },
+  {
+    "White": "Daniil Dubov",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Catalan Opening",
+    "Winner": "White",
+    "Moves": 42,
+    "Year": 2020
+  },
+  {
+    "White": "Daniil Dubov",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Catalan Opening",
+    "Winner": "White",
+    "Moves": 39,
+    "Year": 2020
+  },
+  {
+    "White": "Alireza Firouzja",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6",
+    "Opening": "Ruy L\u00f3pez Opening: Berlin Defense, 4.d3 d6 5.c3",
+    "Winner": "Black",
+    "Moves": 39,
+    "Year": 2020
+  },
+  {
+    "White": "Yu Yangyi",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 d6 3. d4 cxd4",
+    "Opening": "Sicilian Defense: Open, Najdorf, English Attack, 6...e5",
+    "Winner": "-",
+    "Moves": 31,
+    "Year": 2020
+  },
+  {
+    "White": "Jorden van Foreest",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6",
+    "Opening": "Italian Game: Knight Attack, Polerio, Bishop Check Line, 6...c6 7.dxc6 bxc6",
+    "Winner": "-",
+    "Moves": 45,
+    "Year": 2020
+  },
+  {
+    "White": "Viswanathan Anand",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 Nc6 3. Bb5 g6",
+    "Opening": "Sicilian Defense: Nyezhmetdinov-Rossolimo, Fianchetto Variation, 4.O-O Bg7 5.Re1 Nf6 6.c3 O-O 7.d4",
+    "Winner": "-",
+    "Moves": 54,
+    "Year": 2020
+  },
+  {
+    "White": "Jan-Krzysztof Duda",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5",
+    "Opening": "Giuoco Piano Game: Main Line, Giuoco Pianissimo Variation",
+    "Winner": "-",
+    "Moves": 43,
+    "Year": 2020
+  },
+  {
+    "White": "Wesley So",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6",
+    "Opening": "Four Knights Game: Scotch Variation Accepted, 5.Nxd4 Bb4 6.Nxc6 bxc6 7.Bd3 d5",
+    "Winner": "-",
+    "Moves": 52,
+    "Year": 2020
+  },
+  {
+    "White": "Wesley So",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 g6 3. Nc3 Bg7",
+    "Opening": "King's Indian Defense: Orthodox, Exchange Variation, 8.Qxd8 Rxd8 9.Bg5 Re8 10.Nd5",
+    "Winner": "-",
+    "Moves": 32,
+    "Year": 2020
+  },
+  {
+    "White": "Daniil Dubov",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Catalan Opening",
+    "Winner": "-",
+    "Moves": 41,
+    "Year": 2020
+  },
+  {
+    "White": "Daniil Dubov",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Catalan Opening",
+    "Winner": "-",
+    "Moves": 62,
+    "Year": 2020
+  },
+  {
+    "White": "Alexander Grischuk",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nf3 d5",
+    "Opening": "Queen's Gambit Declined: Ragozin Defense, 5.cxd5 exd5 6.Bg5 h6 7.Bh4",
+    "Winner": "-",
+    "Moves": 114,
+    "Year": 2020
+  },
+  {
+    "White": "Ian Nepomniachtchi",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 Nc6 3. d4 cxd4",
+    "Opening": "Sicilian Defense: Open, Pelik\u00e1n and Sveshnikov, Chelyabinsk Variation, 9...Be7 10.Bxf6 Bxf6",
+    "Winner": "-",
+    "Moves": 24,
+    "Year": 2020
+  },
+  {
+    "White": "Pentala Harikrishna",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. e4 c5 2. Nf3 Nc6 3. d4 cxd4",
+    "Opening": "Sicilian Defense: Open, Pelik\u00e1n and Sveshnikov, Chelyabinsk Variation, 9...Be7 10.Bxf6 Bxf6",
+    "Winner": "-",
+    "Moves": 24,
+    "Year": 2020
+  },
+  {
+    "White": "David Anton Guijarro",
+    "Black": "Magnus Carlsen",
+    "Notation": "1. d4 Nf6 2. c4 e6 3. Nc3 Bb4",
+    "Opening": "Nimzo-Indian Defense: Normal Line, 4...O-O",
+    "Winner": "-",
+    "Moves": 51,
+    "Year": 2020
+  }
+]
