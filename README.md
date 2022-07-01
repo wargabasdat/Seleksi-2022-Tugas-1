@@ -101,7 +101,6 @@ flask db upgrade
 #### Data storing in Firebase realtime database
 ![Firebase Storage](https://github.com/addinnabilal/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/screenshot/firebase.png)
 #### Scraping main program
-#### Company view (for API creation)
 ![Scraping](https://github.com/addinnabilal/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/Data%20Scraping%20Main%20Program.png)
 #### Flask main program (for API creation)
 ![Flask Main Program](https://github.com/addinnabilal/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/Main%20Flask%20Program%20(For%20API%20creation).png)
