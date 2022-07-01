@@ -106,8 +106,7 @@ Tabel yang terdapat pada basis data adalah femaledailyproducts, dengan struktur 
 #### Penyimpanan data ke dalam PostgreSQL
 ![postgre](https://github.com/lyorafelicya/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/screenshot/postgresql.jpeg)
 
-#### Penyimpanan data dalam MongoDB Compass dan MongoDB Atlas
-![compass](https://github.com/lyorafelicya/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/screenshot/mongo%20compass.jpeg)
+#### Penyimpanan data dalam cloud database
 ![atlas](https://github.com/lyorafelicya/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/screenshot/mongo%20atlas.jpeg)
 
 ### API
