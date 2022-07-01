@@ -6,7 +6,6 @@
 </h1>
 
 <h2 align="center">
-  <br>
   Data Scraping & Data Storing
   <br>
   <br>
@@ -28,7 +27,9 @@ Program web scraping dibuat menggunakan bahasa pemrograman python dengan library
 
 *note: Panduan penggunaan API dimuat dalam postman collection yang tersedia dalam repository.*
 
-
+### Requirements
+- python & pip
+- PostgreSQL
 ### How to Use
 
 1. Buat database pada DBMS PostgreSQL anda
@@ -96,10 +97,22 @@ flask db upgrade
 ### Screenshots
 #### Data storing in local postgre database
 ![Local Storage](https://github.com/addinnabilal/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/screenshot/local%20postgre.jpg)
+*note: author mengalami error pada laptop yang menyebabkan tidak bisa screenshot dan menjalankan beberapa program (osnya kena, sehingga harus direset t_t). Ketika sudah direset, author tidak sempat me-rescreenshot karena aplikasi-aplikasi harus diinstall ulang (termasuk postgreSQL)*
 #### Data storing in Firebase realtime database
 ![Firebase Storage](https://github.com/addinnabilal/Seleksi-2022-Tugas-1/blob/main/Data%20Storing/screenshot/firebase.png)
+#### Scraping main program
+#### Company view (for API creation)
+![Scraping](https://github.com/addinnabilal/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/Data%20Scraping%20Main%20Program.png)
+#### Flask main program (for API creation)
+![Flask Main Program](https://github.com/addinnabilal/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/Main%20Flask%20Program%20(For%20API%20creation).png)
+#### Company model (for API creation)
+![Company Model](https://github.com/addinnabilal/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/Company%20Model.png)
+#### Company view (for API creation)
+![Company View](https://github.com/addinnabilal/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/Company%20View.png)
+#### Firebase utils (for storing in cloud database)
+![Firebase Utils](https://github.com/addinnabilal/Seleksi-2022-Tugas-1/blob/main/Data%20Scraping/screenshot/Firebase%20Utilization.png)
 ### References
-#### Library Used
+#### Libraries Used
 - flask, flask_migrate
 - json, requests
 - BeautigulSoup4
@@ -113,5 +126,5 @@ flask db upgrade
 - https://flask-migrate.readthedocs.io/en/latest/
 ### Author
 
-Addin Nabilal Huda <br /> 
+Addin Nabilal Huda (13520045)<br /> 
 Computer Science, Institut Teknologi Bandung
