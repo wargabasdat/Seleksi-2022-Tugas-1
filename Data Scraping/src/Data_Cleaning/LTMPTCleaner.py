@@ -17,6 +17,7 @@ class LTMPTCleaner():
         - menghapus white space pada data string, dan
         - menghapus data yang tidak diperlukan.
         """
+        
         self.open()
         for i in range(len(self.json_data)):
             self.json_data[i]['ranking'] = int(self.json_data[i]['ranking'][0])
@@ -44,11 +45,13 @@ class LTMPTCleaner():
 
     def open(self):
         """ Membuka file JSON. """
+        
         with open(self.json_file_path, 'r') as f:
             self.json_data = json.load(f)
 
     def save(self):
         """ Menyimpan file JSON. """
+        
         file_name = os.path.basename(self.json_file_path)
         file_name = os.path.splitext(file_name)[0] + '_cleaned.json'
         with open('../data/' + file_name, 'w') as f:
