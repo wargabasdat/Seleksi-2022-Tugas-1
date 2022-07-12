@@ -31,7 +31,7 @@ def scraping_pages(data, object, firstPage, lastPage): #Fungsi utama untuk melak
     print("Memulai scraping "+data+" properties.")
     for page in range(firstPage, lastPage+1):
         n = 0 #Untuk menghitung banyak data yang di scrape dari sebuah halaman.
-        template = "https://www.dotproperty.id/properties-for-{}?page="
+        template = "https://www.dotproperty.id/properties-for-{}"
         pages = requests.get(template.format(data)+"?page="+str(page), headers=headers)
         soup = BeautifulSoup(pages.text, 'html.parser')
         properti = soup.find_all(True, {'class':['search-list normal', 'search-list featured', 'search-list premium']})
@@ -153,7 +153,7 @@ def main(listdata1, listdata2):
     scraping_pages('rent', listdata2, 1, 50)
     combinelist = listdata1 + listdata2
     
-    filepath = 'G:/My Drive/Tugas Lab Basis Data/Seleksi-2022-Tugas-1/Data Scraping/data'
+    filepath = 'G:/My Drive/Tugas Lab Basis Data/Seleksi-2022-Tugas-1/DataScraping/data'
     dump = json.dumps(combinelist, indent=4)
     filepath = os.path.join(filepath, filename + ".json")
     with open(filepath, "w") as file:
