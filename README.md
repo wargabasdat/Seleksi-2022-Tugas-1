@@ -1,98 +1,119 @@
 <h1 align="center">
   <br>
-  Seleksi Warga Basdat 2022
+  Data Penjualan Properti di Indonesia
   <br>
   <br>
 </h1>
 
 <h2 align="center">
   <br>
-  Tugas 1 : Data Scraping & Data Storing
+  Data Scraping & Data Storing Website dotproperty.id
   <br>
   <br>
 </h2>
 
-
+## Description
+- Pada __Tugas 1 Seleksi Lab Basis Data__ ini, Saya mengambil _website_ <a href = https://www.dotproperty.id/properties-for-sale> dotproperty</a> sebagai _website_ yang akan Saya lakukan _scraping_. Alasan pengambilan _website_ ini sebagai topik Saya dikarenakan informasi penjualan properti merupakan salah satu hal yang cukup banyak dicari oleh masyarakat Indonesia saat ini. Sehingga, dengan adanya data penjualan properti di Indonesia ini diharapkan dapat membantu pihak-pihak yang sedang mencari properti. Kemudian, alasan selanjutnya adalah _website_ ini cukup menarik untuk dapat dilakukan _scraping_ karena jumlah data yang tidak terlalu sedikit dan cukup banyak informasi yang bisa didapatkan dari _website_ ini.
+- DBMS yang akan Saya gunakan adalah MongoDB karena DBMS ini dapat melakukan _storing_ data yang cukup cepat, fleksibel, dan yang paling penting adalah DBMS ini mampu untuk melakukan _storing_ data menggunakan format file `.json`. Sehingga, DBMS ini adalah pilihan yang paling tepat untuk dapat bekerja menggunakan format file `.json` seperti yang diminta oleh tugas ini.
 ## Spesifikasi
+Dalam pengerjaan tugas ini, Saya menggunakan beberapa _tools_ dan _libraries_ yang dibutuhkan agar program ini dapat berjalan..
+### Libraries
+Dalam tahap pengerjaan, Saya menggunakan beberapa _library_ yang disediakan oleh `Python`, diantaranya:
+- JSON
+<br>_Library_ bawaan dari `Python` yang akan berfungsi untuk melakukan pembacaan dan penulisan dalam format `.json`.
+- Requests
+<br>_Library_ yang digunakan untuk dapat mengakses suatu _website_ dan dapat meminta objek dari _website_ tersebut.
+- BeautifulSoup4
+<br>Merupakan _library_ utama yang kita butuhkan dalam melakukan _Web Scraping_. _Library_ ini yang akan membuat kita dapat mengakses satu per satu objek yang terdapat di dalam _Website_ yang ingin kita _scrape_. _Library_ ini bukan merupakan _library_ bawaan yang langsung terinstal ketika kita menggunakan `python`, sehingga kita perlu melakukan instalasi terhadap _library_ ini dengan cara membuat _command_ `pip install BeautifulSoup4` di terminal.
+- OS
+<br>_Libray_ yang akan digunakan untuk mengatur penamanaan file sesuai dengan masukan dari pengguna dan mengatur peletakan file di dalam suatu folder yang sudah didefinisikan.
 
-### Data Scraping
+## How to Run
+- Clone _repository_ ke _local computer_ Anda.
+- Install seluruh _library_ yang dibutuhkan untuk menjalankan program.
+- Edit bagian `file_path` yang ada pada `webScraper.py` untuk mengatur dimana file hasil _scrape_ ingin Anda simpan.
+- Jalankan `webScraper.py`.
+- Tepat setelah menjalankan program tersebut, maka akan muncul permintaan _input_ berupa nama file yang ingin Anda simpan.
+![](./DataScraping/screenshot/input_nama_file.png)
 
-1. Lakukan _data scraping_ dari sebuah laman web untuk memperoleh data atau informasi tertentu __TANPA MENGGUNAKAN API__. Hasil _data scraping_ ini nantinya akan disimpan dalam DBMS dan digunakan sebagai bahan tugas analisis dan visualisasi data.
+## Screenshot
+- Import Required Libraries
+![](./DataScraping/screenshot/required_libraries.png)
+- Fungsi Utama Program
+![](./DataScraping/screenshot/fungsi_utama_1.png)
+![](./DataScraping/screenshot/fungsi_utama_2.png)
+![](./DataScraping/screenshot/fungsi_utama_3.png)
+![](./DataScraping/screenshot/fungsi_utama_4.png)
+![](./DataScraping/screenshot/to_JSON.png)
+- Fungsi Pendukung
+![](./DataScraping/screenshot/fungsi_pendukung.png)
+- Run Program
+![](./DataScraping/screenshot/run_program.png)
+## Data Storing with MongoDB Atlas
+- Buat akun di [MongoDB Atlas](https://cloud.mongodb.com/) dan buat sebuah _cluster_ yang diberikan gratis oleh MongoDB.
+<br>![](./DataStoring/screenshot/create_cluster_atlas.png/)
+- Atur `Network Access` sedemikian rupa agar _database_ dapat diakses oleh seluruh orang.
+<br>![](./DataStoring/screenshot/network_access.png/)
+- Pastikan sudah melakukan instalasi MongoDB sekaligus dengan MongoDBCompass.
+- Kemudian, `connect` _cloud database_ dengan menggunakan MongoDBCompass dan _copy_ `connection string`.
+<br>![](./DataStoring/screenshot/connect_with_mongodbcompass.png/)
+- Lalu, masuk ke MongoDBCompass dan `connect` dengan `connection string` yang sudah di-_copy_ tadi.
+- Kemudian, buat database serta collection.
+<br>![](./DataStoring/screenshot/create_database_and_collection.png/)
+- Kemudian, ambil pilihan `ADD DATA` dan pilih `Import File` dan kemudian pilih file `.json` yang dihasilkan dari _web scraping_ tadi.
+<br>![](./DataStoring/screenshot/data_storing_to_mongodb.png)
+- Kemudian, lakukan _export database_ tersebut menjadi file `.json`.
+<br>![](./DataStoring/screenshot/export_to_json.png)
+- Terakhir, cek MongoDB Atlas apakah _database_ yang dibuat tadi sudah masuk ke dalam _cloud database_.
+<br>![](./DataStoring/screenshot/check_on_atlas.png)
 
-2. Daftarkan judul topik yang akan dijadikan bahan _data scraping_ dan DBMS yang akan digunakan pada spreadsheet berikut: [Topik Data Scraping](https://docs.google.com/spreadsheets/d/1VjK-ZeJlSy38yqUJvaaCqYtS7yP8Vq609ewyWTA_k2Y/edit?usp=sharing). Usahakan agar tidak ada peserta dengan topik yang sama. Akses edit ke spreadsheet akan ditutup tanggal __10 Juni 2022 pukul 21.40 WIB__
-
-3. Pada folder `Data Scraping`, calon warga basdat harus mengumpulkan _file script_, json hasil _data scraping_. Folder `Data Scraping` terdiri dari _folder_ `src`, `data` dan `screenshots`. 
-    - _Folder_ `src` berisi _file script_/kode yang __*WELL DOCUMENTED* dan *CLEAN CODE*__ 
-    - _Folder_ `data` berisi _file_ json hasil _scraper_
-    - _Folder_ `screenshot` berisi tangkapan layar program.
-
-4. Sebagai referensi untuk mengenal _data scraping_, asisten menyediakan dokumen "_Short Guidance To Data Scraping_" yang dapat diakses pada link berikut: [Data Scraping Guidance](http://bit.ly/DataScrapingGuidance). Mohon memperhatikan etika dalam melakukan _scraping_.
-
-5. Data yang diperolah harus dinormalisasi dan harus di-_preprocessing_
+## JSON Structure
 ```
-Preprocessing contohnya :
-- Cleaning
-- Parsing
-- Transformation
-- dan lainnya
+{
+_id: {
+  $oid                        : ID yang dihasilkan oleh export database dari MongoDB
+}
+title {string}                : Judul dari properti yang diambil dari website.
+nama {string}                 : Nama dari properti yang diambil dari website.
+badge {String}                : Badge dari properti yang valuenya berada di antara ["Normal", "Utama", "Premium"]
+tipe {String}                 : Tipe dari properti dan valuenya bisa berupa "House", "Land", "Condo", "Apartment", "Commercial".
+kamar_mandi {integer}         : Jumlah kamar mandi dari properti tersebut.
+kamar_tidur {integer}         : Jumlah kamar tidur dari properti tersebut.
+luas_tanah {float}            : Besarnya luas tanah properti tersebut.
+harga_idr {integer}           : Harga properti tersebut dalam satuan rupiah (Contoh: 28000000).
+harga_float {float}           : Harga dari properti dalam satuan yang lebih kecil (Contoh: 2.8).
+unit_harga {string}           : Unit harga berupa "Miliar" atau "Juta".
+status_pembayaran {string}    : Ini merupakan atribut yang dimiliki oleh properti yang disewakan.
+kota {string}                 : Kota dimana properti tersebut berada.
+provinsi {string}             : Provinsi dimana properti tersebut berada.
+status {string}               : Berupa "disewakan" atau "dijual".
+link {string}                 : Link untuk mengakses properti tersebut.
+}
 ```
-
-### Data Storing
-
-1. Buatlah sebuah ER Diagram dari basis data yang akan digunakan untuk menyimpan data hasil _scraping_
-   
-2. Implementasikan ERD tersebut ke DBMS sesuai pilihan kalian
-
-3. Tools yang digunakan __dibebaskan__
-
-4. Calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Folder_ `Data Storing` terdiri dari folder `screenshots`, `export`, dan `design`
-    - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
-    - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
-    -  _Folder_ `design` berisi ER Diagram yang disimpan dalam format `.png`
-
-
-
-5. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    - Simpan ke _cloud database_
-    - Buatlah API sederhana untuk mengakses _database_ tersebut
-
-### Pengumpulan
-
-
-1. Dalam mengerjakan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: [Seleksi-2022-Tugas-1](https://github.com/wargabasdat/Seleksi-2022-Tugas-1). Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_1_[NIM]```
-
-2. Tambahkan juga `.gitignore` pada _file_ atau _folder_ yang tidak perlu di-_upload_, __NB: BINARY TIDAK DIUPLOAD__
-
-3. Berikan satu buah file `README` yang __WELL DOCUMENTED__ dengan cara __override__ _file_ `README.md` ini. `README` harus memuat minimal konten:
-
-
-```
-- Description of the data and DBMS (Why you choose it)
-- Specification of the program
-- How to use
-- JSON Structure
-- Database Structure
-- Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-- Reference (Library used, etc)
-- Author
-```
-
-
-4. Deadline pengumpulan tugas 1 adalah <span style="color:red">__1 Juli 2022 Pukul 22.40 WIB__</span>
-
-<h3 align="center">
-  <br>
-  Selamat Mengerjakan!
-  <br>
-</h3>
-
-<p align="center">
-  <i>
-  Happiness does not come from doing easy work
-  but from the afterglow of satisfaction that
-  comes after the achievement of a difficult
-  task that demanded our best.<br><br>
-  - Theodore Isaac Rubin
-  </i>
-</p>
-<br>
+## Database Structure
+Dari proses _scraping_ ini dihasilkan sebuah relasi yang memiliki _primary key_ berupa `_id` dan memiliki 15 atribut.
+![](./DataStoring/design/property_database_er_diagram.png)
+## API
+### Deskripsi API
+API yang Saya gunakan menggunakan `FastAPI` yang disediakan oleh `Python`. Penggunaan _library_ ini dikarenakan mudah di dalam penggunaannya dan sudah _support_ `Swagger UI` tanpa perlu melakukan proses yang panjang. API ini pada dasarnya berfungsi untuk berinteraksi dengan _cloud database_ yang sudah didefinisikan sebelumnya. Sehingga, ada beberapa hal yang bisa dilakukan dengan menggunakan API ini, yaitu:
+1. READ: API ini bisa melakukan _read_ terhadap data, seperti membaca semua data, membaca data di kota tertentu, dan membaca data di provinsi tertentu.
+2. CREATE: API ini juga mendukung untuk pengguna bisa memasukkan data baru ke dalam _database_ property.
+3. UPDATE: API ini juga mendukung untuk melakukan modifikasi terhadap data yang sudah ada.
+4. DELETE: API ini mendukung untuk melakukan penghapusan data sesuai dengan ID tertentu.
+<br>![](./DataStoring/screenshot/interface_api.png)
+<br>![](./DataStoring/screenshot/contoh_run_by_kota.png)
+### Cara Menggunakan API
+1. Buka terminal, kemudian arahkan ke path dari _clone repository_ tadi dan jalankan `uvicorn main:app`.
+2. Kemudian, ikuti `https://127.0.0.1:8000` dan pada url tambahkan `/docs` untuk mengaktifkan `Swagger UI`.
+## References
+- Dokumentasi dari semua _library_ yang digunakan: [PyPi](https://pypi.org/)
+- Belajar Dasar Web Scraping menggunakan YouTube: [Python Tutorial: Web Scraping with BeautifulSoup and Requests](https://www.youtube.com/watch?v=ng2o98k983k)
+- Belajar Dasar Fast API menggunakan YouTube: [FastAPI MongoDB REST API w/ Python and PyMongo | CRUD Operations mongodb | Swagger UI |](https://www.youtube.com/watch?v=MXwcUrI-iss)
+- Dokumentasi dari MongoDB: [MongoDB](https://mongodb.com)
+- _Website_ untuk bertanya:
+<br> - [GeeksforGeeks](https://www.geeksforgeeks.org/)
+<br> - [Stack Overflow](https://stackoverflow.com/)
+## Author
+### Muhammad Zaky
+### 18220071
+### Sistem dan Teknologi Informasi
