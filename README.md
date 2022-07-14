@@ -18,19 +18,23 @@ API dibuat dengan node.js dengan framework express dan dihost di heroku, databas
 
 ## How to Use
 ### Program Scrapping 
-Program scrapping (yaitu scrapping.py yang berada di Data Scrapping/src) dapat digunakan setelah seluruh library yang dibutuhkan telah diinstal. Library bisa diinstal dengan mwnggunakan command
+Program scrapping (yaitu scrapping.py yang berada di Data Scrapping/src) dapat digunakan setelah seluruh library yang dibutuhkan telah diinstal. Library bisa diinstal dengan menggunakan command
+```
 pip install [Nama Library]
+```
 Setelah semua library yang dibutuhkan telah diinstall, program dapat dijalankan dengan command berikut di directory src.
+```
 python scrapping.py
+```
 
 ### API
 Request GET dapat dikirimkan ke URL-URL berikut ini:
 
-[mobilbekas123.herokuapp.com/mobilBekas](mobilbekas123.herokuapp.com/mobilBekas)
+[mobilbekas123.herokuapp.com/mobilBekas](https://mobilbekas123.herokuapp.com/mobilBekas)
 
-[mobilbekas123.herokuapp.com/modelMobil](mobilbekas123.herokuapp.com/modelMobil)
+[mobilbekas123.herokuapp.com/modelMobil](https://mobilbekas123.herokuapp.com/modelMobil)
 
-[mobilbekas123.herokuapp.com/penjual](mobilbekas123.herokuapp.com/penjual)
+[mobilbekas123.herokuapp.com/penjual](https://mobilbekas123.herokuapp.com/penjual)
 
 ## JSON Structure
 Ada 7 buah file json yang dihasilkan oleh program scrapper yang masing-masing memiliki struktur sebagai berikut:
