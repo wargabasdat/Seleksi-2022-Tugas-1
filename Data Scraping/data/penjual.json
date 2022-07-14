@@ -1,0 +1,2564 @@
+[
+        {
+                "idPenjual": 1,
+                "namaPenjual": "Arif.hakim",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Timur",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 2,
+                "namaPenjual": "Zul abdillah",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 3,
+                "namaPenjual": "TRISAKTI MOBIL",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bekasi",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 4,
+                "namaPenjual": "SKYAUTO",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 5,
+                "namaPenjual": "Mobil Bagus Bandung",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 6,
+                "namaPenjual": "CARSOME INDONESIA",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Pusat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 7,
+                "namaPenjual": "brn auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 8,
+                "namaPenjual": "Bima Wibowo",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 9,
+                "namaPenjual": "first auto reborn",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 10,
+                "namaPenjual": "Sugiyanto Giyanto",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 11,
+                "namaPenjual": "Aditya sukma bustami",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Timur",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 12,
+                "namaPenjual": "Prestige Image Motorcars",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 13,
+                "namaPenjual": "Hiro auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Surabaya",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 14,
+                "namaPenjual": "Kristian wijaya",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Depok",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 15,
+                "namaPenjual": "HDR Mobilindo",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 16,
+                "namaPenjual": "JP Auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 17,
+                "namaPenjual": "Rheza purnama",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 18,
+                "namaPenjual": "Fadel efendi",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 19,
+                "namaPenjual": "Berkah Jaya Mobilindo",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 20,
+                "namaPenjual": "Ihsan utama utama",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Bekasi",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 21,
+                "namaPenjual": "The Little Midi Store",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Pusat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 22,
+                "namaPenjual": "Soja motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 23,
+                "namaPenjual": "BALQIS Jember",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jember",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 24,
+                "namaPenjual": "wawan mobil",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Malang",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 25,
+                "namaPenjual": "BMW Astra Used Car",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 26,
+                "namaPenjual": "RAJA BMS",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 27,
+                "namaPenjual": "Garasi Bloko",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 28,
+                "namaPenjual": "Arjuna motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 29,
+                "namaPenjual": "AUTO HIGH",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 30,
+                "namaPenjual": "Edwin Edwin",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 31,
+                "namaPenjual": "Nusa Jaya Auto 2",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 32,
+                "namaPenjual": "Barins Collection",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 33,
+                "namaPenjual": "Achmad noviadi",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 34,
+                "namaPenjual": "David David",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Bekasi",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 35,
+                "namaPenjual": "Denih Surya",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 36,
+                "namaPenjual": "JAT auto cars",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 37,
+                "namaPenjual": "Abadi Megah Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Mojokerto",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 38,
+                "namaPenjual": "Philip Mobil",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 39,
+                "namaPenjual": "Dealer Auto 99",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 40,
+                "namaPenjual": "JAYA MOBIL",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Pusat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 41,
+                "namaPenjual": "Arie husen",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 42,
+                "namaPenjual": "Agus Purwanto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 43,
+                "namaPenjual": "Rahmawan agrianto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bogor",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 44,
+                "namaPenjual": "PREMIUM AUTO SUNTER",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 45,
+                "namaPenjual": "A wie",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Surabaya",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 46,
+                "namaPenjual": "Eris Cahyana",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Depok",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 47,
+                "namaPenjual": "Yugi yugi t",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Bekasi",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 48,
+                "namaPenjual": "Ruslan Firdaus",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Pusat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 49,
+                "namaPenjual": "Harris hebocar",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 50,
+                "namaPenjual": "Carsome",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Depok",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 51,
+                "namaPenjual": "Bless Auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Timur",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 52,
+                "namaPenjual": "Ibnu Hidayatollah",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 53,
+                "namaPenjual": "Swiz Auto Car",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Pusat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 54,
+                "namaPenjual": "Putera Anugerah Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Surabaya",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 55,
+                "namaPenjual": "Irman agusman",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 56,
+                "namaPenjual": "FIRDA MOBILINDO",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 57,
+                "namaPenjual": "PUTRA MOBILINDO",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 58,
+                "namaPenjual": "Ryo Hadiyanto Putra Ryo",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bogor",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 59,
+                "namaPenjual": "Stefani pardi",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 60,
+                "namaPenjual": "Gunawan Gunawan",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Medan",
+                "provinsiPenjual": "Sumatera Utara"
+        },
+        {
+                "idPenjual": 61,
+                "namaPenjual": "Arif wibowo",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Pusat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 62,
+                "namaPenjual": "Fuadi",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 63,
+                "namaPenjual": "Swiz Auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 64,
+                "namaPenjual": "Mahkota Cita Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Malang",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 65,
+                "namaPenjual": "Handy Autos",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 66,
+                "namaPenjual": "Carsome Bandung",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 67,
+                "namaPenjual": "Hafiz aulia",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 68,
+                "namaPenjual": "Novi Yen",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 69,
+                "namaPenjual": "Bambang Wahyudi",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 70,
+                "namaPenjual": "Autobahn.id",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 71,
+                "namaPenjual": "Sandy Nayowan95",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 72,
+                "namaPenjual": "Samiaji Pribadi",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 73,
+                "namaPenjual": "BambangBambang bambang",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 74,
+                "namaPenjual": "Abid Bagus",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Malang",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 75,
+                "namaPenjual": "Widhi nugroho",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 76,
+                "namaPenjual": "Putri Sagitakasih",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 77,
+                "namaPenjual": "Tedja wardaya",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 78,
+                "namaPenjual": "Sudewo Bahar",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Bekasi",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 79,
+                "namaPenjual": "Kiki .",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 80,
+                "namaPenjual": "Rinda Tandyono",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 81,
+                "namaPenjual": "A A HadiPurnomo",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Surabaya",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 82,
+                "namaPenjual": "Nicky Sutandi",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 83,
+                "namaPenjual": "Ivan Abed",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Pusat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 84,
+                "namaPenjual": "Herdian Herdian",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Timur",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 85,
+                "namaPenjual": "Kanzamotor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 86,
+                "namaPenjual": "Arfano Arfano",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 87,
+                "namaPenjual": "Isna Rasyad Hanief",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Timur",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 88,
+                "namaPenjual": "Antoding .",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 89,
+                "namaPenjual": "Miles Auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 90,
+                "namaPenjual": "Kawan Mobil Bekas",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 91,
+                "namaPenjual": "UMMU AHAxGARAGE88",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bogor",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 92,
+                "namaPenjual": "RE Auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 93,
+                "namaPenjual": "Chandra Mobilindo",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 94,
+                "namaPenjual": "Sumargo sumargo",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Surabaya",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 95,
+                "namaPenjual": "Koka Koka",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Bekasi",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 96,
+                "namaPenjual": "Arienaldo rahman",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 97,
+                "namaPenjual": "Nusa Barong Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Malang",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 98,
+                "namaPenjual": "Henny - Lucas - SC",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Pusat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 99,
+                "namaPenjual": "Eddy Carsome",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Depok",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 100,
+                "namaPenjual": "Mahar",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 101,
+                "namaPenjual": "Chandra romadhony",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 102,
+                "namaPenjual": "Garnet Auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 103,
+                "namaPenjual": "Khaidir Hasan",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Serang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 104,
+                "namaPenjual": "Firda carsome",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bekasi",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 105,
+                "namaPenjual": "Deni aprianto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 106,
+                "namaPenjual": "Dr. Rudy Fitranto, Sp. Ak",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Pusat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 107,
+                "namaPenjual": "Ends Garage",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 108,
+                "namaPenjual": "Tiwi Lhadj",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 109,
+                "namaPenjual": "Dede N Hadian",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 110,
+                "namaPenjual": "Ponstan andrete",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Depok",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 111,
+                "namaPenjual": "ACHAELLA ACHELLA",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 112,
+                "namaPenjual": "Sidolin Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Pusat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 113,
+                "namaPenjual": "Bintang Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 114,
+                "namaPenjual": "Fani fani",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 115,
+                "namaPenjual": "Kiki Kiki",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 116,
+                "namaPenjual": "Chris allen",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 117,
+                "namaPenjual": "Adnan Nyayur",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 118,
+                "namaPenjual": "Fajar riansyah",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 119,
+                "namaPenjual": "Formula Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Surabaya",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 120,
+                "namaPenjual": "Xandro lpz",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 121,
+                "namaPenjual": "Adit adit",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Timur",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 122,
+                "namaPenjual": "Fiona Rei",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 123,
+                "namaPenjual": "Ari Wb",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 124,
+                "namaPenjual": "Aryo Arsianto",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 125,
+                "namaPenjual": "Herman Sutandy",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 126,
+                "namaPenjual": "Jack Auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 127,
+                "namaPenjual": "LB Auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 128,
+                "namaPenjual": "ATIE",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Timur",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 129,
+                "namaPenjual": "Blessing",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 130,
+                "namaPenjual": "Dead Shot",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Lumajang",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 131,
+                "namaPenjual": "Michael Dermawan",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Sumedang",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 132,
+                "namaPenjual": "Lucas - Harapan Indah - Irma",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bekasi",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 133,
+                "namaPenjual": "Auto Fame",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 134,
+                "namaPenjual": "BMW Bestindo Bintaro",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 135,
+                "namaPenjual": "Bryan Auto Gallery",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 136,
+                "namaPenjual": "Citra amelia",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 137,
+                "namaPenjual": "Ray Antoni",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 138,
+                "namaPenjual": "Auto Point",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Pusat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 139,
+                "namaPenjual": "Arga primordian",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Depok",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 140,
+                "namaPenjual": "ICHON USEDCAR",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 141,
+                "namaPenjual": "Erwin erwin",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 142,
+                "namaPenjual": "Oto Trac",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 143,
+                "namaPenjual": "Budi 1",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Timur",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 144,
+                "namaPenjual": "Maxton Auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 145,
+                "namaPenjual": "Nerwanto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Timur",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 146,
+                "namaPenjual": "Hendry",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 147,
+                "namaPenjual": "Auto plus",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 148,
+                "namaPenjual": "Arkha Mobilindo",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 149,
+                "namaPenjual": "21 Auto Cars",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 150,
+                "namaPenjual": "galerimbb",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bekasi",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 151,
+                "namaPenjual": "Abu Abu",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Malang",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 152,
+                "namaPenjual": "Mobilio RS",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 153,
+                "namaPenjual": "Jaya aji",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Solo",
+                "provinsiPenjual": "Jawa Tengah"
+        },
+        {
+                "idPenjual": 154,
+                "namaPenjual": "Endang cahaya motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Surabaya",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 155,
+                "namaPenjual": "Aseparia Kevin",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 156,
+                "namaPenjual": "Anugerah motor Dharmawangsa 69",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Surabaya",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 157,
+                "namaPenjual": "Ryan Arthur",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Bekasi",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 158,
+                "namaPenjual": "Intan virginia",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Kediri",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 159,
+                "namaPenjual": "Sakura Mobilindo",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 160,
+                "namaPenjual": "Citra maya",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Depok",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 161,
+                "namaPenjual": "Auto 78",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 162,
+                "namaPenjual": "Ferry febrianto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 163,
+                "namaPenjual": "BNS AUTO",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 164,
+                "namaPenjual": "Royal Auto Cars",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 165,
+                "namaPenjual": "Lapak Mobil",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 166,
+                "namaPenjual": "AUTO KATARINA",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 167,
+                "namaPenjual": "Candra Terminal",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Surabaya",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 168,
+                "namaPenjual": "Daryl's Auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bekasi",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 169,
+                "namaPenjual": "Yasin Group",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 170,
+                "namaPenjual": "Garage 88 Jakarta",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 171,
+                "namaPenjual": "Auto One Kelapa Gading",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 172,
+                "namaPenjual": "Sahabat motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Sidoarjo",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 173,
+                "namaPenjual": "Sahabat Motor BM-BG",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Surabaya",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 174,
+                "namaPenjual": "Rama",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 175,
+                "namaPenjual": "Benny Himawan Elhamsyah",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Kudus",
+                "provinsiPenjual": "Jawa Tengah"
+        },
+        {
+                "idPenjual": 176,
+                "namaPenjual": "Daniel chandra",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Malang",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 177,
+                "namaPenjual": "PESONA MOBIL",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Depok",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 178,
+                "namaPenjual": "Kidar kinsal",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 179,
+                "namaPenjual": "JS AUTO",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 180,
+                "namaPenjual": "Hobi Mobil",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 181,
+                "namaPenjual": "DJ Auto 2",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 182,
+                "namaPenjual": "Mobil Kita",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 183,
+                "namaPenjual": "Handra Belliung",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Surabaya",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 184,
+                "namaPenjual": "S'Laban Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 185,
+                "namaPenjual": "Kusumah Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 186,
+                "namaPenjual": "Aling Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 187,
+                "namaPenjual": "Surabaya auto car",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Surabaya",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 188,
+                "namaPenjual": "Ganesha Auto Cars",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 189,
+                "namaPenjual": "Focus Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Pusat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 190,
+                "namaPenjual": "Thor Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 191,
+                "namaPenjual": "Mirza Mobil",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 192,
+                "namaPenjual": "lapak mobil",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 193,
+                "namaPenjual": "Jan Hartanto",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 194,
+                "namaPenjual": "Rizal Padlani",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Depok",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 195,
+                "namaPenjual": "Setyo setyo",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Sidoarjo",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 196,
+                "namaPenjual": "Ardy Arifin",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Yogyakarta",
+                "provinsiPenjual": "Yogyakarta"
+        },
+        {
+                "idPenjual": 197,
+                "namaPenjual": "LUKAS DJUNANTO",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Surabaya",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 198,
+                "namaPenjual": "Wiratama Wira",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Medan",
+                "provinsiPenjual": "Sumatera Utara"
+        },
+        {
+                "idPenjual": 199,
+                "namaPenjual": "car spa",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 200,
+                "namaPenjual": "Javamotorbandung47",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 201,
+                "namaPenjual": "Yellow Auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Pusat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 202,
+                "namaPenjual": "Cecilia Auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 203,
+                "namaPenjual": "WG MOBIL PUNGKUR",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 204,
+                "namaPenjual": "Lamberindo Auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 205,
+                "namaPenjual": "Erwin romadhan",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bekasi",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 206,
+                "namaPenjual": "SEJAHTERA MOBIL",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Surabaya",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 207,
+                "namaPenjual": "Bayu Aji",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Sukabumi",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 208,
+                "namaPenjual": "Chaidir yassin",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Depok",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 209,
+                "namaPenjual": "Inara mobilindo",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 210,
+                "namaPenjual": "Deva DV",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 211,
+                "namaPenjual": "Aris Santoso",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Bantul",
+                "provinsiPenjual": "Yogyakarta"
+        },
+        {
+                "idPenjual": 212,
+                "namaPenjual": "TM Yani",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Timur",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 213,
+                "namaPenjual": "Brustifian  Domi",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 214,
+                "namaPenjual": "Johan Dika enterprise",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 215,
+                "namaPenjual": "Omega Jaya Premium Car Autoland",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 216,
+                "namaPenjual": "Jordan Mobil",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Pusat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 217,
+                "namaPenjual": "Putra Prima Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 218,
+                "namaPenjual": "Sudarto sdt toto",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Serang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 219,
+                "namaPenjual": "Irawan s",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Semarang",
+                "provinsiPenjual": "Jawa Tengah"
+        },
+        {
+                "idPenjual": 220,
+                "namaPenjual": "Fenix Auto Cars",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 221,
+                "namaPenjual": "Etalaseusecar",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 222,
+                "namaPenjual": "AUTO DEAL",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 223,
+                "namaPenjual": "88 Garage",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 224,
+                "namaPenjual": "Empire Auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 225,
+                "namaPenjual": "Wijaya mandiri",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 226,
+                "namaPenjual": "Cahaya Fajar Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bekasi",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 227,
+                "namaPenjual": "Adonai Auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 228,
+                "namaPenjual": "Maxi Auto WTC",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 229,
+                "namaPenjual": "Garage 88",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 230,
+                "namaPenjual": "My Garage Car",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 231,
+                "namaPenjual": "Felice Auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 232,
+                "namaPenjual": "Taruna jaya Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bekasi",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 233,
+                "namaPenjual": "imannuel mobil",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Surabaya",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 234,
+                "namaPenjual": "Focus Motor Mangga Dua Square",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Timur",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 235,
+                "namaPenjual": "Surya Baru Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 236,
+                "namaPenjual": "Heru Partanto",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 237,
+                "namaPenjual": "Keenan AA AA",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 238,
+                "namaPenjual": "Jaya Kurniawan",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Semarang",
+                "provinsiPenjual": "Jawa Tengah"
+        },
+        {
+                "idPenjual": 239,
+                "namaPenjual": "Octavian Gani Gani",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 240,
+                "namaPenjual": "Auto Second Hidaya",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 241,
+                "namaPenjual": "Will pr",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 242,
+                "namaPenjual": "Misaelkevin",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 243,
+                "namaPenjual": "carshow.id",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Timur",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 244,
+                "namaPenjual": "mobilcantik",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Pusat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 245,
+                "namaPenjual": "Ototrac2",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 246,
+                "namaPenjual": "Patrik muliawan",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 247,
+                "namaPenjual": "D Winner Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Surabaya",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 248,
+                "namaPenjual": "Prisha auto gallery",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 249,
+                "namaPenjual": "Fredz Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 250,
+                "namaPenjual": "Andrew Wang",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 251,
+                "namaPenjual": "Multi indo Auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 252,
+                "namaPenjual": "Master Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Sidoarjo",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 253,
+                "namaPenjual": "Axldarentt autocars",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 254,
+                "namaPenjual": "Focus Motor MDS",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 255,
+                "namaPenjual": "Auto 316",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 256,
+                "namaPenjual": "newbrnauto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 257,
+                "namaPenjual": "shoroom Lucas indonesia",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 258,
+                "namaPenjual": "Wtc mangga dua lantai 8  F 18  ( P 8 F 18 )",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 259,
+                "namaPenjual": "Aruma Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 260,
+                "namaPenjual": "Auto Royal",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 261,
+                "namaPenjual": "JAYA RAHARJA MOTOR",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 262,
+                "namaPenjual": "Farrel Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Depok",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 263,
+                "namaPenjual": "Trimakmur Sejahtera Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Pusat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 264,
+                "namaPenjual": "Evan Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 265,
+                "namaPenjual": "Sido Auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 266,
+                "namaPenjual": "V Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 267,
+                "namaPenjual": "Caroline Selection",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 268,
+                "namaPenjual": "Ahmad Rizky Rizky",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 269,
+                "namaPenjual": "GCC AUTO",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 270,
+                "namaPenjual": "Yaya Suhaya",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 271,
+                "namaPenjual": "NIKO MOTOR",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 272,
+                "namaPenjual": "bimmeroom",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 273,
+                "namaPenjual": "Ifan.rinaldhi",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 274,
+                "namaPenjual": "Perkasa Jaya Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 275,
+                "namaPenjual": "Auto Whiz",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 276,
+                "namaPenjual": "Sentra Mobil Cikeas",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 277,
+                "namaPenjual": "Hobimobil",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 278,
+                "namaPenjual": "HARTONO MOTOR",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Malang",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 279,
+                "namaPenjual": "Sabena Auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Pusat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 280,
+                "namaPenjual": "Auto Mega",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 281,
+                "namaPenjual": "Deva Auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Pusat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 282,
+                "namaPenjual": "Mobil Outlet",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 283,
+                "namaPenjual": "Pancar Mobil",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Medan",
+                "provinsiPenjual": "Sumatera Utara"
+        },
+        {
+                "idPenjual": 284,
+                "namaPenjual": "Sanjaya Mobilindo",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 285,
+                "namaPenjual": "Beagge",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 286,
+                "namaPenjual": "Dave Car 2",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 287,
+                "namaPenjual": "Motor Mahkota",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Pusat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 288,
+                "namaPenjual": "GARASI MOBIL",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Pusat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 289,
+                "namaPenjual": "Adonai Mobil",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Surabaya",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 290,
+                "namaPenjual": "48 Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 291,
+                "namaPenjual": "Willy willy",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 292,
+                "namaPenjual": "Abadi Jaya Motor 2",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 293,
+                "namaPenjual": "Vieta motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 294,
+                "namaPenjual": "CR Auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 295,
+                "namaPenjual": "PASKAL MOBIL",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 296,
+                "namaPenjual": "TERMINAL MOBIL",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Surabaya",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 297,
+                "namaPenjual": "Star Auto Mobilindo",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 298,
+                "namaPenjual": "Titanium Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 299,
+                "namaPenjual": "indoasia auto gallery",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 300,
+                "namaPenjual": "Buana Sumber Auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 301,
+                "namaPenjual": "Paskah Mobilindo",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 302,
+                "namaPenjual": "SIDO AUTO",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 303,
+                "namaPenjual": "FAVOR AUTO",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 304,
+                "namaPenjual": "AutoHigh",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 305,
+                "namaPenjual": "AVE Mobilindo",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 306,
+                "namaPenjual": "HXL auto mobilindo",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 307,
+                "namaPenjual": "GARAGE 88",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 308,
+                "namaPenjual": "J2 Mobilindo",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 309,
+                "namaPenjual": "Renaldy",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 310,
+                "namaPenjual": "Imel Carsome",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 311,
+                "namaPenjual": "Miftahus surur",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 312,
+                "namaPenjual": "Alam Agung Mahkota",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Karawang",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 313,
+                "namaPenjual": "PT Jawara Mahkota Mobil",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Pusat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 314,
+                "namaPenjual": "Bursa mobil mangga dua lt 9",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 315,
+                "namaPenjual": "Mobilpedia",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bogor",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 316,
+                "namaPenjual": "Julimokas",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 317,
+                "namaPenjual": "Robertus Andika",
+                "tipePenjual": "Private",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 318,
+                "namaPenjual": "Trio Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 319,
+                "namaPenjual": "Trust Mobilindo",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 320,
+                "namaPenjual": "Anthony Lie",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Timur",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 321,
+                "namaPenjual": "Syam Carsome",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 322,
+                "namaPenjual": "Poins Auto Garasi",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 323,
+                "namaPenjual": "Persada Oto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Timur",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 324,
+                "namaPenjual": "INDIGO AUTO",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 325,
+                "namaPenjual": "GL Cars Sunter",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 326,
+                "namaPenjual": "GP Mobil",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Surabaya",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 327,
+                "namaPenjual": "Tanti Handayani",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bogor",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 328,
+                "namaPenjual": "Hexa Auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Pusat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 329,
+                "namaPenjual": "Lucas - Season City - Rosa",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 330,
+                "namaPenjual": "Valent Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 331,
+                "namaPenjual": "shakeela auto car",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 332,
+                "namaPenjual": "Jovan Auto Cars",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Pusat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 333,
+                "namaPenjual": "URBAN mobil",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Surabaya",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 334,
+                "namaPenjual": "AUTOHIGH BINTARO",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 335,
+                "namaPenjual": "soulmate auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 336,
+                "namaPenjual": "FM Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Timur",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 337,
+                "namaPenjual": "Ajib Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Malang",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 338,
+                "namaPenjual": "Andi Pitriyana",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Timur",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 339,
+                "namaPenjual": "Sammy Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 340,
+                "namaPenjual": "Your Partner Automotive",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 341,
+                "namaPenjual": "Rumah Mobil",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Surabaya",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 342,
+                "namaPenjual": "Sinar Mandiri Mobil",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Malang",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 343,
+                "namaPenjual": "Fino Trend",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 344,
+                "namaPenjual": "DEVDAN MOBIL",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Surabaya",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 345,
+                "namaPenjual": "Ming Mobilindo",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Pusat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 346,
+                "namaPenjual": "Masrul used car",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Surabaya",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 347,
+                "namaPenjual": "NUR ABADI MOBIL",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Sidoarjo",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 348,
+                "namaPenjual": "Vikina Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 349,
+                "namaPenjual": "Nilem motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 350,
+                "namaPenjual": "Foresta motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Selatan",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 351,
+                "namaPenjual": "CV sekoto putro",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Kediri",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 352,
+                "namaPenjual": "Lucas -Season City - Putra",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 353,
+                "namaPenjual": "Jaya Abadi Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Barat",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 354,
+                "namaPenjual": "Mobil bagus 2",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 355,
+                "namaPenjual": "Steve Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 356,
+                "namaPenjual": "VR Auto gallery 2",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 357,
+                "namaPenjual": "Zaida auto",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 358,
+                "namaPenjual": "Axl Darent Auto Car",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 359,
+                "namaPenjual": "Vieta Motor 2",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 360,
+                "namaPenjual": "Naripan Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 361,
+                "namaPenjual": "Nusantara Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Malang",
+                "provinsiPenjual": "Jawa Timur"
+        },
+        {
+                "idPenjual": 362,
+                "namaPenjual": "YASIN MOTOR GRUP",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Bandung",
+                "provinsiPenjual": "Jawa Barat"
+        },
+        {
+                "idPenjual": 363,
+                "namaPenjual": "Sahabat Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 364,
+                "namaPenjual": "Maicel Stevens",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Tangerang",
+                "provinsiPenjual": "Banten"
+        },
+        {
+                "idPenjual": 365,
+                "namaPenjual": "Jg Motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Jakarta Utara",
+                "provinsiPenjual": "DKI Jakarta"
+        },
+        {
+                "idPenjual": 366,
+                "namaPenjual": "valencia motor",
+                "tipePenjual": "Dealer",
+                "kotaPenjual": "Kediri",
+                "provinsiPenjual": "Jawa Timur"
+        }
+]
