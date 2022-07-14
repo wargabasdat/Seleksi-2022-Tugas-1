@@ -40,53 +40,53 @@ Request GET dapat dikirimkan ke URL-URL berikut ini:
 Ada 7 buah file json yang dihasilkan oleh program scrapper yang masing-masing memiliki struktur sebagai berikut:
 mobilBekas =
 ```
-        {
-                "idMobilBekas": id unik ,
-                "judulMobilBekas": Judul yang ditaruh oleh penjual,
-                "idModel": id model (foreign key),
-                "transmisi": transmisi mobil,
-                "kapasitasMesin": CC mesin,
-                "bahanBakar": bahan bakar yang dipakai,
-                "kapasitas": kapasitas penumpang,
-                "warna": warna mobil,
-                "harga": harga dalam rupiah,
-                "mileage": jarak yang sudah ditempuh mobil,
-                "tahunProduksi": tahun mobil diluncukan,
-                "urlMobil": page mobil,
-                "idPenjual": id mobil (foreign key)
-        }
+{
+        "idMobilBekas": id unik ,
+        "judulMobilBekas": Judul yang ditaruh oleh penjual,
+        "idModel": id model (foreign key),
+        "transmisi": transmisi mobil,
+        "kapasitasMesin": CC mesin,
+        "bahanBakar": bahan bakar yang dipakai,
+        "kapasitas": kapasitas penumpang,
+        "warna": warna mobil,
+        "harga": harga dalam rupiah,
+        "mileage": jarak yang sudah ditempuh mobil,
+        "tahunProduksi": tahun mobil diluncukan,
+        "urlMobil": page mobil,
+        "idPenjual": id mobil (foreign key)
+}
 ```
 modelMobil =
 ```
-        {
-                "idModel": id unik,
-                "brand": merk,
-                "model": model,
-                "tipeMobil": tipe mobil
-        }
+{
+        "idModel": id unik,
+        "brand": merk,
+        "model": model,
+        "tipeMobil": tipe mobil
+}
 ```
 reviewModel =
 ```
-        {
-                "idReview": id unik,
-                "idModelMobil": id model (foreign key),
-                "namaReviewer": nama reviewer,
-                "tanggalReview": timestamp review disubmit,
-                "judulReview": judul review,
-                "bodyReview": isi review,
-                "rating": rating (skala 5)
-        }
+{
+        "idReview": id unik,
+        "idModelMobil": id model (foreign key),
+        "namaReviewer": nama reviewer,
+        "tanggalReview": timestamp review disubmit,
+        "judulReview": judul review,
+        "bodyReview": isi review,
+        "rating": rating (skala 5)
+}
 ```
 
 penjual =
 ```
-        {
-                "idPenjual": id unik,
-                "namaPenjual": nama penjual/dealer,
-                "tipePenjual": tipe penjual (private/dealer),
-                "kotaPenjual": kota,
-                "provinsiPenjual": provinsi
-        }
+{
+        "idPenjual": id unik,
+        "namaPenjual": nama penjual/dealer,
+        "tipePenjual": tipe penjual (private/dealer),
+        "kotaPenjual": kota,
+        "provinsiPenjual": provinsi
+}
 ```
 ## Database Structure
 Berikut adalah ER diagram dari database ini 
