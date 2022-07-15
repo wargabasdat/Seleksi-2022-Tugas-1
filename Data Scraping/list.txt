@@ -1,0 +1,8 @@
+".banner .text-solidgrey" // kategori kiri atas
+"#slider-product img" // gambar
+".col-lg-5.ps-xxl-5 h5" // kategori product
+"h1" // judul
+".detail-price" // harga
+"#nav-about p" // about
+"#nav-howto" // how to
+"#nav-ingredient" // Resep
