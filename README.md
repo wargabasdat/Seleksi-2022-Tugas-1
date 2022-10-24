@@ -7,7 +7,7 @@
 
 <h2 align="center">
   <br>
-  Data Scraping & Data Storing from rottentomatoes.com
+  Data Scraping, Data Storing, and Data Visualization from rottentomatoes.com
   <br>
   <br>
 </h2>
@@ -31,6 +31,7 @@
   - [How to Use](#how-to-use-1)
   - [Testing Screenshots](#testing-screenshots)
     - [API Testing](#api-testing)
+  - [Data Visualization](#data-visualization)
   - [References](#references)
   - [Author](#author)
 
@@ -227,6 +228,10 @@ https://rottentomatoes-tvshows.herokuapp.com/tvshows
   <br>
   <a href='https://www.geeksforgeeks.org/'> Geeks For Geeks </a>
   
+  
+## Data Visualization
+The data visualization of this database is made by using MongoDB Charts as it is connected to the MongoDB Database. The full dashboard can be accessed through <a href = 'https://charts.mongodb.com/charts-project-0-xfhdy/public/dashboards/62d19bd2-7336-4a48-8517-9ef4a0fd9139'> TV Shows Dashboard <a/>.
+
 
 ## Author
 Gresya Angelina Eunike Leman (18220104)
